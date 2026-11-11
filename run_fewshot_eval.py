@@ -42,11 +42,11 @@ NUM_CTX = 8192
 NUM_PREDICT = 1024
 TEMPERATURE = 0.0
 SEED = 0
-LIMIT = 5               # e.g. 5 = only the first 5 test sentences (smoke test); None = all
+LIMIT = None               # e.g. 5 = only the first 5 test sentences (smoke test); None = all
 
 SYSTEM_FILE = HERE / "prompts" / "system1.txt"
-DEMO_FILE = HERE / "prompts" / "fewshot1.json"      # E2: use the E2 demonstrations file
-TEST_FILE = HERE / "data" / "test_e1.json"          # E2: use the E2 test file (with tokens)
+DEMO_FILE = HERE / "prompts" / "fewshot10_e1.json"      # E2: use the E2 demonstrations file
+TEST_FILE = HERE / "prompts" / "test_e1.json"          # E2: use the E2 test file (with tokens)
 OUTPUT_DIR = HERE / "outputs"
 # ==========================================================================
 
