@@ -5,8 +5,7 @@ from pathlib import Path
 ROOT = Path(__file__).parent
 
 # --- data -------------------------------------------------------------
-GOLD_FILE = ROOT / "data" / "amr_gold.txt"            # all records: '# ::id', '# ::snt', then the Penman graph
-TEST_IDS_FILE = ROOT / "data" / "test_ids.txt"        # optional: ids of your 500 test sentences, one per line
+GOLD_FILE = ROOT / "data" / "gold_500.txt"            # all records: '# ::id', '# ::snt', then the Penman graph
 ANNOTATION_FILE = ROOT / "data" / "annotations.jsonl" # optional: what the rule-based parser receives (see annotations.py)
 SYSTEM_PROMPT_FILE1 = ROOT / "prompts" / "system1.txt"
 SYSTEM_PROMPT_FILE2 = ROOT / "prompts" / "system2.txt"
