@@ -1,0 +1,25 @@
+{
+  "model": "gemma3:27b-it-qat",
+  "experiment": "E1",
+  "num_shots": 10,
+  "demonstration_ids": [
+    "Activity_Pause/0005.train",
+    "Process_Stop/0015.train",
+    "Sports_Jargon/0004.dev",
+    "Apply_Heat/0025.train",
+    "Activity_Paused_State/0002.train",
+    "Commerce_sell/0006.train",
+    "Remembering_information/0003.train",
+    "Change_posture/0007.dev",
+    "Activity_Done/0002.train",
+    "Processing_Materials/0004.train"
+  ],
+  "system_prompt_file": "system1.txt",
+  "demo_file": "fewshot10_e1.json",
+  "test_file": "test_e1.json",
+  "num_ctx": 8192,
+  "num_predict": 1024,
+  "temperature": 0.0,
+  "seed": 0,
+  "last_started": "2026-11-11T17:46:35"
+}
