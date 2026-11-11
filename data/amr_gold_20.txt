@@ -1,0 +1,112 @@
+# ::id Activity_Pause/0005.train
+# ::snt Sadece 15 dakika çalıştıktan sonra fasıla verdi , yorulmuş !
+(a1/and
+	:op1 (6/fasıla-ver
+		:ARG0 (o1/o)
+		:time (4/çalış
+			:duration (t1/temporal-quantity
+				:quant 15
+				:unit (3/dakika)
+				:mod (1/sadece))
+			:ARG0 o1))
+	:op2 (9/yorul
+		:ARG0 o1))
+
+# ::id Process_Stop/0015.train
+# ::snt Koşan yolcuyu görünce sert bir şekilde frenledi .
+(7/frenle
+	:ARG0 (o1/o)
+	:time (3/gör
+		:ARG1 (2/yolcu
+			:ARG0-of (1/koş)))
+	:manner (4/sert))
+
+
+# ::id Sports_Jargon/0004.dev
+# ::snt Orta sahayı boş bırakmayın , baskı yapın !
+(a1/and
+	:op1 (3/boş-bırak
+		:polarity -
+		:mode imperative
+		:ARG0 (s1/siz)
+		:ARG1 (1/orta-saha))
+	:op2 (5/baskı-yap
+		:ARG0 s1))
+
+# ::id Apply_Heat/0025.train
+# ::snt Askerin yaralı kolunu mikrop kapmasın diye ocakta ısıttığı demir parçasıyla dağladı .
+(11/dağla
+	:ARG0 (o1/o)
+	:ARG1 (3/kol
+		:poss (1/asker)
+		:mod (2/yaralı))
+	:instrument (10/parça
+		:ARG1-of (8/ısıt
+			:ARG0 o1
+			:location (7/ocak))
+		:mod (9/demir))
+	:purpose (5/kap
+		:polarity -
+		:ARG1 (4/mikrop)
+		:ARG0 3))
+
+# ::id Activity_Paused_State/0002.train
+# ::snt Müzenin küratörü , küçücük bir odanın içinde zamanı dondurmuştu .
+(9/dondur
+	:ARG0 (2/küratör
+		:poss (1/müze))
+	:location (7/iç
+		:mod (6/oda
+			:mod (4/küçücük)))
+	:ARG1 (8/zaman))
+
+# ::id Commerce_sell/0006.train
+# ::snt Eskilerden bir kısmını yok pahasına elden çıkarmak gerekecek .
+(8/gerek
+	:ARG1 (6/el-çık
+		:manner (4/yok-pahası)
+		:ARG1 (3/kısım
+			:part-of (t1/thing
+				:mod (e1/eski)))))
+
+# ::id Remembering_information/0003.train
+# ::snt Bugün öğrendiklerini aklının bir köşesine yaz
+(3/akıl-bir-köşe-yaz
+	:ARG0 (s1/sen)
+	:mode imperative
+	:ARG1 (2/öğren
+		:time (1/bugün)
+		:ARG0 s1))
+
+# ::id Change_posture/0007.dev
+# ::snt Kendi evine gidip serilip yatmak istiyordu .
+(6/iste
+	:ARG0 (o1/o)
+	:ARG1 (4/seril-yat
+		:ARG0 o1)
+	:prep-after (3/git
+		:ARG0 o1
+		:ARG1 (2/ev
+			:mod (1/kendi)
+			:poss o1)))
+
+# ::id Activity_Done/0002.train
+# ::snt Her sabah oflaya puflaya işe gide gide günü doldu .
+(8/gün-dol
+	:ARG0 (o1/o)
+	:manner (7/git
+		:ARG0 o1
+		:ARG1 (5/iş)
+		:time (d1/date-entity
+			:dayperiod (2/sabah
+				:mod (1/her)))
+		:manner (3/of-puf)))
+
+# ::id Processing_Materials/0004.train
+# ::snt Usta büyük bir titizlikle her yere badana vurdu .
+(7/badana-vur
+	:ARG0 (1/usta)
+	:ARG1 (6/yer
+		:mod (5/her))
+	:manner (4/titizlik
+		:degree (2/büyük)))

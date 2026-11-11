@@ -1,0 +1,4713 @@
+# ::id Telling/0019.train
+# ::snt Halk onu bir kahraman olarak nitelendiriyor .
+(6/nitelendir
+	:ARG0 (1/halk)
+	:ARG1 (2/o)
+	:ARG2 (4/kahraman))
+
+# ::id Cause_to_move_in_place/0000.train
+# ::snt Kitapların hepsini çantasına aldı .
+(4/al
+	:ARG0 (o1/o)
+	:ARG1 (2/hepsi
+		:mod (1/kitap))
+	:ARG2 (3/çanta
+		:poss o1))
+
+# ::id Activity_Paused_State/0004.train
+# ::snt Tüketicinin enflasyondan etkilenmemesi için devlet fiyatları donduracak .
+(6/fiyat-dondur
+	:ARG0 (5/devlet)
+	:purpose (3/etkilen
+		:polarity -
+		:ARG0 (1/tüketici)
+		:ARG1 (2/enflasyon)))
+
+# ::id Cognitive_comprehension/0003.train
+# ::snt O öğrenciler film analizi dersinin son sınav konularında zorla da olsa iyice pişti .
+(13/piş
+	:ARG0 (2/öğrenci
+		:mod (o1/o))
+	:ARG1 (8/konu
+		:poss (7/sınav
+			:mod (s1/son)
+			:poss (5/ders
+				:poss (4/analiz
+					:poss (3/film)))))
+	:manner (z1/zorla))
+
+# ::id Change_posture/0044.train
+# ::snt Uzun süredir görmediği dedesinin karşısında yükünüyordu .
+(6/yükün
+	:ARG0 (o1/o)
+	:location (5/karşı
+		:mod (4/dede
+			:ARG-1of (3/gör
+				:polarity -
+				:ARG0 o1
+				:duration (2/süre
+					:mod (1/uzun))))))
+
+# ::id Change_position_on_a_scale/0026.train
+# ::snt Salgından sonra işler pek kesatlaştı .
+(5/kesatlaş
+	:ARG1 (3/iş)
+	:degree (4/pek)
+	:time (2/sonra
+		:op1 (1/salgın)))
+
+# ::id Change_event_time/0013.train
+# ::snt Şirket en sonunda moratoryuma gitti .
+(4/moratoryum-git
+	:ARG0 (1/şirket)
+	:manner (3/sonunda
+		:degree (2/en)))
+
+# ::id Cause_fluidic_motion/0003.train
+# ::snt Uçağın içini basınçladılar .
+(3/basınçla
+	:ARG0 (o1/onlar)
+	:ARG1 (2/iç
+		:poss (1/uçak)))
+
+# ::id Process_Start/0009.train
+# ::snt Ben bu iş için temel atıyorum , gerisini siz getirin .
+(a1/and
+	:op1 (5/temel-at
+		:ARG0 (1/ben)
+		:cause (3/iş
+			:mod (2/bu)))
+	:op2 (10/getir
+		:mode imperative
+		:ARG0 (9/siz)
+		:ARG1 (8/geri)))
+
+# ::id Cause_benefit_or_detriment/0019.train
+# ::snt Yaşlı adamı kafesledi .
+(3/kafesle
+	:ARG0 (o1/o)
+	:ARG1 (2/adam
+		:mod (1/yaşlı)))
+
+# ::id Relating_Concepts/0000.train
+# ::snt Kötü düşüncelerini çoğunlukla onların tuhaflığına vurdu .
+(6/vur
+	:ARG0 (o1/o)
+	:ARG1 (2/düşünce
+		:mod (1/kötü)
+		:poss o1)
+	:frequency (3/çoğunlukla)
+	:ARG2 (5/tuhaflık
+		:poss (4/onlar)))
+
+# ::id Hindering/0008.train
+# ::snt Teminat konusunda şirket ofsaytta kaldı .
+(4/ofsayt-kal
+	:ARG0 (3/şirket)
+	:topic (1/teminat))
+
+# ::id Activity_Start/0001.test
+# ::snt Bir hastalık geldi köye .
+(3/gel
+	:ARG0 (2/hastalık)
+	:ARG1 (4/köy))
+
+# ::id Activity_Resume/0000.train
+# ::snt Çocuk ödevi hala sürüyor .
+(4/sürü
+	:ARG0 (1/çocuk)
+	:ARG1 (2/ödev)
+	:manner (3/hala))
+
+# ::id Cause_change/0012.train
+# ::snt Çocuk haklarıyla ilgili yasayı ondurduk .
+(5/ondur
+	:ARG0 (b1/biz)
+	:ARG1 (4/yasa
+		:topic (2/hak
+			:mod (1/çocuk))))
+
+# ::id Change_position_on_a_scale/0007.train
+# ::snt Geçen ay alamadığı parayı da üzerine koysun .
+(6/üzerine-koy
+	:mode imperative
+	:ARG0 (o1/o)
+	:ARG1 (4/para
+		:ARG1-of (m1/mümkün
+			:polarity -
+			:ARG1 (3/al
+				:ARG0 o1
+				:time (2/ay
+					:mod (1/geçen))))))
+
+# ::id Change_posture/0003.train
+# ::snt Karşısına geçip bağdaştı , artık dinlemeye hazırdı .
+(a1/and
+	:op1 (3/bağdaş
+		:ARG0 (o1/o)
+		:prep-after (2/geç
+			:ARG0 o1
+			:ARG1 (1/karşı
+				:poss o1)))
+	:op2 (7/hazır
+		:domain o1
+		:manner (5/artık)
+		:ARG1 (6/dinleme)))
+
+# ::id Perception_active/0021.train
+# ::snt Bir şey isterken hep insanın gözlerine bakar .
+(6/göz-bak
+	:ARG0 (o1/o)
+	:ARG1 (5/insan)
+	:prep-while (3/iste
+		:ARG0 o1)
+	:frequency (4/hep))
+
+# ::id Scrutinizing_for/0000.train
+# ::snt Berlin'e taşındıktan sonra orayı daha iyi açınsayabildi .
+(m1/mümkün
+	:ARG1 (7/açınsa
+		:ARG0 (o1/o)
+		:prep-after (2/taşın
+			:ARG0 o1
+			:ARG1 (c1/city
+				:name (n1/name
+					:op1 (1/berlin))
+				:wiki -))
+		:ARG1 (4/ora)
+		:manner (6/iyi
+			:degree (5/daha))))
+
+# ::id Activity_Prepare/0001.train
+# ::snt Derin bir nefes alıp paçaları sıvayacağız .
+(5/paça-sıva
+	:ARG0 (b1/biz)
+	:prep-after (3/nefes-al
+		:mod (1/derin)))
+
+# ::id Process_end/0009.train
+# ::snt Geçmişte yaşayan birçok değişik canlının nesli tükenmiş .
+(6/nesil-tüken
+	:ARG0 (5/canlı
+		:time (3/birçok)
+		:ARG0-of (2/yaşa
+			:time (1/geçmiş))
+		:mod (4/değişik)))
+
+# ::id Change_of_quantity_of_possession/0085.train
+# ::snt Boşuna almaya çalışma , işportaya düşmüş bile .
+(a1/and
+	:op1 (3/çalış
+		:polarity -
+		:mode imperative
+		:ARG0 (s1/sen)
+		:ARG1 (2/al
+			:ARG1 (o1/o))
+		:manner (1/boşuna))
+	:op2 (5/işporta-düş
+		:ARG0 o1
+		:manner (7/bile)))
+
+# ::id Win_prize/0007.train
+# ::snt Okulda güzel bir başarı kaydetti .
+(5/kaydet
+	:ARG0 (o1/o)
+	:ARG1 (4/başarı
+		:mod (2/güzel))
+	:location (1/okul))
+
+# ::id Process_Start/0008.train
+# ::snt Yine azara başladı .
+(3/başla
+	:ARG0 (o1/o)
+	:ARG1 (2/azar)
+	:manner (1/yine))
+
+# ::id Hindering/0000.dev
+# ::snt Geçmişi her başladığı işe set çekiyordu .
+(5/set-çek
+	:ARG0 (1/geçmiş
+		:poss (o1/o))
+	:ARG1 (4/iş
+		:ARG-1of (3/başla
+			:ARG0 o1)
+		:mod (2/her)))
+
+# ::id Change_position_on_a_scale/0014.train
+# ::snt Bu işle ilgilenen kişi sayısını oldukça daralttık .
+(7/daralt
+	:ARG0 (b1/biz)
+	:ARG1 (5/sayı
+		:mod (4/kişi
+			:ARG0-of (3/ilgilen
+				:ARG1 (2/iş
+					:mod (1/bu)))))
+	:manner (6/oldukça))
+
+# ::id Judgement_direct_address/0009.train
+# ::snt Bu konuda seni ikinci kez ikaz ediyorum .
+(6/ikaz-et
+	:ARG0 (b1/ben)
+	:topic (2/konu
+		:mod (1/bu))
+	:ARG1 (3/sen)
+	:frequency (5/kez
+		:ord (o1/ordinal-entity
+			:value 2)))
+
+# ::id Recording/0000.train
+# ::snt Oturdu , saatlerce bant doldurdu , sesi kısılmış .
+(a1/and
+	:op1 (1/otur
+		:ARG0 (o1/o))
+	:op2 (4/bant-doldur
+		:ARG0 o1
+		:duration (2/saatlerce)))
+
+# ::id Cognitive_comprehension/0016.train
+# ::snt Behlül çalılıktaki kıpırtının ne olduğunu seçemedi .
+(m1/mümkün
+	:ARG1 (6/seç
+		:ARG0 (p1/person
+			:name (n1/name
+				:op1 (1/Behlül))
+			:wiki -)
+		:polarity -))
+
+# ::id Abandonment/0014.train
+# ::snt Ne yardan ne de serden geçer .
+(6/geç
+	:ARG0 (o1/o)
+	:ARG1 (a1/and
+		:op1 (2/yar)
+		:op2 (5/ser))
+	:polarity -)
+
+# ::id Change_of_consistency/0042.train
+# ::snt Kışın semizleşmişti .
+(2/semizleş
+	:ARG0 (o1/o)
+	:time (d1/date-entity
+		:season (1/kış)))
+
+# ::id Hindering/0011.train
+# ::snt Hep kendi isteklerine ket vurdu .
+(4/ket-vur
+	:ARG0 (o1/o)
+	:frequency (1/hep)
+	:ARG1 (3/istek
+		:poss o1))
+
+# ::id Electronic_device/0000.train
+# ::snt Bu bilgisayardaki bilgileri diğer bilgisayara yükleyelim .
+(6/yükle
+	:ARG0 (b1/biz)
+	:ARG1 (3/bilgi
+		:location (2/bilgisayar
+			:mod (1/bu)))
+	:ARG2 (5/bilgisayar
+		:mod (d1/diğer)))
+
+# ::id Cognitive_comprehension/0015.train
+# ::snt Nihal'in jetonu geç düştü .
+(2/jeton-geç-düş
+	:ARG1 (1/Nihal))
+
+# ::id Change_of_consistency/0025.train
+# ::snt Açıkta kalan ekmek kurumuş .
+(4/kuru
+	:ARG1 (3/ekmek
+		:ARG1-of (1/açık-kal)))
+
+# ::id Change_position_on_a_scale/0001.train
+# ::snt O tabloyu almayı çok istiyordum , düşünmeden teklifimi artırdım .
+(a1/and
+	:op1 (5/iste
+		:ARG0 (b1/ben)
+		:ARG1 (3/al
+			:ARG1 (2/tablo
+				:mod (1/o)))
+		:degree (4/çok))
+	:op2 (9/artır
+		:ARG0 b1
+		:ARG1 (8/teklif
+			:poss b1)
+		:prep-without (7/düşünme)))
+
+# ::id Education_teaching/0005.train
+# ::snt Bir lisede İngilizce okutuyor .
+(4/okut
+	:ARG0 (o1/o)
+	:location (2/lise)
+	:ARG1 (3/ingilizce))
+
+# ::id Cause_fluidic_motion/0002.train
+# ::snt Çocuk bardaktaki suyun hepsini halıya döktü .
+(6/dök
+	:ARG0 (1/çocuk)
+	:ARG1 (4/hepsi
+		:mod (3/su
+			:location (2/bardak)))
+	:ARG2 (5/halı))
+
+# ::id Cause_change/0008.train
+# ::snt Tuvali alladı .
+(2/alla
+	:ARG0 (o1/o)
+	:ARG1 (1/tuval))
+
+# ::id Forward_Motion/0084.train
+# ::snt Kitabı bulmak için saatlerce dolaştım .
+(5/dolaş
+	:ARG0 (b1/ben)
+	:purpose (2/bul
+		:ARG0 b1
+		:ARG1 (1/kitap))
+	:duration (t1/temporal-quantity
+		:quant (4/saatlerce)))
+
+# ::id Cause_change_of_phase/0000.train
+# ::snt Büyücü kalemleri kağıda dönüştürmekte .
+(4/dönüştür
+	:ARG0 (1/büyücü)
+	:ARG1 (2/kalem)
+	:ARG2 (k1/kağıt))
+
+# ::id Forward_Motion/0011.test
+# ::snt Bir taş merdivenden çıkıp içeriye dalıyorlardı .
+(5/içeri-dal
+	:ARG0 (o1/onlar)
+	:prep-after (4/çık
+		:ARG0 o1
+		:ARG1 (3/merdiven
+			:mod (2/taş))))
+
+# ::id Exchange/0005.train
+# ::snt Bakkala uğrayıp para bozdu .
+(3/para-boz
+	:ARG0 (o1/o)
+	:prep-after (2/uğra
+		:ARG0 o1
+		:ARG1 (1/bakkal)))
+
+# ::id Scrutiny/0000.train
+# ::snt Kayıtları inceleyerek olayın kökünü kazıdı .
+(4/kök-kazı
+	:ARG0 (o1/o)
+	:prep-by (2/incele
+		:ARG0 o1
+		:ARG1 (1/kayıt))
+	:ARG1 (3/olay))
+
+# ::id Claim_ownership/0013.train
+# ::snt Firavunlar , yeri göğü tutar , herkese hükmederdi .
+(a1/and
+	:op1 (3/yer-gök-tut
+		:ARG0 (1/firavun))
+	:op2 (8/hükmet
+		:ARG1 (7/herkes)
+		:ARG0 1))
+
+# ::id Apply_Heat/0013.train
+# ::snt Kampta hep beraber kuzu çevirecekler .
+(4/kuzu-çevir
+	:manner (2/hep-beraber)
+	:location (1/kamp)
+	:ARG0 (o1/onlar))
+
+# ::id Lending/0007.train
+# ::snt Borç yaz , ay sonunda öderiz .
+(a1/and
+	:op1 (1/borç-yaz
+		:mode imperative
+		:ARG0 (s1/sen))
+	:op2 (6/öde
+		:ARG0 (b1/biz)
+		:time (5/son
+			:part-of (4/ay))))
+
+# ::id Preventing_or_letting/0001.test
+# ::snt Lütfen devam edin , sizi işinizden alıkoymayayım .
+(a1/and
+	:op1 (2/devam-et
+		:ARG0 (s1/siz)
+		:mode imperative)
+	:op2 (7/alıkoy
+		:ARG0 (b1/ben)
+		:ARG2 (5/iş
+			:poss s1)
+		:ARG1 s1))
+
+# ::id Change_direction/0017.train
+# ::snt Balta ve küskü ile onu kaldırır , aşağıya yuvarlarız .
+(9/yuvarla
+	:ARG0 (b1/biz)
+	:direction (8/aşağı)
+	:ARG1 (5/o)
+	:prep-after (6/kaldır
+		:ARG1 5
+		:ARG0 b1
+		:instrument (a1/and
+			:op1 (1/balta)
+			:op2 (3/küskü))))
+
+# ::id Forward_Motion/0078.train
+# ::snt Adam akşamları hep dışarıda sürtüyor .
+(5/sürt
+	:ARG0 (1/adam)
+	:ARG1 (4/dışarı)
+	:time (d1/date-entity
+		:dayperiod (2/akşam))
+	:frequency (3/hep))
+
+# ::id Cause_To_Burn/0000.train
+# ::snt Yangın bütün mahalleyi kül etti .
+(4/kül-et
+	:ARG0 (1/yangın)
+	:ARG1 (3/mahalle
+		:mod (2/bütün)))
+
+# ::id Process_Stop/0008.train
+# ::snt Şimdi belediye ile anlaşamayan müteşebbis cereyanı kesmiş .
+(7/kes
+	:time (1/şimdi)
+	:ARG0 (6/cereyan
+		:mod (5/müteşebbis
+			:ARG0-of (m1/mümkün
+				:ARG1 (4/anlaş
+					:polarity -
+					:ARG1 (2/belediye))))))
+
+# ::id Commerce_pay/0004.dev
+# ::snt Babama yük oluyorum ve bundan utanıyorum .
+(a1/and
+	:op1 (6/utan
+		:ARG0 (b1/ben)
+		:ARG1 (2/yük-ol
+			:ARG0 b1
+			:ARG1 (1/baba
+				:poss b1)))
+	:op2 2)
+
+# ::id Sports_Play/0001.train
+# ::snt Maraton koşmadan önce egzersiz yapmalısın .
+(ö1/öner
+	:ARG1 (4/egzersiz-yap
+		:ARG0 (s1/sen)
+		:time (3/önce
+			:op1 (2/koş
+				:ARG1 (1/maraton)
+				:ARG0 s1))))
+
+# ::id Sports_Jargon/0017.train
+# ::snt Çetin koşmuyor diyorsunuz ama o kafası ile oynuyor .
+(k1/karşılaştır
+	:op1 (3/de
+		:ARG0 (s1/siz)
+		:ARG1 (2/koş
+			:polarity -
+			:ARG0 (p1/person
+				:name (n1/name
+					:op1 (1/çetin))
+				:wiki -)))
+	:op2 (6/kafa-ile-oyna
+		:ARG0 p1))
+
+# ::id Forward_Motion/0015.dev
+# ::snt Aliş kulübeye girerken tozu dumana kattı .
+(4/toz-duman-kat
+	:ARG0 (p1/person
+		:name (n1/name
+			:op1 (1/aliş))
+		:wiki -)
+	:prep-while (3/gir
+		:ARG1 (2/kulübe)
+		:ARG0 p1))
+
+# ::id Processing_Materials/0035.train
+# ::snt Yollar yarın ziftlenecek .
+(3/ziftle
+	:ARG1 (1/yol)
+	:time (2/yarın))
+
+# ::id Change_of_quantity_of_possession/0058.train
+# ::snt Birçok kimyasal işlemden sonra abanoz kesildi .
+(5/abanoz-kesil
+	:ARG0 (o1/o)
+	:cause (3/işlem
+		:mod (2/kimyasal
+			:quant (1/birçok))))
+
+# ::id Being_in_category/0001.train
+# ::snt Nerede buluşacağımızı sormamış olması maalesef o anlama geliyor .
+(7/anlam-gel
+	:ARG0 (3/sor
+		:polarity -
+		:ARG0 (o1/o)
+		:ARG1 (2/buluş
+			:ARG0 (b1/biz)
+			:location (a1/amr-unknown)))
+	:manner (5/maalesef)
+	:mod (6/o))
+
+# ::id Apply_Heat/0023.train
+# ::snt Demiri dövmeden tava getirmelisin .
+(g1/gerek
+	:ARG1 (4/getir
+		:ARG0 (s1/sen)
+		:prep-without (2/döv
+			:ARG0 s1
+			:ARG1 (1/demir))))
+
+# ::id Change_position_on_a_scale/0045.train
+# ::snt Çok ısrar edince biraz fiyat kırdı .
+(5/fiyat-kır
+	:ARG0 (o1/o)
+	:time (2/ısrar-et
+		:degree (1/çok))
+	:manner (4/biraz))
+
+# ::id Commerce_buy/0007.train
+# ::snt Bu firma kumaş ticareti yapıyor .
+(4/ticaret-yap
+	:ARG0 (2/firma
+		:mod (1/bu)))
+
+# ::id Cause_To_Burn/0004.train
+# ::snt Kan davalısı evlerini yangına verdi .
+(4/yangın-ver
+	:ARG0 (2/davalı
+		:mod (1/kan)
+		:poss (o1/onlar))
+	:ARG1 (3/ev
+		:poss o1))
+
+# ::id Change_posture/0004.dev
+# ::snt Secde ederek dua etmeye başladı .
+(5/başla
+	:ARG0 (o1/o)
+	:ARG1 (3/dua-et
+		:ARG0 o1)
+	:prep-by (1/secde-et
+		:ARG0 o1))
+
+# ::id Cause_emotion/0005.train
+# ::snt Arkadaşlarını tek tek şad etti .
+(4/şad-et
+	:ARG0 (o1/o)
+	:ARG1 (1/arkadaş
+		:poss o1)
+	:manner (2/tek-tek))
+
+# ::id Win_prize/0000.dev
+# ::snt Bankalarda bu ay çok para kazanıldı .
+(6/kazanıl
+	:ARG1 (5/para)
+	:location (1/banka)
+	:time (3/ay
+		:mod (2/bu))
+	:degree (4/çok))
+
+# ::id Win_prize/0004.train
+# ::snt Şans oyununu kazandım .
+(3/kazan
+	:ARG0 (b1/ben)
+	:ARG1 (2/oyun
+		:mod (1/şans)))
+
+# ::id Judgement_direct_address/0027.train
+# ::snt Recep'i kenara çekip fena hâlde haşladılar .
+(6/haşla
+	:ARG0 (o1/onlar)
+	:prep-after (3/çek
+		:ARG1 (p1/person
+			:name (n1/name
+				:op1 (1/recep))
+			:wiki -)
+		:ARG4 (2/kenar)
+		:ARG0 o1)
+	:manner (4/fena))
+
+# ::id Telling/0003.train
+# ::snt Onların yüzünden yaşadıkları sıkıntıları dile getirdi .
+(5/dil-getir
+	:ARG1 (4/sıkıntı
+		:ARG1-of (3/yaşa
+			:manner (2/yüzünden
+				:mod (1/o)))))
+
+# ::id Forward_Motion/0022.train
+# ::snt Köy yollarını günlerce teptim .
+(4/tep
+	:ARG0 (b1/ben)
+	:ARG1 (2/yol
+		:part-of (1/köy))
+	:duration (t1/temporal-quantity
+		:quant (3/günlerce)))
+
+# ::id Change_of_leadership/0000.train
+# ::snt Müdürü atadılar .
+(2/ata
+	:ARG0 (o1/onlar)
+	:ARG1 (1/müdür))
+
+# ::id Forward_Motion/0044.train
+# ::snt Gemi , dün sabah kuzeye doğru harmanladı .
+(7/harmanla
+	:ARG0 (1/gemi)
+	:prep-toward (5/kuzey)
+	:time (d1/date-entity
+		:dayperiod (4/sabah)
+		:day (3/dün)))
+
+# ::id Forward_Motion/0006.test
+# ::snt Takla attım hemen belim ağrıdı .
+(a1/and
+	:op1 (1/takla-at
+		:ARG0 (b1/ben))
+	:op2 (5/ağrı
+		:manner (3/hemen)
+		:ARG1 (4/bel
+			:poss b1)))
+
+# ::id Change_operational_state/0004.train
+# ::snt Bu verilerin hepsini depolayalım , ileride lazım olacak .
+(a1/and
+	:op1 (4/depola
+		:ARG0 (b1/biz)
+		:ARG1 (3/hepsi
+			:mod (2/veri
+				:mod (1/bu))))
+	:op2 (7/lazım-ol
+		:time (6/ileride)
+		:ARG0 3))
+
+# ::id Cogitation/0005.train
+# ::snt Ona kötülük etmeyi aklının ucundan bile geçirme !
+(4/akıl-uç-bile-geçir
+	:polarity -
+	:mode imperative
+	:ARG0 (s1/sen)
+	:ARG1 (2/kötülük-et
+		:ARG0 s1
+		:ARG1 (1/o)))
+
+# ::id Carry_goods/0004.train
+# ::snt Soğancılar bu yaz da mahsulü stokluyor .
+(6/stokla
+	:ARG0 (1/soğancı)
+	:ARG1 (5/mahsul)
+	:time (d1/date-entity
+		:season (3/yaz
+			:mod (2/bu))))
+
+# ::id Shooting_scenario/0005.train
+# ::snt Polis , katil zanlısının ateş etmesine kurşun atarak cevap verdi .
+(9/cevap-ver
+	:ARG0 (1/polis)
+	:ARG1 (5/ateş-et
+		:ARG0 (4/zanlı
+			:mod (3/katil)))
+	:prep-by (7/kurşun-at
+		:ARG0 1))
+
+# ::id Telling/0002.train
+# ::snt Çekirdek bizim yörede çiğdem diye tabir edilir .
+(6/tabir-et
+	:ARG1 (1/çekirdek)
+	:location (3/yöre
+		:poss (2/biz))
+	:ARG2 (4/çiğdem))
+
+# ::id Change_of_phase/0012.train
+# ::snt Çok terledim .
+(2/terle
+	:ARG0 (b1/ben)
+	:degree (1/çok))
+
+# ::id Perception_experience/0010.train
+# ::snt Burnum tıkalı olduğu için hiçbir şeyin tadını alamıyorum .
+(m1/mümkün
+	:ARG1 (7/tat-al
+		:polarity -
+		:ARG0 (b1/ben)
+		:cause (2/tıkalı
+			:domain (b2/burun
+				:poss b1))))
+
+# ::id Change_posture/0043.train
+# ::snt Sınıfın arkalarına yerleşti .
+(3/yerleş
+	:ARG0 (o1/o)
+	:ARG1 (2/arka
+		:mod (1/sınıf)))
+
+# ::id Change_of_leadership/0001.train
+# ::snt Venezuela'da askeriye devleti devirdi .
+(4/devir
+	:ARG0 (2/askeriye)
+	:ARG1 (3/devlet)
+	:location (c1/country
+		:wiki -
+		:name (n1/name
+			:op1 (1/venezuela))))
+
+# ::id Lending/0019.train
+# ::snt Manav , çamura yatıyor .
+(3/çamur-yat
+	:ARG0 (1/manav))
+
+# ::id Forward_Motion/0082.train
+# ::snt Parkta dönüp dolaştım .
+(2/dön-dolaş
+	:ARG0 (b1/ben)
+	:ARG1 (1/park))
+
+# ::id Cogitation/0017.train
+# ::snt Yola çıkmayı düşünmek gerek .
+(4/gerek
+	:ARG1 (3/düşün
+		:ARG1 (1/yol-çık)))
+
+# ::id Process_continue/0006.train
+# ::snt Sen ne kadar çabalarsan çabala , bu düzen böyle süregelmiş , böyle süregidecek .
+(a1/and
+	:op1 (10/süregel
+		:ARG1 (8/düzen
+			:mod (7/bu))
+		:manner (b1/böyle)
+		:concession (ç1/çabala-çabala
+			:ARG0 (s1/sen)))
+	:op2 (13/süregidecek
+		:manner b1
+		:ARG1 (o1/o)))
+
+# ::id Change_position_on_a_scale/0011.train
+# ::snt Domates ne kadar azdı , baksana , iyice büyümüş .
+(a1/and
+	:op1 (4/az
+		:domain (1/domates)
+		:degree (2/ne-kadar))
+	:op2 (6/baksana
+		:mode imperative
+		:ARG0 (s1/sen))
+	:op3 (9/büyü
+		:degree (8/iyice)
+		:ARG0 1))
+
+# ::id Earnings_and_losses/0004.dev
+# ::snt Bu işten zarar eden ben oldum .
+(3/zarar-et
+	:ARG0 (5/ben)
+	:ARG1 (2/iş
+		:mod (1/bu)))
+
+# ::id Attaching/0014.train
+# ::snt Atmosferin hemen dışında iki uzay aracı malzeme alış verişi için kenetlendi .
+(11/kenetlen
+	:location (3/dış
+		:poss (1/atmosfer)
+		:mod (2/hemen))
+	:ARG0 (5/uzay-aracı
+		:quant 2)
+	:cause (8/alış-veriş
+		:poss (7/malzeme)))
+
+# ::id Change_position_on_a_scale/0050.train
+# ::snt Bize verilen tarihleri yakalamak için projede gaza basmamız gerekli .
+(9/gerek
+	:ARG1 (7/gaz-bas
+		:ARG0 (b1/biz)
+		:location (6/proje))
+	:cause (4/yakala
+		:ARG0 b1
+		:ARG1 (3/tarih
+			:ARG1-of (2/ver
+				:ARG2 (1/biz)))))
+
+# ::id Activity_Start/0001.train
+# ::snt Biz bu araştırmayı yaparken Dante'nin kitabından yola çıktık .
+(7/yol-çık
+	:prep-while (4/yap
+		:ARG0 (1/biz)
+		:ARG1 (3/araştırma
+			:mod (2/bu)))
+	:ARG1 (6/kitap
+		:poss (p1/person
+			:name (n1/name
+				:op1 (5/dante))
+			:wiki -)))
+
+# ::id Deciding/0005.train
+# ::snt Köylüler onlara yapacaklarını karar altına aldılar .
+(4/karar-alt-al
+	:ARG0 (1/köylü)
+	:ARG1 (3/yap
+		:ARG1 (2/onlar)
+		:ARG0 1))
+
+# ::id Frugality/0015.train
+# ::snt Güzel boyaları karalama yaparak araya verdi .
+(5/ara-ver
+	:ARG0 (o1/o)
+	:ARG1 (2/boya
+		:mod (1/güzel))
+	:manner (4/yap
+		:ARG1 (3/karalama)))
+
+# ::id Cogitation/0008.train
+# ::snt Bu konu üzerinde iyice mütalaa ettik .
+(5/mütalaa-et
+	:ARG0 (b1/biz)
+	:ARG1 (2/konu
+		:mod (1/bu))
+	:manner (4/iyice))
+
+# ::id Bargaining/0002.train
+# ::snt Pazarlığı pişirdiler .
+(1/pazarlık-pişir
+	:ARG0 (o1/onlar))
+
+# ::id Change_operational_state/0010.train
+# ::snt Robotu monte ettik mi geriye başka iş kalmıyor .
+(8/kal
+	:polarity -
+	:prep-after (2/monte-et
+		:ARG0 (b1/biz)
+		:ARG1 (1/robot))
+	:ARG0 (7/iş
+		:mod (6/başka)))
+
+# ::id Processing_Materials/0001.test
+# ::snt Balık ağı ördük burada .
+(3/ör
+	:ARG0 (b1/biz)
+	:ARG1 (1/balık-ağ)
+	:location (4/burada))
+
+# ::id Deciding/0001.train
+# ::snt Onları dinledikten sonra karşı tarafı da dinleyip öylelikle kavlükarar edecekler .
+(9/kavlükarar-et
+	:ARG0 (o1/onlar)
+	:prep-after (7/dinle
+		:ARG1 (5/taraf
+			:mod (4/karşı))
+		:time (3/sonra
+			:op1 (2/dinle
+				:ARG1 (1/onlar)))
+		:ARG0 o1)
+	:manner (8/öylelikle))
+
+# ::id Change_operational_state/0016.train
+# ::snt Elektriği yak , hava karardı .
+(a1/and
+	:op1 (1/elektrik-yak
+		:ARG0 (s1/sen)
+		:mode imperative)
+	:op2 (5/karar
+		:ARG0 (4/hava)))
+
+# ::id Perception_active/0004.dev
+# ::snt Tuzundan emin olmak için tatlı kaşığıyla çorbanın çeşnisine baktım .
+(8/çeşni-bak
+	:ARG0 (b1/ben)
+	:ARG1 (7/çorba)
+	:purpose (2/emin-ol
+		:topic (1/tuz
+			:poss 7))
+	:instrument (5/tatlı-kaşık))
+
+# ::id Forward_Motion/0148.train
+# ::snt Bütün arkadaşlarımı bir araya getirdim .
+(3/bir-ara-getir
+	:ARG0 (b1/ben)
+	:ARG1 (2/arkadaş
+		:poss b1
+		:mod (1/bütün)))
+
+# ::id Lending/0005.train
+# ::snt Bu para da boynunda kaldı .
+(4/boyun-kal
+	:ARG0 (2/para
+		:mod (1/bu)))
+
+# ::id Change_of_accessibility/0008.train
+# ::snt Firariyi aramak için polisler caddeyi tuttu .
+(5/cadde-tut
+	:ARG0 (4/polis)
+	:cause (2/ara
+		:ARG1 (1/firari)
+		:ARG0 4))
+
+# ::id Cogitation/0000.dev
+# ::snt Doktor Sevim , hastayı ilk gördüğü an kendinde değil sanmıştı .
+(10/san
+	:ARG0 (p1/person
+		:name (n1/name
+			:op1 (2/sevim))
+		:wiki -
+		:mod (1/doktor))
+	:ARG2 (8/kendinde
+		:domain (4/hasta)
+		:polarity -)
+	:time (6/gör
+		:ARG1 4
+		:time (5/ilk)
+		:ARG0 p1))
+
+# ::id Worry/0013.train
+# ::snt Komşuları onları evde göremeyince merakından çatladı .
+(5/merak-çatla
+	:ARG0 (1/komşu
+		:poss (2/o))
+	:time (m1/mümkün
+		:ARG1 (4/gör
+			:polarity -
+			:ARG1 2
+			:location (3/ev)
+			:ARG0 1)))
+
+# ::id Change_posture/0051.train
+# ::snt Babasının karşısında manda gibi yayılması rahatsızlık vericiydi .
+(6/rahatsız-ver
+	:ARG1 (3/manda-gibi-yayıl
+		:ARG0 (o1/o)
+		:location (2/karşı
+			:mod (1/baba
+				:poss o1))))
+
+# ::id Process_end/0010.train
+# ::snt Bu görüşmelerin de arkası kesilmiyor .
+(4/arka-kesil
+	:polarity -
+	:ARG0 (g1/görüşme
+		:mod (b1/bu)))
+
+# ::id Preventing_or_letting/0011.train
+# ::snt Borçlarını kapatması için sürekli baskı altında tutuyorlardı .
+(5/baskı-alt-tut
+	:ARG0 (o1/onlar)
+	:cause (2/kapat
+		:ARG0 (o2/o)
+		:ARG1 (1/borç
+			:poss o2))
+	:frequency (4/sürekli)
+	:ARG1 o2)
+
+# ::id Claim_ownership/0006.train
+# ::snt İstanbul , 1453'te fethedilmiştir .
+(4/fethet
+	:ARG1 (c1/city
+		:name (n1/name
+			:op1 (1/istanbul))
+		:wiki -)
+	:time (d1/date-entity
+		:year 1453))
+
+# ::id Procurance/0016.train
+# ::snt Büyük fırsatlar elde ettim .
+(3/el-et
+	:ARG0 (b1/ben)
+	:ARG1 (2/fırsat
+		:mod (1/büyük)))
+
+# ::id Judgement/0004.train
+# ::snt Bol keseden ahkâm keser .
+(3/ahkam-kes
+	:ARG0 (o1/o)
+	:manner (1/bol-kese))
+
+# ::id Procurance/0012.train
+# ::snt İş arkadaşımın iyiliğini unutmayacağım , sayesinde sayeban oldum .
+(a1/and
+	:op1 (4/unut
+		:polarity -
+		:ARG0 (b1/ben)
+		:ARG1 (3/iyilik
+			:poss (2/arkadaş
+				:mod (1/iş))))
+	:op2 (6/sayesinde-sayeban-ol
+		:ARG0 b1))
+
+# ::id Frugality/0007.train
+# ::snt Zengindi ama bütün parasının altından girip üstünden çıktı .
+(a1/and
+	:op1 (5/alt-gir-üst-çık
+		:ARG0 (o1/o)
+		:ARG1 (4/para
+			:mod (3/bütün)))
+	:op2 (1/zengin
+		:domain o1))
+
+# ::id Forward_Motion/0015.test
+# ::snt O çirkin , kaba kunduralarla sıcak günde serin denize daldım ve rahatladım .
+(a1/and
+	:op1 (12/rahatla
+		:ARG0 (b1/ben))
+	:op2 (10/dal
+		:ARG0 b1
+		:instrument (5/kundura
+			:mod (2/çirkin)
+			:mod (4/kaba)
+			:mod (1/o))
+		:time (7/gün
+			:mod (6/sıcak))
+		:ARG1 (9/deniz
+			:mod (8/serin))))
+
+# ::id Change_position_on_a_scale/0010.train
+# ::snt Kırkı boylamış bir ateşle par par yanıyordu .
+(7/yan
+	:ARG0 (o1/o)
+	:instrument (4/ateş
+		:ARG0-of (1/kırk-boyla))
+	:manner (5/par-par))
+
+# ::id Change_event_time/0008.train
+# ::snt Sorunları bu şekilde halı altına süpüremezsin .
+(m1/mümkün
+	:ARG1 (4/halı-alt-süpür
+		:polarity -
+		:ARG0 (s1/sen)
+		:ARG1 (1/sorun)
+		:manner (3/şekil
+			:mod (2/bu))))
+
+# ::id Perception_active/0039.train
+# ::snt Kötü insanlar , herkese kem gözle bakarlar .
+(5/kem-göz-bak
+	:ARG0 (2/insan
+		:mod (1/kötü))
+	:ARG1 (4/herkes))
+
+# ::id Perception/0000.test
+# ::snt Bu dosyayı yanıma alıp uzun uzun incelemeliyim .
+(ö1/öner
+	:ARG1 (7/incele
+		:ARG0 (b1/ben)
+		:prep-after (4/al
+			:ARG0 b1
+			:ARG1 (2/dosya
+				:mod (1/bu))
+			:ARG4 (3/yan))
+		:manner (5/uzun-uzun)))
+
+# ::id Cause_change/0001.train
+# ::snt Tiyatro müziklerini operaya aktardı .
+(4/aktar
+	:ARG0 (o1/o)
+	:ARG1 (2/müzik
+		:mod (1/tiyatro))
+	:ARG2 (3/opera))
+
+# ::id Apply_Heat/0028.train
+# ::snt Hamsiyi buğuladım .
+(2/buğula
+	:ARG0 (b1/ben)
+	:ARG1 (1/hamsi))
+
+# ::id Cause_to_end/0000.train
+# ::snt Hapisten dün bıraktılar .
+(3/bırak
+	:ARG0 (o1/onlar)
+	:ARG2 (1/hapis)
+	:time (2/dün))
+
+# ::id Change_of_consistency/0015.train
+# ::snt Proteinler keratinleşmiş .
+(2/keratinleş
+	:ARG1 (1/protein))
+
+# ::id Change_of_consistency/0044.train
+# ::snt Masanın kenarı sivrileşmişti .
+(3/sivrileş
+	:ARG1 (2/kenar
+		:poss (1/masa)))
+
+# ::id Hindering/0009.train
+# ::snt Gole giden rakibini engellemek için taban girdi .
+(6/taban-gir
+	:ARG0 (o1/o)
+	:purpose (4/engelle
+		:ARG0 o1
+		:ARG1 (3/rakip
+			:poss o1
+			:ARG0-of (2/git
+				:ARG1 (1/gol)))))
+
+# ::id Remembering_information/0017.train
+# ::snt O güzel bir kız olarak zihninde yer etmişti .
+(6/zihin-yer-et
+	:ARG1 (o1/o)
+	:manner (4/kız
+		:mod (2/güzel)))
+
+# ::id Awareness/0007.train
+# ::snt Matmazel olaylara önceden aymıştı .
+(4/ay
+	:ARG0 (1/matmazel)
+	:ARG1 (2/olay)
+	:time (ö1/önce
+		:op1 (ş1/şimdi)))
+
+# ::id Forward_Motion/0104.train
+# ::snt Çocuk zıplayarak etrafında dönendi .
+(4/dönen
+	:ARG0 (1/çocuk)
+	:prep-by (2/zıpla
+		:ARG0 1)
+	:ARG1 (3/etraf
+		:poss 1))
+
+# ::id Forward_Motion/0091.train
+# ::snt Bunlar şehir subaşısının adamları , dizdarlardı . Kol geziyorlardı .
+(a1/and
+	:op1 (a2/adam
+		:domain (1/bu)
+		:poss (3/subaşısının
+			:poss (2/şehir)))
+	:op2 (6/dizdar
+		:domain a2)
+	:op3 (8/kol-gez
+		:ARG0 a2))
+
+# ::id Remembering_information/0015.train
+# ::snt Hızla açılan kapıdan içeri girişi hâlâ gözünün önünde olur .
+(7/göz-ön-ol
+	:ARG1 (5/gir
+		:ARG0 (o1/o)
+		:ARG1 (4/içeri)
+		:ARG2 (3/kapı
+			:ARG1-of (2/aç)))
+	:time (6/hâlâ)
+	:manner (1/hızla))
+
+# ::id Motion/0000.train
+# ::snt Arkadaş çalgısını bir iki defa üfledikten sonra döndü .
+(8/dön
+	:ARG0 (1/arkadaş)
+	:time (s1/sonra
+		:op1 (ü1/üfle
+			:ARG1 (2/çalgı
+				:poss 1)
+			:ARG0 1
+			:frequency (a1/amr-choice
+				:op1 1
+				:op2 2))))
+
+# ::id Perception_body/0037.train
+# ::snt Tam konuşmanın ortasında boğazım gıcıklandı , ara verip su içmek zorunda kaldım .
+(a1/and
+	:op1 (5/gıcıklan
+		:ARG0 (o1/o)
+		:time (3/orta
+			:op1 (2/konuşma)
+			:mod (1/tam))
+		:ARG1 (4/boğaz
+			:poss (b1/ben)))
+	:op2 (11/zorun-kal
+		:ARG0 b1
+		:ARG1 (9/su-iç
+			:ARG0 b1)
+		:prep-after (7/ara-ver)))
+
+# ::id Change_posture/0070.train
+# ::snt Spor yaptıktan sonra kalıp gibi serildim .
+(4/kal-gibi-seril
+	:ARG0 (b1/ben)
+	:prep-after (2/yap
+		:ARG1 (1/spor)
+		:ARG0 b1))
+
+# ::id Process_Stop/0013.train
+# ::snt Yakın felaketleri önlemeliyiz .
+(ö1/öner
+	:ARG1 (3/önle
+		:ARG0 (b1/biz)
+		:ARG1 (2/felaket
+			:mod (1/yakın))))
+
+# ::id Activity_Finished/0000.test
+# ::snt Güveniniz için teşekkür ederim ama ben bu projeyi kotaramam .
+(k1/karşılaştır
+	:ARG1 (3/teşekkür-et
+		:ARG1 (1/güven
+			:poss (s1/siz))
+		:ARG0 (6/ben))
+	:ARG2 (m1/mümkün
+		:op1 (9/kotar
+			:polarity -
+			:ARG0 6
+			:ARG1 (8/proje
+				:mod (7/bu)))))
+
+# ::id Cause_to_perceive/0003.train
+# ::snt Bu renk onu çok açtı .
+(5/aç
+	:ARG0 (2/renk
+		:poss (1/bu))
+	:ARG1 (3/o)
+	:degree (4/çok))
+
+# ::id Preventing_or_letting/0003.train
+# ::snt Sanatçılar arasındaki tatsız olayı kapattı .
+(5/kapat
+	:ARG1 (4/olay
+		:location (2/ara
+			:poss (1/sanatçı))
+		:mod (3/tatsız))
+	:ARG0 1)
+
+# ::id Cogitation/0004.train
+# ::snt Burada yazan şey aklının köşesinden geçmemek deyimidir !
+(2/yaz
+	:location (1/bura)
+	:domain (7/deyim
+		:mod (4/aklı-köşe-geç
+			:polarity -)))
+
+# ::id Win_prize/0005.train
+# ::snt Partiyi vurduk , artık yaşamımız daha rahat .
+(a1/and
+	:op1 (1/parti-vur
+		:ARG0 (b1/biz))
+	:op2 (7/rahat
+		:domain (5/yaşam
+			:poss b1)
+		:manner (4/artık)
+		:degree (6/daha)))
+
+# ::id Worry/0018.train
+# ::snt Yaşlı insanlar çok çabuk kuruntuya kapılıyor .
+(5/kuruntu-kapıl
+	:ARG0 (2/insan
+		:mod (1/yaşlı))
+	:manner (4/çabuk
+		:degree (3/çok)))
+
+# ::id Commerce_pay/0004.train
+# ::snt Yediğiniz şeylerin parasını onun sırtından çıkarmayın .
+(y1/yap
+	:ARG1 (5/sırt-çık
+		:polarity -
+		:ARG0 (s1/siz)
+		:mode imperative
+		:ARG1 (3/para
+			:mod (2/şey
+				:ARG1-of (1/ye
+					:ARG0 s1)))))
+
+# ::id Judgement/0030.train
+# ::snt Olaylara pozitif yönden bakıyoruz .
+(4/bak
+	:ARG0 (b1/biz)
+	:ARG1 (1/olay)
+	:ARG2 (3/yön
+		:mod (2/pozitif)))
+
+# ::id Change_of_consistency/0036.train
+# ::snt Kumaşlar pürçüklenmiş .
+(2/pürçük
+	:ARG1 (1/kumaş))
+
+# ::id Judgement_direct_address/0028.train
+# ::snt Bizim Abdullah ve kardeşi bir kediyi et çaldı diye cezalandırmışlar .
+(10/cezalandır
+	:ARG0 (a1/and
+		:op1 (4/kardeş
+			:poss (p1/person
+				:name (n1/name
+					:op1 (2/abdullah))
+				:wiki -))
+		:op2 p1)
+	:ARG1 (6/kedi)
+	:cause (8/çal
+		:ARG1 (7/et)
+		:ARG0 6))
+
+# ::id Abandonment/0001.train
+# ::snt Yeni bir hayata başlamak için her şeyi arkada bıraktı .
+(8/arka-bırak
+	:ARG0 (o1/o)
+	:ARG1 (7/şey
+		:mod (6/her))
+	:purpose (4/başla
+		:ARG0 o1
+		:ARG1 (3/hayat
+			:mod (1/yeni))))
+
+# ::id Claim_ownership/0008.train
+# ::snt Bütün iş alanını tekeline almıştı .
+(4/tekel-al
+	:ARG0 (o1/o)
+	:ARG1 (2/iş-alan
+		:mod (1/bütün)))
+
+# ::id Perception_active/0006.dev
+# ::snt İçeri girdiği gibi , etrafta toz bulayım diye tüm sehpaları parmakladı .
+(11/parmakla
+	:ARG0 (o1/o)
+	:ARG1 (10/sehpa
+		:mod (9/tüm))
+	:time (1/içeri-gir
+		:ARG0 o1)
+	:purpose (7/bul
+		:ARG0 o1
+		:ARG1 (6/toz)
+		:location (5/etraf)))
+
+# ::id Change_of_quantity_of_possession/0008.train
+# ::snt Onu dikkate alma , söyledikleri geçersizleşti .
+(a1/and
+	:op1 (2/dikkat-al
+		:polarity -
+		:imperative (m1/mode)
+		:ARG0 (s1/sen)
+		:ARG1 (1/o))
+	:op2 (6/geçersizleş
+		:ARG1 (t1/thing
+			:ARG1-of (5/söyle
+				:poss (o1/o)))))
+
+# ::id Perception_active/0031.train
+# ::snt Bizi resmen gözle yiyordu .
+(3/göz-ye
+	:ARG0 (o1/o)
+	:ARG1 (1/biz)
+	:manner (2/resmen))
+
+# ::id Cause_proliferation_in_number/0000.train
+# ::snt On bin lirayı ancak denkleştirebildik .
+(m1/mümkün
+	:ARG1 (5/denkleştir
+		:ARG0 (b1/biz)
+		:manner (4/ancak)
+		:ARG1 (m2/monetary-quantity
+			:quant (1/on-bin)
+			:unit (3/lira
+				:mod (c1/country
+					:wiki -
+					:name (n1/name
+						:op1 (T1/Türkiye)))))))
+
+# ::id Commerce_pay/0020.train
+# ::snt Yunanistan temerrüte düştü .
+(2/temerrüte-düş
+	:ARG0 (1/yunanistan))
+
+# ::id Sports_Jargon/0028.train
+# ::snt Rüştü etkileyici bir plase etti topa .
+(4/plase-et
+	:ARG1 (6/top)
+	:AERG0 (p1/person
+		:name (n1/name
+			:op1 (1/rüştü))
+		:polarity -))
+
+# ::id Shooting_scenario/0004.train
+# ::snt Sakın o silahı ateşleyeyim deme !
+(5/de
+	:ARG1 (4/ateşle
+		:ARG0 (b1/ben)
+		:ARG1 (3/silah
+			:mod (2/o)))
+	:manner (1/sakın)
+	:polarity -)
+
+# ::id Worry/0000.train
+# ::snt Bir haftadır emekli olunca ne yapacağını arpacı kumrusu gibi düşünüyor .
+(7/arpacı-kumru-gibi-düşün
+	:ARG0 (o1/o)
+	:duration (t1/temporal-quantity
+		:unit (2/hafta)
+		:quant 1)
+	:ARG1 (6/yap
+		:ARG0 o1
+		:time (3/emekli-ol)
+		:ARG1 (a1/amr-unknown)))
+
+# ::id Sports_Jargon/0054.train
+# ::snt Bizimkilerin performansı çok iyiydi , resmen tek kale oynadılar .
+(a1/and
+	:op1 (4/iyi
+		:domain (2/performans
+			:poss (1/bizimki))
+		:degree (3/çok))
+	:op2 (7/tek-kale-oyna
+		:manner (6/resmen)
+		:ARG0 1))
+
+# ::id Forward_Motion/0059.train
+# ::snt Bu arabayla saatte 200 kilometre yol alabilirsiniz .
+(m1/mümkün
+	:ARG1 (6/yol-al
+		:ARG0 (s1/siz)
+		:instrument (2/araba
+			:mod (1/bu))
+		:ARG1 (r1/rate-entity
+			:ARG1 (d1/distance-quantity
+				:unit (5/kilometre)
+				:quantity 200)
+			:ARG2 (t1/temporal-quantity
+				:unit (3/saat)
+				:quant 1))))
+
+# ::id Change_of_consistency/0050.train
+# ::snt Tarhana topaklanmış .
+(2/topaklan
+	:ARG1 (1/tarhana))
+
+# ::id Preventing_or_letting/0013.train
+# ::snt Çocuklar sürekli ayak bağı oluyordu .
+(3/ayak-bağı-ol
+	:ARG0 (1/çocuk)
+	:frequency (2/sürekli))
+
+# ::id Perception_body/0042.train
+# ::snt İçi kıyıldı , biraz peynir ekmek atıştırdı .
+(7/atıştır
+	:ARG0 (o1/o)
+	:cause (1/iç-kıyıl
+		:ARG0 o1)
+	:ARG1 (a1/and
+		:op1 (6/ekmek)
+		:op2 (5/peynir)
+		:degree (4/biraz)))
+
+# ::id Abandoned_State/0002.train
+# ::snt Bu işin arkasını bırak yoksa pişman olursun .
+(a1/and
+	:op1 (3/arka-bırak
+		:ARG0 (s1/sen)
+		:mode imperative
+		:ARG1 (2/iş
+			:mod (1/bu)))
+	:op2 (6/pişman-ol
+		:ARG0 s1))
+
+# ::id Renting_out/0000.train
+# ::snt Evi ona kiraladım .
+(3/kirala
+	:ARG0 (b1/ben)
+	:ARG1 (1/ev)
+	:ARG2 (2/o))
+
+# ::id Earnings_and_losses/0003.train
+# ::snt Bu dükkan yaz mevsiminde para basıyor .
+(5/para-bas
+	:ARG0 (2/dükkan
+		:mod (1/bu))
+	:time (d1/date-entity
+		:season (3/yaz-mevsim)))
+
+# ::id Motion_in_place/0048.train
+# ::snt Sağa doğru direksiyon kırdı .
+(3/direksiyon-kır
+	:ARG0 (o1/o)
+	:ARG1 (1/sağ))
+
+# ::id Activity_Pause/0000.dev
+# ::snt Bugünlük dükkanı tatil ettik .
+(3/tatil-et
+	:ARG0 (b1/biz)
+	:ARG2 (1/bugünlük)
+	:ARG1 (2/dükkan))
+
+# ::id Cause_to_move_in_place/0002.train
+# ::snt Kediyi odaya aldı .
+(3/al
+	:ARG0 (o1/o)
+	:ARG1 (1/kedi)
+	:ARG2 (2/oda))
+
+# ::id Forward_Motion/0016.train
+# ::snt Evde saatlerce yüpürdüm .
+(3/yüpür
+	:ARG0 (b1/ben)
+	:location (1/ev)
+	:duration (t1/temporal-quantity
+		:quant (2/saatlerce)))
+
+# ::id Commerce_pay/0057.train
+# ::snt Mirası sen yedin , zahmeti ben çekiyorum diye latife ediyordu .
+(9/latife-et
+	:ARG0 (o1/o)
+	:ARG2 (a1/and
+		:op1 (3/ye
+			:ARG1 (1/miras)
+			:ARG0 (2/sen))
+		:op2 (7/çek
+			:ARG1 (5/zahmet)
+			:ARG0 (6/ben))))
+
+# ::id Change_posture/0021.train
+# ::snt Küçük çocuk sınıfın köşesine kalktı .
+(5/kalk
+	:ARG0 (2/çocuk
+		:mod (1/küçük))
+	:ARG1 (4/köşe
+		:poss (3/sınıf)))
+
+# ::id Attempt/0002.train
+# ::snt Yeni bir şirket kurmaya teşebbüs edecek .
+(5/teşebbüs-et
+	:ARG0 (o1/o)
+	:ARG1 (4/kur
+		:ARG0 o1
+		:ARG1 (3/şirket
+			:mod (1/yeni))))
+
+# ::id Change_posture/0027.train
+# ::snt Çocuğu kucaklayıp yatağına götürdü .
+(4/götür
+	:ARG0 (o1/o)
+	:ARG1 (3/yatak
+		:poss (1/çocuk))
+	:prep-after (2/kucakla
+		:ARG0 o1
+		:ARG1 1))
+
+# ::id Telling/0001.dev
+# ::snt Annesi ona nerede hata yaptığını gösterdi .
+(6/göster
+	:ARG0 (1/anne
+		:poss (2/o))
+	:ARG2 2
+	:ARG1 (4/hata-yap
+		:ARG1 (3/nere)
+		:ARG0 2))
+
+# ::id Transfer/0000.train
+# ::snt Temiz suyu borular ile şehrin öbür ucuna taşıyoruz .
+(8/taşı
+	:ARG0 (b1/biz)
+	:ARG1 (2/su
+		:mod (1/temiz))
+	:instrument (3/boru))
+
+# ::id Cause_benefit_or_detriment/0013.train
+# ::snt Arkadaşları onu kötü yola saptırdı .
+(y1/yap
+	:ARG1 (3/kötü-yol-sap
+		:ARG0 (1/arkadaş)
+		:ARG1 (2/o)))
+
+# ::id Motion_in_place/0037.train
+# ::snt Sallanmaz o kalkışta ne mendil ne de bir kol .
+(1/sallan
+	:polarity -
+	:prep-while (3/kalk
+		:mod (2/o))
+	:ARG0 (a1/and
+		:op1 (9/kol)
+		:op2 (5/mendil)))
+
+# ::id Being_in_category/0000.train
+# ::snt Bir Amerikan Doları 1 . 600 . 000 Türk Lirasına eşdeğer olur .
+(11/eşdeğer-ol
+	:ARG0 (m1/monetary-quantity
+		:quant 1
+		:unit (3/dolar
+			:mod (c1/country
+				:name (n1/name
+					:op1 (A1/Amerika))
+				:wiki -)))
+	:ARG1 (m2/monetary-quantity
+		:quant 1600000
+		:unit (10/lira
+			:mod (c2/country
+				:name (n2/name
+					:name (T1/Türkiye))
+				:wiki -))))
+
+# ::id Perception_experience/0004.train
+# ::snt Sermet Bey , köşkten gözünü alamıyordu .
+(m1/mümkün
+	:ARG1 (5/göz-al
+		:ARG0 (p1/person
+			:name (n1/name
+				:op1 (1/Sermet)
+				:op2 (2/Bey))
+			:wiki -)
+		:ARG1 (3/köşk)))
+
+# ::id Change_direction/0021.train
+# ::snt Temizlemek için gemiyi yatırdı .
+(3/gemi-yatır
+	:ARG0 (o1/o)
+	:purpose (1/temizle
+		:ARG0 o1))
+
+# ::id Change_direction/0031.train
+# ::snt İstediğini alamayınca hemen ters yüz döndü
+(4/ters-yüz-dön
+	:ARG0 (o1/o)
+	:time (m1/mümkün
+		:ARG1 (2/al
+			:ARG1 (t1/thing
+				:ARG1-of (1/iste))
+			:polarity -))
+	:manner (3/hemen))
+
+# ::id Motion_in_place/0002.test
+# ::snt Çarpışan arabalar durmaksızın yanlıyordu .
+(4/yanla
+	:prep-without (3/dur)
+	:ARG0 (2/araba
+		:ARG0-of (1/çarpış)))
+
+# ::id Process_Stop/0000.train
+# ::snt Bugün okulu erken paydos etmişler .
+(4/paydos-et
+	:ARG0 (o1/onlar)
+	:time (1/bugün)
+	:ARG1 (2/okul)
+	:manner (3/erken))
+
+# ::id Change_of_leadership/0008.train
+# ::snt Anahtarı beline takma işi kadınındır .
+(4/iş
+	:mod (1/anahtar-bel-tak)
+	:poss (5/kadın))
+
+# ::id Cogitation/0000.test
+# ::snt Dün söylediklerine zihni takıldı .
+(3/zihin-takıl
+	:ARG0 (o1/o)
+	:ARG1 (2/söyle
+		:ARG0 (o2/onlar)
+		:time (1/dün)))
+
+# ::id Perception_body/0031.train
+# ::snt Ayaklarım iğneleniyor sanki .
+(2/iğnelen
+	:ARG1 (1/ayak
+		:poss (b1/ben))
+	:manner (3/sanki))
+
+# ::id Scrutiny/0012.train
+# ::snt Konuyla ilgili bütün kaynakları didikledi .
+(5/didikle
+	:ARG0 (o1/o)
+	:ARG1 (4/kaynak
+		:topic (1/konu)
+		:mod (b1/bütün)))
+
+# ::id Hindering/0013.train
+# ::snt Bu çekingenliği her işte ayağına bağ vurdu .
+(5/ayak-bağ-vur
+	:ARG0 (2/çekingenlik
+		:mod (1/bu)
+		:poss (o1/o))
+	:topic (4/iş
+		:mod (3/her)))
+
+# ::id Change_operational_state/0013.train
+# ::snt Balonu söndür , böyle taşıyamayız .
+(a1/and
+	:op1 (2/söndür
+		:ARG0 (s1/sen)
+		:mode imperative
+		:ARG1 (1/balon))
+	:ARG1 (m1/mümkün
+		:ARG1 (5/taşı
+			:polarity -
+			:ARG0 (b1/biz)
+			:manner (4/böyle)
+			:ARG1 1)))
+
+# ::id Preventing_or_letting/0012.train
+# ::snt Şansı yaver gittiği için attığı her zarla kapı aldı .
+(8/kapı-al
+	:ARG0 (o1/o)
+	:cause (1/şans-yaver-git
+		:ARG0 o1))
+
+# ::id Change_of_quantity_of_possession/0094.train
+# ::snt Sen artık kül bağlamışsın , pek bir şey yapamazsın .
+(a1/and
+	:op1 (3/kül-bağla
+		:ARG0 (1/sen)
+		:manner (2/artık))
+	:op2 (m1/mümkün
+		:ARG1 (9/yap
+			:ARG1 (8/şey
+				:quant (6/pek))
+			:ARG0 1)
+		:polarity -))
+
+# ::id Commerce_sell/0011.train
+# ::snt Yoksa musahhih maaşımdan haftada üç papel taksite bağlayıp seni bir şamaroğlanı gibi kullanırım .
+(13/kullan
+	:ARG0 (b1/ben)
+	:prep-after (7/taksite-bağla
+		:ARG0 b1
+		:instrument (6/papel
+			:part-of (3/maaş
+				:poss b1
+				:mod (2/musahhih))
+			:mod (4/hafta)
+			:quant 3)
+		:ARG1 (9/sen))
+	:ARG1 9
+	:manner (b2/benze
+		:ARG1 (11/şamaroğlanı)
+		:ARG0 (s1/sen)))
+
+# ::id Frugality/0006.train
+# ::snt Harçlığını faydasız şeyler alarak çarçur ediyor .
+(5/çarçur-et
+	:ARG0 (o1/o)
+	:ARG1 (1/harçlık
+		:poss o1)
+	:prep-by (4/al
+		:ARG0 o1
+		:ARG1 (3/şey
+			:mod (2/faydasız))))
+
+# ::id Forward_Motion/0057.train
+# ::snt Küçük kızım ilk defa sıralıyordu .
+(5/sırala
+	:ARG0 (2/kız
+		:poss (b1/ben)
+		:mod (1/küçük))
+	:frequency (4/defa
+		:ord (o1/ordinal-entity
+			:value 1)))
+
+# ::id Judgement_communication/0000.dev
+# ::snt Tüm gün arkadaşlarını çekiştirdi .
+(4/çekiştir
+	:ARG0 (o1/o)
+	:ARG1 (3/arkadaş
+		:poss o1)
+	:duration (2/gün
+		:mod (1/tüm)))
+
+# ::id Perception_active/0071.train
+# ::snt Kafa sallıyordu ama her söyleneni yarım kulakla dinliyordu .
+(k1/karşılaştır
+	:op1 (1/kafa-salla
+		:ARG0 (o1/o))
+	:op2 (6/yarım-kulak-dinle
+		:ARG0 o1
+		:ARG1 (t1/thing
+			:ARG1-of (5/söyle
+				:mod (4/her)))))
+
+# ::id Judgement_direct_address/0019.train
+# ::snt İşi istediği gibi yapmıyor diye bir güzel fırçaladı .
+(8/fırçala
+	:ARG1 (o1/o)
+	:cause (4/yap
+		:polarity -
+		:ARG0 o1
+		:ARG1 (1/iş))
+	:manner (g1/güzel))
+
+# ::id Change_direction/0003.dev
+# ::snt Son sürat giden araba , önüne geyik çıkınca bir anda çark etti .
+(11/çark-et
+	:ARG0 (4/araba
+		:ARG0-of (3/git
+			:manner (2/sürat
+				:degree (1/son))))
+	:time (8/çık
+		:location (6/ön
+			:poss 4)
+		:ARG0 (7/geyik)))
+
+# ::id Change_posture/0056.train
+# ::snt Ayağını altına alarak sedire oturdu .
+(5/otur
+	:ARG0 (o1/o)
+	:ARG1 (4/sedir)
+	:prep-by (1/ayak-alt-al
+		:ARG0 o1))
+
+# ::id Change_position_on_a_scale/0032.train
+# ::snt Tırmanan yolda zorlanarak yükseliyordu .
+(4/yüksel
+	:ARG0 (o1/o)
+	:location (2/yol
+		:ARG0-of (1/tırman))
+	:prep-by (3/zorlan
+		:ARG0 o1))
+
+# ::id Awareness/0009.train
+# ::snt Boğaziçi'nde yaşayan bir insan , kendisini kapanmış , bütünleşmiş bir mekânda duyumsar .
+(12/duyumsa
+	:ARG0 (4/insan
+		:ARG0-of (2/yaşa
+			:location (l1/local-region
+				:name (n1/name
+					:location (1/boğaziçi))
+				:wiki -)))
+	:ARG1 (6/kendi
+		:poss 4)
+	:location (11/mekân
+		:ARG1-of (7/kapan)
+		:ARG1-of (9/bütünleş)))
+
+# ::id Education_teaching/0011.train
+# ::snt Leyla okumayı söktü .
+(2/oku-sök
+	:ARG0 (p1/person
+		:name (n1/name
+			:op1 (1/leyla))
+		:wiki -))
+
+# ::id Activity_Pause/0005.train
+# ::snt Sadece 15 dakika çalıştıktan sonra fasıla verdi , yorulmuş !
+(a1/and
+	:op1 (6/fasıla-ver
+		:ARG0 (o1/o)
+		:time (4/çalış
+			:duration (t1/temporal-quantity
+				:quant 15
+				:unit (3/dakika)
+				:mod (1/sadece))
+			:ARG0 o1))
+	:op2 (9/yorul
+		:ARG0 o1))
+
+# ::id Reading_activity/0001.train
+# ::snt Aliye konuyla ilgili bütün makaleleri okudu .
+(6/oku
+	:ARG0 (p1/person
+		:name (n1/name
+			:op1 (1/aliye))
+		:wiki -)
+	:ARG1 (5/makale
+		:mod (4/bütün)
+		:topic (2/konu)))
+
+# ::id Process_Stop/0015.train
+# ::snt Koşan yolcuyu görünce sert bir şekilde frenledi .
+(7/frenle
+	:ARG0 (o1/o)
+	:time (3/gör
+		:ARG1 (2/yolcu
+			:ARG0-of (1/koş)))
+	:manner (4/sert))
+
+# ::id Change_posture/0000.test
+# ::snt Sırtüstü yatmak omurga sağlığı açısından oldukça önemlidir .
+(7/önemli
+	:domain (1/sırtüstü-yat)
+	:topic (4/sağlık
+		:mod (3/omurga))
+	:manner (6/oldukça))
+
+# ::id Reading_activity/0002.train
+# ::snt Aslı elindeki kitabı içinden okuyordu .
+(4/iç-oku
+	:ARG0 (p1/person
+		:name (n1/name
+			:op1 (1/aslı))
+		:wiki -)
+	:ARG1 (3/kitap
+		:location (2/el)))
+
+# ::id Win_prize/0012.train
+# ::snt Çocuğumu , okuldaki başarısından dolayı ödüllendirdim .
+(6/ödüllendir
+	:ARG0 (b1/ben)
+	:ARG1 (1/çocuk
+		:poss b1)
+	:cause (4/başarı
+		:mod (3/okul)
+		:poss 1))
+
+# ::id Abandonment/0017.train
+# ::snt Orada işine yaramayacağını söylese de giderken arabamı ona bıraktım .
+(9/bırak
+	:ARG0 (b1/ben)
+	:ARG1 (7/araba
+		:poss b1)
+	:ARG2 (8/o)
+	:concession (4/söyle
+		:ARG1 (2/iş-yara
+			:polarity -
+			:ARG1 (o1/o)
+			:location (1/orada))
+		:ARG0 o1)
+	:prep-while (6/git
+		:ARG0 b1))
+
+# ::id Carry_goods/0002.train
+# ::snt Her türlü ihtiyacınız elinde bulunur .
+(4/el-bul
+	:ARG0 (o1/o)
+	:ARG1 (3/ihtiyaç
+		:mod (2/tür
+			:mod (1/her))
+		:poss (s1/siz)))
+
+# ::id Attempt/0006.train
+# ::snt Erkek arkadaşları ile sosyal nizam üzerinde sonu gelmeyen tartışmalara girişirdi .
+(10/giriş
+	:ARG0 (o1/o)
+	:ARG2 (2/arkadaş
+		:mod (1/erkek))
+	:ARG1 (9/tartışma
+		:topic (5/nizam
+			:mod (4/sosyal))
+		:mod (7/son-gel
+			:polarity -)))
+
+# ::id Change_position_on_a_scale/0049.train
+# ::snt Minik kirazlar baştan aşmış .
+(3/baştan-aş
+	:ARG1 (2/kiraz
+		:mod (1/minik)))
+
+# ::id Becoming/0001.train
+# ::snt Tam atlattı derken hastalığı ihtilat etti .
+(5/ihtilat-et
+	:ARG0 (4/hastalık
+		:poss (o1/o))
+	:prep-while (3/de
+		:ARG1 (2/atlat
+			:ARG0 o1
+			:degree (1/tam))))
+
+# ::id Activity_Start/0000.train
+# ::snt Fiilimsilerin durumu gerçekten ilginç , bir öğrencim tezinde bu konuyu ele aldı .
+(a1/and
+	:op1 (4/ilginç
+		:domain (2/durum
+			:poss (1/fiilimsi))
+		:mod (3/gerçekten))
+	:op2 (11/el-al
+		:ARG0 (7/öğrenci
+			:poss (b1/ben))
+		:ARG2 (8/tez
+			:poss 7)
+		:ARG1 (10/konu
+			:mod (9/bu))))
+
+# ::id Earnings_and_losses/0027.train
+# ::snt Hamdi'nin lotodan eli genişledi
+(3/el-genişle
+	:ARG0 (p1/person
+		:name (n1/name
+			:op1 (1/hamdi))
+		:wiki -)
+	:ARG1 (2/loto))
+
+# ::id Scrutiny/0014.train
+# ::snt Bihter kaybettiği küpesini bulmak için el feneriyle odayı iyice araştırdı .
+(10/araştır
+	:ARG0 (p1/person
+		:name (n1/name
+			:op1 (1/bihter))
+		:wiki -)
+	:instrument (6/el-fener)
+	:ARG1 (8/oda)
+	:manner (9/iyi)
+	:purpose (4/bul
+		:ARG1 (3/küpe
+			:ARG1-of (2/kaybet))))
+
+# ::id Perception_active/0057.train
+# ::snt Her yaptığını markaja almıştı .
+(3/markaj-al
+	:ARG0 (o1/o)
+	:ARG1 (2/yap
+		:mod (1/her)))
+
+# ::id Change_posture/0015.train
+# ::snt Deve öyle susamıştı ki bir anda ıhtı .
+(7/ıh
+	:cause (3/susa
+		:ARG0 (1/deve)
+		:degree (2/öyle))
+	:ARG0 1)
+
+# ::id Cognitive_comprehension/0017.train
+# ::snt Firdevs Hanım anlatılanları hızla kavradı .
+(5/kavra
+	:ARG0 (p1/person
+		:name (n1/name
+			:op2 (2/Hanım)
+			:op1 (F1/Firdevs))
+		:wiki -)
+	:manner (4/hızla))
+
+# ::id Motion_in_place/0035.train
+# ::snt Hamakta sallanıyordum , çok güzeldi .
+(a1/and
+	:op1 (2/salla
+		:instrument (1/hamak)
+		:ARG0 (b1/ben))
+	:op2 (5/güzel
+		:degree (4/çok)
+		:domain 2))
+
+# ::id Change_position_on_a_scale/0000.test
+# ::snt Süt ürünlerine zam gelmiş .
+(3/zam-gel
+	:ARG0 (2/ürün
+		:mod (1/süt)))
+
+# ::id Sports_Jargon/0001.test
+# ::snt Karşı takım pasları engellemek için sürekli baskı yaptı .
+(7/baskı-yap
+	:ARG0 (2/takım
+		:mod (1/karşı))
+	:purpose (4/engelle
+		:ARG1 (3/pas))
+	:manner (6/sürekli))
+
+# ::id Change_event_duration/0005.train
+# ::snt Yeter artık uzatma
+(a1/and
+	:op2 (3/uzat
+		:polarity -
+		:mode imperative
+		:ARG0 (s1/sen)
+		:manner (2/artık))
+	:op1 (1/yeter))
+
+# ::id Processing_Materials/0009.train
+# ::snt Yıkılmaya yüz tutmuş tüm duvarları hatılladı .
+(6/hatılla
+	:ARG0 (o1/o)
+	:ARG1 (5/duvar
+		:ARG1-of (1/yıkıl-yüz-tut)
+		:mod (4/tüm)))
+
+# ::id Processing_Materials/0031.train
+# ::snt Burada otomobil parçaları nikelleniyor .
+(4/nikelle
+	:location (1/burada)
+	:ARG1 (3/parça
+		:mod (2/otomobil)))
+
+# ::id Motion_directional/0003.train
+# ::snt Tekerlek takılarak dönüyor .
+(3/dön
+	:ARG0 (1/tekerlek)
+	:manner (2/takıl))
+
+# ::id Change_posture/0036.train
+# ::snt Araba yanlayarak yoluna devam etti .
+(4/devam-et
+	:ARG0 (1/araba)
+	:ARG1 (3/yol
+		:poss 1)
+	:prep-by (2/yanla))
+
+# ::id Motion_directional/0004.train
+# ::snt Dişliler hava kirliliğine katkıda bulunarak dönüyor .
+(6/dön
+	:ARG0 (1/dişli)
+	:prep-by (4/katkı-bulun
+		:ARG1 (k1/kirli
+			:mod (h1/hava))
+		:ARG0 1))
+
+# ::id Frugality_Time/0005.train
+# ::snt Vakit saat aramaz ; gecenin körü de olsa çıkar gelir .
+(a1/and
+	:op1 (1/vakit-saat-ara
+		:polarity -
+		:ARG0 (o1/o))
+	:op2 (9/çık-gelir
+		:ARG0 o1
+		:concession (8/ol
+			:ARG1 (6/kör
+				:part-of (5/gece)))))
+
+# ::id Change_of_quantity_of_possession/0050.train
+# ::snt Sakin ol , itidalini kaybetme .
+(a1/and
+	:op1 (1/sakin-ol
+		:mode imperative
+		:ARG0 (s1/sen))
+	:op2 (4/itidal-kaybet
+		:polarity -
+		:mode imperative
+		:ARG0 s1))
+
+# ::id Cause_change/0015.train
+# ::snt Adam bir aylığına görevden uzaklaştırıldı .
+(5/uzaklaştırıl
+	:ARG1 (1/adam)
+	:ARG2 (4/görev)
+	:duration (t1/temporal-quantity
+		:quant 1
+		:unit (3/aylığına)))
+
+# ::id Cause_change_of_phase/0001.train
+# ::snt Yemeği tencerede beş dakika kaynattı .
+(5/kaynat
+	:ARG0 (o1/o)
+	:ARG1 (1/yemek)
+	:location (2/tencere)
+	:duration (t1/temporal-quantity
+		:unit (4/dakika)
+		:quant 5))
+
+# ::id Judgement/0015.train
+# ::snt Leman'ın aklı gitti bu anda sinemaya .
+(2/akıl-git
+	:time (5/an
+		:mod (4/bu))
+	:ARG1 (6/sinema)
+	:ARG0 (p1/person
+		:name (n1/name
+			:op1 (1/Leman))
+		:wiki -))
+
+# ::id Forward_Motion/0005.dev
+# ::snt İki genç , kılıçlama kaçıyorlardı .
+(4/kılıçlama-kaç
+	:ARG0 (2/genç
+		:quant 2))
+
+# ::id Hindering/0014.train
+# ::snt Kardeşi gitmek istediğinde önüne dikildi .
+(4/ön-dikil
+	:ARG0 (o1/o)
+	:time (3/iste
+		:ARG0 (1/kardeş
+			:poss o1)
+		:ARG1 (2/git)))
+
+# ::id Frugality_Waste/0012.train
+# ::snt Başa geçince şirketin bütün parasını boş işler peşinde har vurup harman savurdu .
+(9/har-vur-harman-savur
+	:ARG0 (o1/o)
+	:prep-after (2/geç
+		:ARG1 (1/baş))
+	:ARG1 (5/para
+		:mod (3/şirket)
+		:mod (4/bütün))
+	:location (8/peş
+		:mod (7/iş
+			:mod (6/boş))))
+
+# ::id Memorization/0001.train
+# ::snt Ayça anneannesinin anlattıklarını iyice belledi .
+(5/belle
+	:ARG0 (1/ayça)
+	:ARG1 (3/anlat
+		:ARG0-of (2/anneanne
+			:poss 1))
+	:manner (4/iyi))
+
+# ::id Attaching/0006.train
+# ::snt Kaynak yapmak yerine her birini cıvataladık .
+(k1/karşılaştır
+	:ARG1 (1/kaynak-yap
+		:polarity -
+		:ARG0 (b1/biz))
+	:ARG2 (6/cıvatala
+		:ARG0 b1
+		:ARG1 (4/her-biri)))
+
+# ::id Cause_change_of_position_on_a_scale/0001.train
+# ::snt Gitarist gitarları akort etti .
+(3/akort-et
+	:ARG0 (1/gitarist)
+	:ARG1 (2/gitar))
+
+# ::id Authority/0000.train
+# ::snt Başkan , inisiyatifi ele aldı .
+(3/inisiyatif-el-al
+	:ARG0 (1/başkan))
+
+# ::id Frugality_Money/0003.train
+# ::snt Ortaya çıkan iş iyi olsun istiyordu , bu sebeple de çok masraf ediyordu .
+(12/masraf-et
+	:ARG0 (o1/o)
+	:degree (11/çok)
+	:cause (6/iste
+		:ARG0 o1
+		:ARG1 (4/iyi-ol
+			:ARG0 (3/iş
+				:ARG0-of (1/ortaya-çık)))))
+
+# ::id Education_teaching/0016.train
+# ::snt Birinci sınıfı atladı .
+(3/atla
+	:ARG0 (o1/o)
+	:ARG1 (2/sınıf
+		:ord (o2/ordinal-entity
+			:value 1)))
+
+# ::id Cause_to_continue/0000.train
+# ::snt Hoparlörle bilgisayarımı eşleştirdim .
+(y1/yap
+	:ARG1 (3/eşleş
+		:ARG0 (b1/ben)
+		:ARG1 (1/hoparlör)
+		:ARG2 (2/bilgisayar
+			:poss b1)))
+
+# ::id Change_posture/0059.train
+# ::snt Bando takımının yeni üyesi diğerlerine ayak uydurmak için çabalıyordu .
+(9/çabala
+	:ARG0 (4/üye
+		:subset-of (2/takım
+			:consist-of (1/bando))
+		:mod (3/yeni))
+	:ARG1 (6/ayak-uydur))
+
+# ::id Change_of_quantity_of_possession/0055.train
+# ::snt Küçük kız mutfakta oldukça maharet kazanmış .
+(5/maharet-kazan
+	:ARG0 (2/kız
+		:mod (1/küçük))
+	:location (3/mutfak)
+	:degree (4/oldukça))
+
+# ::id Scrutinizing_for/0001.train
+# ::snt Polis uyuşturucuları bulmak için şüphelinin evinde arama yaptı .
+(7/arama-yap
+	:ARG0 (1/polis)
+	:purpose (3/bul
+		:ARG1 (2/uyuşturucu))
+	:ARG2 (6/ev
+		:poss (5/şüpheli)))
+
+# ::id Waiting/0000.train
+# ::snt Öğretmeninin karşısında sorutmuş , sorularını cevaplıyordu .
+(a1/and
+	:op1 (3/sorut
+		:ARG0 (o1/o)
+		:location (2/karşı
+			:poss (1/öğretmen)))
+	:op2 (6/cevapla
+		:ARG0 o1
+		:ARG1 (5/soru
+			:poss 1)))
+
+# ::id Judgement_direct_address/0007.train
+# ::snt Kocası bir hata ederse karısı elbette ihtar eder .
+(7/ihtar-et
+	:cond (3/hata-et
+		:ARG0 (k1/koca))
+	:ARG0 (5/karı)
+	:manner (6/elbette)
+	:ARG1 k1)
+
+# ::id Change_of_accessibility/0000.test
+# ::snt Gazetecileri dahi başbakanın yanına yaklaştırmadılar .
+(4/yan-yaklaş
+	:polarity -
+	:ARG0 (o1/onlar)
+	:ARG1 (1/gazeteci
+		:mod (2/dahi)))
+
+# ::id Worry/0008.train
+# ::snt Evhamlı babaanneleri depremden sonra onları göremeyince çok kaygılanmıştı .
+(8/kaygılan
+	:ARG0 (2/babaanne
+		:mod (1/evhamlı))
+	:time (m1/mümkün
+		:ARG1 (6/gör
+			:polarity -
+			:prep-after (3/deprem)
+			:ARG1 (5/onlar)))
+	:degree (7/çok))
+
+# ::id Change_of_quantity_of_possession/0022.train
+# ::snt Bütün birikimi kül oldu .
+(3/kül-ol
+	:ARG1 (2/birikim
+		:poss (o1/o)
+		:mod (1/bütün)))
+
+# ::id Scrutiny/0005.train
+# ::snt O derginin araştırmacı gazetecileri on yıl önce gerçekleşmiş trajedinin arka planını açığa çıkarmak için bütün kayıtları gözlem altına aldı .
+(17/gözlem-alt-al
+	:ARG0 (4/gazeteci
+		:mod (3/araştırmacı)
+		:poss (2/dergi
+			:mod (1/o)))
+	:ARG1 (16/kayıt
+		:mod (15/bütün))
+	:purpose (12/açık-çıkar
+		:ARG1 (10/arka-plan
+			:mod (9/trajedi
+				:ARG0-of (8/gerçekleş
+					:duration (t1/temporal-quantity
+						:quant (5/on)
+						:unit (6/yıl)))))))
+
+# ::id Lose_possession/0000.dev
+# ::snt Yeni iş şansını fevt etti .
+(4/fevt-et
+	:ARG0 (o1/o)
+	:ARG1 (3/şans
+		:mod (2/iş
+			:mod (1/yeni))))
+
+# ::id Change_posture/0064.train
+# ::snt Beşlik simit gibi kurulması öğretmenini kızdırdı .
+(6/kızdır
+	:ARG0 (1/beşlik-simit-gibi-kur
+		:ARG0 (o1/o))
+	:ARG1 (5/öğretmen
+		:poss o1))
+
+# ::id Categorization/0003.train
+# ::snt Aslına bakılırsa aktör olmayı rüyasında görse hayra yormazdı .
+(7/hayra-yor
+	:polarity -
+	:ARG0 (o1/o)
+	:cond (1/asıl-bak)
+	:cond (5/rüya-gör
+		:ARG0 o1
+		:ARG1 (3/aktör-ol)))
+
+# ::id Judgement_communication/0017.train
+# ::snt Bir işi yaptırmak için onun önce arkasını sıvıyorum .
+(7/arka-sıva
+	:ARG0 (b1/ben)
+	:ARG1 (5/o)
+	:time (6/önce)
+	:purpose (y1/yap
+		:ARG1 (2/iş-yap
+			:ARG0 5)))
+
+# ::id Process_Stop/0001.train
+# ::snt Önümüzdeki araç aniden fren yaptı , suç bizde değil .
+(a1/and
+	:op1 (4/fren-yap
+		:ARG0 (2/araç
+			:mod (1/ön))
+		:manner (3/aniden))
+	:op2 (8/biz
+		:domain (7/suç)
+		:polarity -))
+
+# ::id Cause_change_of_phase/0005.train
+# ::snt İçine kattığı biraz limonla şekeri kestirdi .
+(5/şeker-kestir
+	:ARG0 (o1/o)
+	:instrument (4/limon
+		:quant (b1/biraz)
+		:ARG1-of (k1/kat
+			:ARG0 o1
+			:ARG4 (i1/iç))))
+
+# ::id Appointing/0001.train
+# ::snt Eski çalışanımı inha ettim .
+(3/inha-et
+	:ARG0 (b1/ben)
+	:ARG1 (2/çalışan
+		:poss b1
+		:mod (1/eski)))
+
+# ::id Preventing_or_letting/0018.train
+# ::snt Ortamdaki kaos onun söylediklerini güme götürdü .
+(5/güme-götür
+	:ARG0 (2/kaos
+		:location (1/ortam))
+	:ARG1 (t1/thing
+		:ARG1-of (4/söyle
+			:ARG0 (o1/o))))
+
+# ::id Activity_Ongoing/0000.train
+# ::snt Sen ne kadar çabalarsan çabala , bu düzen böyle süregelmiş , böyle süregidecek .
+(a1/and
+	:concession (4/çabala-çabala
+		:mode imperative
+		:ARG0 (1/sen))
+	:op1 (10/süregel
+		:ARG0 (8/düzen
+			:mod (7/bu))
+		:manner (9/böyle))
+	:op2 (13/süregid
+		:manner (12/böyle)
+		:ARG0 8))
+
+# ::id Cause_change/0011.train
+# ::snt Lambaları parıldattı .
+(2/parıldat
+	:ARG1 (1/lamba)
+	:ARG0 (o1/o))
+
+# ::id Change_posture/0009.train
+# ::snt Karşımda dikilmiş , beni sorguluyordu .
+(a1/and
+	:op1 (2/dikil
+		:ARG0 (o1/o)
+		:location (1/karşı
+			:op1 (b1/ben)))
+	:op2 (5/sorgula
+		:ARG0 o1
+		:ARG1 (4/ben)))
+
+# ::id Change_of_leadership/0013.train
+# ::snt Her şey hatalıydı , direksiyona geçmeliydim .
+(a1/and
+	:op1 (3/hatalı
+		:domain (2/şey
+			:mod (1/her)))
+	:op2 (g1/gerek
+		:ARG1 (5/direksiyon-geç
+			:ARG0 (b1/ben))))
+
+# ::id Frugality_Time/0002.train
+# ::snt Sıra bana gelene kadar burada otur , zaman geçir .
+(a1/and
+	:op1 (6/otur
+		:ARG0 (s1/sen)
+		:mode imperative
+		:extent (3/gel
+			:ARG0 (1/sıra)
+			:ARG1 (2/ben))
+		:ARG1 (5/bura))
+	:op2 (8/zaman-geçir
+		:mode imperative
+		:ARG0 s1))
+
+# ::id Motion_in_place/0036.train
+# ::snt Ömer , bacaklarının üstünde yaylanarak cevap vermiş .
+(6/cevap-ver
+	:ARG0 (p1/person
+		:name (n1/name
+			:op1 (1/ömer))
+		:wiki -)
+	:prep-while (5/yaylan
+		:location (4/üst
+			:mod (3/bacak
+				:poss p1))
+		:ARG0 p1))
+
+# ::id Motion_in_place/0018.train
+# ::snt Yere çivilenmiş koca masayı sarsarken oda bir salıncak gibi sallanıyor .
+(10/salla
+	:ARG0 (o1/o)
+	:prep-while (5/sars
+		:ARG0 o1
+		:ARG1 (4/masa
+			:ARG1-of (2/çivile
+				:ARG2 (1/yer))
+			:mod (3/koca)))
+	:ARG1 (6/oda
+		:ARG0-of (b1/benze
+			:ARG1 (s1/salıncak))))
+
+# ::id Change_operational_state/0021.train
+# ::snt Şimdi vitesi değiştir , biraz hızlanalım .
+(a1/and
+	:op1 (2/vites-değiştir
+		:ARG0 (s1/sen)
+		:mode imperative
+		:time (1/şimdi))
+	:op2 (6/hız
+		:ARG0 (b1/biz)
+		:degree (5/biraz)))
+
+# ::id Frugality/0014.train
+# ::snt Geçen seneden beri elimizde olan salçayı nihayet erittik .
+(8/erit
+	:ARG0 (b1/biz)
+	:manner (7/nihayet)
+	:ARG1 (6/salça
+		:mod (5/ol
+			:duration (2/sene
+				:mod (1/geçen))
+			:location (4/el))))
+
+# ::id Attempt/0005.train
+# ::snt Stajdan sonra şirkette kalmanın yerini yapıyor .
+(5/yer-yap
+	:ARG0 (o1/o)
+	:time (2/sonra
+		:op1 (1/staj)))
+
+# ::id Change_of_leadership/0006.train
+# ::snt İspanya'da halk hükûmeti devirdi .
+(3/hükûmet-devir
+	:location (p1/person
+		:name (n1/name
+			:op1 (1/ispanya))
+		:wiki -)
+	:ARG0 (2/halk))
+
+# ::id Forward_Motion/0080.train
+# ::snt Sinirliydi , odada volta atıyordu .
+(a1/and
+	:op1 (1/sinir
+		:domain (o1/o))
+	:op2 (4/volta-at
+		:ARG0 o1
+		:ARG1 (3/oda)))
+
+# ::id Abandonment/0000.dev
+# ::snt Eyvah , dedi panikle , cüzdanımı evde unuttum !
+(3/de
+	:ARG0 (o1/o)
+	:manner (4/panik)
+	:ARG1 (a1/and
+		:op2 (8/unut
+			:ARG0 (b1/ben)
+			:ARG1 (6/cüzdan
+				:poss b1)
+			:ARG2 (7/ev))
+		:op1 (1/eyvah)))
+
+# ::id Forward_Motion/0127.train
+# ::snt Çocuklar , öğretmeni halkaladılar .
+(4/halkala
+	:ARG0 (1/çocuk)
+	:ARG1 (3/öğretmen))
+
+# ::id Cogitation/0000.train
+# ::snt Bu konu üzerinde gereğinden fazla düşündü .
+(6/düşün
+	:ARG0 (o1/o)
+	:ARG1 (2/konu
+		:mod (1/bu))
+	:degree (4/gerek-fazla))
+
+# ::id Judgement_direct_address/0033.train
+# ::snt Prim yapmak için vatandaşa nutuk çekiyor .
+(5/nutuk-çek
+	:ARG0 (o1/o)
+	:purpose (2/yap
+		:ARG1 (1/prim))
+	:ARG1 (4/vatandaş))
+
+# ::id Coming_up_with/0009.train
+# ::snt Onların sorununa bir yol buldu .
+(4/yol-bul
+	:ARG0 (o1/o)
+	:ARG1 (2/sorun
+		:poss (1/onlar)))
+
+# ::id Hindering/0012.train
+# ::snt Her işime çomak sokuyorlar .
+(3/çomak-sok
+	:ARG0 (o1/onlar)
+	:ARG1 (2/iş
+		:poss (b1/ben)
+		:mod (1/her)))
+
+# ::id Process_continue/0001.train
+# ::snt Bu düzen böyle devam eder .
+(4/devam-et
+	:ARG0 (2/düzen
+		:mod (1/bu))
+	:manner (3/böyle))
+
+# ::id Motion_in_place/0040.train
+# ::snt Kılıç savurdum , ben kazanmalıydım .
+(a1/and
+	:op1 (2/savur
+		:ARG1 (1/kılıç))
+	:op2 (5/kazan
+		:ARG0 (4/ben)))
+
+# ::id Change_of_consistency/0023.train
+# ::snt Sabaha doğru ateş közleşmiş .
+(4/közleş
+	:ARG1 (3/ateş)
+	:time (d1/date-entity
+		:dayperiod (1/sabah)))
+
+# ::id Change_of_quantity_of_possession/0048.train
+# ::snt Bu ay fazla içeriye girmişim .
+(4/içeri-gir
+	:ARG0 (b1/ben)
+	:time (2/ay
+		:mod (1/bu)))
+
+# ::id Commerce_pay/0013.train
+# ::snt Adam sonunda paramı geri ödedi .
+(4/geri-öde
+	:ARG0 (1/adam)
+	:manner (2/sonunda)
+	:ARG1 (3/para))
+
+# ::id Change_position_on_a_scale/0005.dev
+# ::snt Vites büyütmezsek işler yetişmeyecek .
+(4/yetiş
+	:polarity -
+	:ARG0 (3/iş)
+	:condition (1/vites-büyüt
+		:polarity -
+		:ARG0 (b1/biz)))
+
+# ::id Attempt/0004.train
+# ::snt Kendini affettirmek için hiçbir girişimde bulunmadı .
+(5/girişim-bulun
+	:mod (h1/hiçbir)
+	:polarity -
+	:ARG0 (o1/o)
+	:purpose (y1/yap
+		:ARG0 o1
+		:ARG1 (2/affet
+			:ARG1 o1)))
+
+# ::id Procurance/0000.dev
+# ::snt Çalışanlar , şirketi hortumlayıp kaçtı .
+(5/kaç
+	:ARG0 (1/çalışan)
+	:prep-after (4/hortumla
+		:ARG1 (3/şirket)
+		:ARG0 1))
+
+# ::id Process_Start/0000.dev
+# ::snt Bu alandaki çalışmaları ile yeni bir çığır açtı .
+(8/aç
+	:ARG0 (o1/o)
+	:ARG1 (7/çığır
+		:mod (5/yeni))
+	:instrument (3/çalış
+		:topic (2/alan
+			:mod (1/bu))
+		:poss o1))
+
+# ::id Authority/0001.train
+# ::snt Müdür yardımcısı , yeni çalışana yetki verdi .
+(6/yetki-ver
+	:ARG0 (1/müdür-yardımcı)
+	:ARG1 (5/çalışan
+		:mod (4/yeni)))
+
+# ::id Commerce_sell/0019.train
+# ::snt Eskici , bizim sokakta tezgâh açtı .
+(5/tezgâh-aç
+	:ARG0 (1/eskici)
+	:ARG1 (4/sokak
+		:poss (3/biz)))
+
+# ::id Attaching/0019.train
+# ::snt Sonra ipleri birbirine sıkı sıkı bağladık .
+(6/bağla
+	:ARG0 (b1/biz)
+	:time (1/sonra)
+	:ARG1 (2/ip)
+	:ARG2 (3/birbiri)
+	:manner (4/sıkı-sıkı))
+
+# ::id Apply_Heat/0041.train
+# ::snt Tavuğun tüylerini haşlamadan önce üt .
+(5/üt
+	:mode imperative
+	:ARG0 (s1/sen)
+	:ARG1 (2/tüy
+		:poss (1/tavuk))
+	:time (4/önce
+		:op1 (3/haşla
+			:ARG0 s1)))
+
+# ::id Procurance/0014.train
+# ::snt İstihsal etmek istediğim çok şey var .
+(6/var
+	:ARG1 (5/şey
+		:ARG1-of (3/iste
+			:ARG0 (b1/ben)
+			:ARG1 (1/istihsal-et))
+		:degree (4/çok)))
+
+# ::id Motion_in_place/0004.test
+# ::snt Sapanı fırıldattı , taşı saldı .
+(a1/and
+	:op1 (2/fırıldat
+		:ARG0 (o1/o)
+		:ARG1 (1/sapan))
+	:op2 (5/sal
+		:ARG0 o1
+		:ARG1 (4/taş)))
+
+# ::id Perception_active/0011.train
+# ::snt Her haftasonu bir tiyatro oyunu izleriz .
+(6/izle
+	:ARG0 (b1/biz)
+	:ARG1 (5/oyun
+		:mod (4/tiyatro)
+		:mod (3/bir))
+	:frequency (2/haftasonu
+		:mod (1/her)))
+
+# ::id Perception_experience/0000.dev
+# ::snt Onun kaçamak bakışlarını yakaladım .
+(4/yakala
+	:ARG0 (b1/ben)
+	:ARG1 (3/bak
+		:ARG0 (o1/o)
+		:ARG1 b1
+		:manner (2/kaçamak)))
+
+# ::id Change_of_consistency/0033.train
+# ::snt İneğin sütü peynirleşiyor .
+(3/peynirleş
+	:ARG1 (2/süt
+		:poss (1/inek)))
+
+# ::id Attaching/0017.train
+# ::snt Lego parçalarını kenetle .
+(3/kenetle
+	:ARG0 (s1/sen)
+	:mode imperative
+	:ARG1 (2/parça
+		:mod (1/lego)))
+
+# ::id Perception_active/0032.train
+# ::snt Hiç konuşmadan yola gözlerini dikti .
+(4/göz-dik
+	:ARG0 (o1/o)
+	:prep-without (2/konuş
+		:ARG0 o1
+		:degree (1/hiç))
+	:ARG1 (3/yol))
+
+# ::id Cause_To_Burn/0006.train
+# ::snt Ateşe çok yakın oturmuşsun , alevler kazağını göymüş .
+(a1/and
+	:op1 (4/oturmuş
+		:ARG0 (s1/sen)
+		:ARG1 (y1/yer
+			:location (3/yakın
+				:op1 (1/ateş)
+				:mod (2/çok))))
+	:op2 (8/göy
+		:ARG0 (6/alev)
+		:ARG1 (7/kazağı
+			:poss s1)))
+
+# ::id Change_of_quantity_of_possession/0032.train
+# ::snt Her şey mahvoldu , yandı .
+(a1/and
+	:op1 (3/mahvol
+		:ARG1 (2/şey
+			:mod (1/her)))
+	:op2 (5/yan
+		:ARG1 2))
+
+# ::id Being_Relevant/0001.train
+# ::snt Bu tür davranışlar , bilinçaltındaki düşüncelerimizi imler .
+(7/imle
+	:ARG0 (3/davranış
+		:mod (t1/tür
+			:mod (b1/bu)))
+	:ARG1 (6/düşünce
+		:poss (b2/biz)
+		:location (5/bilinçalt)))
+
+# ::id Becoming/0003.train
+# ::snt Ellerim nasırlaştı .
+(2/nasırlaş
+	:ARG1 (1/el
+		:poss (b1/ben)))
+
+# ::id Change_posture/0007.test
+# ::snt Babasının karşısında yüz sürdü .
+(3/yüz-sür
+	:ARG0 (o1/o)
+	:location (2/karşı
+		:mod (1/baba)))
+
+# ::id Frugality_Money/0007.train
+# ::snt Kumar masasına oturdu mu paraya para demiyor .
+(5/para-para-de
+	:polarity -
+	:ARG0 (o1/o)
+	:time (3/otur
+		:ARG0 o1
+		:ARG1 (2/masa
+			:mod (1/kumar))))
+
+# ::id Change_direction/0001.train
+# ::snt İstediğini bulamayınca memleketin yolunu tuttu .
+(4/yol-tut
+	:ARG0 (o1/o)
+	:time (m1/mümkün
+		:ARG1 (2/bul
+			:polarity -
+			:ARG1 (t1/thing
+				:ARG1-of (1/iste
+					:ARG0 o1))))
+	:ARG1 (3/memleket))
+
+# ::id Processing_Materials/0004.train
+# ::snt Usta büyük bir titizlikle her yere badana vurdu .
+(7/badana-vur
+	:ARG0 (1/usta)
+	:ARG1 (6/yer
+		:mod (5/her))
+	:manner (4/titizlik
+		:degree (2/büyük)))
+
+# ::id Change_posture/0049.train
+# ::snt Kuş , ağacın tepesinde kuluçkaya yatmış .
+(5/kuluçka-yat
+	:ARG0 (1/kuş)
+	:location (4/tepe
+		:poss (3/ağaç)))
+
+# ::id Processing_Materials/0042.train
+# ::snt Bu parçalar özel olarak frezelendi .
+(5/frezele
+	:ARG1 (2/parça
+		:mod (1/bu))
+	:manner (3/özel-ol))
+
+# ::id Apply_Heat/0002.dev
+# ::snt Bebeğe mamasını verirken önce püflüyordu .
+(5/püfle
+	:ARG0 (o1/o)
+	:prep-while (3/ver
+		:ARG1 (2/mama)
+		:ARG2 (1/bebek))
+	:time (4/önce))
+
+# ::id Cause_benefit_or_detriment/0001.test
+# ::snt Yediği organik gıdalar çocuğa yaradı .
+(5/yara
+	:ARG0 (3/gıda
+		:ARG1-of (1/ye
+			:ARG0 (4/çocuk))
+		:mod (2/organik))
+	:ARG1 4)
+
+# ::id Game_Jargon/0026.train
+# ::snt Bugün şansın yerinde , eve dönerken bir piyango çek !
+(a1/and
+	:op1 (3/yer
+		:domain (2/şans
+			:poss (s1/sen))
+		:time (1/bugün))
+	:op2 (8/piyango-çek
+		:ARG0 s1
+		:mode imperative
+		:prep-while (6/döner
+			:ARG1 (5/ev))))
+
+# ::id Process_end/0026.train
+# ::snt Buradan ayrılmadan o işin sonunu al !
+(5/son-al
+	:ARG0 (s1/sen)
+	:mode imperative
+	:prep-without (2/ayrıl
+		:ARG0 (b1/biz)
+		:ARG3 (1/bura)))
+
+# ::id Perception_body/0011.train
+# ::snt Tüm gece sayıklayarak ateşler içinde yandı .
+(4/ateşle-içinde-yan
+	:ARG0 (o1/o)
+	:prep-by (3/sayıkla)
+	:duration (2/gece
+		:mod (1/tüm)))
+
+# ::id Deciding/0008.train
+# ::snt Yeni öğrencisini birkaç soru ile değerlendirdi .
+(6/değerlendir
+	:ARG0 (o1/o)
+	:ARG1 (2/öğrenci
+		:mod (1/yeni)
+		:poss o1)
+	:instrument (4/soru
+		:quant (3/birkaç)))
+
+# ::id Claim_ownership/0000.dev
+# ::snt Bizi işimizde gücümüzde serbest bırakmak şöyle dursun , çoluk çocuğumuzun nafakasına el koydular .
+(a1/and
+	:op2 (12/el-koy
+		:ARG1 (11/nafaka
+			:poss (9/çocuk-çocuk
+				:poss (b1/biz))
+			:ARG0 (o1/onlar)))
+	:op1 (4/serbest-bırak
+		:polarity -
+		:ARG0 o1
+		:ARG1 b1
+		:topic (a2/and
+			:op1 (i1/iş
+				:poss b1)
+			:op2 (g1/güç
+				:poss b1))))
+
+# ::id Change_of_temperature/0007.train
+# ::snt Tarlaya baksana , ekilenler hep kızışmış .
+(a1/and
+	:op1 (2/bak
+		:mode imperative
+		:ARG0 (s1/sen)
+		:ARG1 (1/tarla))
+	:op2 (6/kızış
+		:ARG1 (t1/thing
+			:ARG1-of (4/ekil))
+		:manner (5/hep)))
+
+# ::id Commerce_sell/0021.train
+# ::snt Kadın bu hamamı mezada çıkardı .
+(4/mezat-çık
+	:ARG0 (1/kadın)
+	:ARG1 (3/hamam
+		:mod (2/bu)))
+
+# ::id Change_posture/0018.train
+# ::snt İşe gitmesi gerekiyormuş , erken kalktı .
+(a1/and
+	:op1 (3/gerek
+		:ARG1 (2/git
+			:ARG0 (o1/o)
+			:ARG1 (1/iş)))
+	:op2 (6/kalk
+		:ARG0 o1
+		:time (4/erken)))
+
+# ::id Cogitation/0001.dev
+# ::snt Bu aralar bilim - kurgu filmlerine sardırdı .
+(7/sardır
+	:ARG0 (o1/o)
+	:ARG1 (6/film
+		:mod (3/bilim-kurgu))
+	:time (2/ara
+		:mod (1/bu)))
+
+# ::id Forward_Motion/0149.train
+# ::snt Takım kalenin önünde baraj kurdu .
+(4/baraj-kur
+	:ARG0 (1/takım)
+	:ARG2 (3/ön
+		:poss (2/kale)))
+
+# ::id Change_event_duration/0001.test
+# ::snt Aceleye gerek yok biraz vites küçültelim .
+(a1/and
+	:op1 (2/gerek
+		:polarity -
+		:ARG0 (1/acele))
+	:op2 (5/vites-küçült
+		:ARG0 (b1/biz)
+		:degree (4/biraz)))
+
+# ::id Commerce_pay/0026.train
+# ::snt Tekele girince paraya para demiyor .
+(3/para-para-de
+	:polarity -
+	:ARG0 (o1/o)
+	:time (2/gir
+		:ARG1 (1/tekel)))
+
+# ::id Lending/0000.train
+# ::snt On beş lira borç aldım .
+(4/borç-al
+	:ARG0 (b1/ben)
+	:ARG1 (m1/monetary-quantity
+		:quant (1/on-beş)
+		:unit (3/lira)))
+
+# ::id Procurance/0004.train
+# ::snt Bu iddiayı ben kazandım .
+(4/kazan
+	:ARG1 (2/iddia
+		:mod (1/bu))
+	:ARG0 (3/ben))
+
+# ::id Carry_goods/0009.train
+# ::snt Ne isterseniz bulurum , beyefendi .
+(3/bul
+	:ARG0 (b1/ben)
+	:ARG1 (t1/thing
+		:mod (b2/bütün)
+		:ARG1-of (i1/iste
+			:ARG0 (s1/siz)))
+	:beneficiary (5/beyefendi))
+
+# ::id Activity_Done/0002.train
+# ::snt Her sabah oflaya puflaya işe gide gide günü doldu .
+(8/gün-dol
+	:ARG0 (o1/o)
+	:manner (7/git
+		:ARG0 o1
+		:ARG1 (5/iş)
+		:time (d1/date-entity
+			:dayperiod (2/sabah
+				:mod (1/her)))
+		:manner (3/of-puf)))
+
+# ::id Lending/0003.train
+# ::snt Kiracı , kirayı taktı ve kaçtı .
+(a1/and
+	:op1 (4/tak
+		:ARG0 (1/kiracı)
+		:ARG1 (3/kira))
+	:op2 (6/kaç
+		:ARG0 1))
+
+# ::id Process_end/0017.train
+# ::snt Sınavın zamanı doldu .
+(2/zaman-dol
+	:ARG1 (s1/sınav))
+
+# ::id Cause_emotion/0001.train
+# ::snt Kadını kendisine aşık etti .
+(3/aşık-et
+	:ARG0 (o1/o)
+	:ARG1 (1/kadın)
+	:ARG2 (2/kendi
+		:poss o1))
+
+# ::id Carry_goods/0012.train
+# ::snt Yemleri elde tutmalıydı .
+(g1/gerek
+	:ARG1 (2/el-tut
+		:ARG0 (o1/o)
+		:ARG1 (1/yem)))
+
+# ::id Preventing_or_letting/0006.train
+# ::snt Başarılı olmak için kardeşini çelmeledi .
+(5/çelmele
+	:ARG0 (o1/o)
+	:purpose (2/ol
+		:ARG0 o1
+		:ARG1 (1/başarılı))
+	:ARG1 (4/kardeş
+		:poss o1))
+
+# ::id Change_operational_state/0019.train
+# ::snt Binada sorun yok , sadece bu dairede kontak atmış .
+(a1/and
+	:op1 (3/yok
+		:location (1/bina)
+		:ARG1 (2/sorun))
+	:op2 (9/at
+		:ARG0 (8/kontak)
+		:location (7/daire
+			:mod (6/bu)
+			:mod (5/sadece))))
+
+# ::id Perception_active/0024.train
+# ::snt Babaları , her hareketlerinde çocuklara dik dik bakıyordu .
+(6/dik-dik-bak
+	:ARG0 (1/baba)
+	:ARG1 (5/çocuk
+		:poss 1)
+	:cause (4/hareket
+		:mod (3/her)
+		:poss 5))
+
+# ::id Remembering_information/0000.dev
+# ::snt Oturup eski günleri yâd ettik
+(4/yâd-et
+	:ARG0 (b1/biz)
+	:ARG1 (3/gün
+		:mod (2/eski))
+	:prep-after (1/otur
+		:ARG0 b1))
+
+# ::id Change_event_duration/0006.train
+# ::snt Başım ağrıdığı için konuşmayı kısa kestim .
+(5/kısa-kes
+	:ARG0 (b1/ben)
+	:cause (2/ağrı
+		:ARG1 (1/baş
+			:poss b1))
+	:ARG1 (4/konuşma))
+
+# ::id Expulse/0007.train
+# ::snt Onu uğrattım , herkes şaşırdı .
+(a1/and
+	:op1 (2/uğrat
+		:ARG0 (b1/ben)
+		:ARG1 (1/o))
+	:op2 (5/şaşır
+		:ARG0 (4/herkes)))
+
+# ::id Being_Relevant/0002.train
+# ::snt Onun kitabı çok kısaltıldığı için çocuk kitabına döndü .
+(8/dön
+	:cause (4/kısalt
+		:degree (3/çok)
+		:ARG1 (2/kitap
+			:poss (o1/o)))
+	:ARG2 (7/kitap
+		:mod (6/çocuk))
+	:ARG1 2)
+
+# ::id Change_posture/0041.train
+# ::snt İçeri girdiğimde koltuğa yayılmış , televizyon izliyordu .
+(a1/and
+	:op1 (4/yayıl
+		:ARG0 (o1/o)
+		:ARG1 (3/koltuk)
+		:time (2/gir
+			:ARG0 (b1/ben)
+			:ARG1 (1/içeri)))
+	:op2 (7/izle
+		:ARG0 o1
+		:ARG1 (6/televizyon)
+		:time 2))
+
+# ::id Forward_Motion/0041.train
+# ::snt Koluna girerek yedeğe aldı .
+(3/yedek-al
+	:ARG0 (o1/o)
+	:prep-by (1/kol-gir
+		:ARG0 o1))
+
+# ::id Coming_up_with/0008.train
+# ::snt Hemen ondan kurtulmanın bir yolunu buldu .
+(4/bir-yol-bul
+	:ARG1 (k1/kurtul
+		:ARG2 (2/o))
+	:manner (1/hemen)
+	:ARG0 (o1/o))
+
+# ::id Change_of_consistency/0035.train
+# ::snt Yeleğim pörsüdü .
+(2/pörsü
+	:ARG1 (1/yelek
+		:poss (b1/ben)))
+
+# ::id Sounds/0000.train
+# ::snt Trafik oldukça tıkanmıştı , herkes klakson çalıyordu .
+(a1/and
+	:op1 (3/tıkan
+		:ARG1 (1/trafik)
+		:degree (2/oldukça))
+	:op2 (6/klakson-çal
+		:ARG0 (5/herkes)))
+
+# ::id Process_Start/0001.train
+# ::snt Tomurcuklar patlamış , tabiat iyiden iyiye uyanmıştı .
+(a1/and
+	:op1 (2/patla
+		:ARG0 (1/tomurcuk))
+	:op2 (7/uyan
+		:ARG1 (4/tabiat)
+		:manner (5/iyi-iyi)))
+
+# ::id Commerce_pay/0037.train
+# ::snt Bu fabrika sermayesini beş yılda ödedi .
+(6/öde
+	:ARG0 (2/fabrika)
+	:ARG1 (3/sermaye)
+	:duration (5/yıl
+		:quant (4/beş)))
+
+# ::id Perception_body/0036.train
+# ::snt Boğazı düğümlendi , konuşamadı bile .
+(a1/and
+	:op1 (1/boğaz-düğümlen
+		:ARG0 (o1/o))
+	:op2 (m1/mümkün
+		:ARG1 (4/konuş
+			:ARG0 o1
+			:manner (5/bile))
+		:polarity -))
+
+# ::id Abandonment/0020.train
+# ::snt Yıllardır ısrarla devam ettiği alışkanlıklarını bile terk etti .
+(7/terk-et
+	:ARG0 (o1/o)
+	:ARG1 (5/alışkanlık
+		:ARG1-of (3/devam-et
+			:ARG0 o1
+			:time (1/yıllardır)
+			:manner (2/ısrarla))
+		:manner (6/bile)))
+
+# ::id Process_Stop/0018.train
+# ::snt Rüzgâr kesilmiş , toprak üstüne yalın ayak basılmayacak kadar ısınmıştı .
+(a1/and
+	:op1 (2/kesil
+		:ARG1 (1/rüzgâr))
+	:op2 (10/ısın
+		:extent (8/bas
+			:manner (6/yalın-ayak)
+			:polarity -
+			:ARG1 (5/üst
+				:part-of (4/toprak)))
+		:ARG1 4))
+
+# ::id Commerce_pay/0024.train
+# ::snt Bu ay ailecek paradan çıktık .
+(4/para-çık
+	:ARG0 (b1/biz)
+	:time (d1/date-entity
+		:season (2/ay
+			:mod (1/bu)))
+	:manner (3/ailecek))
+
+# ::id Cause_motion/0000.dev
+# ::snt Annem sobayı durmadan süngüledi .
+(4/süngüle
+	:ARG0 (1/anne
+		:poss (b1/ben))
+	:ARG1 (2/soba)
+	:manner (3/durmadan))
+
+# ::id Change_event_duration/0014.train
+# ::snt Gelir gelmez kadıncağızı lakırtıya boğdu .
+(4/lakırtı-boğ
+	:ARG0 (o1/o)
+	:ARG1 (3/kadıncağız)
+	:prep-after (1/gel-gel
+		:ARG0 o1))
+
+# ::id Waiting/0003.train
+# ::snt Saatlerce ayakta durmaktan bacakları ağrımıştı .
+(5/ağrı
+	:cause (2/ayak-dur
+		:ARG0 (o1/o))
+	:ARG1 (4/bacak
+		:poss o1)
+	:duration (1/saatlerce))
+
+# ::id Cause_to_perceive/0006.train
+# ::snt Haberi bütün köye aksettirdi .
+(y1/yap
+	:ARG1 (4/akset
+		:ARG0 (o1/o)
+		:ARG1 (1/haber)
+		:ARG2 (3/köy
+			:mod (2/bütün))))
+
+# ::id Cause_to_amalgamate/0000.train
+# ::snt Şekeri karıştırarak suyun içinde çözdü .
+(5/çöz
+	:ARG0 (o1/o)
+	:prep-by (2/karıştır
+		:ARG0 o1
+		:ARG1 (1/şeker))
+	:location (3/su)
+	:ARG1 1)
+
+# ::id Sports_Jargon/0043.train
+# ::snt Sinirlenen çocuk var gücüyle topu dikti birden .
+(5/top-dik
+	:ARG0 (2/çocuk
+		:ARG0-of (1/sinirlen))
+	:manner (3/var-güç
+		:poss 2)
+	:manner (7/birden))
+
+# ::id Win_prize/0003.train
+# ::snt Zenginim , bana piyango çıktı .
+(a1/and
+	:op1 (1/zengin
+		:domain (b1/ben))
+	:op2 (4/piyango-çık
+		:ARG1 b1))
+
+# ::id Cognitive_change/0003.train
+# ::snt Tarih anlatırken konu ne zaman sakıncalı bir yere gitse lafı çeviriyordu .
+(10/laf-çevir
+	:ARG0 (o1/o)
+	:prep-while (2/anlat
+		:ARG0 o1
+		:ARG1 (1/tarih))
+	:time (9/git
+		:ARG0 (3/konu)
+		:ARG1 (8/yer
+			:mod (6/sakıncalı))))
+
+# ::id Coming_to_believe/0007.train
+# ::snt Olayları temize havale edecekti .
+(2/temiz-havale-et
+	:ARG0 (o1/o)
+	:ARG1 (1/olay))
+
+# ::id Change_operational_state/0008.train
+# ::snt Su vanasını kapamışlar , evde su yok .
+(a1/and
+	:op1 (3/kapa
+		:ARG0 (o1/onlar)
+		:ARG1 (2/vana
+			:mod (1/su)))
+	:op2 (7/yok
+		:location (5/ev)
+		:ARG0 (6/su)))
+
+# ::id Exchange/0001.train
+# ::snt Annesi , ağlayan bebeğin altını değiştirdi .
+(6/değiş
+	:ARG0 (1/anne
+		:poss (o1/o))
+	:ARG1 (5/alt
+		:poss (4/bebek
+			:ARG0-of (3/ağla))))
+
+# ::id Change_of_temperature/0004.train
+# ::snt Yemekleri ısıtıyorum , birazdan hazır olur .
+(a1/and
+	:op1 (2/ısıt
+		:ARG0 (b1/ben)
+		:ARG1 (1/yemek))
+	:op2 (5/hazır-ol
+		:ARG0 (o1/o)
+		:time (4/birazdan)))
+
+# ::id Claim_ownership/0011.train
+# ::snt Avukat kaleyi içinden fethetti .
+(2/kale-iç-fethet
+	:ARG0 (1/avukat))
+
+# ::id Perception_active/0022.train
+# ::snt Şimdiye kadar pek alıcı gözüyle bakmamıştı .
+(4/alıcı-göz-bak
+	:polarity -
+	:ARG0 (o1/o)
+	:time (2/kadar
+		:op1 (1/şimdi))
+	:manner (3/pek))
+
+# ::id Sports_Jargon/0014.train
+# ::snt Bu maçı da kazanırsak tur atlayacağız .
+(5/tur-atla
+	:ARG0 (b1/biz)
+	:cond (4/kazan
+		:ARG0 b1
+		:ARG1 (2/maç
+			:mod (1/bu))))
+
+# ::id Change_posture/0069.train
+# ::snt Tavuk gurka yatmış , yeni civcivler çıkacak .
+(a1/and
+	:op1 (2/gurk-yat
+		:ARG0 (1/tavuk))
+	:op2 (7/çık
+		:ARG0 (6/civciv
+			:mod (5/yeni))))
+
+# ::id Appointing/0002.train
+# ::snt Genç öğretmen açıktan atanmıştı .
+(3/açıktan-ata
+	:ARG1 (2/öğretmen
+		:mod (1/genç)))
+
+# ::id Cause_change/0007.train
+# ::snt Elindeki fırsatları tembelliğiyle aldırdı .
+(4/aldır
+	:ARG0 (o1/o)
+	:ARG1 (2/fırsat
+		:mod (1/el
+			:poss o1))
+	:cause (3/tembellik
+		:poss o1))
+
+# ::id Research/0005.train
+# ::snt Araştırmacılar yeni bir bakteri türünü gözlem altına aldı .
+(6/gözlem-alt-al
+	:ARG0 (1/araştırmacı)
+	:ARG1 (5/tür
+		:mod (4/bakteri
+			:mod (2/yeni))))
+
+# ::id Cognitive_comprehension/0010.train
+# ::snt Konuya henüz girmedi .
+(3/gir
+	:polarity -
+	:ARG0 (o1/o)
+	:ARG1 (1/konu)
+	:time (2/henüz))
+
+# ::id Apply_Heat/0016.train
+# ::snt Odun ocağında mısırları üttü .
+(4/üt
+	:ARG0 (o1/o)
+	:ARG1 (3/mısır)
+	:location (2/ocak
+		:mod (1/odun)))
+
+# ::id Abandonment/0002.train
+# ::snt Çok büyük heyecanla başladığı bu projeyi de askıda bıraktı .
+(8/askı-bırak
+	:ARG0 (o1/o)
+	:ARG1 (6/proje
+		:mod (5/bu)
+		:ARG1-of (4/başla
+			:ARG0 o1
+			:manner (3/heyecan
+				:mod (2/büyük
+					:degree (1/çok))))))
+
+# ::id Earnings_and_losses/0040.train
+# ::snt Bu teklifi kabul et , cebi para görsün .
+(a1/and
+	:op1 (3/kabul-et
+		:ARG0 (s1/sen)
+		:mode imperative
+		:ARG1 (2/teklif
+			:mod (1/bu)))
+	:op2 (6/cep-para-gör
+		:ARG0 (o1/o)
+		:mode imperative))
+
+# ::id Change_event_duration/0001.dev
+# ::snt Kredinin vadesini uzattı .
+(2/vade-uzat
+	:ARG0 (o1/o)
+	:ARG1 (1/kredi))
+
+# ::id Claim_ownership/0002.train
+# ::snt Hainler tüm köyü yağma ettiler .
+(4/yağma-et
+	:ARG0 (1/hain)
+	:ARG1 (3/köy
+		:mod (2/tüm)))
+
+# ::id Sports_Jargon/0020.train
+# ::snt Mehmet savunduğu oyuncuyu kaçırdı , böylece gol yedik .
+(a1/and
+	:op1 (4/kaç
+		:ARG0 (p1/person
+			:name (n1/name
+				:op1 (1/mehmet))
+			:wiki -)
+		:ARG1 (3/oyuncu
+			:ARG1-of (2/savun
+				:ARG0 p1)))
+	:op2 (7/gol-ye
+		:ARG0 (b1/biz)
+		:manner (6/böylece)))
+
+# ::id Judgement_communication/0011.train
+# ::snt Öyle bir resim yapmış ki , hayran kaldık .
+(7/hayran-kal
+	:ARG0 (b1/biz)
+	:ARG1 (4/yap
+		:ARG0 (o1/o)
+		:ARG1 (3/resim)))
+
+# ::id Process_Stop/0006.train
+# ::snt Şirket ödemeleri bu ay kesintiye uğradı .
+(5/kesinti-uğra
+	:ARG1 (2/öde
+		:poss (1/şirket))
+	:time (4/ay
+		:mod (3/bu)))
+
+# ::id Judgement/0003.train
+# ::snt Durduk yere bize ahkâm çıkardı .
+(4/ahkâm-çık
+	:ARG0 (o1/o)
+	:ARG1 (3/biz)
+	:manner (1/durduk-yer))
+
+# ::id Process_end/0008.train
+# ::snt Yavaş yavaş bu hırs geçer .
+(5/geç
+	:ARG0 (o1/o)
+	:manner (1/yavaş-yavaş)
+	:ARG1 (4/hırs
+		:mod (3/bu)))
+
+# ::id Activity_Done/0003.train
+# ::snt Yıllar boyu yaşadığı acı dolu günlerden sonra çevresi tarafından zorla yatırıldığı psikiyatri kliniğinde gününü doldurdu .
+(14/gün-doldur
+	:ARG0 (o1/o)
+	:location (13/klinik
+		:ARG1-of (11/yatır
+			:manner (10/zor)
+			:ARG0 (8/çevre
+				:poss o1)
+			:time (7/sonra
+				:mod (6/gün
+					:ARG1-of (3/yaşa
+						:duration (1/yıl))
+					:mod (5/dolu
+						:mod (4/acı)))))
+		:mod (12/psikiyatri)))
+
+# ::id Sports_Jargon/0012.train
+# ::snt Milli sporcumuz bu maçta da puan kazandı .
+(6/puan-kazan
+	:ARG0 (2/sporcu
+		:poss (b1/biz)
+		:mod (1/milli))
+	:location (4/maç
+		:mod (3/bu)))
+
+# ::id Remembering_information/0016.train
+# ::snt Onun varlığı ayrılık acısını külledi .
+(5/külle
+	:ARG0 (2/varlık
+		:poss (1/o))
+	:ARG1 (4/acı
+		:mod (3/ayrılık)))
+
+# ::id Change_of_consistency/0003.train
+# ::snt Kıvamı güzeldi , incelmişti .
+(a1/and
+	:op1 (2/güzel
+		:domain (1/kıvam
+			:poss (o1/o)))
+	:op2 (4/incel
+		:ARG0 o1))
+
+# ::id Process_Start/0010.train
+# ::snt Yanlış işlere tevessül etme .
+(3/tevessül-et
+	:polarity -
+	:mode imperative
+	:ARG0 (s1/sen)
+	:ARG1 (2/iş
+		:mod (1/yanlış)))
+
+# ::id Activity_Start/0017.train
+# ::snt Milli takım salı günü Hırvatistan karşısında sahaya çıkacak .
+(7/saha-çık
+	:ARG0 (1/milli-takım)
+	:time (d1/date-entity
+		:weekday (3/salı))
+	:location (6/karşı
+		:mod (c1/country
+			:name (n1/name
+				:op1 (5/hırvatistan))
+			:wiki -)))
+
+# ::id Forward_Motion/0040.train
+# ::snt Annesinin peşinden tıpış tıpış yürüdü .
+(3/tıpış-tıpış-yürü
+	:ARG0 (o1/o)
+	:ARG2 (2/peş
+		:poss (1/anne)))
+
+# ::id Process_Stop/0010.train
+# ::snt Sabahtan beri hiç durmadım .
+(4/dur
+	:polarity -
+	:ARG0 (b1/ben)
+	:time (2/beri
+		:op1 (d1/date-entity
+			:day-period (1/sabah)))
+	:degree (3/hiç))
+
+# ::id Change_of_consistency/0002.test
+# ::snt Eski kayaçlar tortullaşmış .
+(3/tortullaş
+	:ARG1 (2/kayaç
+		:mod (1/eski)))
+
+# ::id Judgement/0010.train
+# ::snt Daha önce kimse bu şiirden böyle bir anlam çıkarmamıştı .
+(y1/yap
+	:ARG1 (8/anlam-çık
+		:ARG0 (3/kimse)
+		:polarity -
+		:time (2/önce
+			:degree (1/daha))
+		:ARG1 (5/şiir
+			:mod (4/bu))))
+
+# ::id Change_direction/0028.train
+# ::snt Gülümseyerek bir köşeyi döndü .
+(4/dön
+	:ARG0 (o1/o)
+	:manner (1/gülümse)
+	:ARG1 (3/köşe))
+
+# ::id Apply_Heat/0007.train
+# ::snt Ben makarnaları haşlıyordum , o da sos hazırlıyordu .
+(a1/and
+	:op1 (3/haşla
+		:ARG0 (1/ben)
+		:ARG1 (2/makarna))
+	:op2 (8/hazırla
+		:ARG0 (5/o)
+		:ARG1 (7/sos)))
+
+# ::id Commerce_sell/0000.test
+# ::snt Bu yıl 7 - 8 bin tona yakın sebzemizi bu halde pazarladık .
+(12/pazarla
+	:ARG0 (b1/biz)
+	:time (2/yıl
+		:mod (1/bu))
+	:ARG1 (9/sebze
+		:poss b1
+		:mod (8/yakın
+			:op1 (m1/mass-quantity
+				:quant (a1/and
+					:op1 7000
+					:op2 8000)
+				:unit (7/ton))))
+	:location (11/hal
+		:mod (10/bu)))
+
+# ::id Forward_Motion/0021.train
+# ::snt Sabah erkenden işe doğru yollandı .
+(5/yollan
+	:ARG0 (o1/o)
+	:time (d1/date-entity
+		:dayperiod (s1/sabah))
+	:manner (2/erkenden)
+	:ARG1 (3/iş))
+
+# ::id Apply_Heat/0002.test
+# ::snt Çayın suyu kaynamış , demlesene .
+(a1/and
+	:op1 (3/kayna
+		:ARG0 (2/su
+			:mod (1/çay)))
+	:op2 (5/demle
+		:mode imperative
+		:ARG0 (s1/sen)))
+
+# ::id Forward_Motion/0009.train
+# ::snt Doru at bugün koşmayacak .
+(4/koş
+	:polarity -
+	:ARG0 (2/at
+		:name (1/doru))
+	:time (3/bugün))
+
+# ::id Change_operational_state/0006.train
+# ::snt Usta , çırağa elindekini hızlıca elektrikletti .
+(y1/yap
+	:ARG0 (u1/usta)
+	:ARG1 (6/elektrikle
+		:ARG1 (t1/thing
+			:location (4/el
+				:poss u1))
+		:manner (5/hızlıca)))
+
+# ::id Change_posture/0063.train
+# ::snt Başköşeye kurulmuş , herkese emir veriyor .
+(a1/and
+	:op1 (1/başköşe-kur
+		:ARG0 (o1/o))
+	:op2 (5/emir-ver
+		:ARG0 o1
+		:ARG1 (4/herkes)))
+
+# ::id Cause_impact/0000.train
+# ::snt Beni yalanlarına inandırdı .
+(3/inandır
+	:ARG0 (o1/o)
+	:ARG1 (1/ben)
+	:ARG2 (2/yalan
+		:poss o1))
+
+# ::id Forward_Motion/0004.dev
+# ::snt Böyle uzaklaştı ağır ağır o bizden / Biz ayrı düşmedik , ant içmiştik denizden .
+(a1/and
+	:op1 (2/uzaklaş
+		:manner (1/böyle)
+		:manner (3/ağır-ağır)
+		:ARG0 (5/o)
+		:ARG1 (6/biz))
+	:op2 (9/ayrı-düş
+		:polarity -
+		:ARG1 6)
+	:op3 (12/ant-iç
+		:ARG2 (14/deniz)
+		:ARG0 6))
+
+# ::id Process_end/0004.train
+# ::snt Bu seneki tüm programlar da bugün itibariyle sonlandı .
+(8/sonlan
+	:ARG0 (4/program
+		:poss (2/sene
+			:mod (1/bu))
+		:mod (b1/bütün))
+	:time (6/bugün))
+
+# ::id Remembering_information/0006.train
+# ::snt Eski günler hep gözünün önüne geldi .
+(4/göz-ön-gel
+	:ARG0 (2/gün
+		:mod (1/eski))
+	:frequency (3/hep))
+
+# ::id Change_of_consistency/0022.train
+# ::snt Buradaki fosiller zamanla kömürleşiyor .
+(4/kömürleş
+	:ARG1 (2/fosil
+		:mod (1/bura))
+	:duration (3/zaman))
+
+# ::id Change_posture/0010.train
+# ::snt Yamuk yumuk oturmaktan belim ağrımıştı , doğruldum .
+(a1/and
+	:op1 (5/ağrı
+		:cause (3/otur
+			:manner (1/yamuk-yumuk))
+		:ARG1 (4/bel
+			:poss (b1/ben)))
+	:op2 (7/doğrul
+		:ARG0 b1))
+
+# ::id Change_of_leadership/0000.test
+# ::snt Eski müdürün postuna oturdu .
+(3/post-otur
+	:ARG0 (o1/o)
+	:ARG1 (2/müdür
+		:mod (1/eski)))
+
+# ::id Change_of_quantity_of_possession/0006.train
+# ::snt Gönlümü çelen bir söz söyle .
+(5/söyle
+	:mode imperative
+	:ARG0 (s1/sen)
+	:ARG1 (4/söz
+		:ARG0-of (2/çel
+			:ARG1 (1/gönül
+				:poss (b1/ben)))))
+
+# ::id Game_Jargon/0001.dev
+# ::snt Eline güvenen Mişa , rest çekti .
+(5/rest-çek
+	:ARG0 (p1/person
+		:wiki -
+		:name (n1/name
+			:op1 (3/Mişa
+				:ARG0-of (2/güven
+					:ARG1 (1/el
+						:poss p1))))))
+
+# ::id Activity_Paused_State/0003.train
+# ::snt Taraflar bir türlü anlaşamadığı için boşanma davası felce uğradı .
+(8/felç-uğra
+	:ARG1 (6/boşanma-dava)
+	:cause (m1/mümkün
+		:ARG1 (4/anlaş
+			:polarity -
+			:ARG0 (1/taraf)
+			:manner (2/bir-türlü))))
+
+# ::id Change_of_quantity_of_possession/0009.train
+# ::snt Yaptığım işte ciddi bir meblağ iktisap ettim .
+(6/iktisap-et
+	:ARG0 (b1/ben)
+	:location (2/iş
+		:ARG1-of (1/yap)
+		:ARG0 b1)
+	:ARG1 (5/meblağ
+		:mod (3/ciddi)))
+
+# ::id Earnings_and_losses/0034.train
+# ::snt O kadar harcamadan sonra doğal olarak kesenin dibi göründü .
+(7/kese-dip-görün
+	:prep-after (3/harcama
+		:degree (1/o-kadar))
+	:manner (5/doğal-ol))
+
+# ::id Game_Jargon/0000.test
+# ::snt Derin bir nefes alıp H7'ye taş sürdü .
+(6/taş-sür
+	:ARG0 (o1/o)
+	:prep-after (3/nefes-al
+		:manner (1/derin)
+		:ARG0 o1)
+	:ARG1 (H1/H7))
+
+# ::id Change_posture/0057.train
+# ::snt Hiç tanımadığı bu adamın karşısında ayak ayak üstüne atarak saygısızlık ediyordu .
+(10/saygısızlık-et
+	:ARG0 (o1/o)
+	:prep-by (6/ayak-ayak-üst-at
+		:ARG0 o1
+		:location (5/karşı
+			:op1 (4/adam
+				:ARG1-of (2/tanı
+					:polarity -
+					:ARG0 o1
+					:degree (1/hiç))
+				:mod (3/bu)))))
+
+# ::id Sports_Jargon/0039.train
+# ::snt Var gücümle kalenin sağ üst köşesine şut çektim .
+(7/şut-çek
+	:ARG0 (b1/ben)
+	:ARG1 (6/köşe
+		:part-of (3/kale)
+		:mod (5/üst
+			:mod (4/sağ)))
+	:manner (2/güç
+		:mod (1/var)
+		:poss b1))
+
+# ::id Change_of_consistency/0041.train
+# ::snt Işıkta saydamlaştı .
+(2/saydamlaş
+	:ARG0 (o1/o)
+	:location (1/ışık))
+
+# ::id Cause_to_be_included/0002.train
+# ::snt Bu telefonu mağazadan edindim .
+(4/edin
+	:ARG0 (b1/ben)
+	:ARG1 (2/telefon
+		:mod (1/bu))
+	:location (3/mağaza))
+
+# ::id Forward_Motion/0094.train
+# ::snt Bütün memleketi , elini kolunu sallaya sallaya gezmişti .
+(5/kol-salla-salla-gez
+	:ARG0 (o1/o)
+	:ARG1 (2/memleket
+		:mod (1/bütün)))
+
+# ::id Apply_Heat/0000.train
+# ::snt Ailemizin emektar Arap halayıklarından biri de bize aşçılık etmekteydi .
+(8/aşçılık-et
+	:ARG0 (5/biri
+		:mod (4/halayık
+			:poss (1/aile
+				:poss (7/biz))
+			:mod (2/emektar)
+			:mod (3/arap)))
+	:ARG1 7)
+
+# ::id Motion/0010.train
+# ::snt Zıplayıp uçmuştum .
+(2/uç
+	:ARG0 (b1/ben)
+	:prep-by (1/zıpla))
+
+# ::id Change_position_on_a_scale/0023.train
+# ::snt Çeklerin değeri indi .
+(3/in
+	:ARG0 (2/değer
+		:mod (1/çek)))
+
+# ::id Change_of_quantity_of_possession/0088.train
+# ::snt Bu çalışmada çok kan kaybettik .
+(4/kan-kaybet
+	:ARG0 (b1/biz)
+	:location (2/çalışma
+		:mod (1/bu))
+	:degree (3/çok))
+
+# ::id Lending/0011.train
+# ::snt Bu kolyeyi sana vereyim , alacağına say .
+(a1/and
+	:op1 (4/ver
+		:ARG0 (b1/ben)
+		:ARG1 (2/kolye
+			:mod (1/bu))
+		:ARG2 (3/sen))
+	:op2 (6/alacak-say
+		:mode imperative
+		:ARG0 (s1/sen)
+		:ARG1 2))
+
+# ::id Expulse/0010.train
+# ::snt Fareyi evden kovdu .
+(3/kov
+	:ARG0 (o1/o)
+	:ARG1 (1/fare)
+	:ARG2 (2/ev))
+
+# ::id Commerce_pay/0048.train
+# ::snt Oğluma okulu için para çıkardım .
+(4/para-çık
+	:ARG0 (b1/ben)
+	:ARG1 (1/oğul
+		:poss b1)
+	:cause (2/okul
+		:poss 1))
+
+# ::id Change_position_on_a_scale/0044.train
+# ::snt Kütüphanedeki kitapların mevcudu aşağı düşmüş .
+(4/aşağı-düş
+	:ARG1 (3/mevcut
+		:mod (2/kitap
+			:location (1/kütüphane))))
+
+# ::id Change_position_on_a_scale/0025.train
+# ::snt Masraflar kabardı .
+(2/kabar
+	:ARG0 (1/masraf))
+
+# ::id Activity_Pause/0015.train
+# ::snt Bugünü tatil ediyorum !
+(2/tatil-et
+	:ARG0 (b1/ben)
+	:ARG1 (1/bugün))
+
+# ::id Change_of_quantity_of_possession/0062.train
+# ::snt O berberin adı çıkmış , aslında iyi tıraş edemiyor .
+(a1/and
+	:op1 (4/çık
+		:ARG1 (3/ad
+			:poss (2/berber
+				:mod (1/o))))
+	:op2 (8/tıraş-et
+		:polarity -
+		:manner (6/aslında)))
+
+# ::id Frugality/0004.train
+# ::snt Çikolatanın dibini bulmuşsun .
+(3/bul
+	:ARG0 (s1/sen)
+	:ARG1 (2/dip
+		:part-of (ç1/çikolata)))
+
+# ::id Earnings_and_losses/0018.train
+# ::snt Köpekler için defter açtılar .
+(3/defter-aç
+	:ARG0 (o1/onlar)
+	:ARG2 (1/köpek))
+
+# ::id Cognitive_comprehension/0018.train
+# ::snt Matmazel Nihal'in mutsuzluğunu yüzünden okudu .
+(4/yüzünden-oku
+	:ARG1 (3/mutsuzluk
+		:poss (p1/person
+			:name (n1/name
+				:op1 (2/Nihal))
+			:wiki -
+			:name n1
+			:wiki -))
+	:ARG0 (p2/person
+		:name (n2/name
+			:op1 (1/matmazel))
+		:wiki -))
+
+# ::id Telling/0033.train
+# ::snt Bütün arkadaşlar bir araya gelip yıllar boyu başlarına gelen talihsizlikleri anlatıp birbirlerine yandılar .
+(13/yan
+	:ARG0 (2/arkadaş
+		:mod (1/bütün))
+	:prep-by (3/bir-ara-gel
+		:ARG0 2)
+	:ARG2 (12/birbirleri)
+	:prep-by (11/anlat
+		:ARG1 (10/talihsizlik
+			:ARG1-of (8/baş-gel
+				:ARG0 2
+				:duration (6/yıl)))
+		:ARG0 2))
+
+# ::id Cognitive_comprehension/0020.train
+# ::snt Evrenin nasıl oluştuğunu ihata edemiyoruz .
+(m1/mümkün
+	:ARG1 (4/ihata-et
+		:polarity -
+		:ARG0 (b1/biz)
+		:ARG1 (3/oluş
+			:ARG1 (1/evren)
+			:manner (2/amr-unknown))))
+
+# ::id Forward_Motion/0000.train
+# ::snt Sonra elinde boş tasla çeşmeye doğru bir koşu koparıyor .
+(8/koşu-kopar
+	:ARG0 (o1/o)
+	:time (1/sonra)
+	:instrument (4/tas
+		:mod (3/boş)
+		:location (2/el))
+	:ARG1 (5/çeşme))
+
+# ::id Perception_active/0038.train
+# ::snt Komşusu , ağlayan çocuğa eğri gözle baktı .
+(5/eğri-göz-bak
+	:ARG0 (1/komşu)
+	:ARG1 (4/çocuk
+		:ARG0-of (3/ağla)))
+
+# ::id Frugality/0009.train
+# ::snt Düşüncesizce harcadı , bütün malını mülkünü sokağa attı .
+(a1/and
+	:op1 (2/harca
+		:ARG0 (o1/o)
+		:manner (1/düşüncesizce))
+	:op2 (7/sokak-at
+		:ARG0 o1
+		:ARG1 (5/mal-mülk
+			:mod (b1/bütün))))
+
+# ::id Rent/0002.train
+# ::snt Yeni bir ev isticar edelim .
+(4/isticar-et
+	:ARG0 (b1/biz)
+	:ARG1 (e1/ev
+		:mod (y1/yeni)))
+
+# ::id Earnings_and_losses/0030.train
+# ::snt Denizden rızkını çıkarıyor .
+(2/rızkını-çık
+	:ARG0 (o1/o)
+	:ARG2 (1/deniz))
+
+# ::id Activity_Prepare/0006.train
+# ::snt Sen gelmeden çok acayip bir plan kurduk .
+(6/plan-kur
+	:ARG0 (b1/biz)
+	:time (ö1/önce
+		:op1 (2/gel
+			:ARG0 (1/sen))))
+
+# ::id Processing_Materials/0015.train
+# ::snt Vidaların hepsine tırtıl çekildi .
+(3/tırtıl-çek
+	:ARG1 (1/vida
+		:mod (2/hepsi)))
+
+# ::id Claim_ownership/0000.test
+# ::snt Arsaya konmuş .
+(2/kon
+	:ARG0 (o1/o)
+	:ARG1 (1/arsa))
+
+# ::id Sports_Jargon/0029.train
+# ::snt Herkesin maçtan ümidi kestiği bir anda karşı takımın kalesine inanılmaz bir gol attım .
+(13/at
+	:ARG0 (b1/ben)
+	:ARG1 (12/gol
+		:mod (10/inanılmaz))
+	:ARG2 (9/kale
+		:poss (8/takım
+			:mod (7/karşı)))
+	:time (3/ümit-kes
+		:ARG0 (1/herkes)
+		:ARG1 (2/maç)))
+
+# ::id Procurance/0001.train
+# ::snt Disiplinli insanlar şehitlik güzel başarılar ihraz eder .
+(6/ihraz-et
+	:ARG0 (2/insan
+		:mod (1/disiplin))
+	:ARG1 (5/başarı
+		:mod (3/şehitlik)
+		:mod (4/güzel)))
+
+# ::id Apply_Heat/0000.dev
+# ::snt Çok üşüdüm , soba bayağı sağırlaşmış .
+(a1/and
+	:op1 (2/üşü
+		:ARG0 (b1/ben)
+		:degree (1/çok))
+	:op2 (6/sağırlaş
+		:ARG1 (4/soba)
+		:degree (5/bayağı)))
+
+# ::id Cause_to_be_sharp/0001.train
+# ::snt Keserleri zağladık bugün .
+(2/zağla
+	:ARG0 (b1/biz)
+	:ARG1 (1/keser)
+	:time (3/bugün))
+
+# ::id Judgement/0029.train
+# ::snt Biz her zaman bu tavırlarını iyiye çektik .
+(6/iyi-çek
+	:ARG0 (1/biz)
+	:frequency (2/her-zaman)
+	:ARG1 (5/tavır
+		:mod (4/bu)))
+
+# ::id Expectation/0004.train
+# ::snt Bihter Behlül'le konuşurken her şeyin çok güzel olacağına dair ümit besliyordu .
+(10/ümit-besle
+	:ARG0 (p1/person
+		:name (n1/name
+			:op1 (1/bihter))
+		:wiki -)
+	:prep-while (3/konuş
+		:ARG1 (p2/person
+			:name (n2/name
+				:op1 (2/behlül))
+			:wiki -)
+		:ARG0 p1)
+	:ARG1 (7/güzel-ol
+		:degree (6/çok)
+		:ARG0 (4/her-şey)))
+
+# ::id Procurance/0029.train
+# ::snt Muhasebeci , tüm kârı zimmetine geçirmiş .
+(5/zimmet-geçir
+	:ARG0 (1/muhasebeci)
+	:ARG1 (4/kâr
+		:mod (3/tüm)))
+
+# ::id Judgement/0037.train
+# ::snt Bitiriş konuşmasına patronu ve ekibi şapka çıkardı .
+(6/şapka-çık
+	:ARG0 (a1/and
+		:op1 (5/ekip
+			:poss (o1/o))
+		:op2 (3/patron
+			:poss o1))
+	:ARG1 (2/konuşma
+		:poss o1
+		:mod (1/bitiriş)))
+
+# ::id Perception_active/0046.train
+# ::snt Bir kenara çekilip köy meydanını seyreyledi .
+(6/seyreyle
+	:ARG0 (o1/o)
+	:prep-after (2/kenar-çekil
+		:ARG0 o1)
+	:ARG1 (5/meydan
+		:mod (4/köy)))
+
+# ::id Cause_to_perceive/0007.train
+# ::snt Haberi bana mektupla aktardılar .
+(4/aktar
+	:ARG0 (o1/onlar)
+	:ARG1 (1/haber)
+	:ARG2 (2/ben)
+	:instrument (3/mektup))
+
+# ::id Forward_Motion/0105.train
+# ::snt Araba , sağdan geri döndü .
+(3/sağ-geri-dön
+	:ARG0 (1/araba))
+
+# ::id Change_of_quantity_of_possession/0049.train
+# ::snt Kimse onu dinlemiyor , ikinci plana düştü .
+(a1/and
+	:op1 (3/dinle
+		:polarity -
+		:ARG0 (1/kimse)
+		:ARG1 (2/o))
+	:op2 (5/ikinci-plan-düş
+		:ARG1 2))
+
+# ::id Change_resistance/0010.train
+# ::snt Kış gelmeden tüm çatıları aktardı .
+(4/çatı-aktar
+	:ARG0 (o1/o)
+	:time (ö1/önce
+		:op1 (2/gel
+			:ARG1 (1/kış))))
+
+# ::id Apply_Heat/0017.train
+# ::snt Tüyleri yolunmuş bütün tavuğu dikkatle ocakta üttü .
+(7/üt
+	:ARG1 (4/tavuk
+		:mod (2/yolun
+			:ARG1 (1/tüy
+				:poss 4))
+		:mod (3/bütün))
+	:manner (5/dikkatle)
+	:location (6/ocak)
+	:ARG0 (o1/o))
+
+# ::id Judgement/0036.train
+# ::snt Kızları görünce , ağzın dilin tutuldu .
+(5/dil-tut
+	:ARG0 (s1/sen)
+	:time (2/gör
+		:ARG0 s1
+		:ARG1 (1/kız)))
+
+# ::id Abandoned_State/0006.train
+# ::snt Bu işi de sallantıda bıraktı .
+(4/sallantı-bırak
+	:ARG0 (o1/o)
+	:ARG1 (2/iş
+		:mod (1/bu)))
+
+# ::id Perception_body/0003.dev
+# ::snt Kafam uğulduyor sanki , gözlerimi açamıyorum .
+(a1/and
+	:op1 (2/uğulda
+		:ARG0 (1/kafa
+			:poss (b1/ben))
+		:manner (3/sanki))
+	:op2 (m1/mümkün
+		:ARG1 (6/aç
+			:polarity -
+			:ARG0 b1
+			:ARG1 (5/göz
+				:poss b1))))
+
+# ::id Preventing_or_letting/0009.train
+# ::snt Bu işin ilerlemesini darbelediler .
+(4/darbele
+	:ARG0 (o1/onlar)
+	:ARG1 (3/ilerleme
+		:poss (2/iş
+			:mod (1/bu))))
+
+# ::id Change_of_quantity_of_possession/0078.train
+# ::snt Artık gözden düştü , kimse onunla ilgilenmez .
+(a1/and
+	:op1 (2/göz-düş
+		:ARG1 (o1/o)
+		:time (1/artık))
+	:op2 (7/ilgilen
+		:polarity -
+		:ARG0 (5/kimse)
+		:ARG1 (6/o)))
+
+# ::id Forward_Motion/0019.train
+# ::snt Kalem Şakir düştü peşine , öylesine pergelleri açmıştı ki , koridorun ortasında yakaladı .
+(a1/and
+	:op1 (4/peş-düş
+		:ARG0 (p1/person
+			:name (n1/name
+				:op2 (2/Şakir)
+				:op1 (1/kalem))
+			:wiki -)
+		:ARG1 (o1/o))
+	:op2 (13/yakala
+		:manner (7/pergel-aç)
+		:location (12/orta
+			:part-of (11/koridor))
+		:ARG0 p1
+		:ARG1 o1))
+
+# ::id Judgement/0016.train
+# ::snt Kimseleri beğenmedi bu yüzden çok geç evlendi .
+(7/evlen
+	:ARG0 (o1/o)
+	:time (6/geç
+		:degree (5/çok))
+	:cause (2/beğen
+		:polarity -
+		:ARG0 o1
+		:ARG1 (1/kimse)))
+
+# ::id Carry_goods/0000.dev
+# ::snt Sizler için en yeni ürünleri getirdik .
+(6/getir
+	:ARG0 (b1/biz)
+	:beneficiary (1/siz)
+	:ARG1 (5/ürün
+		:mod (y1/yeni
+			:degree (e1/en))))
+
+# ::id Earnings_and_losses/0026.train
+# ::snt Zaten müdür aç herifin biri , zil kalmış da gelmiş buralara .
+(a1/and
+	:op1 (4/herif
+		:mod (3/aç)
+		:domain (2/müdür))
+	:op2 (10/gel
+		:prep-after (7/zil-kal)
+		:ARG2 (11/bura)
+		:ARG0 2))
+
+# ::id Commerce_sell/0020.train
+# ::snt Bu ürünleri % 20 kâr koyarak satacağız .
+(7/sat
+	:ARG0 (b1/biz)
+	:prep-by (5/kâr-koy
+		:ARG2 (p1/percentage-entity
+			:value 20)))
+
+# ::id Change_direction/0016.train
+# ::snt Mermi sekti .
+(2/sek
+	:ARG0 (1/mermi))
+
+# ::id Commerce_pay/0028.train
+# ::snt Her yaz köye gelip hacıağalık ediyorlar .
+(5/hacıağalık-et
+	:ARG0 (o1/onlar)
+	:prep-after (4/gel
+		:ARG1 (3/köy)
+		:time (d1/date-entity
+			:season (2/yaz
+				:mod (1/her)))))
+
+# ::id Perception_active/0029.train
+# ::snt Bazen serserilik yapabilir ama kimseye kötü gözle bakmaz .
+(k1/karşılaştır
+	:op2 (2/serserilik-yap
+		:ARG0 (o1/o)
+		:frequency (1/bazen))
+	:op1 (6/kötü-göz-bak
+		:polarity -
+		:ARG0 o1
+		:ARG1 (5/kimse)))
+
+# ::id Commerce_sell/0001.train
+# ::snt Benimki paso , dedi , hanımefendiye bir bilet kes .
+(4/de
+	:ARG0 (o1/o)
+	:ARG1 (a1/and
+		:op2 (8/bilet-kes
+			:ARG0 (s1/sen)
+			:mode imperative
+			:ARG1 (6/hanımefendi))
+		:op1 (2/paso
+			:domain (t1/thing
+				:poss (1/ben)))))
+
+# ::id Frugality_Waste/0001.train
+# ::snt Senin yoluna gençliğimi heder ettim ve sonra , gene orada , o düşmüş şehirde , senin hasretinle yanan ben değil miydim ?
+(a1/and
+	:op1 (4/heder-et
+		:ARG0 (b1/ben)
+		:ARG1 (3/gençlik
+			:poss b1)
+		:beneficiary (2/yol
+			:poss (1/sen)))
+	:op2 (p1/person
+		:ARG0-of (18/yan
+			:cause (17/hasret
+				:poss (16/sen))
+			:time (7/sonra)
+			:location (10/orada)
+			:location (14/şehir
+				:ARG1-of (13/düş)
+				:mod (12/o))
+			:frequency (9/gene))
+		:domain (19/ben)
+		:polarity (a2/amr-unknown)))
+
+# ::id Earnings_and_losses/0010.train
+# ::snt Bu beş lirayı bitirmeden ben para kazanmalıyım .
+(g1/gerek
+	:ARG1 (7/kazan
+		:prep-without (4/bitir
+			:ARG1 (m1/monetary-quantity
+				:unit (3/lira)
+				:quant (2/beş)
+				:mod (1/bu))
+			:ARG0 (5/ben))
+		:ARG0 5
+		:ARG1 (6/para)))
+
+# ::id Frugality_Money/0002.train
+# ::snt Kızının düğünü için çok para harcadı .
+(6/harca
+	:ARG0 (o1/o)
+	:ARG1 (5/para
+		:degree (4/çok))
+	:cause (2/düğün
+		:poss (1/kız
+			:poss o1)))
+
+# ::id Commerce_pay/0009.train
+# ::snt Hala telefonun taksidini ödüyorum .
+(3/taksit-öde
+	:ARG0 (b1/ben)
+	:manner (1/hala)
+	:ARG1 (2/telefon))
+
+# ::id Change_direction/0027.train
+# ::snt Birden geriye döndü ve dönemeci geçer geçmez Hasan'la yüz yüze geldi .
+(a1/and
+	:op2 (9/yüz-yüz-gel
+		:ARG0 (o1/o)
+		:prep-after (6/geç-geç
+			:ARG1 (5/dönemeç)
+			:ARG0 o1)
+		:ARG1 (p1/person
+			:name (n1/name
+				:op1 (8/hasan))
+			:wiki -))
+	:op1 (2/geri-dön
+		:ARG0 o1
+		:manner (1/birden)))
+
+# ::id Change_of_quantity_of_possession/0056.train
+# ::snt Ünlü şarkıcının yıldızı söndü .
+(3/yıldız-sön
+	:ARG0 (2/şarkıcı
+		:mod (1/ünlü)))
+
+# ::id Hindering/0002.train
+# ::snt Yabani otlar yeni ekilen gül fidelerini ürküttü .
+(7/ürküt
+	:ARG0 (1/yabani-ot)
+	:ARG1 (6/fide
+		:ARG1-of (4/ek
+			:manner (3/yeni))
+		:mod (5/gül)))
+
+# ::id Remembering_information/0001.dev
+# ::snt Zarfın üstündeki yazıyı hemen tanıdı .
+(5/tanı
+	:ARG0 (o1/o)
+	:ARG1 (3/yazı
+		:location (2/üst
+			:part-of (1/zarf)))
+	:manner (4/hemen))
+
+# ::id Change_of_quantity_of_possession/0002.test
+# ::snt Artık bu işin tadı kaçtı .
+(4/tat-kaç
+	:ARG1 (3/iş
+		:mod (2/bu))
+	:time (1/artık))
+
+# ::id Commerce_pay/0030.train
+# ::snt Balo ve kokteyl partisine bir davetiye alabilmek için kesenin ağzını açmak istediler .
+(12/iste
+	:ARG0 (o1/onlar)
+	:ARG1 (9/kese-ağız-aç
+		:ARG0 o1
+		:purpose (m1/mümkün
+			:ARG1 (7/al
+				:ARG0 o1
+				:ARG1 (6/davetiye
+					:mod (a1/and
+						:op1 (1/balo)
+						:op2 (4/parti
+							:mod (3/kokteyl))))))))
+
+# ::id Frugality_Time/0001.train
+# ::snt İş yapacağına havyar kesiyor .
+(k1/karşılaştır
+	:ARG1 (3/havyar-kes
+		:ARG0 (o1/o))
+	:ARG2 (2/yap
+		:polartiy -
+		:ARG0 o1
+		:ARG1 (1/iş)))
+
+# ::id Abandoned_State/0001.train
+# ::snt 20 sene gece gündüz çalıştıysa da kıymetini bilemediler , o da şimdi görevinden ayrılacak .
+(a1/and
+	:op1 (k1/karşılaştır
+		:ARG1 (5/çalış
+			:manner (2/sene-gece)
+			:duration (t1/temporal-quantity
+				:unit (s1/sene)
+				:20 (q1/quant))
+			:ARG0 (10/o))
+		:ARG2 (m1/mümkün
+			:ARG1 (8/bil
+				:polarity -
+				:ARG0 (o1/onlar)
+				:ARG1 (7/kıymet
+					:poss 10))))
+	:op2 (13/görev-ayrıl
+		:ARG0 10
+		:time (12/şimdi)))
+
+# ::id Commerce_pay/0042.train
+# ::snt Paramı devlet denen haramilere vermemek için vergi kaçırırım .
+(7/vergi-kaçır
+	:ARG0 (b1/ben)
+	:cause (5/ver
+		:ARG1 (1/para
+			:poss b1)
+		:ARG2 (4/harami
+			:ARG1-of (3/de
+				:ARG2 (2/devlet)))
+		:polarity -))
+
+# ::id Coming_up_with/0016.train
+# ::snt Can sıkıntısından evde yeni yeni işler icat ediyordu .
+(7/icat-et
+	:ARG0 (o1/o)
+	:cause (1/can-sıkıntı)
+	:location (3/ev))
+
+# ::id Process_end/0012.train
+# ::snt Akşamki öfkesinin zerresi kalmamış , çok neşeliydi .
+(a1/and
+	:op1 (3/zerre-kal
+		:polarity -
+		:ARG1 (2/öfke
+			:time (d1/date-entity
+				:dayperiod (1/akşam))
+			:poss (o1/o)))
+	:op2 (7/neşeli
+		:domain o1
+		:degree (6/çok)))
+
+# ::id Process_end/0019.train
+# ::snt Bu şirketle olan projelerimizi noktaladık .
+(5/noktala
+	:ARG0 (b1/biz)
+	:ARG1 (4/proje
+		:poss b1
+		:poss (2/şirket
+			:mod (1/bu))))
+
+# ::id Earnings_and_losses/0001.dev
+# ::snt Paranı değerlendir , faizlendir .
+(a1/and
+	:op1 (2/değerlendir
+		:ARG0 (s1/sen)
+		:mode imperative
+		:ARG1 (1/para
+			:poss s1))
+	:op2 (4/faizlendir
+		:ARG0 s1
+		:mode imperative
+		:ARG1 1))
+
+# ::id Lose_possession/0008.train
+# ::snt Boşandıktan sonra dımdızlak ortada kaldı .
+(3/dımdızlak-orta-kal
+	:ARG0 (o1/o)
+	:time (2/sonra
+		:op1 (1/boşan
+			:ARG0 o1)))
+
+# ::id Processing_Materials/0000.train
+# ::snt Duvarlara tadilat sırasında astar çekildi .
+(4/astar-çek
+	:ARG1 (1/duvar)
+	:time (2/tadilat))
+
+# ::id Judgement_communication/0013.train
+# ::snt Sözlerinden dolayı ailesi onu çok eleştirdi .
+(6/eleştir
+	:cause (1/sözle)
+	:ARG0 (3/aile)
+	:degree (5/çok)
+	:ARG1 (4/o))
+
+# ::id Remembering_information/0003.train
+# ::snt Bugün öğrendiklerini aklının bir köşesine yaz
+(3/akıl-bir-köşe-yaz
+	:ARG0 (s1/sen)
+	:mode imperative
+	:ARG1 (2/öğren
+		:time (1/bugün)
+		:ARG0 s1))
+
+# ::id Perception_active/0045.train
+# ::snt Dün akşam şehri seyre çıktım .
+(4/seyir-çık
+	:ARG0 (b1/ben)
+	:time (1/dün-akşam)
+	:ARG1 (3/şehir))
+
+# ::id Motion_directional/0005.train
+# ::snt Veznedar lirayı evirdi döndürdü .
+(3/evir-döndür
+	:ARG0 (1/veznedar)
+	:ARG1 (2/lira))
+
+# ::id Change_of_phase/0007.train
+# ::snt Karlar erimişti .
+(2/eri
+	:ARG1 (1/kar))
+
+# ::id Cause_benefit_or_detriment/0010.train
+# ::snt Annesi sürekli çocuğunu akladı .
+(4/akla
+	:ARG0 (1/anne)
+	:frequency (2/sürekli)
+	:ARG1 (3/çocuk
+		:poss 1))
+
+# ::id Coming_up_with/0003.train
+# ::snt Onun yaptığı yemekleri görünce eski sağlıklı günlerindeki gibi evde yemek yapmaya başlamak aklına geldi .
+(13/akıl-gel
+	:ARG0 (o1/o)
+	:time (4/gör
+		:ARG1 (3/yemek
+			:ARG1-of (2/yap
+				:ARG0 (1/o)))
+		:ARG0 o1)
+	:ARG1 (12/başla
+		:ARG1 (11/yap
+			:ARG1 (10/yemek))
+		:manner (ş1/şekil
+			:ARG0-of (b1/benze
+				:ARG1 (7/gün
+					:mod (5/eski)
+					:mod (6/sağlıklı))))))
+
+# ::id Perception_active/0063.train
+# ::snt Önce bir anlayıp dinle olanları !
+(3/anla-dinle
+	:mode imperative
+	:ARG0 (s1/sen)
+	:time (1/önce)
+	:ARG1 (5/ol))
+
+# ::id Education_teaching/0001.dev
+# ::snt O üniversitede tahsil ediyor .
+(3/tahsil-et
+	:ARG0 (o1/o)
+	:location (2/üniversite
+		:mod (1/o)))
+
+# ::id Remembering_information/0009.train
+# ::snt Onu unuttum artık hatırlamıyorum bile .
+(a1/and
+	:op1 (2/unut
+		:ARG0 (b1/ben)
+		:ARG1 (1/o))
+	:op2 (4/hatırla
+		:polarity -
+		:ARG0 b1
+		:manner (3/artık)
+		:manner (5/bile)))
+
+# ::id Change_posture/0007.dev
+# ::snt Kendi evine gidip serilip yatmak istiyordu .
+(6/iste
+	:ARG0 (o1/o)
+	:ARG1 (4/seril-yat
+		:ARG0 o1)
+	:prep-after (3/git
+		:ARG0 o1
+		:ARG1 (2/ev
+			:mod (1/kendi)
+			:poss o1)))
+
+# ::id Commerce_sell/0006.train
+# ::snt Eskilerden bir kısmını yok pahasına elden çıkarmak gerekecek .
+(8/gerek
+	:ARG1 (6/el-çık
+		:manner (4/yok-pahası)
+		:ARG1 (3/kısım
+			:part-of (t1/thing
+				:mod (e1/eski)))))
+
+# ::id Shooting_scenario/0006.train
+# ::snt Adam , poligondaki deneme tahtasına kubur sıktı .
+(6/kubur-sık
+	:ARG0 (1/adam)
+	:ARG1 (4/deneme-tahtası
+		:location (3/poligon)))
+
+# ::id Change_of_quantity_of_possession/0086.train
+# ::snt Artık iki paralık oldun benim için .
+(2/iki-paralık-ol
+	:ARG0 (s1/sen)
+	:manner (1/artık)
+	:ARG2 (5/ben))
+
+# ::id Change_of_consistency/0001.test
+# ::snt Beklemekten tortulanmış .
+(2/tortulan
+	:ARG1 (o1/o)
+	:cause (1/bekle
+		:ARG0 o1))
+
+# ::id Activity_Paused_State/0002.train
+# ::snt Müzenin küratörü , küçücük bir odanın içinde zamanı dondurmuştu .
+(9/dondur
+	:ARG0 (2/küratör
+		:poss (1/müze))
+	:location (7/iç
+		:mod (6/oda
+			:mod (4/küçücük)))
+	:ARG1 (8/zaman))
+
+# ::id Apply_Heat/0025.train
+# ::snt Askerin yaralı kolunu mikrop kapmasın diye ocakta ısıttığı demir parçasıyla dağladı .
+(11/dağla
+	:ARG0 (o1/o)
+	:ARG1 (3/kol
+		:poss (1/asker)
+		:mod (2/yaralı))
+	:instrument (10/parça
+		:ARG1-of (8/ısıt
+			:ARG0 o1
+			:location (7/ocak))
+		:mod (9/demir))
+	:purpose (5/kap
+		:polarity -
+		:ARG1 (4/mikrop)
+		:ARG0 3))
+
+# ::id Telling/0011.train
+# ::snt Yetkililer konu hakkında açıklama yapmadı .
+(4/açıkla-yap
+	:polarity -
+	:ARG0 (1/yetkili)
+	:topic (2/konu))
+
+# ::id Sports_Jargon/0004.dev
+# ::snt Orta sahayı boş bırakmayın , baskı yapın !
+(a1/and
+	:op1 (3/boş-bırak
+		:polarity -
+		:mode imperative
+		:ARG0 (s1/siz)
+		:ARG1 (1/orta-saha))
+	:op2 (5/baskı-yap
+		:ARG0 s1))
+

@@ -1,0 +1,15 @@
+{
+  "model": "gemma3:latest",
+  "experiment": "E1",
+  "num_shots": 3,
+  "demonstration_ids": [
+    "Frugality/0000.train",
+    "Abandonment/0014.train",
+    "Change_of_consistency/0042.train"
+  ],
+  "sentence": "Ali kediyi gördü.",
+  "raw_output": "(3/gör\n\t:ARG0 (a1/ali)\n\t:ARG1 (b1/kedı)\n\t:UNKNOWN_REL (o1/o))",
+  "prompt_tokens": 574,
+  "num_ctx": 8192,
+  "num_predict": 1024
+}

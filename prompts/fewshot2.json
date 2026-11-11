@@ -1,0 +1,1229 @@
+[
+  {
+    "id": "Activity_Pause/0005.train",
+    "sentence": "Sadece 15 dakika çalıştıktan sonra fasıla verdi , yorulmuş !",
+    "tokens": [
+      {
+        "id": 1,
+        "form": "Sadece",
+        "morphologicalAnalysis": "sadece+ADV",
+        "metaMorphemes": "sadece",
+        "semantics": "TUR10-0661420",
+        "propbank": null,
+        "framenet": "Time$Activity_Pause$TUR10-0225800",
+        "universalDependency": {
+          "head": 2,
+          "relation": "ADVMOD"
+        }
+      },
+      {
+        "id": 2,
+        "form": "15",
+        "morphologicalAnalysis": "15+NUM+CARD",
+        "metaMorphemes": "15",
+        "semantics": "TUR10-1242120",
+        "propbank": null,
+        "framenet": "Time$Activity_Pause$TUR10-0225800",
+        "universalDependency": {
+          "head": 3,
+          "relation": "NUMMOD"
+        }
+      },
+      {
+        "id": 3,
+        "form": "dakika",
+        "morphologicalAnalysis": "dakika+NOUN+A3SG+PNON+NOM",
+        "metaMorphemes": "dakika",
+        "semantics": "TUR10-1242120",
+        "propbank": null,
+        "framenet": "Time$Activity_Pause$TUR10-0225800",
+        "universalDependency": {
+          "head": 4,
+          "relation": "NMOD"
+        }
+      },
+      {
+        "id": 4,
+        "form": "çalıştıktan",
+        "morphologicalAnalysis": "çalış+VERB+POS^DB+NOUN+PASTPART+A3SG+PNON+ABL",
+        "metaMorphemes": "çalış+DHk+DAn",
+        "semantics": "TUR10-0147860",
+        "propbank": "NONE",
+        "framenet": "Time$Activity_Pause$TUR10-0225800",
+        "universalDependency": {
+          "head": 7,
+          "relation": "ADVCL"
+        }
+      },
+      {
+        "id": 5,
+        "form": "sonra",
+        "morphologicalAnalysis": "sonra+POSTP+PCABL",
+        "metaMorphemes": "sonra",
+        "semantics": "TUR10-0565820",
+        "propbank": null,
+        "framenet": "Time$Activity_Pause$TUR10-0225800",
+        "universalDependency": {
+          "head": 4,
+          "relation": "CASE"
+        }
+      },
+      {
+        "id": 6,
+        "form": "fasıla",
+        "morphologicalAnalysis": "fasıla+NOUN+A3SG+PNON+NOM",
+        "metaMorphemes": "fasıla",
+        "semantics": "TUR10-0225800",
+        "propbank": "PREDICATE$TUR10-0225800",
+        "framenet": "PREDICATE$NONE$TUR10-0225800",
+        "universalDependency": {
+          "head": 7,
+          "relation": "COMPOUND"
+        }
+      },
+      {
+        "id": 7,
+        "form": "verdi",
+        "morphologicalAnalysis": "ver+VERB+POS+PAST+A3SG",
+        "metaMorphemes": "ver+DH",
+        "semantics": "TUR10-0225800",
+        "propbank": "PREDICATE$TUR10-0225800",
+        "framenet": "PREDICATE$NONE$TUR10-0225800",
+        "universalDependency": {
+          "head": 9,
+          "relation": "PARATAXIS"
+        }
+      },
+      {
+        "id": 8,
+        "form": ",",
+        "morphologicalAnalysis": ",+PUNC",
+        "metaMorphemes": ",",
+        "semantics": "TUR10-0820240",
+        "propbank": null,
+        "framenet": null,
+        "universalDependency": {
+          "head": 9,
+          "relation": "PUNCT"
+        }
+      },
+      {
+        "id": 9,
+        "form": "yorulmuş",
+        "morphologicalAnalysis": "yorul+VERB+POS+NARR+A3SG",
+        "metaMorphemes": "yorul+mHs",
+        "semantics": "TUR10-0860260",
+        "propbank": "PREDICATE$TUR10-0860260",
+        "framenet": "Explanation$Activity_Pause$TUR10-0225800",
+        "universalDependency": {
+          "head": 0,
+          "relation": "ROOT"
+        }
+      },
+      {
+        "id": 10,
+        "form": "!",
+        "morphologicalAnalysis": "!+PUNC",
+        "metaMorphemes": "!",
+        "semantics": "TUR10-0808050",
+        "propbank": null,
+        "framenet": null,
+        "universalDependency": {
+          "head": 9,
+          "relation": "PUNCT"
+        }
+      }
+    ],
+    "amr": "(a1/and\n\t:op1 (6/fasıla-ver\n\t\t:ARG0 (o1/o)\n\t\t:time (4/çalış\n\t\t\t:duration (t1/temporal-quantity\n\t\t\t\t:quant 15\n\t\t\t\t:unit (3/dakika)\n\t\t\t\t:mod (1/sadece))\n\t\t\t:ARG0 o1))\n\t:op2 (9/yorul\n\t\t:ARG0 o1))"
+  },
+  {
+    "id": "Process_Stop/0015.train",
+    "sentence": "Koşan yolcuyu görünce sert bir şekilde frenledi .",
+    "tokens": [
+      {
+        "id": 1,
+        "form": "Koşan",
+        "morphologicalAnalysis": "koş+VERB+POS^DB+ADJ+PRESPART",
+        "metaMorphemes": "koş+yAn",
+        "semantics": "TUR10-0474890",
+        "propbank": "ARG1$TUR10-0672700#PREDICATE$TUR10-0474890",
+        "framenet": "Explanation$Process_Stop$TUR10-0279940",
+        "universalDependency": {
+          "head": 2,
+          "relation": "ACL"
+        }
+      },
+      {
+        "id": 2,
+        "form": "yolcuyu",
+        "morphologicalAnalysis": "yolcu+NOUN+A3SG+PNON+ACC",
+        "metaMorphemes": "yolcu+yH",
+        "semantics": "TUR10-0858830",
+        "propbank": "ARG1$TUR10-0672700#ARG0$TUR10-0474890",
+        "framenet": "Explanation$Process_Stop$TUR10-0279940",
+        "universalDependency": {
+          "head": 3,
+          "relation": "OBJ"
+        }
+      },
+      {
+        "id": 3,
+        "form": "görünce",
+        "morphologicalAnalysis": "gör+VERB+POS^DB+ADV+WHEN",
+        "metaMorphemes": "gör+yHncA",
+        "semantics": "TUR10-0672700",
+        "propbank": "PREDICATE$TUR10-0672700",
+        "framenet": "Explanation$Process_Stop$TUR10-0279940",
+        "universalDependency": {
+          "head": 7,
+          "relation": "ADVCL"
+        }
+      },
+      {
+        "id": 4,
+        "form": "sert",
+        "morphologicalAnalysis": "sert+ADJ",
+        "metaMorphemes": "sert",
+        "semantics": "TUR10-0680000",
+        "propbank": null,
+        "framenet": "Manner$Process_Stop$TUR10-0279940",
+        "universalDependency": {
+          "head": 6,
+          "relation": "AMOD"
+        }
+      },
+      {
+        "id": 5,
+        "form": "bir",
+        "morphologicalAnalysis": "bir+DET",
+        "metaMorphemes": "bir",
+        "semantics": "TUR10-0105580",
+        "propbank": null,
+        "framenet": "Manner$Process_Stop$TUR10-0279940",
+        "universalDependency": {
+          "head": 6,
+          "relation": "DET"
+        }
+      },
+      {
+        "id": 6,
+        "form": "şekilde",
+        "morphologicalAnalysis": "şekil+NOUN+A3SG+PNON+LOC",
+        "metaMorphemes": "şekil+DA",
+        "semantics": "TUR10-0727420",
+        "propbank": null,
+        "framenet": "Manner$Process_Stop$TUR10-0279940",
+        "universalDependency": {
+          "head": 7,
+          "relation": "NMOD"
+        }
+      },
+      {
+        "id": 7,
+        "form": "frenledi",
+        "morphologicalAnalysis": "frenle+VERB+POS+PAST+A3SG",
+        "metaMorphemes": "frenle+DH",
+        "semantics": "TUR10-0279940",
+        "propbank": "PREDICATE$TUR10-0279940",
+        "framenet": "PREDICATE$NONE$TUR10-0279940",
+        "universalDependency": {
+          "head": 0,
+          "relation": "ROOT"
+        }
+      },
+      {
+        "id": 8,
+        "form": ".",
+        "morphologicalAnalysis": ".+PUNC",
+        "metaMorphemes": ".",
+        "semantics": "TUR10-1081860",
+        "propbank": null,
+        "framenet": null,
+        "universalDependency": {
+          "head": 7,
+          "relation": "PUNCT"
+        }
+      }
+    ],
+    "amr": "(7/frenle\n\t:ARG0 (o1/o)\n\t:time (3/gör\n\t\t:ARG1 (2/yolcu\n\t\t\t:ARG0-of (1/koş)))\n\t:manner (4/sert))"
+  },
+  {
+    "id": "Sports_Jargon/0004.dev",
+    "sentence": "Orta sahayı boş bırakmayın , baskı yapın !",
+    "tokens": [
+      {
+        "id": 1,
+        "form": "Orta",
+        "morphologicalAnalysis": "orta+ADJ",
+        "metaMorphemes": "orta",
+        "semantics": "TUR10-0592600",
+        "propbank": "ARG1$TUR10-0100160",
+        "framenet": null,
+        "universalDependency": {
+          "head": 2,
+          "relation": "COMPOUND"
+        }
+      },
+      {
+        "id": 2,
+        "form": "sahayı",
+        "morphologicalAnalysis": "saha+NOUN+A3SG+PNON+ACC",
+        "metaMorphemes": "saha+yH",
+        "semantics": "TUR10-0592600",
+        "propbank": "ARG1$TUR10-0100160",
+        "framenet": null,
+        "universalDependency": {
+          "head": 4,
+          "relation": "OBJ"
+        }
+      },
+      {
+        "id": 3,
+        "form": "boş",
+        "morphologicalAnalysis": "boş+ADJ",
+        "metaMorphemes": "boş",
+        "semantics": "TUR10-1151360",
+        "propbank": null,
+        "framenet": null,
+        "universalDependency": {
+          "head": 4,
+          "relation": "ADVMOD"
+        }
+      },
+      {
+        "id": 4,
+        "form": "bırakmayın",
+        "morphologicalAnalysis": "bırak+VERB+NEG+IMP+A2PL",
+        "metaMorphemes": "bırak+mA+yHn",
+        "semantics": "TUR10-0100160",
+        "propbank": "PREDICATE$TUR10-0100160",
+        "framenet": null,
+        "universalDependency": {
+          "head": 7,
+          "relation": "PARATAXIS"
+        }
+      },
+      {
+        "id": 5,
+        "form": ",",
+        "morphologicalAnalysis": ",+PUNC",
+        "metaMorphemes": ",",
+        "semantics": "TUR10-0820240",
+        "propbank": null,
+        "framenet": null,
+        "universalDependency": {
+          "head": 4,
+          "relation": "PUNCT"
+        }
+      },
+      {
+        "id": 6,
+        "form": "baskı",
+        "morphologicalAnalysis": "baskı+NOUN+A3SG+PNON+NOM",
+        "metaMorphemes": "baskı",
+        "semantics": "TUR10-0955770",
+        "propbank": "PREDICATE$TUR10-0955770",
+        "framenet": "PREDICATE$NONE$TUR10-0955770",
+        "universalDependency": {
+          "head": 7,
+          "relation": "COMPOUND"
+        }
+      },
+      {
+        "id": 7,
+        "form": "yapın",
+        "morphologicalAnalysis": "yap+VERB+POS+IMP+A2PL",
+        "metaMorphemes": "yap+yHn",
+        "semantics": "TUR10-0955770",
+        "propbank": "PREDICATE$TUR10-0955770",
+        "framenet": "PREDICATE$NONE$TUR10-0955770",
+        "universalDependency": {
+          "head": 0,
+          "relation": "ROOT"
+        }
+      },
+      {
+        "id": 8,
+        "form": "!",
+        "morphologicalAnalysis": "!+PUNC",
+        "metaMorphemes": "!",
+        "semantics": "TUR10-0808050",
+        "propbank": null,
+        "framenet": null,
+        "universalDependency": {
+          "head": 7,
+          "relation": "PUNCT"
+        }
+      }
+    ],
+    "amr": "(a1/and\n\t:op1 (3/boş-bırak\n\t\t:polarity -\n\t\t:mode imperative\n\t\t:ARG0 (s1/siz)\n\t\t:ARG1 (1/orta-saha))\n\t:op2 (5/baskı-yap\n\t\t:ARG0 s1))"
+  },
+  {
+    "id": "Apply_Heat/0025.train",
+    "sentence": "Askerin yaralı kolunu mikrop kapmasın diye ocakta ısıttığı demir parçasıyla dağladı .",
+    "tokens": [
+      {
+        "id": 1,
+        "form": "Askerin",
+        "morphologicalAnalysis": "asker+NOUN+A3SG+PNON+GEN",
+        "metaMorphemes": "asker+nHn",
+        "semantics": "TUR10-0050020",
+        "propbank": "ARG1$TUR10-0178550#ARG2$TUR10-0695870",
+        "framenet": null,
+        "universalDependency": {
+          "head": 3,
+          "relation": "NMOD"
+        }
+      },
+      {
+        "id": 2,
+        "form": "yaralı",
+        "morphologicalAnalysis": "yaralı+ADJ",
+        "metaMorphemes": "yaralı",
+        "semantics": null,
+        "propbank": "ARG1$TUR10-0178550#ARG2$TUR10-0695870",
+        "framenet": null,
+        "universalDependency": {
+          "head": 3,
+          "relation": "AMOD"
+        }
+      },
+      {
+        "id": 3,
+        "form": "kolunu",
+        "morphologicalAnalysis": "kol+NOUN+A3SG+P2SG+ACC",
+        "metaMorphemes": "kol+Hn+yH",
+        "semantics": "TUR10-0467570",
+        "propbank": "ARG1$TUR10-0178550#ARG2$TUR10-0695870",
+        "framenet": null,
+        "universalDependency": {
+          "head": 11,
+          "relation": "OBJ"
+        }
+      },
+      {
+        "id": 4,
+        "form": "mikrop",
+        "morphologicalAnalysis": "mikrop+NOUN+A3SG+PNON+NOM",
+        "metaMorphemes": "mikrop",
+        "semantics": "TUR10-0544950",
+        "propbank": "ARG1$TUR10-0695870",
+        "framenet": "Purpose$Apply_Heat$TUR10-0178550",
+        "universalDependency": {
+          "head": 5,
+          "relation": "COMPOUND"
+        }
+      },
+      {
+        "id": 5,
+        "form": "kapmasın",
+        "morphologicalAnalysis": "kap+VERB+NEG+IMP+A3SG",
+        "metaMorphemes": "kap+mA+SHn",
+        "semantics": "TUR10-0695870",
+        "propbank": "PREDICATE$TUR10-0695870",
+        "framenet": "Purpose$Apply_Heat$TUR10-0178550",
+        "universalDependency": {
+          "head": 11,
+          "relation": "ADVCL"
+        }
+      },
+      {
+        "id": 6,
+        "form": "diye",
+        "morphologicalAnalysis": "diye+POSTP+PCNOM",
+        "metaMorphemes": "diye",
+        "semantics": "TUR10-0211480",
+        "propbank": null,
+        "framenet": "Purpose$Apply_Heat$TUR10-0178550",
+        "universalDependency": {
+          "head": 5,
+          "relation": "MARK"
+        }
+      },
+      {
+        "id": 7,
+        "form": "ocakta",
+        "morphologicalAnalysis": "ocak+NOUN+A3SG+PNON+LOC",
+        "metaMorphemes": "ocak+DA",
+        "semantics": "TUR10-0581830",
+        "propbank": null,
+        "framenet": null,
+        "universalDependency": {
+          "head": 8,
+          "relation": "OBL"
+        }
+      },
+      {
+        "id": 8,
+        "form": "ısıttığı",
+        "morphologicalAnalysis": "ısıt+VERB+POS^DB+ADJ+PASTPART+P3SG",
+        "metaMorphemes": "ısıt+DHk+sH",
+        "semantics": "TUR10-0354260",
+        "propbank": "PREDICATE$TUR10-0354260",
+        "framenet": null,
+        "universalDependency": {
+          "head": 10,
+          "relation": "ACL"
+        }
+      },
+      {
+        "id": 9,
+        "form": "demir",
+        "morphologicalAnalysis": "demir+ADJ",
+        "metaMorphemes": "demir",
+        "semantics": "TUR10-0191500",
+        "propbank": "ARG1$TUR10-0354260",
+        "framenet": null,
+        "universalDependency": {
+          "head": 10,
+          "relation": "NMOD"
+        }
+      },
+      {
+        "id": 10,
+        "form": "parçasıyla",
+        "morphologicalAnalysis": "parça+NOUN+A3SG+P3SG+INS",
+        "metaMorphemes": "parça+sH+ylA",
+        "semantics": "TUR10-0511600",
+        "propbank": "ARG1$TUR10-0354260",
+        "framenet": null,
+        "universalDependency": {
+          "head": 11,
+          "relation": "OBL"
+        }
+      },
+      {
+        "id": 11,
+        "form": "dağladı",
+        "morphologicalAnalysis": "dağla+VERB+POS+PAST+A3SG",
+        "metaMorphemes": "dağla+DH",
+        "semantics": "TUR10-0178550",
+        "propbank": "PREDICATE$TUR10-0178550",
+        "framenet": "PREDICATE$NONE$TUR10-0178550",
+        "universalDependency": {
+          "head": 0,
+          "relation": "ROOT"
+        }
+      },
+      {
+        "id": 12,
+        "form": ".",
+        "morphologicalAnalysis": ".+PUNC",
+        "metaMorphemes": ".",
+        "semantics": "TUR10-1081860",
+        "propbank": null,
+        "framenet": null,
+        "universalDependency": {
+          "head": 11,
+          "relation": "PUNCT"
+        }
+      }
+    ],
+    "amr": "(11/dağla\n\t:ARG0 (o1/o)\n\t:ARG1 (3/kol\n\t\t:poss (1/asker)\n\t\t:mod (2/yaralı))\n\t:instrument (10/parça\n\t\t:ARG1-of (8/ısıt\n\t\t\t:ARG0 o1\n\t\t\t:location (7/ocak))\n\t\t:mod (9/demir))\n\t:purpose (5/kap\n\t\t:polarity -\n\t\t:ARG1 (4/mikrop)\n\t\t:ARG0 3))"
+  },
+  {
+    "id": "Activity_Paused_State/0002.train",
+    "sentence": "Müzenin küratörü , küçücük bir odanın içinde zamanı dondurmuştu .",
+    "tokens": [
+      {
+        "id": 1,
+        "form": "Müzenin",
+        "morphologicalAnalysis": "müze+NOUN+A3SG+PNON+GEN",
+        "metaMorphemes": "müze+nHn",
+        "semantics": "TUR10-0567240",
+        "propbank": "ARG0$TUR10-0218570",
+        "framenet": "Agent$Activity_Paused_State$TUR10-0218570",
+        "universalDependency": {
+          "head": 2,
+          "relation": "NMOD"
+        }
+      },
+      {
+        "id": 2,
+        "form": "küratörü",
+        "morphologicalAnalysis": "küratör+NOUN+A3SG+P3SG+NOM",
+        "metaMorphemes": "küratör+sH",
+        "semantics": "TUR10-0502860",
+        "propbank": "ARG0$TUR10-0218570",
+        "framenet": "Agent$Activity_Paused_State$TUR10-0218570",
+        "universalDependency": {
+          "head": 9,
+          "relation": "NSUBJ"
+        }
+      },
+      {
+        "id": 3,
+        "form": ",",
+        "morphologicalAnalysis": ",+PUNC",
+        "metaMorphemes": ",",
+        "semantics": "TUR10-0820240",
+        "propbank": null,
+        "framenet": null,
+        "universalDependency": {
+          "head": 9,
+          "relation": "PUNCT"
+        }
+      },
+      {
+        "id": 4,
+        "form": "küçücük",
+        "morphologicalAnalysis": "küçücük+ADJ",
+        "metaMorphemes": "küçücük",
+        "semantics": "TUR10-0546900",
+        "propbank": null,
+        "framenet": null,
+        "universalDependency": {
+          "head": 6,
+          "relation": "AMOD"
+        }
+      },
+      {
+        "id": 5,
+        "form": "bir",
+        "morphologicalAnalysis": "bir+DET",
+        "metaMorphemes": "bir",
+        "semantics": "TUR10-0105580",
+        "propbank": null,
+        "framenet": null,
+        "universalDependency": {
+          "head": 6,
+          "relation": "DET"
+        }
+      },
+      {
+        "id": 6,
+        "form": "odanın",
+        "morphologicalAnalysis": "oda+NOUN+A3SG+PNON+GEN",
+        "metaMorphemes": "oda+nHn",
+        "semantics": "TUR10-0582130",
+        "propbank": null,
+        "framenet": null,
+        "universalDependency": {
+          "head": 7,
+          "relation": "NMOD"
+        }
+      },
+      {
+        "id": 7,
+        "form": "içinde",
+        "morphologicalAnalysis": "içinde+ADV",
+        "metaMorphemes": "içinde",
+        "semantics": "TUR10-0359150",
+        "propbank": null,
+        "framenet": null,
+        "universalDependency": {
+          "head": 9,
+          "relation": "OBL"
+        }
+      },
+      {
+        "id": 8,
+        "form": "zamanı",
+        "morphologicalAnalysis": "zaman+NOUN+A3SG+P3SG+NOM",
+        "metaMorphemes": "zaman+sH",
+        "semantics": "TUR10-0540930",
+        "propbank": "ARG1$TUR10-0218570",
+        "framenet": "Activity$Activity_Paused_State$TUR10-0218570",
+        "universalDependency": {
+          "head": 9,
+          "relation": "COMPOUND"
+        }
+      },
+      {
+        "id": 9,
+        "form": "dondurmuştu",
+        "morphologicalAnalysis": "dondur+VERB+POS+NARR+PAST+A3SG",
+        "metaMorphemes": "dondur+mHs+yDH",
+        "semantics": "TUR10-0218570",
+        "propbank": "PREDICATE$TUR10-0218570",
+        "framenet": "PREDICATE$NONE$TUR10-0218570",
+        "universalDependency": {
+          "head": 0,
+          "relation": "ROOT"
+        }
+      },
+      {
+        "id": 10,
+        "form": ".",
+        "morphologicalAnalysis": ".+PUNC",
+        "metaMorphemes": ".",
+        "semantics": "TUR10-1081860",
+        "propbank": null,
+        "framenet": null,
+        "universalDependency": {
+          "head": 9,
+          "relation": "PUNCT"
+        }
+      }
+    ],
+    "amr": "(9/dondur\n\t:ARG0 (2/küratör\n\t\t:poss (1/müze))\n\t:location (7/iç\n\t\t:mod (6/oda\n\t\t\t:mod (4/küçücük)))\n\t:ARG1 (8/zaman))"
+  },
+  {
+    "id": "Commerce_sell/0006.train",
+    "sentence": "Eskilerden bir kısmını yok pahasına elden çıkarmak gerekecek .",
+    "tokens": [
+      {
+        "id": 1,
+        "form": "Eskilerden",
+        "morphologicalAnalysis": "eski+ADJ^DB+NOUN+ZERO+A3PL+PNON+ABL",
+        "metaMorphemes": "eski+lAr+DAn",
+        "semantics": "TUR10-0245440",
+        "propbank": "ARG1$TUR10-0893690#ARG0$TUR10-0724810",
+        "framenet": "Goods$Commerce_Sell$TUR10-0893690",
+        "universalDependency": {
+          "head": 3,
+          "relation": "NMOD"
+        }
+      },
+      {
+        "id": 2,
+        "form": "bir",
+        "morphologicalAnalysis": "bir+DET",
+        "metaMorphemes": "bir",
+        "semantics": "TUR10-0105580",
+        "propbank": "ARG0$TUR10-0724810",
+        "framenet": "Goods$Commerce_Sell$TUR10-0893690",
+        "universalDependency": {
+          "head": 3,
+          "relation": "DET"
+        }
+      },
+      {
+        "id": 3,
+        "form": "kısmını",
+        "morphologicalAnalysis": "kısım+NOUN+A3SG+P3SG+ACC",
+        "metaMorphemes": "kısım+sH+nH",
+        "semantics": "TUR10-0616530",
+        "propbank": "ARG0$TUR10-0724810",
+        "framenet": "Goods$Commerce_Sell$TUR10-0893690",
+        "universalDependency": {
+          "head": 7,
+          "relation": "OBJ"
+        }
+      },
+      {
+        "id": 4,
+        "form": "yok",
+        "morphologicalAnalysis": "yok+ADV",
+        "metaMorphemes": "yok",
+        "semantics": "TUR10-0601860",
+        "propbank": "ARG0$TUR10-0724810",
+        "framenet": "Money$Commerce_Sell$TUR10-0893690",
+        "universalDependency": {
+          "head": 5,
+          "relation": "COMPOUND"
+        }
+      },
+      {
+        "id": 5,
+        "form": "pahasına",
+        "morphologicalAnalysis": "paha+NOUN+A3SG+P3SG+DAT",
+        "metaMorphemes": "paha+sH+nA",
+        "semantics": "TUR10-0601860",
+        "propbank": "ARG0$TUR10-0724810",
+        "framenet": "Money$Commerce_Sell$TUR10-0893690",
+        "universalDependency": {
+          "head": 7,
+          "relation": "NMOD"
+        }
+      },
+      {
+        "id": 6,
+        "form": "elden",
+        "morphologicalAnalysis": "el+NOUN+A3SG+PNON+ABL",
+        "metaMorphemes": "el+DAn",
+        "semantics": "TUR10-0893690",
+        "propbank": "PREDICATE$TUR10-0893690#ARG0$TUR10-0724810",
+        "framenet": "PREDICATE$NONE$TUR10-0893690",
+        "universalDependency": {
+          "head": 7,
+          "relation": "COMPOUND"
+        }
+      },
+      {
+        "id": 7,
+        "form": "çıkarmak",
+        "morphologicalAnalysis": "çık+VERB^DB+VERB+CAUS+POS^DB+NOUN+INF+A3SG+PNON+NOM",
+        "metaMorphemes": "çık+Ar+mAk",
+        "semantics": "TUR10-0893690",
+        "propbank": "PREDICATE$TUR10-0893690#ARG0$TUR10-0724810",
+        "framenet": "PREDICATE$NONE$TUR10-0893690",
+        "universalDependency": {
+          "head": 8,
+          "relation": "CSUBJ"
+        }
+      },
+      {
+        "id": 8,
+        "form": "gerekecek",
+        "morphologicalAnalysis": "gerek+VERB+POS+FUT+A3SG",
+        "metaMorphemes": "gerek+yAcAk",
+        "semantics": "TUR10-0724810",
+        "propbank": "PREDICATE$TUR10-0724810",
+        "framenet": null,
+        "universalDependency": {
+          "head": 0,
+          "relation": "ROOT"
+        }
+      },
+      {
+        "id": 9,
+        "form": ".",
+        "morphologicalAnalysis": ".+PUNC",
+        "metaMorphemes": ".",
+        "semantics": "TUR10-1081860",
+        "propbank": null,
+        "framenet": null,
+        "universalDependency": {
+          "head": 8,
+          "relation": "PUNCT"
+        }
+      }
+    ],
+    "amr": "(8/gerek\n\t:ARG1 (6/el-çık\n\t\t:manner (4/yok-pahası)\n\t\t:ARG1 (3/kısım\n\t\t\t:part-of (t1/thing\n\t\t\t\t:mod (e1/eski)))))"
+  },
+  {
+    "id": "Remembering_information/0003.train",
+    "sentence": "Bugün öğrendiklerini aklının bir köşesine yaz",
+    "tokens": [
+      {
+        "id": 1,
+        "form": "Bugün",
+        "morphologicalAnalysis": "bugün+ADV",
+        "metaMorphemes": "bugün",
+        "semantics": "TUR10-0121310",
+        "propbank": "ARG1$TUR10-0928030",
+        "framenet": "Mental_Content$Remembering_Information$TUR10-0928030",
+        "universalDependency": {
+          "head": 2,
+          "relation": "ADVMOD"
+        }
+      },
+      {
+        "id": 2,
+        "form": "öğrendiklerini",
+        "morphologicalAnalysis": "öğren+VERB+POS^DB+NOUN+PASTPART+A3PL+P3SG+ACC",
+        "metaMorphemes": "öğren+DHk+lAr+sH+nH",
+        "semantics": "TUR10-0227360",
+        "propbank": "ARG1$TUR10-0928030",
+        "framenet": "Mental_Content$Remembering_Information$TUR10-0928030",
+        "universalDependency": {
+          "head": 6,
+          "relation": "OBJ"
+        }
+      },
+      {
+        "id": 3,
+        "form": "aklının",
+        "morphologicalAnalysis": "akıl+NOUN+A3SG+P2SG+GEN",
+        "metaMorphemes": "akıl+Hn+nHn",
+        "semantics": "TUR10-0928030",
+        "propbank": "PREDICATE$TUR10-0928030",
+        "framenet": "PREDICATE$NONE$TUR10-0928030",
+        "universalDependency": {
+          "head": 4,
+          "relation": "COMPOUND"
+        }
+      },
+      {
+        "id": 4,
+        "form": "bir",
+        "morphologicalAnalysis": "bir+DET",
+        "metaMorphemes": "bir",
+        "semantics": "TUR10-0928030",
+        "propbank": "PREDICATE$TUR10-0928030",
+        "framenet": "PREDICATE$NONE$TUR10-0928030",
+        "universalDependency": {
+          "head": 5,
+          "relation": "COMPOUND"
+        }
+      },
+      {
+        "id": 5,
+        "form": "köşesine",
+        "morphologicalAnalysis": "köşe+NOUN+A3SG+P3SG+DAT",
+        "metaMorphemes": "köşe+sH+nA",
+        "semantics": "TUR10-0928030",
+        "propbank": "PREDICATE$TUR10-0928030",
+        "framenet": "PREDICATE$NONE$TUR10-0928030",
+        "universalDependency": {
+          "head": 6,
+          "relation": "COMPOUND"
+        }
+      },
+      {
+        "id": 6,
+        "form": "yaz",
+        "morphologicalAnalysis": "yaz+VERB+POS+IMP+A2SG",
+        "metaMorphemes": "yaz",
+        "semantics": "TUR10-0928030",
+        "propbank": "PREDICATE$TUR10-0928030",
+        "framenet": "PREDICATE$NONE$TUR10-0928030",
+        "universalDependency": {
+          "head": 0,
+          "relation": "ROOT"
+        }
+      }
+    ],
+    "amr": "(3/akıl-bir-köşe-yaz\n\t:ARG0 (s1/sen)\n\t:mode imperative\n\t:ARG1 (2/öğren\n\t\t:time (1/bugün)\n\t\t:ARG0 s1))"
+  },
+  {
+    "id": "Change_posture/0007.dev",
+    "sentence": "Kendi evine gidip serilip yatmak istiyordu .",
+    "tokens": [
+      {
+        "id": 1,
+        "form": "Kendi",
+        "morphologicalAnalysis": "kendi+PRON+REFLEXP+A3SG+P3SG+NOM",
+        "metaMorphemes": "kendi",
+        "semantics": "TUR10-0440770",
+        "propbank": "ARG1$TUR10-0298980",
+        "framenet": null,
+        "universalDependency": {
+          "head": 2,
+          "relation": "AMOD"
+        }
+      },
+      {
+        "id": 2,
+        "form": "evine",
+        "morphologicalAnalysis": "evin+NOUN+A3SG+PNON+DAT",
+        "metaMorphemes": "evin+yA",
+        "semantics": null,
+        "propbank": "ARG1$TUR10-0298980",
+        "framenet": null,
+        "universalDependency": {
+          "head": 3,
+          "relation": "OBL"
+        }
+      },
+      {
+        "id": 3,
+        "form": "gidip",
+        "morphologicalAnalysis": "git+VERB+POS^DB+ADV+AFTERDOINGSO",
+        "metaMorphemes": "git+yHp",
+        "semantics": "TUR10-0298980",
+        "propbank": "PREDICATE$TUR10-0298980",
+        "framenet": null,
+        "universalDependency": {
+          "head": 5,
+          "relation": "ADVCL"
+        }
+      },
+      {
+        "id": 4,
+        "form": "serilip",
+        "morphologicalAnalysis": "seril+VERB+POS^DB+ADV+AFTERDOINGSO",
+        "metaMorphemes": "seril+yHp",
+        "semantics": "TUR10-1132160",
+        "propbank": "PREDICATE$TUR10-1132160",
+        "framenet": "PREDICATE$NONE$TUR10-1132160",
+        "universalDependency": {
+          "head": 5,
+          "relation": "COMPOUND"
+        }
+      },
+      {
+        "id": 5,
+        "form": "yatmak",
+        "morphologicalAnalysis": "yat+VERB+POS^DB+NOUN+INF+A3SG+PNON+NOM",
+        "metaMorphemes": "yat+mAk",
+        "semantics": "TUR10-1132160",
+        "propbank": "PREDICATE$TUR10-1132160#ARG1$TUR10-0048420",
+        "framenet": "PREDICATE$NONE$TUR10-1132160",
+        "universalDependency": {
+          "head": 6,
+          "relation": "XCOMP"
+        }
+      },
+      {
+        "id": 6,
+        "form": "istiyordu",
+        "morphologicalAnalysis": "iste+VERB+POS+PROG1+PAST+A3SG",
+        "metaMorphemes": "iste+Hyor+yDH",
+        "semantics": "TUR10-0048420",
+        "propbank": "PREDICATE$TUR10-0048420",
+        "framenet": null,
+        "universalDependency": {
+          "head": 0,
+          "relation": "ROOT"
+        }
+      },
+      {
+        "id": 7,
+        "form": ".",
+        "morphologicalAnalysis": ".+PUNC",
+        "metaMorphemes": ".",
+        "semantics": "TUR10-1081860",
+        "propbank": null,
+        "framenet": null,
+        "universalDependency": {
+          "head": 6,
+          "relation": "PUNCT"
+        }
+      }
+    ],
+    "amr": "(6/iste\n\t:ARG0 (o1/o)\n\t:ARG1 (4/seril-yat\n\t\t:ARG0 o1)\n\t:prep-after (3/git\n\t\t:ARG0 o1\n\t\t:ARG1 (2/ev\n\t\t\t:mod (1/kendi)\n\t\t\t:poss o1)))"
+  },
+  {
+    "id": "Activity_Done/0002.train",
+    "sentence": "Her sabah oflaya puflaya işe gide gide günü doldu .",
+    "tokens": [
+      {
+        "id": 1,
+        "form": "Her",
+        "morphologicalAnalysis": "her+DET",
+        "metaMorphemes": "her",
+        "semantics": "TUR10-0339330",
+        "propbank": "ARG1$TUR10-0898240",
+        "framenet": null,
+        "universalDependency": {
+          "head": 2,
+          "relation": "DET"
+        }
+      },
+      {
+        "id": 2,
+        "form": "sabah",
+        "morphologicalAnalysis": "sabah+NOUN+A3SG+PNON+NOM",
+        "metaMorphemes": "sabah",
+        "semantics": "TUR10-0651820",
+        "propbank": "ARG1$TUR10-0898240",
+        "framenet": null,
+        "universalDependency": {
+          "head": 7,
+          "relation": "NMOD"
+        }
+      },
+      {
+        "id": 3,
+        "form": "oflaya",
+        "morphologicalAnalysis": "ofla+VERB+POS+OPT+A3SG",
+        "metaMorphemes": "ofla+yA",
+        "semantics": "TUR10-0911260",
+        "propbank": null,
+        "framenet": null,
+        "universalDependency": {
+          "head": 4,
+          "relation": "COMPOUND"
+        }
+      },
+      {
+        "id": 4,
+        "form": "puflaya",
+        "morphologicalAnalysis": "pufla+NOUN+A3SG+PNON+DAT",
+        "metaMorphemes": "pufla+yA",
+        "semantics": "TUR10-0911260",
+        "propbank": null,
+        "framenet": null,
+        "universalDependency": {
+          "head": 7,
+          "relation": "ADVCL"
+        }
+      },
+      {
+        "id": 5,
+        "form": "işe",
+        "morphologicalAnalysis": "iş+NOUN+A3SG+PNON+DAT",
+        "metaMorphemes": "iş+yA",
+        "semantics": "TUR10-0384010",
+        "propbank": null,
+        "framenet": null,
+        "universalDependency": {
+          "head": 7,
+          "relation": "OBL"
+        }
+      },
+      {
+        "id": 6,
+        "form": "gide",
+        "morphologicalAnalysis": "git+VERB+POS+OPT+A3SG",
+        "metaMorphemes": "git+yA",
+        "semantics": "TUR10-0297610",
+        "propbank": null,
+        "framenet": null,
+        "universalDependency": {
+          "head": 7,
+          "relation": "COMPOUND"
+        }
+      },
+      {
+        "id": 7,
+        "form": "gide",
+        "morphologicalAnalysis": "git+VERB+POS+OPT+A3SG",
+        "metaMorphemes": "git+yA",
+        "semantics": "TUR10-0297610",
+        "propbank": null,
+        "framenet": null,
+        "universalDependency": {
+          "head": 9,
+          "relation": "ADVCL"
+        }
+      },
+      {
+        "id": 8,
+        "form": "günü",
+        "morphologicalAnalysis": "gün+NOUN+A3SG+P3SG+NOM",
+        "metaMorphemes": "gün+sH",
+        "semantics": "TUR10-0898240",
+        "propbank": "PREDICATE$TUR10-0898240",
+        "framenet": "PREDICATE$NONE$TUR10-0898240",
+        "universalDependency": {
+          "head": 9,
+          "relation": "COMPOUND"
+        }
+      },
+      {
+        "id": 9,
+        "form": "doldu",
+        "morphologicalAnalysis": "dol+VERB+POS+PAST+A3SG",
+        "metaMorphemes": "dol+DH",
+        "semantics": "TUR10-0898240",
+        "propbank": "PREDICATE$TUR10-0898240",
+        "framenet": "PREDICATE$NONE$TUR10-0898240",
+        "universalDependency": {
+          "head": 0,
+          "relation": "ROOT"
+        }
+      },
+      {
+        "id": 10,
+        "form": ".",
+        "morphologicalAnalysis": ".+PUNC",
+        "metaMorphemes": ".",
+        "semantics": "TUR10-1081860",
+        "propbank": null,
+        "framenet": null,
+        "universalDependency": {
+          "head": 9,
+          "relation": "PUNCT"
+        }
+      }
+    ],
+    "amr": "(8/gün-dol\n\t:ARG0 (o1/o)\n\t:manner (7/git\n\t\t:ARG0 o1\n\t\t:ARG1 (5/iş)\n\t\t:time (d1/date-entity\n\t\t\t:dayperiod (2/sabah\n\t\t\t\t:mod (1/her)))\n\t\t:manner (3/of-puf)))"
+  },
+  {
+    "id": "Processing_Materials/0004.train",
+    "sentence": "Usta büyük bir titizlikle her yere badana vurdu .",
+    "tokens": [
+      {
+        "id": 1,
+        "form": "Usta",
+        "morphologicalAnalysis": "usta+ADJ",
+        "metaMorphemes": "usta",
+        "semantics": "TUR10-0130760",
+        "propbank": "ARG0$TUR10-0951340",
+        "framenet": "Agent$Processing_Materials$TUR10-0951340",
+        "universalDependency": {
+          "head": 8,
+          "relation": "NSUBJ"
+        }
+      },
+      {
+        "id": 2,
+        "form": "büyük",
+        "morphologicalAnalysis": "büyük+ADJ",
+        "metaMorphemes": "büyük",
+        "semantics": "TUR10-0128860",
+        "propbank": null,
+        "framenet": null,
+        "universalDependency": {
+          "head": 4,
+          "relation": "AMOD"
+        }
+      },
+      {
+        "id": 3,
+        "form": "bir",
+        "morphologicalAnalysis": "bir+DET",
+        "metaMorphemes": "bir",
+        "semantics": "TUR10-0105580",
+        "propbank": null,
+        "framenet": null,
+        "universalDependency": {
+          "head": 4,
+          "relation": "DET"
+        }
+      },
+      {
+        "id": 4,
+        "form": "titizlikle",
+        "morphologicalAnalysis": "titizlikle+ADV",
+        "metaMorphemes": "titizlikle",
+        "semantics": "TUR10-0373040",
+        "propbank": null,
+        "framenet": null,
+        "universalDependency": {
+          "head": 8,
+          "relation": "OBL"
+        }
+      },
+      {
+        "id": 5,
+        "form": "her",
+        "morphologicalAnalysis": "her+DET",
+        "metaMorphemes": "her",
+        "semantics": "TUR10-0339330",
+        "propbank": "ARG1$TUR10-0951340",
+        "framenet": "Material$Processing_Materials$TUR10-0951340",
+        "universalDependency": {
+          "head": 6,
+          "relation": "DET"
+        }
+      },
+      {
+        "id": 6,
+        "form": "yere",
+        "morphologicalAnalysis": "yer+NOUN+A3SG+PNON+DAT",
+        "metaMorphemes": "yer+yA",
+        "semantics": "TUR10-0090350",
+        "propbank": "ARG1$TUR10-0951340",
+        "framenet": "Material$Processing_Materials$TUR10-0951340",
+        "universalDependency": {
+          "head": 8,
+          "relation": "OBL"
+        }
+      },
+      {
+        "id": 7,
+        "form": "badana",
+        "morphologicalAnalysis": "badana+NOUN+A3SG+PNON+NOM",
+        "metaMorphemes": "badana",
+        "semantics": "TUR10-0951340",
+        "propbank": "PREDICATE$TUR10-0951340",
+        "framenet": "PREDICATE$NONE$TUR10-0951340",
+        "universalDependency": {
+          "head": 8,
+          "relation": "COMPOUND"
+        }
+      },
+      {
+        "id": 8,
+        "form": "vurdu",
+        "morphologicalAnalysis": "vur+VERB+POS+PAST+A3SG",
+        "metaMorphemes": "vur+DH",
+        "semantics": "TUR10-0951340",
+        "propbank": "PREDICATE$TUR10-0951340",
+        "framenet": "PREDICATE$NONE$TUR10-0951340",
+        "universalDependency": {
+          "head": 0,
+          "relation": "ROOT"
+        }
+      },
+      {
+        "id": 9,
+        "form": ".",
+        "morphologicalAnalysis": ".+PUNC",
+        "metaMorphemes": ".",
+        "semantics": "TUR10-1081860",
+        "propbank": null,
+        "framenet": null,
+        "universalDependency": {
+          "head": 8,
+          "relation": "PUNCT"
+        }
+      }
+    ],
+    "amr": "(7/badana-vur\n\t:ARG0 (1/usta)\n\t:ARG1 (6/yer\n\t\t:mod (5/her))\n\t:manner (4/titizlik\n\t\t:degree (2/büyük)))"
+  }
+]
