@@ -21,17 +21,17 @@ from pathlib import Path
 from amr_io import read_amr_file
 
 # ============================== SETTINGS ==============================
-GOLD_FILE = "data/amr_gold_10.txt"                                     # gold file reduced to the few-shot sentences
+GOLD_FILE = "data/amr_gold_test.txt"                                     # gold file reduced to the few-shot sentences
 OUT_DIR = "prompts"                                          # output folder (created if missing)
 ANNOTATION_ROOT = "~/Library/CloudStorage/Dropbox/FrameNet-Examples/Turkish-Phrase"   # real Dropbox location on Mac (not the ~/Dropbox shortcut)
 EXPERIMENT = "both"                                               # "1" (sentence + AMR), "2" (+ annotations), or "both"
-COMPACT_AMR = False                                               # True = one line per graph (fewer prompt tokens)
-EXP1_FILENAME = "fewshot10_e1.json"                  # output names (e.g. "test_e1.json" when building the test set)
-EXP2_FILENAME = "fewshot10_e2.json"
+COMPACT_AMR = True                                               # True = one line per graph (fewer prompt tokens)
+EXP1_FILENAME = "test_e1.json"                  # output names (e.g. "test_e1.json" when building the test set)
+EXP2_FILENAME = "test_e2.json"
 # ======================================================================
 
-TOKEN_FIELD_ORDER = ["morphologicalAnalysis", "metaMorphemes", "semantics", "propbank", "framenet"]
-
+TOKEN_FIELD_ORDER = ["morphologicalAnalysis", "propbank", "framenet"]
+DROP_FIELDS = {"metaMorphemes", "semantics"}   # never written to the output
 
 def match_key(s):
     """NFC, no whitespace at all (so 'olursun.' and 'olursun .' compare equal)."""
@@ -66,16 +66,21 @@ def parse_annotation_text(text):
 
 def build_token(idx, f):
     tok = {"id": idx, "form": f.get("turkish")}
+
     for key in TOKEN_FIELD_ORDER:
         tok[key] = f.get(key) or None                    # missing (e.g. punctuation) -> null
+
     ud = f.get("universalDependency")
     if ud:
         head, _, rel = ud.partition("$")
         tok["universalDependency"] = {"head": int(head) if head.isdigit() else head, "relation": rel}
     else:
         tok["universalDependency"] = None
-    for key, value in f.items():                         # keep anything unexpected instead of dropping it
-        if key not in tok and key not in ("turkish", "universalDependency"):
+
+    skip = {"turkish", "universalDependency"} | DROP_FIELDS
+
+    for key, value in f.items():                         # keep anything unexpected, except dropped fields
+        if key not in tok and key not in skip:
             tok[key] = value
     return tok
 

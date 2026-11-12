@@ -2,51 +2,51 @@
   {
     "id": "Activity_Pause/0005.train",
     "sentence": "Sadece 15 dakika çalıştıktan sonra fasıla verdi , yorulmuş !",
-    "amr": "(a1/and\n\t:op1 (6/fasıla-ver\n\t\t:ARG0 (o1/o)\n\t\t:time (4/çalış\n\t\t\t:duration (t1/temporal-quantity\n\t\t\t\t:quant 15\n\t\t\t\t:unit (3/dakika)\n\t\t\t\t:mod (1/sadece))\n\t\t\t:ARG0 o1))\n\t:op2 (9/yorul\n\t\t:ARG0 o1))"
+    "amr": "(a1/and :op1 (6/fasıla-ver :ARG0 (o1/o) :time (4/çalış :duration (t1/temporal-quantity :quant 15 :unit (3/dakika) :mod (1/sadece)) :ARG0 o1)) :op2 (9/yorul :ARG0 o1))"
   },
   {
     "id": "Process_Stop/0015.train",
     "sentence": "Koşan yolcuyu görünce sert bir şekilde frenledi .",
-    "amr": "(7/frenle\n\t:ARG0 (o1/o)\n\t:time (3/gör\n\t\t:ARG1 (2/yolcu\n\t\t\t:ARG0-of (1/koş)))\n\t:manner (4/sert))"
+    "amr": "(7/frenle :ARG0 (o1/o) :time (3/gör :ARG1 (2/yolcu :ARG0-of (1/koş))) :manner (4/sert))"
   },
   {
     "id": "Sports_Jargon/0004.dev",
     "sentence": "Orta sahayı boş bırakmayın , baskı yapın !",
-    "amr": "(a1/and\n\t:op1 (3/boş-bırak\n\t\t:polarity -\n\t\t:mode imperative\n\t\t:ARG0 (s1/siz)\n\t\t:ARG1 (1/orta-saha))\n\t:op2 (5/baskı-yap\n\t\t:ARG0 s1))"
+    "amr": "(a1/and :op1 (3/boş-bırak :polarity - :mode imperative :ARG0 (s1/siz) :ARG1 (1/orta-saha)) :op2 (5/baskı-yap :ARG0 s1))"
   },
   {
     "id": "Apply_Heat/0025.train",
     "sentence": "Askerin yaralı kolunu mikrop kapmasın diye ocakta ısıttığı demir parçasıyla dağladı .",
-    "amr": "(11/dağla\n\t:ARG0 (o1/o)\n\t:ARG1 (3/kol\n\t\t:poss (1/asker)\n\t\t:mod (2/yaralı))\n\t:instrument (10/parça\n\t\t:ARG1-of (8/ısıt\n\t\t\t:ARG0 o1\n\t\t\t:location (7/ocak))\n\t\t:mod (9/demir))\n\t:purpose (5/kap\n\t\t:polarity -\n\t\t:ARG1 (4/mikrop)\n\t\t:ARG0 3))"
+    "amr": "(11/dağla :ARG0 (o1/o) :ARG1 (3/kol :poss (1/asker) :mod (2/yaralı)) :instrument (10/parça :ARG1-of (8/ısıt :ARG0 o1 :location (7/ocak)) :mod (9/demir)) :purpose (5/kap :polarity - :ARG1 (4/mikrop) :ARG0 3))"
   },
   {
     "id": "Activity_Paused_State/0002.train",
     "sentence": "Müzenin küratörü , küçücük bir odanın içinde zamanı dondurmuştu .",
-    "amr": "(9/dondur\n\t:ARG0 (2/küratör\n\t\t:poss (1/müze))\n\t:location (7/iç\n\t\t:mod (6/oda\n\t\t\t:mod (4/küçücük)))\n\t:ARG1 (8/zaman))"
+    "amr": "(9/dondur :ARG0 (2/küratör :poss (1/müze)) :location (7/iç :mod (6/oda :mod (4/küçücük))) :ARG1 (8/zaman))"
   },
   {
     "id": "Commerce_sell/0006.train",
     "sentence": "Eskilerden bir kısmını yok pahasına elden çıkarmak gerekecek .",
-    "amr": "(8/gerek\n\t:ARG1 (6/el-çık\n\t\t:manner (4/yok-pahası)\n\t\t:ARG1 (3/kısım\n\t\t\t:part-of (t1/thing\n\t\t\t\t:mod (e1/eski)))))"
+    "amr": "(8/gerek :ARG1 (6/el-çık :manner (4/yok-pahası) :ARG1 (3/kısım :part-of (t1/thing :mod (e1/eski)))))"
   },
   {
     "id": "Remembering_information/0003.train",
     "sentence": "Bugün öğrendiklerini aklının bir köşesine yaz",
-    "amr": "(3/akıl-bir-köşe-yaz\n\t:ARG0 (s1/sen)\n\t:mode imperative\n\t:ARG1 (2/öğren\n\t\t:time (1/bugün)\n\t\t:ARG0 s1))"
+    "amr": "(3/akıl-bir-köşe-yaz :ARG0 (s1/sen) :mode imperative :ARG1 (2/öğren :time (1/bugün) :ARG0 s1))"
   },
   {
     "id": "Change_posture/0007.dev",
     "sentence": "Kendi evine gidip serilip yatmak istiyordu .",
-    "amr": "(6/iste\n\t:ARG0 (o1/o)\n\t:ARG1 (4/seril-yat\n\t\t:ARG0 o1)\n\t:prep-after (3/git\n\t\t:ARG0 o1\n\t\t:ARG1 (2/ev\n\t\t\t:mod (1/kendi)\n\t\t\t:poss o1)))"
+    "amr": "(6/iste :ARG0 (o1/o) :ARG1 (4/seril-yat :ARG0 o1) :prep-after (3/git :ARG0 o1 :ARG1 (2/ev :mod (1/kendi) :poss o1)))"
   },
   {
     "id": "Activity_Done/0002.train",
     "sentence": "Her sabah oflaya puflaya işe gide gide günü doldu .",
-    "amr": "(8/gün-dol\n\t:ARG0 (o1/o)\n\t:manner (7/git\n\t\t:ARG0 o1\n\t\t:ARG1 (5/iş)\n\t\t:time (d1/date-entity\n\t\t\t:dayperiod (2/sabah\n\t\t\t\t:mod (1/her)))\n\t\t:manner (3/of-puf)))"
+    "amr": "(8/gün-dol :ARG0 (o1/o) :manner (7/git :ARG0 o1 :ARG1 (5/iş) :time (d1/date-entity :dayperiod (2/sabah :mod (1/her))) :manner (3/of-puf)))"
   },
   {
     "id": "Processing_Materials/0004.train",
     "sentence": "Usta büyük bir titizlikle her yere badana vurdu .",
-    "amr": "(7/badana-vur\n\t:ARG0 (1/usta)\n\t:ARG1 (6/yer\n\t\t:mod (5/her))\n\t:manner (4/titizlik\n\t\t:degree (2/büyük)))"
+    "amr": "(7/badana-vur :ARG0 (1/usta) :ARG1 (6/yer :mod (5/her)) :manner (4/titizlik :degree (2/büyük)))"
   }
 ]
