@@ -35,18 +35,18 @@ except ImportError:
 HERE = Path(__file__).resolve().parent
 
 # ================================ SETTINGS ================================
-MODEL = "gemma3:27b-it-qat"
-EXPERIMENT = "E1"          # "E1": sentence -> AMR    |    "E2": sentence + token annotations -> AMR
-NUM_SHOTS = 10
-NUM_CTX = 8192
+MODEL = "gemma3:latest"
+EXPERIMENT = "E2"          # "E1": sentence -> AMR    |    "E2": sentence + token annotations -> AMR
+NUM_SHOTS = 20
+NUM_CTX = 25000
 NUM_PREDICT = 1024
 TEMPERATURE = 0.0
 SEED = 0
-LIMIT = 5               # e.g. 5 = only the first 5 test sentences (smoke test); None = all
+LIMIT = None               # e.g. 5 = only the first 5 test sentences (smoke test); None = all
 
-SYSTEM_FILE = HERE / "prompts" / "system1.txt"
-DEMO_FILE = HERE / "prompts" / "fewshot10_e1.json"      # E2: use the E2 demonstrations file
-TEST_FILE = HERE / "prompts" / "test_e1.json"          # E2: use the E2 test file (with tokens)
+SYSTEM_FILE = HERE / "prompts" / "system2.txt"
+DEMO_FILE = HERE / "prompts" / "fewshot20_e2.json"      # E2: use the E2 demonstrations file
+TEST_FILE = HERE / "prompts" / "test_e2_20.json"          # E2: use the E2 test file (with tokens)
 OUTPUT_DIR = HERE / "outputs"
 # ==========================================================================
 

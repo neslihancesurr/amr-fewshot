@@ -19,9 +19,9 @@ from amr_io import read_amr_file, write_amr_file
 
 # ============================== SETTINGS ==============================
 GOLD_FILE = "data/gold_500.txt"                  # the full gold file (with the few-shot sentences still in it)
-DEMO_FILE = "prompts/fewshot1.json"         # the few-shot JSON (ids must be the gold ids)
-NUM_TO_REMOVE = 10                          # = NUM_SHOTS you use; set to 20 if you will ever run 20 shots; None = all in the file
-OUT_FILE = "data/amr_gold_test.txt"              # the new test gold file
+DEMO_FILE = "data/amr_gold_20.txt"         # the few-shot JSON (ids must be the gold ids)
+NUM_TO_REMOVE = None                         # = NUM_SHOTS you use; set to 20 if you will ever run 20 shots; None = all in the file
+OUT_FILE = "data/amr_gold_test_20.txt"              # the new test gold file
 ALSO_FILTER = ["data/test_500.txt"]                            # e.g. ["rule_based_output.txt"] -> written as rule_based_output_test.txt
 # ======================================================================
 
@@ -32,10 +32,10 @@ def key(s):
 
 def main():
     gold = read_amr_file(GOLD_FILE)
-    demos = json.load(open(DEMO_FILE, encoding="utf-8"))
+    demos = read_amr_file(DEMO_FILE)
     demos = demos if NUM_TO_REMOVE is None else demos[:NUM_TO_REMOVE]
-    drop_ids = {d["id"] for d in demos}
-    drop_snts = {key(d["sentence"]): d["id"] for d in demos}
+    drop_ids = {d.id for d in demos}
+    drop_snts = {key(d.snt): d.id for d in demos}
 
     gold_ids = {r.id for r in gold}
     not_found = sorted(drop_ids - gold_ids)

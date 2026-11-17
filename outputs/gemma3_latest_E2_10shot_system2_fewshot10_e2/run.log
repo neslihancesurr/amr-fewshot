@@ -1,0 +1,546 @@
+/Users/neslihancesur/PycharmProjects/amr-fewshot/.venv/bin/python /Users/neslihancesur/PycharmProjects/amr-fewshot/run_fewshot_eval.py
+Run: gemma3_latest_E2_10shot_system2_fewshot10_e2
+Test sentences: 490   already done: 0   to do: 490
+[1/490] Telling/0019.train  valid=True  prompt_tokens=7663  43.0s  ETA 351 min
+[2/490] Cause_to_move_in_place/0000.train  valid=True  prompt_tokens=7592  4.4s  ETA 193 min
+[3/490] Activity_Paused_State/0004.train  valid=True  prompt_tokens=7779  7.0s  ETA 147 min
+[4/490] Cognitive_comprehension/0003.train  valid=False  prompt_tokens=8295  11.4s  ETA 133 min
+[5/490] Change_posture/0044.train  valid=True  prompt_tokens=7679  6.0s  ETA 116 min
+[6/490] Change_position_on_a_scale/0026.train  valid=True  prompt_tokens=7613  4.3s  ETA 102 min
+[7/490] Change_event_time/0013.train  valid=True  prompt_tokens=7573  4.4s  ETA 93 min
+[8/490] Cause_fluidic_motion/0003.train  valid=True  prompt_tokens=7514  4.5s  ETA 85 min
+[9/490] Process_Start/0009.train  valid=True  prompt_tokens=7866  6.1s  ETA 81 min
+[10/490] Cause_benefit_or_detriment/0019.train  valid=True  prompt_tokens=7509  3.8s  ETA 76 min
+[11/490] Relating_Concepts/0000.train  valid=True  prompt_tokens=7723  7.6s  ETA 74 min
+[12/490] Hindering/0008.train  valid=True  prompt_tokens=7611  5.8s  ETA 72 min
+[13/490] Activity_Start/0001.test  valid=True  prompt_tokens=7489  3.9s  ETA 69 min
+[14/490] Activity_Resume/0000.train  valid=True  prompt_tokens=7557  4.2s  ETA 66 min
+[15/490] Cause_change/0012.train  valid=True  prompt_tokens=7654  4.9s  ETA 64 min
+[16/490] Change_position_on_a_scale/0007.train  valid=True  prompt_tokens=7707  6.3s  ETA 63 min
+[17/490] Change_posture/0003.train  valid=True  prompt_tokens=7683  6.3s  ETA 62 min
+[18/490] Perception_active/0021.train  valid=True  prompt_tokens=7646  5.4s  ETA 61 min
+[19/490] Scrutinizing_for/0000.train  valid=True  prompt_tokens=7769  7.1s  ETA 60 min
+[20/490] Activity_Prepare/0001.train  valid=True  prompt_tokens=7644  6.0s  ETA 60 min
+[21/490] Process_end/0009.train  valid=True  prompt_tokens=7772  7.0s  ETA 59 min
+[22/490] Change_of_quantity_of_possession/0085.train  valid=True  prompt_tokens=7696  7.9s  ETA 59 min
+[23/490] Win_prize/0007.train  valid=True  prompt_tokens=7636  5.8s  ETA 59 min
+[24/490] Process_Start/0008.train  valid=True  prompt_tokens=7425  3.4s  ETA 57 min
+[25/490] Hindering/0000.dev  valid=True  prompt_tokens=7761  7.5s  ETA 57 min
+ignoring epigraph data for duplicate triple: ('1', ':instance', 'geçmişi')
+[26/490] Change_position_on_a_scale/0014.train  valid=True  prompt_tokens=7737  6.5s  ETA 57 min
+[27/490] Judgement_direct_address/0009.train  valid=True  prompt_tokens=7669  6.6s  ETA 56 min
+[28/490] Recording/0000.train  valid=True  prompt_tokens=7811  6.3s  ETA 56 min
+[29/490] Cognitive_comprehension/0016.train  valid=True  prompt_tokens=7798  8.2s  ETA 56 min
+[30/490] Abandonment/0014.train  valid=True  prompt_tokens=7706  5.6s  ETA 56 min
+[31/490] Change_of_consistency/0042.train  valid=True  prompt_tokens=7409  3.2s  ETA 54 min
+[32/490] Hindering/0011.train  valid=True  prompt_tokens=7625  5.4s  ETA 54 min
+[33/490] Electronic_device/0000.train  valid=True  prompt_tokens=7742  6.9s  ETA 54 min
+[34/490] Cognitive_comprehension/0015.train  valid=True  prompt_tokens=7588  4.7s  ETA 53 min
+[35/490] Change_of_consistency/0025.train  valid=True  prompt_tokens=7599  4.3s  ETA 52 min
+[36/490] Change_position_on_a_scale/0001.train  valid=True  prompt_tokens=7886  9.0s  ETA 53 min
+[37/490] Education_teaching/0005.train  valid=True  prompt_tokens=7548  4.7s  ETA 52 min
+[38/490] Cause_fluidic_motion/0002.train  valid=True  prompt_tokens=7766  7.0s  ETA 52 min
+[39/490] Cause_change/0008.train  valid=True  prompt_tokens=7416  2.7s  ETA 51 min
+[40/490] Forward_Motion/0084.train  valid=True  prompt_tokens=7634  5.5s  ETA 51 min
+[41/490] Cause_change_of_phase/0000.train  valid=True  prompt_tokens=7613  6.3s  ETA 51 min
+[42/490] Forward_Motion/0011.test  valid=True  prompt_tokens=7753  7.4s  ETA 51 min
+[43/490] Exchange/0005.train  valid=True  prompt_tokens=7571  4.6s  ETA 50 min
+[44/490] Scrutiny/0000.train  valid=True  prompt_tokens=7706  6.0s  ETA 50 min
+ignoring epigraph data for duplicate triple: ('1', ':instance', 'firavunlar')
+[45/490] Claim_ownership/0013.train  valid=True  prompt_tokens=7843  8.6s  ETA 50 min
+[46/490] Apply_Heat/0013.train  valid=True  prompt_tokens=7638  5.4s  ETA 50 min
+[47/490] Lending/0007.train  valid=True  prompt_tokens=7663  5.9s  ETA 49 min
+[48/490] Preventing_or_letting/0001.test  valid=True  prompt_tokens=7676  5.7s  ETA 49 min
+[49/490] Change_direction/0017.train  valid=True  prompt_tokens=7896  7.8s  ETA 49 min
+[50/490] Forward_Motion/0078.train  valid=True  prompt_tokens=7622  6.1s  ETA 49 min
+[51/490] Cause_To_Burn/0000.train  valid=True  prompt_tokens=7658  6.2s  ETA 49 min
+[52/490] Process_Stop/0008.train  valid=True  prompt_tokens=7816  14.1s  ETA 50 min
+[53/490] Commerce_pay/0004.dev  valid=True  prompt_tokens=7647  10.1s  ETA 50 min
+ignoring epigraph data for duplicate triple: ('1', ':instance', 'baba')
+[54/490] Sports_Play/0001.train  valid=True  prompt_tokens=7645  5.6s  ETA 50 min
+[55/490] Sports_Jargon/0017.train  valid=True  prompt_tokens=7816  9.3s  ETA 50 min
+[56/490] Forward_Motion/0015.dev  valid=True  prompt_tokens=7743  8.3s  ETA 50 min
+ignoring epigraph data for duplicate triple: ('1', ':instance', 'aliş')
+[57/490] Processing_Materials/0035.train  valid=True  prompt_tokens=7471  5.9s  ETA 50 min
+[58/490] Change_of_quantity_of_possession/0058.train  valid=True  prompt_tokens=7612  6.4s  ETA 50 min
+[59/490] Being_in_category/0001.train  valid=True  prompt_tokens=7888  8.7s  ETA 50 min
+[60/490] Apply_Heat/0023.train  valid=True  prompt_tokens=7542  5.4s  ETA 50 min
+[61/490] Change_position_on_a_scale/0045.train  valid=True  prompt_tokens=7732  7.0s  ETA 49 min
+[62/490] Commerce_buy/0007.train  valid=True  prompt_tokens=7651  5.9s  ETA 49 min
+[63/490] Cause_To_Burn/0004.train  valid=True  prompt_tokens=7677  6.3s  ETA 49 min
+[64/490] Change_posture/0004.dev  valid=True  prompt_tokens=7640  5.6s  ETA 49 min
+[65/490] Cause_emotion/0005.train  valid=True  prompt_tokens=7595  5.5s  ETA 48 min
+[66/490] Win_prize/0000.dev  valid=True  prompt_tokens=7688  6.3s  ETA 48 min
+[67/490] Win_prize/0004.train  valid=True  prompt_tokens=7503  4.1s  ETA 48 min
+[68/490] Judgement_direct_address/0027.train  valid=True  prompt_tokens=7645  6.5s  ETA 48 min
+[69/490] Telling/0003.train  valid=True  prompt_tokens=7736  7.7s  ETA 48 min
+[70/490] Forward_Motion/0022.train  valid=True  prompt_tokens=7561  5.1s  ETA 47 min
+[71/490] Change_of_leadership/0000.train  valid=True  prompt_tokens=7421  3.4s  ETA 47 min
+[72/490] Forward_Motion/0044.train  valid=True  prompt_tokens=7735  7.0s  ETA 47 min
+[73/490] Forward_Motion/0006.test  valid=True  prompt_tokens=7647  5.4s  ETA 47 min
+[74/490] Change_operational_state/0004.train  valid=True  prompt_tokens=7849  7.2s  ETA 47 min
+[75/490] Cogitation/0005.train  valid=True  prompt_tokens=7882  9.2s  ETA 47 min
+[76/490] Carry_goods/0004.train  valid=True  prompt_tokens=7708  7.7s  ETA 47 min
+[77/490] Shooting_scenario/0005.train  valid=True  prompt_tokens=7937  10.2s  ETA 47 min
+[78/490] Telling/0002.train  valid=True  prompt_tokens=7776  7.6s  ETA 47 min
+[79/490] Change_of_phase/0012.train  valid=True  prompt_tokens=7397  3.8s  ETA 46 min
+[80/490] Perception_experience/0010.train  valid=True  prompt_tokens=7739  7.1s  ETA 46 min
+[81/490] Change_posture/0043.train  valid=True  prompt_tokens=7473  4.4s  ETA 46 min
+[82/490] Change_of_leadership/0001.train  valid=True  prompt_tokens=7584  5.2s  ETA 46 min
+[83/490] Lending/0019.train  valid=True  prompt_tokens=7528  4.2s  ETA 46 min
+[84/490] Forward_Motion/0082.train  valid=True  prompt_tokens=7507  4.1s  ETA 45 min
+[85/490] Cogitation/0017.train  valid=True  prompt_tokens=7528  4.4s  ETA 45 min
+[86/490] Process_continue/0006.train  valid=True  prompt_tokens=7989  8.7s  ETA 45 min
+[87/490] Change_position_on_a_scale/0011.train  valid=True  prompt_tokens=7765  7.3s  ETA 45 min
+[88/490] Earnings_and_losses/0004.dev  valid=True  prompt_tokens=7741  6.3s  ETA 45 min
+ignoring epigraph data for duplicate triple: ('10', ':instance', 'kenetlen')
+[89/490] Attaching/0014.train  valid=True  prompt_tokens=8059  12.1s  ETA 45 min
+[90/490] Change_position_on_a_scale/0050.train  valid=True  prompt_tokens=7845  9.6s  ETA 45 min
+ignoring epigraph data for duplicate triple: ('3', ':instance', 'tarih')
+[91/490] Activity_Start/0001.train  valid=True  prompt_tokens=7926  9.3s  ETA 45 min
+[92/490] Deciding/0005.train  valid=True  prompt_tokens=7764  8.1s  ETA 45 min
+ignoring epigraph data for duplicate triple: ('2', ':instance', 'boya')
+[93/490] Frugality/0015.train  valid=True  prompt_tokens=7737  7.8s  ETA 45 min
+[94/490] Cogitation/0008.train  valid=True  prompt_tokens=7687  7.2s  ETA 45 min
+[95/490] Bargaining/0002.train  valid=True  prompt_tokens=7428  3.7s  ETA 45 min
+[96/490] Change_operational_state/0010.train  valid=True  prompt_tokens=7786  7.0s  ETA 45 min
+[97/490] Processing_Materials/0001.test  valid=True  prompt_tokens=7509  4.9s  ETA 44 min
+[98/490] Deciding/0001.train  valid=True  prompt_tokens=7955  10.6s  ETA 45 min
+ignoring epigraph data for duplicate triple: ('1', ':instance', 'onlar')
+[99/490] Change_operational_state/0016.train  valid=True  prompt_tokens=7589  4.8s  ETA 44 min
+[100/490] Perception_active/0004.dev  valid=True  prompt_tokens=7799  9.5s  ETA 44 min
+ignoring epigraph data for duplicate triple: ('2', ':instance', 'arkadaş')
+[101/490] Forward_Motion/0148.train  valid=True  prompt_tokens=7648  6.9s  ETA 44 min
+[102/490] Lending/0005.train  valid=True  prompt_tokens=7591  4.9s  ETA 44 min
+ignoring epigraph data for duplicate triple: ('4', ':instance', 'polisler')
+ignoring epigraph data for duplicate triple: ('1', ':instance', 'firari')
+[103/490] Change_of_accessibility/0008.train  valid=True  prompt_tokens=7723  8.3s  ETA 44 min
+[104/490] Cogitation/0000.dev  valid=True  prompt_tokens=8054  10.6s  ETA 44 min
+[105/490] Worry/0013.train  valid=True  prompt_tokens=7766  7.2s  ETA 44 min
+[106/490] Change_posture/0051.train  valid=True  prompt_tokens=7793  8.4s  ETA 44 min
+[107/490] Process_end/0010.train  valid=True  prompt_tokens=7568  4.6s  ETA 44 min
+[108/490] Preventing_or_letting/0011.train  valid=True  prompt_tokens=7669  7.5s  ETA 44 min
+[109/490] Claim_ownership/0006.train  valid=True  prompt_tokens=7540  4.7s  ETA 43 min
+[110/490] Procurance/0016.train  valid=True  prompt_tokens=7571  5.2s  ETA 43 min
+[111/490] Judgement/0004.train  valid=True  prompt_tokens=7484  4.0s  ETA 43 min
+[112/490] Procurance/0012.train  valid=True  prompt_tokens=7836  7.2s  ETA 43 min
+[113/490] Frugality/0007.train  valid=True  prompt_tokens=7845  8.5s  ETA 43 min
+[114/490] Forward_Motion/0015.test  valid=True  prompt_tokens=8053  11.3s  ETA 43 min
+[115/490] Change_position_on_a_scale/0010.train  valid=True  prompt_tokens=7702  7.1s  ETA 43 min
+[116/490] Change_event_time/0008.train  valid=True  prompt_tokens=7678  6.6s  ETA 43 min
+[117/490] Perception_active/0039.train  valid=True  prompt_tokens=7685  6.4s  ETA 43 min
+[118/490] Perception/0000.test  valid=True  prompt_tokens=7683  7.2s  ETA 43 min
+Missing target: (4/aktar :ARG0 (1/tiyatro) :ARG1 (2/müzik :mod (3/opera)) :manner :manner)
+Missing target: (4/aktar :ARG0 (1/tiyatro) :ARG1 (2/müzik :mod (3/opera)) :manner :manner)
+ignoring epigraph data for duplicate triple: ('4', ':manner', None)
+[119/490] Cause_change/0001.train  valid=True  prompt_tokens=7575  5.8s  ETA 42 min
+[120/490] Apply_Heat/0028.train  valid=True  prompt_tokens=7422  3.4s  ETA 42 min
+[121/490] Cause_to_end/0000.train  valid=True  prompt_tokens=7481  3.9s  ETA 42 min
+[122/490] Change_of_consistency/0015.train  valid=True  prompt_tokens=7422  2.8s  ETA 41 min
+[123/490] Change_of_consistency/0044.train  valid=True  prompt_tokens=7516  4.0s  ETA 41 min
+[124/490] Hindering/0009.train  valid=True  prompt_tokens=7861  8.6s  ETA 41 min
+[125/490] Remembering_information/0017.train  valid=True  prompt_tokens=7800  8.2s  ETA 41 min
+[126/490] Awareness/0007.train  valid=True  prompt_tokens=7566  5.0s  ETA 41 min
+[127/490] Forward_Motion/0104.train  valid=True  prompt_tokens=7581  5.8s  ETA 41 min
+ignoring epigraph data for duplicate triple: ('1', ':instance', 'çocuk')
+[128/490] Forward_Motion/0091.train  valid=True  prompt_tokens=7906  8.3s  ETA 41 min
+[129/490] Remembering_information/0015.train  valid=True  prompt_tokens=7889  9.1s  ETA 41 min
+ignoring epigraph data for duplicate triple: ('6', ':instance', 'üfle')
+[130/490] Motion/0000.train  valid=True  prompt_tokens=7726  7.1s  ETA 41 min
+ignoring epigraph data for duplicate triple: ('o1', ':instance', 'o')
+[131/490] Perception_body/0037.train  valid=True  prompt_tokens=8006  11.2s  ETA 41 min
+[132/490] Change_posture/0070.train  valid=True  prompt_tokens=7689  5.9s  ETA 41 min
+[133/490] Process_Stop/0013.train  valid=True  prompt_tokens=7497  4.1s  ETA 40 min
+ignoring epigraph data for duplicate triple: ('6', ':instance', 'ben')
+[134/490] Activity_Finished/0000.test  valid=True  prompt_tokens=7848  8.2s  ETA 40 min
+[135/490] Cause_to_perceive/0003.train  valid=True  prompt_tokens=7624  5.4s  ETA 40 min
+[136/490] Preventing_or_letting/0003.train  valid=True  prompt_tokens=7589  5.7s  ETA 40 min
+[137/490] Cogitation/0004.train  valid=True  prompt_tokens=7815  8.0s  ETA 40 min
+[138/490] Win_prize/0005.train  valid=True  prompt_tokens=7699  6.6s  ETA 40 min
+[139/490] Worry/0018.train  valid=True  prompt_tokens=7704  7.3s  ETA 40 min
+[140/490] Commerce_pay/0004.train  valid=True  prompt_tokens=7782  7.8s  ETA 40 min
+[141/490] Judgement/0030.train  valid=True  prompt_tokens=7501  5.0s  ETA 39 min
+[142/490] Change_of_consistency/0036.train  valid=True  prompt_tokens=7404  3.1s  ETA 39 min
+[143/490] Judgement_direct_address/0028.train  valid=True  prompt_tokens=7931  9.0s  ETA 39 min
+[144/490] Abandonment/0001.train  valid=True  prompt_tokens=7940  9.2s  ETA 39 min
+[145/490] Claim_ownership/0008.train  valid=True  prompt_tokens=7655  5.9s  ETA 39 min
+[146/490] Perception_active/0006.dev  valid=True  prompt_tokens=7899  9.9s  ETA 39 min
+ignoring epigraph data for duplicate triple: ('2', ':instance', 'içeri')
+[147/490] Change_of_quantity_of_possession/0008.train  valid=True  prompt_tokens=7670  5.6s  ETA 39 min
+[148/490] Perception_active/0031.train  valid=True  prompt_tokens=7501  4.0s  ETA 39 min
+[149/490] Cause_proliferation_in_number/0000.train  valid=True  prompt_tokens=7667  6.0s  ETA 38 min
+[150/490] Commerce_pay/0020.train  valid=True  prompt_tokens=7493  4.1s  ETA 38 min
+[151/490] Sports_Jargon/0028.train  valid=True  prompt_tokens=7677  6.4s  ETA 38 min
+[152/490] Shooting_scenario/0004.train  valid=True  prompt_tokens=7630  5.9s  ETA 38 min
+[153/490] Worry/0000.train  valid=True  prompt_tokens=8054  10.2s  ETA 38 min
+[154/490] Sports_Jargon/0054.train  valid=True  prompt_tokens=7834  8.2s  ETA 38 min
+[155/490] Forward_Motion/0059.train  valid=True  prompt_tokens=7790  8.7s  ETA 38 min
+[156/490] Change_of_consistency/0050.train  valid=True  prompt_tokens=7424  3.0s  ETA 38 min
+[157/490] Preventing_or_letting/0013.train  valid=True  prompt_tokens=7567  5.2s  ETA 38 min
+[158/490] Perception_body/0042.train  valid=True  prompt_tokens=7699  7.5s  ETA 37 min
+[159/490] Abandoned_State/0002.train  valid=True  prompt_tokens=7793  7.3s  ETA 37 min
+Missing target: (6/pişman-ol :ARG0 (1/sen) :ARG1 (3/arkası :mod (2/iş) :negated))
+[160/490] Renting_out/0000.train  valid=True  prompt_tokens=7488  3.9s  ETA 37 min
+[161/490] Earnings_and_losses/0003.train  valid=True  prompt_tokens=7726  6.9s  ETA 37 min
+[162/490] Motion_in_place/0048.train  valid=True  prompt_tokens=7490  4.0s  ETA 37 min
+[163/490] Activity_Pause/0000.dev  valid=True  prompt_tokens=7577  5.3s  ETA 37 min
+[164/490] Cause_to_move_in_place/0002.train  valid=True  prompt_tokens=7507  4.1s  ETA 36 min
+[165/490] Forward_Motion/0016.train  valid=True  prompt_tokens=7471  3.9s  ETA 36 min
+[166/490] Commerce_pay/0057.train  valid=True  prompt_tokens=7934  9.5s  ETA 36 min
+ignoring epigraph data for duplicate triple: ('2', ':instance', 'sen')
+[167/490] Change_posture/0021.train  valid=True  prompt_tokens=7570  5.3s  ETA 36 min
+[168/490] Attempt/0002.train  valid=True  prompt_tokens=7727  7.1s  ETA 36 min
+[169/490] Change_posture/0027.train  valid=True  prompt_tokens=7556  5.4s  ETA 36 min
+[170/490] Telling/0001.dev  valid=True  prompt_tokens=7750  8.2s  ETA 36 min
+[171/490] Transfer/0000.train  valid=True  prompt_tokens=7853  9.0s  ETA 36 min
+[172/490] Cause_benefit_or_detriment/0013.train  valid=True  prompt_tokens=7687  6.1s  ETA 36 min
+[173/490] Motion_in_place/0037.train  valid=True  prompt_tokens=7778  9.3s  ETA 36 min
+[174/490] Being_in_category/0000.train  valid=True  prompt_tokens=8085  10.2s  ETA 36 min
+[175/490] Perception_experience/0004.train  valid=True  prompt_tokens=7642  6.0s  ETA 35 min
+[176/490] Change_direction/0021.train  valid=True  prompt_tokens=7575  5.2s  ETA 35 min
+[177/490] Change_direction/0031.train  valid=True  prompt_tokens=7599  6.6s  ETA 35 min
+[178/490] Motion_in_place/0002.test  valid=True  prompt_tokens=7529  5.0s  ETA 35 min
+[179/490] Process_Stop/0000.train  valid=True  prompt_tokens=7607  6.1s  ETA 35 min
+[180/490] Change_of_leadership/0008.train  valid=True  prompt_tokens=7592  5.7s  ETA 35 min
+[181/490] Cogitation/0000.test  valid=True  prompt_tokens=7598  6.1s  ETA 35 min
+[182/490] Perception_body/0031.train  valid=True  prompt_tokens=7440  3.7s  ETA 34 min
+[183/490] Scrutiny/0012.train  valid=True  prompt_tokens=7631  6.2s  ETA 34 min
+[184/490] Hindering/0013.train  valid=True  prompt_tokens=7782  7.8s  ETA 34 min
+[185/490] Change_operational_state/0013.train  valid=True  prompt_tokens=7641  6.5s  ETA 34 min
+[186/490] Preventing_or_letting/0012.train  valid=True  prompt_tokens=7837  8.4s  ETA 34 min
+[187/490] Change_of_quantity_of_possession/0094.train  valid=True  prompt_tokens=7826  6.9s  ETA 34 min
+ignoring epigraph data for duplicate triple: ('1', ':instance', 'sen')
+[188/490] Commerce_sell/0011.train  valid=True  prompt_tokens=8124  14.0s  ETA 34 min
+[189/490] Frugality/0006.train  valid=True  prompt_tokens=7751  8.0s  ETA 34 min
+[190/490] Forward_Motion/0057.train  valid=True  prompt_tokens=7625  6.2s  ETA 34 min
+Missing target: (4/çekiş :ARG0 (1/tüm) :ARG1 (3/arkadaş :PL))
+[191/490] Judgement_communication/0000.dev  valid=True  prompt_tokens=7499  4.6s  ETA 34 min
+[192/490] Perception_active/0071.train  valid=True  prompt_tokens=7775  7.6s  ETA 33 min
+[193/490] Judgement_direct_address/0019.train  valid=True  prompt_tokens=7702  7.8s  ETA 33 min
+[194/490] Change_direction/0003.dev  valid=True  prompt_tokens=8067  11.1s  ETA 33 min
+[195/490] Change_posture/0056.train  valid=True  prompt_tokens=7639  7.5s  ETA 33 min
+ignoring epigraph data for duplicate triple: ('1', ':instance', 'ayak')
+[196/490] Change_position_on_a_scale/0032.train  valid=True  prompt_tokens=7552  5.5s  ETA 33 min
+[197/490] Awareness/0009.train  valid=True  prompt_tokens=8159  12.1s  ETA 33 min
+[198/490] Education_teaching/0011.train  valid=True  prompt_tokens=7517  4.5s  ETA 33 min
+[199/490] Reading_activity/0001.train  valid=True  prompt_tokens=7714  7.9s  ETA 33 min
+[200/490] Change_posture/0000.test  valid=True  prompt_tokens=7696  8.0s  ETA 33 min
+[201/490] Reading_activity/0002.train  valid=True  prompt_tokens=7680  6.7s  ETA 33 min
+[202/490] Win_prize/0012.train  valid=True  prompt_tokens=7701  7.7s  ETA 33 min
+[203/490] Abandonment/0017.train  valid=True  prompt_tokens=7936  12.3s  ETA 33 min
+[204/490] Carry_goods/0002.train  valid=True  prompt_tokens=7669  6.9s  ETA 33 min
+[205/490] Attempt/0006.train  valid=True  prompt_tokens=7957  9.9s  ETA 33 min
+[206/490] Change_position_on_a_scale/0049.train  valid=True  prompt_tokens=7538  5.1s  ETA 32 min
+[207/490] Becoming/0001.train  valid=True  prompt_tokens=7720  6.7s  ETA 32 min
+[208/490] Activity_Start/0000.train  valid=True  prompt_tokens=8063  12.9s  ETA 32 min
+[209/490] Earnings_and_losses/0027.train  valid=True  prompt_tokens=7539  6.6s  ETA 32 min
+[210/490] Scrutiny/0014.train  valid=True  prompt_tokens=8066  11.3s  ETA 32 min
+[211/490] Perception_active/0057.train  valid=True  prompt_tokens=7549  5.7s  ETA 32 min
+[212/490] Change_posture/0015.train  valid=True  prompt_tokens=7661  6.4s  ETA 32 min
+[213/490] Cognitive_comprehension/0017.train  valid=True  prompt_tokens=7742  8.7s  ETA 32 min
+[214/490] Motion_in_place/0035.train  valid=True  prompt_tokens=7533  5.6s  ETA 32 min
+[215/490] Change_position_on_a_scale/0000.test  valid=True  prompt_tokens=7548  5.4s  ETA 31 min
+[216/490] Sports_Jargon/0001.test  valid=True  prompt_tokens=7833  10.3s  ETA 31 min
+[217/490] Change_event_duration/0005.train  valid=True  prompt_tokens=7378  4.8s  ETA 31 min
+[218/490] Processing_Materials/0009.train  valid=True  prompt_tokens=7711  9.1s  ETA 31 min
+[219/490] Processing_Materials/0031.train  valid=True  prompt_tokens=7523  5.7s  ETA 31 min
+[220/490] Motion_directional/0003.train  valid=True  prompt_tokens=7460  4.4s  ETA 31 min
+[221/490] Change_posture/0036.train  valid=True  prompt_tokens=7606  7.0s  ETA 31 min
+ignoring epigraph data for duplicate triple: ('1', ':instance', 'araba')
+[222/490] Motion_directional/0004.train  valid=True  prompt_tokens=7688  7.5s  ETA 31 min
+[223/490] Frugality_Time/0005.train  valid=True  prompt_tokens=7894  8.7s  ETA 31 min
+[224/490] Change_of_quantity_of_possession/0050.train  valid=True  prompt_tokens=7591  6.3s  ETA 31 min
+[225/490] Cause_change/0015.train  valid=True  prompt_tokens=7610  6.4s  ETA 30 min
+[226/490] Cause_change_of_phase/0001.train  valid=True  prompt_tokens=7637  7.4s  ETA 30 min
+Missing target: (5/kaynat :ARG0 (o1/o) :ARG1 (1/yemek) :dur : (3/beş :unit (4/dakika)) :location (2/tencere))
+[227/490] Judgement/0015.train  valid=True  prompt_tokens=7646  7.3s  ETA 30 min
+[228/490] Forward_Motion/0005.dev  valid=True  prompt_tokens=7595  6.2s  ETA 30 min
+[229/490] Hindering/0014.train  valid=True  prompt_tokens=7733  7.4s  ETA 30 min
+[230/490] Frugality_Waste/0012.train  valid=True  prompt_tokens=8204  14.4s  ETA 30 min
+ignoring epigraph data for duplicate triple: ('3', ':instance', 'şirket')
+ignoring epigraph data for duplicate triple: ('5', ':instance', 'para')
+[231/490] Memorization/0001.train  valid=True  prompt_tokens=7602  7.4s  ETA 30 min
+[232/490] Attaching/0006.train  valid=True  prompt_tokens=7708  7.8s  ETA 30 min
+[233/490] Cause_change_of_position_on_a_scale/0001.train  valid=True  prompt_tokens=7603  6.7s  ETA 30 min
+[234/490] Authority/0000.train  valid=True  prompt_tokens=7626  6.2s  ETA 30 min
+[235/490] Frugality_Money/0003.train  valid=True  prompt_tokens=8231  14.8s  ETA 30 min
+[236/490] Education_teaching/0016.train  valid=True  prompt_tokens=7492  5.1s  ETA 29 min
+[237/490] Cause_to_continue/0000.train  valid=True  prompt_tokens=7510  5.8s  ETA 29 min
+[238/490] Change_posture/0059.train  valid=True  prompt_tokens=8005  14.5s  ETA 29 min
+ignoring epigraph data for duplicate triple: ('6', ':instance', 'ayak')
+[239/490] Change_of_quantity_of_possession/0055.train  valid=True  prompt_tokens=7647  7.6s  ETA 29 min
+[240/490] Scrutinizing_for/0001.train  valid=True  prompt_tokens=7973  11.4s  ETA 29 min
+[241/490] Waiting/0000.train  valid=True  prompt_tokens=7739  9.0s  ETA 29 min
+[242/490] Judgement_direct_address/0007.train  valid=True  prompt_tokens=7788  9.0s  ETA 29 min
+[243/490] Change_of_accessibility/0000.test  valid=True  prompt_tokens=7527  6.2s  ETA 29 min
+[244/490] Worry/0008.train  valid=True  prompt_tokens=7899  11.4s  ETA 29 min
+[245/490] Change_of_quantity_of_possession/0022.train  valid=True  prompt_tokens=7516  5.7s  ETA 29 min
+[246/490] Scrutiny/0005.train  valid=False  prompt_tokens=8966  24.6s  ETA 29 min
+[247/490] Lose_possession/0000.dev  valid=True  prompt_tokens=7602  6.5s  ETA 29 min
+[248/490] Change_posture/0064.train  valid=True  prompt_tokens=7798  9.1s  ETA 29 min
+[249/490] Categorization/0003.train  valid=True  prompt_tokens=7886  10.0s  ETA 29 min
+[250/490] Judgement_communication/0017.train  valid=True  prompt_tokens=7752  7.9s  ETA 28 min
+[251/490] Process_Stop/0001.train  valid=True  prompt_tokens=7851  8.5s  ETA 28 min
+[252/490] Cause_change_of_phase/0005.train  valid=True  prompt_tokens=7801  8.9s  ETA 28 min
+[253/490] Appointing/0001.train  valid=True  prompt_tokens=7576  6.2s  ETA 28 min
+[254/490] Preventing_or_letting/0018.train  valid=True  prompt_tokens=7680  8.0s  ETA 28 min
+[255/490] Activity_Ongoing/0000.train  valid=True  prompt_tokens=8041  10.5s  ETA 28 min
+ignoring epigraph data for duplicate triple: ('1', ':instance', 'lambalar')
+[256/490] Cause_change/0011.train  valid=True  prompt_tokens=7421  3.5s  ETA 28 min
+[257/490] Change_posture/0009.train  valid=True  prompt_tokens=7578  5.3s  ETA 28 min
+[258/490] Change_of_leadership/0013.train  valid=True  prompt_tokens=7625  7.6s  ETA 28 min
+[259/490] Frugality_Time/0002.train  valid=True  prompt_tokens=7857  12.8s  ETA 27 min
+[260/490] Motion_in_place/0036.train  valid=True  prompt_tokens=7691  9.6s  ETA 27 min
+[261/490] Motion_in_place/0018.train  valid=True  prompt_tokens=7871  11.8s  ETA 27 min
+[262/490] Change_operational_state/0021.train  valid=True  prompt_tokens=7692  7.6s  ETA 27 min
+[263/490] Frugality/0014.train  valid=True  prompt_tokens=7818  10.5s  ETA 27 min
+[264/490] Attempt/0005.train  valid=True  prompt_tokens=7682  8.8s  ETA 27 min
+[265/490] Change_of_leadership/0006.train  valid=True  prompt_tokens=7584  6.5s  ETA 27 min
+[266/490] Forward_Motion/0080.train  valid=True  prompt_tokens=7620  7.3s  ETA 27 min
+[267/490] Abandonment/0000.dev  valid=True  prompt_tokens=7764  10.5s  ETA 27 min
+[268/490] Forward_Motion/0127.train  valid=True  prompt_tokens=7553  6.8s  ETA 27 min
+[269/490] Cogitation/0000.train  valid=True  prompt_tokens=7678  9.3s  ETA 27 min
+[270/490] Judgement_direct_address/0033.train  valid=True  prompt_tokens=7670  9.3s  ETA 26 min
+[271/490] Coming_up_with/0009.train  valid=True  prompt_tokens=7630  7.7s  ETA 26 min
+[272/490] Hindering/0012.train  valid=True  prompt_tokens=7575  7.7s  ETA 26 min
+[273/490] Process_continue/0001.train  valid=True  prompt_tokens=7545  6.1s  ETA 26 min
+[274/490] Motion_in_place/0040.train  valid=True  prompt_tokens=7591  7.8s  ETA 26 min
+[275/490] Change_of_consistency/0023.train  valid=True  prompt_tokens=7549  7.3s  ETA 26 min
+[276/490] Change_of_quantity_of_possession/0048.train  valid=True  prompt_tokens=7569  7.2s  ETA 26 min
+[277/490] Commerce_pay/0013.train  valid=True  prompt_tokens=7583  6.9s  ETA 26 min
+[278/490] Change_position_on_a_scale/0005.dev  valid=True  prompt_tokens=7608  7.9s  ETA 25 min
+[279/490] Attempt/0004.train  valid=True  prompt_tokens=7741  10.4s  ETA 25 min
+[280/490] Procurance/0000.dev  valid=True  prompt_tokens=7623  7.7s  ETA 25 min
+[281/490] Process_Start/0000.dev  valid=True  prompt_tokens=7720  10.0s  ETA 25 min
+[282/490] Authority/0001.train  valid=True  prompt_tokens=7778  9.9s  ETA 25 min
+[283/490] Commerce_sell/0019.train  valid=True  prompt_tokens=7715  8.6s  ETA 25 min
+[284/490] Attaching/0019.train  valid=True  prompt_tokens=7664  9.3s  ETA 25 min
+[285/490] Apply_Heat/0041.train  valid=True  prompt_tokens=7672  9.0s  ETA 25 min
+[286/490] Procurance/0014.train  valid=True  prompt_tokens=7693  8.4s  ETA 25 min
+[287/490] Motion_in_place/0004.test  valid=True  prompt_tokens=7544  5.8s  ETA 25 min
+[288/490] Perception_active/0011.train  valid=True  prompt_tokens=7604  7.4s  ETA 24 min
+[289/490] Perception_experience/0000.dev  valid=True  prompt_tokens=7523  6.1s  ETA 24 min
+[290/490] Change_of_consistency/0033.train  valid=True  prompt_tokens=7513  5.4s  ETA 24 min
+[291/490] Attaching/0017.train  valid=True  prompt_tokens=7498  5.5s  ETA 24 min
+[292/490] Perception_active/0032.train  valid=True  prompt_tokens=7570  6.4s  ETA 24 min
+[293/490] Cause_To_Burn/0006.train  valid=True  prompt_tokens=7766  11.2s  ETA 24 min
+[294/490] Change_of_quantity_of_possession/0032.train  valid=True  prompt_tokens=7595  6.1s  ETA 24 min
+[295/490] Being_Relevant/0001.train  valid=True  prompt_tokens=7808  10.9s  ETA 24 min
+[296/490] Becoming/0003.train  valid=True  prompt_tokens=7422  3.9s  ETA 23 min
+[297/490] Change_posture/0007.test  valid=True  prompt_tokens=7529  6.7s  ETA 23 min
+[298/490] Frugality_Money/0007.train  valid=True  prompt_tokens=7812  11.2s  ETA 23 min
+[299/490] Change_direction/0001.train  valid=True  prompt_tokens=7617  7.4s  ETA 23 min
+[300/490] Change_posture/0049.train  valid=True  prompt_tokens=7645  9.0s  ETA 23 min
+[301/490] Processing_Materials/0042.train  valid=True  prompt_tokens=7590  7.5s  ETA 23 min
+[302/490] Apply_Heat/0002.dev  valid=True  prompt_tokens=7621  7.8s  ETA 23 min
+[303/490] Cause_benefit_or_detriment/0001.test  valid=True  prompt_tokens=7693  9.0s  ETA 23 min
+[304/490] Game_Jargon/0026.train  valid=True  prompt_tokens=7808  12.2s  ETA 23 min
+[305/490] Process_end/0026.train  valid=True  prompt_tokens=7642  7.7s  ETA 22 min
+[306/490] Perception_body/0011.train  valid=True  prompt_tokens=7618  8.7s  ETA 22 min
+[307/490] Deciding/0008.train  valid=True  prompt_tokens=7601  8.5s  ETA 22 min
+[308/490] Claim_ownership/0000.dev  valid=True  prompt_tokens=8170  19.1s  ETA 22 min
+[309/490] Change_of_temperature/0007.train  valid=True  prompt_tokens=7644  7.8s  ETA 22 min
+[310/490] Commerce_sell/0021.train  valid=True  prompt_tokens=7647  8.1s  ETA 22 min
+[311/490] Change_posture/0018.train  valid=True  prompt_tokens=7672  7.1s  ETA 22 min
+[312/490] Cogitation/0001.dev  valid=True  prompt_tokens=7762  9.6s  ETA 22 min
+ignoring epigraph data for duplicate triple: ('2', ':instance', 'kale')
+[313/490] Forward_Motion/0149.train  valid=True  prompt_tokens=7663  9.0s  ETA 22 min
+[314/490] Change_event_duration/0001.test  valid=True  prompt_tokens=7680  8.0s  ETA 22 min
+[315/490] Commerce_pay/0026.train  valid=True  prompt_tokens=7662  8.3s  ETA 21 min
+ignoring epigraph data for duplicate triple: ('1', ':instance', 'tekel')
+[316/490] Lending/0000.train  valid=True  prompt_tokens=7558  7.7s  ETA 21 min
+[317/490] Procurance/0004.train  valid=True  prompt_tokens=7570  6.0s  ETA 21 min
+[318/490] Carry_goods/0009.train  valid=True  prompt_tokens=7586  5.8s  ETA 21 min
+[319/490] Lending/0003.train  valid=True  prompt_tokens=7619  7.5s  ETA 21 min
+ignoring epigraph data for duplicate triple: ('1', ':instance', 'kiracı')
+[320/490] Process_end/0017.train  valid=True  prompt_tokens=7458  4.6s  ETA 21 min
+[321/490] Cause_emotion/0001.train  valid=True  prompt_tokens=7557  6.2s  ETA 21 min
+[322/490] Carry_goods/0012.train  valid=True  prompt_tokens=7502  5.0s  ETA 21 min
+[323/490] Preventing_or_letting/0006.train  valid=True  prompt_tokens=7547  6.1s  ETA 20 min
+[324/490] Change_operational_state/0019.train  valid=True  prompt_tokens=7785  9.4s  ETA 20 min
+[325/490] Perception_active/0024.train  valid=True  prompt_tokens=7694  8.6s  ETA 20 min
+ignoring epigraph data for duplicate triple: ('2', ':instance', 'eski')
+[326/490] Remembering_information/0000.dev  valid=True  prompt_tokens=7555  7.6s  ETA 20 min
+[327/490] Change_event_duration/0006.train  valid=True  prompt_tokens=7741  8.9s  ETA 20 min
+[328/490] Expulse/0007.train  valid=True  prompt_tokens=7613  6.9s  ETA 20 min
+[329/490] Being_Relevant/0002.train  valid=True  prompt_tokens=7880  13.5s  ETA 20 min
+ignoring epigraph data for duplicate triple: ('1', ':instance', 'onun')
+[330/490] Change_posture/0041.train  valid=True  prompt_tokens=7719  9.5s  ETA 20 min
+[331/490] Forward_Motion/0041.train  valid=True  prompt_tokens=7558  6.9s  ETA 20 min
+[332/490] Coming_up_with/0008.train  valid=True  prompt_tokens=7712  9.0s  ETA 19 min
+[333/490] Change_of_consistency/0035.train  valid=True  prompt_tokens=7429  4.2s  ETA 19 min
+[334/490] Sounds/0000.train  valid=True  prompt_tokens=7772  8.9s  ETA 19 min
+[335/490] Process_Start/0001.train  valid=True  prompt_tokens=7713  10.4s  ETA 19 min
+[336/490] Commerce_pay/0037.train  valid=True  prompt_tokens=7673  9.7s  ETA 19 min
+[337/490] Perception_body/0036.train  valid=True  prompt_tokens=7558  7.2s  ETA 19 min
+[338/490] Abandonment/0020.train  valid=True  prompt_tokens=7947  11.7s  ETA 19 min
+[339/490] Process_Stop/0018.train  valid=True  prompt_tokens=7879  12.8s  ETA 19 min
+[340/490] Commerce_pay/0024.train  valid=True  prompt_tokens=7611  8.9s  ETA 19 min
+[341/490] Cause_motion/0000.dev  valid=True  prompt_tokens=7566  7.8s  ETA 18 min
+[342/490] Change_event_duration/0014.train  valid=True  prompt_tokens=7649  10.2s  ETA 18 min
+[343/490] Waiting/0003.train  valid=True  prompt_tokens=7659  9.3s  ETA 18 min
+[344/490] Cause_to_perceive/0006.train  valid=True  prompt_tokens=7594  7.9s  ETA 18 min
+[345/490] Cause_to_amalgamate/0000.train  valid=True  prompt_tokens=7675  9.6s  ETA 18 min
+[346/490] Sports_Jargon/0043.train  valid=True  prompt_tokens=7791  11.3s  ETA 18 min
+[347/490] Win_prize/0003.train  valid=True  prompt_tokens=7625  8.7s  ETA 18 min
+[348/490] Cognitive_change/0003.train  valid=True  prompt_tokens=8135  16.8s  ETA 18 min
+[349/490] Coming_to_believe/0007.train  valid=True  prompt_tokens=7567  7.3s  ETA 18 min
+[350/490] Change_operational_state/0008.train  valid=True  prompt_tokens=7702  7.8s  ETA 17 min
+[351/490] Exchange/0001.train  valid=True  prompt_tokens=7724  10.9s  ETA 17 min
+[352/490] Change_of_temperature/0004.train  valid=True  prompt_tokens=7619  7.7s  ETA 17 min
+[353/490] Claim_ownership/0011.train  valid=True  prompt_tokens=7589  7.3s  ETA 17 min
+[354/490] Perception_active/0022.train  valid=True  prompt_tokens=7608  8.5s  ETA 17 min
+[355/490] Sports_Jargon/0014.train  valid=True  prompt_tokens=7733  9.3s  ETA 17 min
+[356/490] Change_posture/0069.train  valid=True  prompt_tokens=7730  9.1s  ETA 17 min
+[357/490] Appointing/0002.train  valid=True  prompt_tokens=7582  6.5s  ETA 17 min
+[358/490] Cause_change/0007.train  valid=True  prompt_tokens=7589  8.3s  ETA 17 min
+[359/490] Research/0005.train  valid=True  prompt_tokens=7890  12.7s  ETA 16 min
+ignoring epigraph data for duplicate triple: ('1', ':instance', 'araştırmacı')
+[360/490] Cognitive_comprehension/0010.train  valid=True  prompt_tokens=7480  5.4s  ETA 16 min
+[361/490] Apply_Heat/0016.train  valid=True  prompt_tokens=7568  6.4s  ETA 16 min
+Missing target: (4/üt :ARG0 (1/odun) :ARG1 (3/mısır :PL))
+[362/490] Abandonment/0002.train  valid=True  prompt_tokens=8008  12.4s  ETA 16 min
+[363/490] Earnings_and_losses/0040.train  valid=True  prompt_tokens=7872  9.8s  ETA 16 min
+[364/490] Change_event_duration/0001.dev  valid=True  prompt_tokens=7506  5.3s  ETA 16 min
+[365/490] Claim_ownership/0002.train  valid=True  prompt_tokens=7662  7.3s  ETA 16 min
+[366/490] Sports_Jargon/0020.train  valid=True  prompt_tokens=7881  11.8s  ETA 16 min
+[367/490] Judgement_communication/0011.train  valid=True  prompt_tokens=7781  11.3s  ETA 15 min
+[368/490] Process_Stop/0006.train  valid=True  prompt_tokens=7739  8.8s  ETA 15 min
+[369/490] Judgement/0003.train  valid=True  prompt_tokens=7596  7.5s  ETA 15 min
+[370/490] Process_end/0008.train  valid=True  prompt_tokens=7527  5.7s  ETA 15 min
+[371/490] Activity_Done/0003.train  valid=True  prompt_tokens=8127  15.7s  ETA 15 min
+[372/490] Sports_Jargon/0012.train  valid=True  prompt_tokens=7766  10.1s  ETA 15 min
+[373/490] Remembering_information/0016.train  valid=True  prompt_tokens=7610  8.0s  ETA 15 min
+[374/490] Change_of_consistency/0003.train  valid=True  prompt_tokens=7505  5.7s  ETA 15 min
+[375/490] Process_Start/0010.train  valid=True  prompt_tokens=7522  6.5s  ETA 15 min
+[376/490] Activity_Start/0017.train  valid=True  prompt_tokens=7867  12.4s  ETA 14 min
+[377/490] Forward_Motion/0040.train  valid=True  prompt_tokens=7603  7.2s  ETA 14 min
+[378/490] Process_Stop/0010.train  valid=True  prompt_tokens=7529  6.6s  ETA 14 min
+[379/490] Change_of_consistency/0002.test  valid=True  prompt_tokens=7502  5.2s  ETA 14 min
+[380/490] Judgement/0010.train  valid=True  prompt_tokens=7824  13.9s  ETA 14 min
+Missing target: (9/çıkarm :ARG0 (3/kimse) :ARG1 (5/anlam :mod (6/böyle) :mod (4/şiir) :ARG0-of (2/önce) :mod (1/daha)) :neg)
+[381/490] Change_direction/0028.train  valid=True  prompt_tokens=7503  6.3s  ETA 14 min
+[382/490] Apply_Heat/0007.train  valid=True  prompt_tokens=7814  11.1s  ETA 14 min
+[383/490] Commerce_sell/0000.test  valid=False  prompt_tokens=8122  16.3s  ETA 14 min
+[384/490] Forward_Motion/0021.train  valid=True  prompt_tokens=7624  8.5s  ETA 13 min
+[385/490] Apply_Heat/0002.test  valid=True  prompt_tokens=7600  7.8s  ETA 13 min
+[386/490] Forward_Motion/0009.train  valid=True  prompt_tokens=7550  6.8s  ETA 13 min
+[387/490] Change_operational_state/0006.train  valid=True  prompt_tokens=7719  12.5s  ETA 13 min
+[388/490] Change_posture/0063.train  valid=True  prompt_tokens=7683  14.0s  ETA 13 min
+[389/490] Cause_impact/0000.train  valid=True  prompt_tokens=7506  6.9s  ETA 13 min
+[390/490] Forward_Motion/0004.dev  valid=True  prompt_tokens=8188  17.4s  ETA 13 min
+[391/490] Process_end/0004.train  valid=True  prompt_tokens=7733  8.7s  ETA 13 min
+[392/490] Remembering_information/0006.train  valid=True  prompt_tokens=7718  8.7s  ETA 13 min
+[393/490] Change_of_consistency/0022.train  valid=True  prompt_tokens=7579  6.1s  ETA 12 min
+[394/490] Change_posture/0010.train  valid=True  prompt_tokens=7702  7.7s  ETA 12 min
+[395/490] Change_of_leadership/0000.test  valid=True  prompt_tokens=7544  5.9s  ETA 12 min
+[396/490] Change_of_quantity_of_possession/0006.train  valid=True  prompt_tokens=7522  5.5s  ETA 12 min
+[397/490] Game_Jargon/0001.dev  valid=True  prompt_tokens=7718  7.3s  ETA 12 min
+[398/490] Activity_Paused_State/0003.train  valid=False  prompt_tokens=7886  11.0s  ETA 12 min
+[399/490] Change_of_quantity_of_possession/0009.train  valid=True  prompt_tokens=7710  6.9s  ETA 12 min
+[400/490] Earnings_and_losses/0034.train  valid=True  prompt_tokens=7872  10.4s  ETA 12 min
+[401/490] Game_Jargon/0000.test  valid=True  prompt_tokens=7799  8.4s  ETA 11 min
+[402/490] Change_posture/0057.train  valid=True  prompt_tokens=8064  12.9s  ETA 11 min
+ignoring epigraph data for duplicate triple: ('2', ':instance', 'adam')
+ignoring epigraph data for duplicate triple: ('6', ':instance', 'ayak')
+[403/490] Sports_Jargon/0039.train  valid=True  prompt_tokens=7800  9.2s  ETA 11 min
+[404/490] Change_of_consistency/0041.train  valid=True  prompt_tokens=7412  3.1s  ETA 11 min
+[405/490] Cause_to_be_included/0002.train  valid=True  prompt_tokens=7571  5.0s  ETA 11 min
+[406/490] Forward_Motion/0094.train  valid=True  prompt_tokens=7877  9.3s  ETA 11 min
+[407/490] Apply_Heat/0000.train  valid=True  prompt_tokens=7958  9.6s  ETA 11 min
+[408/490] Motion/0010.train  valid=True  prompt_tokens=7385  3.5s  ETA 10 min
+[409/490] Change_position_on_a_scale/0023.train  valid=True  prompt_tokens=7510  4.6s  ETA 10 min
+[410/490] Change_of_quantity_of_possession/0088.train  valid=True  prompt_tokens=7553  4.6s  ETA 10 min
+[411/490] Lending/0011.train  valid=True  prompt_tokens=7755  8.1s  ETA 10 min
+[412/490] Expulse/0010.train  valid=True  prompt_tokens=7497  4.7s  ETA 10 min
+[413/490] Commerce_pay/0048.train  valid=True  prompt_tokens=7625  6.5s  ETA 10 min
+[414/490] Change_position_on_a_scale/0044.train  valid=True  prompt_tokens=7628  6.7s  ETA 10 min
+[415/490] Change_position_on_a_scale/0025.train  valid=True  prompt_tokens=7403  3.1s  ETA 10 min
+[416/490] Activity_Pause/0015.train  valid=True  prompt_tokens=7498  4.9s  ETA 9 min
+[417/490] Change_of_quantity_of_possession/0062.train  valid=True  prompt_tokens=7702  7.8s  ETA 9 min
+[418/490] Frugality/0004.train  valid=True  prompt_tokens=7508  5.5s  ETA 9 min
+[419/490] Earnings_and_losses/0018.train  valid=True  prompt_tokens=7584  5.6s  ETA 9 min
+[420/490] Cognitive_comprehension/0018.train  valid=True  prompt_tokens=7673  6.8s  ETA 9 min
+[421/490] Telling/0033.train  valid=False  prompt_tokens=8287  17.0s  ETA 9 min
+[422/490] Cognitive_comprehension/0020.train  valid=True  prompt_tokens=7707  8.1s  ETA 9 min
+[423/490] Forward_Motion/0000.train  valid=True  prompt_tokens=7885  22.0s  ETA 9 min
+[424/490] Perception_active/0038.train  valid=True  prompt_tokens=7716  15.2s  ETA 8 min
+[425/490] Frugality/0009.train  valid=True  prompt_tokens=7834  15.6s  ETA 8 min
+[426/490] Rent/0002.train  valid=True  prompt_tokens=7629  10.9s  ETA 8 min
+[427/490] Earnings_and_losses/0030.train  valid=True  prompt_tokens=7508  6.7s  ETA 8 min
+[428/490] Activity_Prepare/0006.train  valid=True  prompt_tokens=7711  12.2s  ETA 8 min
+[429/490] Processing_Materials/0015.train  valid=True  prompt_tokens=7565  8.8s  ETA 8 min
+[430/490] Claim_ownership/0000.test  valid=True  prompt_tokens=7413  5.3s  ETA 8 min
+ignoring epigraph data for duplicate triple: ('1', ':instance', 'herkes')
+[431/490] Sports_Jargon/0029.train  valid=True  prompt_tokens=8036  15.2s  ETA 8 min
+[432/490] Procurance/0001.train  valid=True  prompt_tokens=7818  12.1s  ETA 7 min
+[433/490] Apply_Heat/0000.dev  valid=True  prompt_tokens=7629  7.5s  ETA 7 min
+[434/490] Cause_to_be_sharp/0001.train  valid=True  prompt_tokens=7489  6.4s  ETA 7 min
+[435/490] Judgement/0029.train  valid=True  prompt_tokens=7707  8.5s  ETA 7 min
+[436/490] Expectation/0004.train  valid=False  prompt_tokens=8202  21.9s  ETA 7 min
+[437/490] Procurance/0029.train  valid=True  prompt_tokens=7721  11.2s  ETA 7 min
+[438/490] Judgement/0037.train  valid=True  prompt_tokens=7753  10.5s  ETA 7 min
+[439/490] Perception_active/0046.train  valid=True  prompt_tokens=7617  9.6s  ETA 7 min
+[440/490] Cause_to_perceive/0007.train  valid=True  prompt_tokens=7587  9.2s  ETA 7 min
+ignoring epigraph data for duplicate triple: ('4', ':instance', 'geri')
+[441/490] Forward_Motion/0105.train  valid=True  prompt_tokens=7619  9.2s  ETA 6 min
+[442/490] Change_of_quantity_of_possession/0049.train  valid=True  prompt_tokens=7762  10.1s  ETA 6 min
+[443/490] Change_resistance/0010.train  valid=True  prompt_tokens=7601  7.3s  ETA 6 min
+[444/490] Apply_Heat/0017.train  valid=True  prompt_tokens=7831  10.8s  ETA 6 min
+[445/490] Judgement/0036.train  valid=True  prompt_tokens=7663  10.1s  ETA 6 min
+[446/490] Abandoned_State/0006.train  valid=True  prompt_tokens=7647  8.3s  ETA 6 min
+[447/490] Perception_body/0003.dev  valid=True  prompt_tokens=7627  8.2s  ETA 6 min
+[448/490] Preventing_or_letting/0009.train  valid=True  prompt_tokens=7510  8.6s  ETA 5 min
+[449/490] Change_of_quantity_of_possession/0078.train  valid=True  prompt_tokens=7705  9.6s  ETA 5 min
+[450/490] Forward_Motion/0019.train  valid=True  prompt_tokens=8172  16.6s  ETA 5 min
+[451/490] Judgement/0016.train  valid=True  prompt_tokens=7658  11.3s  ETA 5 min
+[452/490] Carry_goods/0000.dev  valid=True  prompt_tokens=7663  9.8s  ETA 5 min
+ignoring epigraph data for duplicate triple: ('2', ':instance', 'müdür')
+[453/490] Earnings_and_losses/0026.train  valid=True  prompt_tokens=8045  16.3s  ETA 5 min
+[454/490] Commerce_sell/0020.train  valid=True  prompt_tokens=7787  13.8s  ETA 5 min
+[455/490] Change_direction/0016.train  valid=True  prompt_tokens=7416  4.7s  ETA 5 min
+[456/490] Commerce_pay/0028.train  valid=True  prompt_tokens=7718  12.0s  ETA 4 min
+[457/490] Perception_active/0029.train  valid=True  prompt_tokens=7750  8.8s  ETA 4 min
+[458/490] Commerce_sell/0001.train  valid=True  prompt_tokens=7810  8.0s  ETA 4 min
+[459/490] Frugality_Waste/0001.train  valid=True  prompt_tokens=8511  23.6s  ETA 4 min
+ignoring epigraph data for duplicate triple: ('17', ':manner', '7')
+ignoring epigraph data for duplicate triple: ('7', ':instance', 'sonra')
+ignoring epigraph data for duplicate triple: ('17', ':location', '10')
+ignoring epigraph data for duplicate triple: ('10', ':instance', 'orada')
+[460/490] Earnings_and_losses/0010.train  valid=True  prompt_tokens=7837  11.1s  ETA 4 min
+[461/490] Frugality_Money/0002.train  valid=True  prompt_tokens=7712  7.9s  ETA 4 min
+[462/490] Commerce_pay/0009.train  valid=True  prompt_tokens=7550  5.6s  ETA 4 min
+[463/490] Change_direction/0027.train  valid=True  prompt_tokens=7984  13.9s  ETA 4 min
+[464/490] Change_of_quantity_of_possession/0056.train  valid=True  prompt_tokens=7566  6.2s  ETA 3 min
+[465/490] Hindering/0002.train  valid=True  prompt_tokens=7871  9.4s  ETA 3 min
+[466/490] Remembering_information/0001.dev  valid=True  prompt_tokens=7588  7.4s  ETA 3 min
+[467/490] Change_of_quantity_of_possession/0002.test  valid=True  prompt_tokens=7579  6.4s  ETA 3 min
+[468/490] Commerce_pay/0030.train  valid=False  prompt_tokens=8385  17.0s  ETA 3 min
+[469/490] Frugality_Time/0001.train  valid=True  prompt_tokens=7586  6.8s  ETA 3 min
+[470/490] Abandoned_State/0001.train  valid=True  prompt_tokens=8161  14.5s  ETA 3 min
+[471/490] Commerce_pay/0042.train  valid=True  prompt_tokens=7927  11.0s  ETA 3 min
+[472/490] Coming_up_with/0016.train  valid=True  prompt_tokens=7869  10.3s  ETA 2 min
+[473/490] Process_end/0012.train  valid=True  prompt_tokens=7672  9.2s  ETA 2 min
+[474/490] Process_end/0019.train  valid=True  prompt_tokens=7609  7.1s  ETA 2 min
+[475/490] Earnings_and_losses/0001.dev  valid=True  prompt_tokens=7530  5.5s  ETA 2 min
+[476/490] Lose_possession/0008.train  valid=True  prompt_tokens=7613  5.6s  ETA 2 min
+[477/490] Processing_Materials/0000.train  valid=True  prompt_tokens=7613  6.5s  ETA 2 min
+[478/490] Judgement_communication/0013.train  valid=True  prompt_tokens=7631  6.4s  ETA 2 min
+[479/490] Perception_active/0045.train  valid=True  prompt_tokens=7558  5.7s  ETA 1 min
+[480/490] Motion_directional/0005.train  valid=True  prompt_tokens=7530  5.9s  ETA 1 min
+[481/490] Change_of_phase/0007.train  valid=True  prompt_tokens=7422  3.5s  ETA 1 min
+[482/490] Cause_benefit_or_detriment/0010.train  valid=True  prompt_tokens=7581  5.8s  ETA 1 min
+[483/490] Coming_up_with/0003.train  valid=False  prompt_tokens=8399  19.7s  ETA 1 min
+[484/490] Perception_active/0063.train  valid=True  prompt_tokens=7556  6.4s  ETA 1 min
+[485/490] Education_teaching/0001.dev  valid=True  prompt_tokens=7548  4.8s  ETA 1 min
+[486/490] Remembering_information/0009.train  valid=True  prompt_tokens=7580  5.7s  ETA 1 min
+[487/490] Shooting_scenario/0006.train  valid=True  prompt_tokens=7768  7.6s  ETA 0 min
+[488/490] Change_of_quantity_of_possession/0086.train  valid=True  prompt_tokens=7627  6.2s  ETA 0 min
+[489/490] Change_of_consistency/0001.test  valid=True  prompt_tokens=7432  4.1s  ETA 0 min
+[490/490] Telling/0011.train  valid=True  prompt_tokens=7687  7.9s  ETA 0 min
+
+Done. 490 sentences written, 482 valid Penman (98.4%).
+pred: /Users/neslihancesur/PycharmProjects/amr-fewshot/outputs/gemma3_latest_E2_10shot_system2_fewshot10_e2/pred.txt
+gold: /Users/neslihancesur/PycharmProjects/amr-fewshot/outputs/gemma3_latest_E2_10shot_system2_fewshot10_e2/gold.txt
+
+Process finished with exit code 0

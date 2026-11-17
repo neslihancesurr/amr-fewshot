@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "Telling/0019.train",
+    "sentence": "Halk onu bir kahraman olarak nitelendiriyor .",
+    "amr": "(6/nitelendir :ARG0 (1/halk) :ARG1 (2/o) :ARG2 (4/kahraman))"
+  },
+  {
+    "id": "Cause_to_move_in_place/0000.train",
+    "sentence": "Kitapların hepsini çantasına aldı .",
+    "amr": "(4/al :ARG0 (o1/o) :ARG1 (2/hepsi :mod (1/kitap)) :ARG2 (3/çanta :poss o1))"
+  },
+  {
+    "id": "Activity_Paused_State/0004.train",
+    "sentence": "Tüketicinin enflasyondan etkilenmemesi için devlet fiyatları donduracak .",
+    "amr": "(6/fiyat-dondur :ARG0 (5/devlet) :purpose (3/etkilen :polarity - :ARG0 (1/tüketici) :ARG1 (2/enflasyon)))"
+  },
+  {
+    "id": "Cognitive_comprehension/0003.train",
+    "sentence": "O öğrenciler film analizi dersinin son sınav konularında zorla da olsa iyice pişti .",
+    "amr": "(13/piş :ARG0 (2/öğrenci :mod (o1/o)) :ARG1 (8/konu :poss (7/sınav :mod (s1/son) :poss (5/ders :poss (4/analiz :poss (3/film))))) :manner (z1/zorla))"
+  },
+  {
+    "id": "Change_posture/0044.train",
+    "sentence": "Uzun süredir görmediği dedesinin karşısında yükünüyordu .",
+    "amr": "(6/yükün :ARG0 (o1/o) :location (5/karşı :mod (4/dede :ARG-1of (3/gör :polarity - :ARG0 o1 :duration (2/süre :mod (1/uzun))))))"
+  },
+  {
+    "id": "Change_position_on_a_scale/0026.train",
+    "sentence": "Salgından sonra işler pek kesatlaştı .",
+    "amr": "(5/kesatlaş :ARG1 (3/iş) :degree (4/pek) :time (2/sonra :op1 (1/salgın)))"
+  },
+  {
+    "id": "Change_event_time/0013.train",
+    "sentence": "Şirket en sonunda moratoryuma gitti .",
+    "amr": "(4/moratoryum-git :ARG0 (1/şirket) :manner (3/sonunda :degree (2/en)))"
+  },
+  {
+    "id": "Cause_fluidic_motion/0003.train",
+    "sentence": "Uçağın içini basınçladılar .",
+    "amr": "(3/basınçla :ARG0 (o1/onlar) :ARG1 (2/iç :poss (1/uçak)))"
+  },
+  {
+    "id": "Process_Start/0009.train",
+    "sentence": "Ben bu iş için temel atıyorum , gerisini siz getirin .",
+    "amr": "(a1/and :op1 (5/temel-at :ARG0 (1/ben) :cause (3/iş :mod (2/bu))) :op2 (10/getir :mode imperative :ARG0 (9/siz) :ARG1 (8/geri)))"
+  },
+  {
+    "id": "Cause_benefit_or_detriment/0019.train",
+    "sentence": "Yaşlı adamı kafesledi .",
+    "amr": "(3/kafesle :ARG0 (o1/o) :ARG1 (2/adam :mod (1/yaşlı)))"
+  },
+  {
+    "id": "Relating_Concepts/0000.train",
+    "sentence": "Kötü düşüncelerini çoğunlukla onların tuhaflığına vurdu .",
+    "amr": "(6/vur :ARG0 (o1/o) :ARG1 (2/düşünce :mod (1/kötü) :poss o1) :frequency (3/çoğunlukla) :ARG2 (5/tuhaflık :poss (4/onlar)))"
+  },
+  {
+    "id": "Hindering/0008.train",
+    "sentence": "Teminat konusunda şirket ofsaytta kaldı .",
+    "amr": "(4/ofsayt-kal :ARG0 (3/şirket) :topic (1/teminat))"
+  },
+  {
+    "id": "Activity_Start/0001.test",
+    "sentence": "Bir hastalık geldi köye .",
+    "amr": "(3/gel :ARG0 (2/hastalık) :ARG1 (4/köy))"
+  },
+  {
+    "id": "Activity_Resume/0000.train",
+    "sentence": "Çocuk ödevi hala sürüyor .",
+    "amr": "(4/sürü :ARG0 (1/çocuk) :ARG1 (2/ödev) :manner (3/hala))"
+  },
+  {
+    "id": "Cause_change/0012.train",
+    "sentence": "Çocuk haklarıyla ilgili yasayı ondurduk .",
+    "amr": "(5/ondur :ARG0 (b1/biz) :ARG1 (4/yasa :topic (2/hak :mod (1/çocuk))))"
+  },
+  {
+    "id": "Change_position_on_a_scale/0007.train",
+    "sentence": "Geçen ay alamadığı parayı da üzerine koysun .",
+    "amr": "(6/üzerine-koy :mode imperative :ARG0 (o1/o) :ARG1 (4/para :ARG1-of (m1/mümkün :polarity - :ARG1 (3/al :ARG0 o1 :time (2/ay :mod (1/geçen))))))"
+  },
+  {
+    "id": "Change_posture/0003.train",
+    "sentence": "Karşısına geçip bağdaştı , artık dinlemeye hazırdı .",
+    "amr": "(a1/and :op1 (3/bağdaş :ARG0 (o1/o) :prep-after (2/geç :ARG0 o1 :ARG1 (1/karşı :poss o1))) :op2 (7/hazır :domain o1 :manner (5/artık) :ARG1 (6/dinleme)))"
+  },
+  {
+    "id": "Perception_active/0021.train",
+    "sentence": "Bir şey isterken hep insanın gözlerine bakar .",
+    "amr": "(6/göz-bak :ARG0 (o1/o) :ARG1 (5/insan) :prep-while (3/iste :ARG0 o1) :frequency (4/hep))"
+  },
+  {
+    "id": "Scrutinizing_for/0000.train",
+    "sentence": "Berlin'e taşındıktan sonra orayı daha iyi açınsayabildi .",
+    "amr": "(m1/mümkün :ARG1 (7/açınsa :ARG0 (o1/o) :prep-after (2/taşın :ARG0 o1 :ARG1 (c1/city :name (n1/name :op1 (1/berlin)) :wiki -)) :ARG1 (4/ora) :manner (6/iyi :degree (5/daha))))"
+  },
+  {
+    "id": "Activity_Prepare/0001.train",
+    "sentence": "Derin bir nefes alıp paçaları sıvayacağız .",
+    "amr": "(5/paça-sıva :ARG0 (b1/biz) :prep-after (3/nefes-al :mod (1/derin)))"
+  },
+  {
+    "id": "Process_end/0009.train",
+    "sentence": "Geçmişte yaşayan birçok değişik canlının nesli tükenmiş .",
+    "amr": "(6/nesil-tüken :ARG0 (5/canlı :time (3/birçok) :ARG0-of (2/yaşa :time (1/geçmiş)) :mod (4/değişik)))"
+  },
+  {
+    "id": "Change_of_quantity_of_possession/0085.train",
+    "sentence": "Boşuna almaya çalışma , işportaya düşmüş bile .",
+    "amr": "(a1/and :op1 (3/çalış :polarity - :mode imperative :ARG0 (s1/sen) :ARG1 (2/al :ARG1 (o1/o)) :manner (1/boşuna)) :op2 (5/işporta-düş :ARG0 o1 :manner (7/bile)))"
+  },
+  {
+    "id": "Win_prize/0007.train",
+    "sentence": "Okulda güzel bir başarı kaydetti .",
+    "amr": "(5/kaydet :ARG0 (o1/o) :ARG1 (4/başarı :mod (2/güzel)) :location (1/okul))"
+  },
+  {
+    "id": "Process_Start/0008.train",
+    "sentence": "Yine azara başladı .",
+    "amr": "(3/başla :ARG0 (o1/o) :ARG1 (2/azar) :manner (1/yine))"
+  },
+  {
+    "id": "Hindering/0000.dev",
+    "sentence": "Geçmişi her başladığı işe set çekiyordu .",
+    "amr": "(5/set-çek :ARG0 (1/geçmiş :poss (o1/o)) :ARG1 (4/iş :ARG-1of (3/başla :ARG0 o1) :mod (2/her)))"
+  },
+  {
+    "id": "Change_position_on_a_scale/0014.train",
+    "sentence": "Bu işle ilgilenen kişi sayısını oldukça daralttık .",
+    "amr": "(7/daralt :ARG0 (b1/biz) :ARG1 (5/sayı :mod (4/kişi :ARG0-of (3/ilgilen :ARG1 (2/iş :mod (1/bu))))) :manner (6/oldukça))"
+  },
+  {
+    "id": "Judgement_direct_address/0009.train",
+    "sentence": "Bu konuda seni ikinci kez ikaz ediyorum .",
+    "amr": "(6/ikaz-et :ARG0 (b1/ben) :topic (2/konu :mod (1/bu)) :ARG1 (3/sen) :frequency (5/kez :ord (o1/ordinal-entity :value 2)))"
+  },
+  {
+    "id": "Recording/0000.train",
+    "sentence": "Oturdu , saatlerce bant doldurdu , sesi kısılmış .",
+    "amr": "(a1/and :op1 (1/otur :ARG0 (o1/o)) :op2 (4/bant-doldur :ARG0 o1 :duration (2/saatlerce)))"
+  },
+  {
+    "id": "Cognitive_comprehension/0016.train",
+    "sentence": "Behlül çalılıktaki kıpırtının ne olduğunu seçemedi .",
+    "amr": "(m1/mümkün :ARG1 (6/seç :ARG0 (p1/person :name (n1/name :op1 (1/Behlül)) :wiki -) :polarity -))"
+  },
+  {
+    "id": "Abandonment/0014.train",
+    "sentence": "Ne yardan ne de serden geçer .",
+    "amr": "(6/geç :ARG0 (o1/o) :ARG1 (a1/and :op1 (2/yar) :op2 (5/ser)) :polarity -)"
+  },
+  {
+    "id": "Change_of_consistency/0042.train",
+    "sentence": "Kışın semizleşmişti .",
+    "amr": "(2/semizleş :ARG0 (o1/o) :time (d1/date-entity :season (1/kış)))"
+  },
+  {
+    "id": "Hindering/0011.train",
+    "sentence": "Hep kendi isteklerine ket vurdu .",
+    "amr": "(4/ket-vur :ARG0 (o1/o) :frequency (1/hep) :ARG1 (3/istek :poss o1))"
+  },
+  {
+    "id": "Electronic_device/0000.train",
+    "sentence": "Bu bilgisayardaki bilgileri diğer bilgisayara yükleyelim .",
+    "amr": "(6/yükle :ARG0 (b1/biz) :ARG1 (3/bilgi :location (2/bilgisayar :mod (1/bu))) :ARG2 (5/bilgisayar :mod (d1/diğer)))"
+  },
+  {
+    "id": "Cognitive_comprehension/0015.train",
+    "sentence": "Nihal'in jetonu geç düştü .",
+    "amr": "(2/jeton-geç-düş :ARG1 (1/Nihal))"
+  },
+  {
+    "id": "Change_of_consistency/0025.train",
+    "sentence": "Açıkta kalan ekmek kurumuş .",
+    "amr": "(4/kuru :ARG1 (3/ekmek :ARG1-of (1/açık-kal)))"
+  },
+  {
+    "id": "Change_position_on_a_scale/0001.train",
+    "sentence": "O tabloyu almayı çok istiyordum , düşünmeden teklifimi artırdım .",
+    "amr": "(a1/and :op1 (5/iste :ARG0 (b1/ben) :ARG1 (3/al :ARG1 (2/tablo :mod (1/o))) :degree (4/çok)) :op2 (9/artır :ARG0 b1 :ARG1 (8/teklif :poss b1) :prep-without (7/düşünme)))"
+  },
+  {
+    "id": "Education_teaching/0005.train",
+    "sentence": "Bir lisede İngilizce okutuyor .",
+    "amr": "(4/okut :ARG0 (o1/o) :location (2/lise) :ARG1 (3/ingilizce))"
+  },
+  {
+    "id": "Cause_fluidic_motion/0002.train",
+    "sentence": "Çocuk bardaktaki suyun hepsini halıya döktü .",
+    "amr": "(6/dök :ARG0 (1/çocuk) :ARG1 (4/hepsi :mod (3/su :location (2/bardak))) :ARG2 (5/halı))"
+  },
+  {
+    "id": "Cause_change/0008.train",
+    "sentence": "Tuvali alladı .",
+    "amr": "(2/alla :ARG0 (o1/o) :ARG1 (1/tuval))"
+  },
+  {
+    "id": "Forward_Motion/0084.train",
+    "sentence": "Kitabı bulmak için saatlerce dolaştım .",
+    "amr": "(5/dolaş :ARG0 (b1/ben) :purpose (2/bul :ARG0 b1 :ARG1 (1/kitap)) :duration (t1/temporal-quantity :quant (4/saatlerce)))"
+  },
+  {
+    "id": "Cause_change_of_phase/0000.train",
+    "sentence": "Büyücü kalemleri kağıda dönüştürmekte .",
+    "amr": "(4/dönüştür :ARG0 (1/büyücü) :ARG1 (2/kalem) :ARG2 (k1/kağıt))"
+  },
+  {
+    "id": "Forward_Motion/0011.test",
+    "sentence": "Bir taş merdivenden çıkıp içeriye dalıyorlardı .",
+    "amr": "(5/içeri-dal :ARG0 (o1/onlar) :prep-after (4/çık :ARG0 o1 :ARG1 (3/merdiven :mod (2/taş))))"
+  },
+  {
+    "id": "Exchange/0005.train",
+    "sentence": "Bakkala uğrayıp para bozdu .",
+    "amr": "(3/para-boz :ARG0 (o1/o) :prep-after (2/uğra :ARG0 o1 :ARG1 (1/bakkal)))"
+  },
+  {
+    "id": "Scrutiny/0000.train",
+    "sentence": "Kayıtları inceleyerek olayın kökünü kazıdı .",
+    "amr": "(4/kök-kazı :ARG0 (o1/o) :prep-by (2/incele :ARG0 o1 :ARG1 (1/kayıt)) :ARG1 (3/olay))"
+  },
+  {
+    "id": "Claim_ownership/0013.train",
+    "sentence": "Firavunlar , yeri göğü tutar , herkese hükmederdi .",
+    "amr": "(a1/and :op1 (3/yer-gök-tut :ARG0 (1/firavun)) :op2 (8/hükmet :ARG1 (7/herkes) :ARG0 1))"
+  },
+  {
+    "id": "Apply_Heat/0013.train",
+    "sentence": "Kampta hep beraber kuzu çevirecekler .",
+    "amr": "(4/kuzu-çevir :manner (2/hep-beraber) :location (1/kamp) :ARG0 (o1/onlar))"
+  },
+  {
+    "id": "Lending/0007.train",
+    "sentence": "Borç yaz , ay sonunda öderiz .",
+    "amr": "(a1/and :op1 (1/borç-yaz :mode imperative :ARG0 (s1/sen)) :op2 (6/öde :ARG0 (b1/biz) :time (5/son :part-of (4/ay))))"
+  },
+  {
+    "id": "Preventing_or_letting/0001.test",
+    "sentence": "Lütfen devam edin , sizi işinizden alıkoymayayım .",
+    "amr": "(a1/and :op1 (2/devam-et :ARG0 (s1/siz) :mode imperative) :op2 (7/alıkoy :ARG0 (b1/ben) :ARG2 (5/iş :poss s1) :ARG1 s1))"
+  },
+  {
+    "id": "Change_direction/0017.train",
+    "sentence": "Balta ve küskü ile onu kaldırır , aşağıya yuvarlarız .",
+    "amr": "(9/yuvarla :ARG0 (b1/biz) :direction (8/aşağı) :ARG1 (5/o) :prep-after (6/kaldır :ARG1 5 :ARG0 b1 :instrument (a1/and :op1 (1/balta) :op2 (3/küskü))))"
+  },
+  {
+    "id": "Forward_Motion/0078.train",
+    "sentence": "Adam akşamları hep dışarıda sürtüyor .",
+    "amr": "(5/sürt :ARG0 (1/adam) :ARG1 (4/dışarı) :time (d1/date-entity :dayperiod (2/akşam)) :frequency (3/hep))"
+  },
+  {
+    "id": "Cause_To_Burn/0000.train",
+    "sentence": "Yangın bütün mahalleyi kül etti .",
+    "amr": "(4/kül-et :ARG0 (1/yangın) :ARG1 (3/mahalle :mod (2/bütün)))"
+  },
+  {
+    "id": "Process_Stop/0008.train",
+    "sentence": "Şimdi belediye ile anlaşamayan müteşebbis cereyanı kesmiş .",
+    "amr": "(7/kes :time (1/şimdi) :ARG0 (6/cereyan :mod (5/müteşebbis :ARG0-of (m1/mümkün :ARG1 (4/anlaş :polarity - :ARG1 (2/belediye))))))"
+  },
+  {
+    "id": "Commerce_pay/0004.dev",
+    "sentence": "Babama yük oluyorum ve bundan utanıyorum .",
+    "amr": "(a1/and :op1 (6/utan :ARG0 (b1/ben) :ARG1 (2/yük-ol :ARG0 b1 :ARG1 (1/baba :poss b1))) :op2 2)"
+  },
+  {
+    "id": "Sports_Play/0001.train",
+    "sentence": "Maraton koşmadan önce egzersiz yapmalısın .",
+    "amr": "(ö1/öner :ARG1 (4/egzersiz-yap :ARG0 (s1/sen) :time (3/önce :op1 (2/koş :ARG1 (1/maraton) :ARG0 s1))))"
+  },
+  {
+    "id": "Sports_Jargon/0017.train",
+    "sentence": "Çetin koşmuyor diyorsunuz ama o kafası ile oynuyor .",
+    "amr": "(k1/karşılaştır :op1 (3/de :ARG0 (s1/siz) :ARG1 (2/koş :polarity - :ARG0 (p1/person :name (n1/name :op1 (1/çetin)) :wiki -))) :op2 (6/kafa-ile-oyna :ARG0 p1))"
+  },
+  {
+    "id": "Forward_Motion/0015.dev",
+    "sentence": "Aliş kulübeye girerken tozu dumana kattı .",
+    "amr": "(4/toz-duman-kat :ARG0 (p1/person :name (n1/name :op1 (1/aliş)) :wiki -) :prep-while (3/gir :ARG1 (2/kulübe) :ARG0 p1))"
+  },
+  {
+    "id": "Processing_Materials/0035.train",
+    "sentence": "Yollar yarın ziftlenecek .",
+    "amr": "(3/ziftle :ARG1 (1/yol) :time (2/yarın))"
+  },
+  {
+    "id": "Change_of_quantity_of_possession/0058.train",
+    "sentence": "Birçok kimyasal işlemden sonra abanoz kesildi .",
+    "amr": "(5/abanoz-kesil :ARG0 (o1/o) :cause (3/işlem :mod (2/kimyasal :quant (1/birçok))))"
+  },
+  {
+    "id": "Being_in_category/0001.train",
+    "sentence": "Nerede buluşacağımızı sormamış olması maalesef o anlama geliyor .",
+    "amr": "(7/anlam-gel :ARG0 (3/sor :polarity - :ARG0 (o1/o) :ARG1 (2/buluş :ARG0 (b1/biz) :location (a1/amr-unknown))) :manner (5/maalesef) :mod (6/o))"
+  },
+  {
+    "id": "Apply_Heat/0023.train",
+    "sentence": "Demiri dövmeden tava getirmelisin .",
+    "amr": "(g1/gerek :ARG1 (4/getir :ARG0 (s1/sen) :prep-without (2/döv :ARG0 s1 :ARG1 (1/demir))))"
+  },
+  {
+    "id": "Change_position_on_a_scale/0045.train",
+    "sentence": "Çok ısrar edince biraz fiyat kırdı .",
+    "amr": "(5/fiyat-kır :ARG0 (o1/o) :time (2/ısrar-et :degree (1/çok)) :manner (4/biraz))"
+  },
+  {
+    "id": "Commerce_buy/0007.train",
+    "sentence": "Bu firma kumaş ticareti yapıyor .",
+    "amr": "(4/ticaret-yap :ARG0 (2/firma :mod (1/bu)))"
+  },
+  {
+    "id": "Cause_To_Burn/0004.train",
+    "sentence": "Kan davalısı evlerini yangına verdi .",
+    "amr": "(4/yangın-ver :ARG0 (2/davalı :mod (1/kan) :poss (o1/onlar)) :ARG1 (3/ev :poss o1))"
+  },
+  {
+    "id": "Change_posture/0004.dev",
+    "sentence": "Secde ederek dua etmeye başladı .",
+    "amr": "(5/başla :ARG0 (o1/o) :ARG1 (3/dua-et :ARG0 o1) :prep-by (1/secde-et :ARG0 o1))"
+  },
+  {
+    "id": "Cause_emotion/0005.train",
+    "sentence": "Arkadaşlarını tek tek şad etti .",
+    "amr": "(4/şad-et :ARG0 (o1/o) :ARG1 (1/arkadaş :poss o1) :manner (2/tek-tek))"
+  },
+  {
+    "id": "Win_prize/0000.dev",
+    "sentence": "Bankalarda bu ay çok para kazanıldı .",
+    "amr": "(6/kazanıl :ARG1 (5/para) :location (1/banka) :time (3/ay :mod (2/bu)) :degree (4/çok))"
+  },
+  {
+    "id": "Win_prize/0004.train",
+    "sentence": "Şans oyununu kazandım .",
+    "amr": "(3/kazan :ARG0 (b1/ben) :ARG1 (2/oyun :mod (1/şans)))"
+  },
+  {
+    "id": "Judgement_direct_address/0027.train",
+    "sentence": "Recep'i kenara çekip fena hâlde haşladılar .",
+    "amr": "(6/haşla :ARG0 (o1/onlar) :prep-after (3/çek :ARG1 (p1/person :name (n1/name :op1 (1/recep)) :wiki -) :ARG4 (2/kenar) :ARG0 o1) :manner (4/fena))"
+  },
+  {
+    "id": "Telling/0003.train",
+    "sentence": "Onların yüzünden yaşadıkları sıkıntıları dile getirdi .",
+    "amr": "(5/dil-getir :ARG1 (4/sıkıntı :ARG1-of (3/yaşa :manner (2/yüzünden :mod (1/o)))))"
+  },
+  {
+    "id": "Forward_Motion/0022.train",
+    "sentence": "Köy yollarını günlerce teptim .",
+    "amr": "(4/tep :ARG0 (b1/ben) :ARG1 (2/yol :part-of (1/köy)) :duration (t1/temporal-quantity :quant (3/günlerce)))"
+  },
+  {
+    "id": "Change_of_leadership/0000.train",
+    "sentence": "Müdürü atadılar .",
+    "amr": "(2/ata :ARG0 (o1/onlar) :ARG1 (1/müdür))"
+  },
+  {
+    "id": "Forward_Motion/0006.test",
+    "sentence": "Takla attım hemen belim ağrıdı .",
+    "amr": "(a1/and :op1 (1/takla-at :ARG0 (b1/ben)) :op2 (5/ağrı :manner (3/hemen) :ARG1 (4/bel :poss b1)))"
+  },
+  {
+    "id": "Change_operational_state/0004.train",
+    "sentence": "Bu verilerin hepsini depolayalım , ileride lazım olacak .",
+    "amr": "(a1/and :op1 (4/depola :ARG0 (b1/biz) :ARG1 (3/hepsi :mod (2/veri :mod (1/bu)))) :op2 (7/lazım-ol :time (6/ileride) :ARG0 3))"
+  },
+  {
+    "id": "Cogitation/0005.train",
+    "sentence": "Ona kötülük etmeyi aklının ucundan bile geçirme !",
+    "amr": "(4/akıl-uç-bile-geçir :polarity - :mode imperative :ARG0 (s1/sen) :ARG1 (2/kötülük-et :ARG0 s1 :ARG1 (1/o)))"
+  },
+  {
+    "id": "Carry_goods/0004.train",
+    "sentence": "Soğancılar bu yaz da mahsulü stokluyor .",
+    "amr": "(6/stokla :ARG0 (1/soğancı) :ARG1 (5/mahsul) :time (d1/date-entity :season (3/yaz :mod (2/bu))))"
+  },
+  {
+    "id": "Shooting_scenario/0005.train",
+    "sentence": "Polis , katil zanlısının ateş etmesine kurşun atarak cevap verdi .",
+    "amr": "(9/cevap-ver :ARG0 (1/polis) :ARG1 (5/ateş-et :ARG0 (4/zanlı :mod (3/katil))) :prep-by (7/kurşun-at :ARG0 1))"
+  },
+  {
+    "id": "Telling/0002.train",
+    "sentence": "Çekirdek bizim yörede çiğdem diye tabir edilir .",
+    "amr": "(6/tabir-et :ARG1 (1/çekirdek) :location (3/yöre :poss (2/biz)) :ARG2 (4/çiğdem))"
+  },
+  {
+    "id": "Change_of_phase/0012.train",
+    "sentence": "Çok terledim .",
+    "amr": "(2/terle :ARG0 (b1/ben) :degree (1/çok))"
+  },
+  {
+    "id": "Perception_experience/0010.train",
+    "sentence": "Burnum tıkalı olduğu için hiçbir şeyin tadını alamıyorum .",
+    "amr": "(m1/mümkün :ARG1 (7/tat-al :polarity - :ARG0 (b1/ben) :cause (2/tıkalı :domain (b2/burun :poss b1))))"
+  },
+  {
+    "id": "Change_posture/0043.train",
+    "sentence": "Sınıfın arkalarına yerleşti .",
+    "amr": "(3/yerleş :ARG0 (o1/o) :ARG1 (2/arka :mod (1/sınıf)))"
+  },
+  {
+    "id": "Change_of_leadership/0001.train",
+    "sentence": "Venezuela'da askeriye devleti devirdi .",
+    "amr": "(4/devir :ARG0 (2/askeriye) :ARG1 (3/devlet) :location (c1/country :wiki - :name (n1/name :op1 (1/venezuela))))"
+  },
+  {
+    "id": "Lending/0019.train",
+    "sentence": "Manav , çamura yatıyor .",
+    "amr": "(3/çamur-yat :ARG0 (1/manav))"
+  },
+  {
+    "id": "Forward_Motion/0082.train",
+    "sentence": "Parkta dönüp dolaştım .",
+    "amr": "(2/dön-dolaş :ARG0 (b1/ben) :ARG1 (1/park))"
+  },
+  {
+    "id": "Cogitation/0017.train",
+    "sentence": "Yola çıkmayı düşünmek gerek .",
+    "amr": "(4/gerek :ARG1 (3/düşün :ARG1 (1/yol-çık)))"
+  },
+  {
+    "id": "Process_continue/0006.train",
+    "sentence": "Sen ne kadar çabalarsan çabala , bu düzen böyle süregelmiş , böyle süregidecek .",
+    "amr": "(a1/and :op1 (10/süregel :ARG1 (8/düzen :mod (7/bu)) :manner (b1/böyle) :concession (ç1/çabala-çabala :ARG0 (s1/sen))) :op2 (13/süregidecek :manner b1 :ARG1 (o1/o)))"
+  },
+  {
+    "id": "Change_position_on_a_scale/0011.train",
+    "sentence": "Domates ne kadar azdı , baksana , iyice büyümüş .",
+    "amr": "(a1/and :op1 (4/az :domain (1/domates) :degree (2/ne-kadar)) :op2 (6/baksana :mode imperative :ARG0 (s1/sen)) :op3 (9/büyü :degree (8/iyice) :ARG0 1))"
+  },
+  {
+    "id": "Earnings_and_losses/0004.dev",
+    "sentence": "Bu işten zarar eden ben oldum .",
+    "amr": "(3/zarar-et :ARG0 (5/ben) :ARG1 (2/iş :mod (1/bu)))"
+  },
+  {
+    "id": "Attaching/0014.train",
+    "sentence": "Atmosferin hemen dışında iki uzay aracı malzeme alış verişi için kenetlendi .",
+    "amr": "(11/kenetlen :location (3/dış :poss (1/atmosfer) :mod (2/hemen)) :ARG0 (5/uzay-aracı :quant 2) :cause (8/alış-veriş :poss (7/malzeme)))"
+  },
+  {
+    "id": "Change_position_on_a_scale/0050.train",
+    "sentence": "Bize verilen tarihleri yakalamak için projede gaza basmamız gerekli .",
+    "amr": "(9/gerek :ARG1 (7/gaz-bas :ARG0 (b1/biz) :location (6/proje)) :cause (4/yakala :ARG0 b1 :ARG1 (3/tarih :ARG1-of (2/ver :ARG2 (1/biz)))))"
+  },
+  {
+    "id": "Activity_Start/0001.train",
+    "sentence": "Biz bu araştırmayı yaparken Dante'nin kitabından yola çıktık .",
+    "amr": "(7/yol-çık :prep-while (4/yap :ARG0 (1/biz) :ARG1 (3/araştırma :mod (2/bu))) :ARG1 (6/kitap :poss (p1/person :name (n1/name :op1 (5/dante)) :wiki -)))"
+  },
+  {
+    "id": "Deciding/0005.train",
+    "sentence": "Köylüler onlara yapacaklarını karar altına aldılar .",
+    "amr": "(4/karar-alt-al :ARG0 (1/köylü) :ARG1 (3/yap :ARG1 (2/onlar) :ARG0 1))"
+  },
+  {
+    "id": "Frugality/0015.train",
+    "sentence": "Güzel boyaları karalama yaparak araya verdi .",
+    "amr": "(5/ara-ver :ARG0 (o1/o) :ARG1 (2/boya :mod (1/güzel)) :manner (4/yap :ARG1 (3/karalama)))"
+  },
+  {
+    "id": "Bargaining/0002.train",
+    "sentence": "Pazarlığı pişirdiler .",
+    "amr": "(1/pazarlık-pişir :ARG0 (o1/onlar))"
+  },
+  {
+    "id": "Change_operational_state/0010.train",
+    "sentence": "Robotu monte ettik mi geriye başka iş kalmıyor .",
+    "amr": "(8/kal :polarity - :prep-after (2/monte-et :ARG0 (b1/biz) :ARG1 (1/robot)) :ARG0 (7/iş :mod (6/başka)))"
+  },
+  {
+    "id": "Deciding/0001.train",
+    "sentence": "Onları dinledikten sonra karşı tarafı da dinleyip öylelikle kavlükarar edecekler .",
+    "amr": "(9/kavlükarar-et :ARG0 (o1/onlar) :prep-after (7/dinle :ARG1 (5/taraf :mod (4/karşı)) :time (3/sonra :op1 (2/dinle :ARG1 (1/onlar))) :ARG0 o1) :manner (8/öylelikle))"
+  },
+  {
+    "id": "Change_operational_state/0016.train",
+    "sentence": "Elektriği yak , hava karardı .",
+    "amr": "(a1/and :op1 (1/elektrik-yak :ARG0 (s1/sen) :mode imperative) :op2 (5/karar :ARG0 (4/hava)))"
+  },
+  {
+    "id": "Perception_active/0004.dev",
+    "sentence": "Tuzundan emin olmak için tatlı kaşığıyla çorbanın çeşnisine baktım .",
+    "amr": "(8/çeşni-bak :ARG0 (b1/ben) :ARG1 (7/çorba) :purpose (2/emin-ol :topic (1/tuz :poss 7)) :instrument (5/tatlı-kaşık))"
+  },
+  {
+    "id": "Forward_Motion/0148.train",
+    "sentence": "Bütün arkadaşlarımı bir araya getirdim .",
+    "amr": "(3/bir-ara-getir :ARG0 (b1/ben) :ARG1 (2/arkadaş :poss b1 :mod (1/bütün)))"
+  },
+  {
+    "id": "Lending/0005.train",
+    "sentence": "Bu para da boynunda kaldı .",
+    "amr": "(4/boyun-kal :ARG0 (2/para :mod (1/bu)))"
+  },
+  {
+    "id": "Change_of_accessibility/0008.train",
+    "sentence": "Firariyi aramak için polisler caddeyi tuttu .",
+    "amr": "(5/cadde-tut :ARG0 (4/polis) :cause (2/ara :ARG1 (1/firari) :ARG0 4))"
+  },
+  {
+    "id": "Cogitation/0000.dev",
+    "sentence": "Doktor Sevim , hastayı ilk gördüğü an kendinde değil sanmıştı .",
+    "amr": "(10/san :ARG0 (p1/person :name (n1/name :op1 (2/sevim)) :wiki - :mod (1/doktor)) :ARG2 (8/kendinde :domain (4/hasta) :polarity -) :time (6/gör :ARG1 4 :time (5/ilk) :ARG0 p1))"
+  },
+  {
+    "id": "Worry/0013.train",
+    "sentence": "Komşuları onları evde göremeyince merakından çatladı .",
+    "amr": "(5/merak-çatla :ARG0 (1/komşu :poss (2/o)) :time (m1/mümkün :ARG1 (4/gör :polarity - :ARG1 2 :location (3/ev) :ARG0 1)))"
+  },
+  {
+    "id": "Change_posture/0051.train",
+    "sentence": "Babasının karşısında manda gibi yayılması rahatsızlık vericiydi .",
+    "amr": "(6/rahatsız-ver :ARG1 (3/manda-gibi-yayıl :ARG0 (o1/o) :location (2/karşı :mod (1/baba :poss o1))))"
+  },
+  {
+    "id": "Process_end/0010.train",
+    "sentence": "Bu görüşmelerin de arkası kesilmiyor .",
+    "amr": "(4/arka-kesil :polarity - :ARG0 (g1/görüşme :mod (b1/bu)))"
+  },
+  {
+    "id": "Preventing_or_letting/0011.train",
+    "sentence": "Borçlarını kapatması için sürekli baskı altında tutuyorlardı .",
+    "amr": "(5/baskı-alt-tut :ARG0 (o1/onlar) :cause (2/kapat :ARG0 (o2/o) :ARG1 (1/borç :poss o2)) :frequency (4/sürekli) :ARG1 o2)"
+  },
+  {
+    "id": "Claim_ownership/0006.train",
+    "sentence": "İstanbul , 1453'te fethedilmiştir .",
+    "amr": "(4/fethet :ARG1 (c1/city :name (n1/name :op1 (1/istanbul)) :wiki -) :time (d1/date-entity :year 1453))"
+  },
+  {
+    "id": "Procurance/0016.train",
+    "sentence": "Büyük fırsatlar elde ettim .",
+    "amr": "(3/el-et :ARG0 (b1/ben) :ARG1 (2/fırsat :mod (1/büyük)))"
+  },
+  {
+    "id": "Judgement/0004.train",
+    "sentence": "Bol keseden ahkâm keser .",
+    "amr": "(3/ahkam-kes :ARG0 (o1/o) :manner (1/bol-kese))"
+  },
+  {
+    "id": "Procurance/0012.train",
+    "sentence": "İş arkadaşımın iyiliğini unutmayacağım , sayesinde sayeban oldum .",
+    "amr": "(a1/and :op1 (4/unut :polarity - :ARG0 (b1/ben) :ARG1 (3/iyilik :poss (2/arkadaş :mod (1/iş)))) :op2 (6/sayesinde-sayeban-ol :ARG0 b1))"
+  },
+  {
+    "id": "Frugality/0007.train",
+    "sentence": "Zengindi ama bütün parasının altından girip üstünden çıktı .",
+    "amr": "(a1/and :op1 (5/alt-gir-üst-çık :ARG0 (o1/o) :ARG1 (4/para :mod (3/bütün))) :op2 (1/zengin :domain o1))"
+  },
+  {
+    "id": "Forward_Motion/0015.test",
+    "sentence": "O çirkin , kaba kunduralarla sıcak günde serin denize daldım ve rahatladım .",
+    "amr": "(a1/and :op1 (12/rahatla :ARG0 (b1/ben)) :op2 (10/dal :ARG0 b1 :instrument (5/kundura :mod (2/çirkin) :mod (4/kaba) :mod (1/o)) :time (7/gün :mod (6/sıcak)) :ARG1 (9/deniz :mod (8/serin))))"
+  },
+  {
+    "id": "Change_position_on_a_scale/0010.train",
+    "sentence": "Kırkı boylamış bir ateşle par par yanıyordu .",
+    "amr": "(7/yan :ARG0 (o1/o) :instrument (4/ateş :ARG0-of (1/kırk-boyla)) :manner (5/par-par))"
+  },
+  {
+    "id": "Change_event_time/0008.train",
+    "sentence": "Sorunları bu şekilde halı altına süpüremezsin .",
+    "amr": "(m1/mümkün :ARG1 (4/halı-alt-süpür :polarity - :ARG0 (s1/sen) :ARG1 (1/sorun) :manner (3/şekil :mod (2/bu))))"
+  },
+  {
+    "id": "Perception_active/0039.train",
+    "sentence": "Kötü insanlar , herkese kem gözle bakarlar .",
+    "amr": "(5/kem-göz-bak :ARG0 (2/insan :mod (1/kötü)) :ARG1 (4/herkes))"
+  },
+  {
+    "id": "Perception/0000.test",
+    "sentence": "Bu dosyayı yanıma alıp uzun uzun incelemeliyim .",
+    "amr": "(ö1/öner :ARG1 (7/incele :ARG0 (b1/ben) :prep-after (4/al :ARG0 b1 :ARG1 (2/dosya :mod (1/bu)) :ARG4 (3/yan)) :manner (5/uzun-uzun)))"
+  },
+  {
+    "id": "Cause_change/0001.train",
+    "sentence": "Tiyatro müziklerini operaya aktardı .",
+    "amr": "(4/aktar :ARG0 (o1/o) :ARG1 (2/müzik :mod (1/tiyatro)) :ARG2 (3/opera))"
+  },
+  {
+    "id": "Apply_Heat/0028.train",
+    "sentence": "Hamsiyi buğuladım .",
+    "amr": "(2/buğula :ARG0 (b1/ben) :ARG1 (1/hamsi))"
+  },
+  {
+    "id": "Cause_to_end/0000.train",
+    "sentence": "Hapisten dün bıraktılar .",
+    "amr": "(3/bırak :ARG0 (o1/onlar) :ARG2 (1/hapis) :time (2/dün))"
+  },
+  {
+    "id": "Change_of_consistency/0015.train",
+    "sentence": "Proteinler keratinleşmiş .",
+    "amr": "(2/keratinleş :ARG1 (1/protein))"
+  },
+  {
+    "id": "Change_of_consistency/0044.train",
+    "sentence": "Masanın kenarı sivrileşmişti .",
+    "amr": "(3/sivrileş :ARG1 (2/kenar :poss (1/masa)))"
+  },
+  {
+    "id": "Hindering/0009.train",
+    "sentence": "Gole giden rakibini engellemek için taban girdi .",
+    "amr": "(6/taban-gir :ARG0 (o1/o) :purpose (4/engelle :ARG0 o1 :ARG1 (3/rakip :poss o1 :ARG0-of (2/git :ARG1 (1/gol)))))"
+  },
+  {
+    "id": "Remembering_information/0017.train",
+    "sentence": "O güzel bir kız olarak zihninde yer etmişti .",
+    "amr": "(6/zihin-yer-et :ARG1 (o1/o) :manner (4/kız :mod (2/güzel)))"
+  },
+  {
+    "id": "Awareness/0007.train",
+    "sentence": "Matmazel olaylara önceden aymıştı .",
+    "amr": "(4/ay :ARG0 (1/matmazel) :ARG1 (2/olay) :time (ö1/önce :op1 (ş1/şimdi)))"
+  },
+  {
+    "id": "Forward_Motion/0104.train",
+    "sentence": "Çocuk zıplayarak etrafında dönendi .",
+    "amr": "(4/dönen :ARG0 (1/çocuk) :prep-by (2/zıpla :ARG0 1) :ARG1 (3/etraf :poss 1))"
+  },
+  {
+    "id": "Forward_Motion/0091.train",
+    "sentence": "Bunlar şehir subaşısının adamları , dizdarlardı . Kol geziyorlardı .",
+    "amr": "(a1/and :op1 (a2/adam :domain (1/bu) :poss (3/subaşısının :poss (2/şehir))) :op2 (6/dizdar :domain a2) :op3 (8/kol-gez :ARG0 a2))"
+  },
+  {
+    "id": "Remembering_information/0015.train",
+    "sentence": "Hızla açılan kapıdan içeri girişi hâlâ gözünün önünde olur .",
+    "amr": "(7/göz-ön-ol :ARG1 (5/gir :ARG0 (o1/o) :ARG1 (4/içeri) :ARG2 (3/kapı :ARG1-of (2/aç))) :time (6/hâlâ) :manner (1/hızla))"
+  },
+  {
+    "id": "Motion/0000.train",
+    "sentence": "Arkadaş çalgısını bir iki defa üfledikten sonra döndü .",
+    "amr": "(8/dön :ARG0 (1/arkadaş) :time (s1/sonra :op1 (ü1/üfle :ARG1 (2/çalgı :poss 1) :ARG0 1 :frequency (a1/amr-choice :op1 1 :op2 2))))"
+  },
+  {
+    "id": "Perception_body/0037.train",
+    "sentence": "Tam konuşmanın ortasında boğazım gıcıklandı , ara verip su içmek zorunda kaldım .",
+    "amr": "(a1/and :op1 (5/gıcıklan :ARG0 (o1/o) :time (3/orta :op1 (2/konuşma) :mod (1/tam)) :ARG1 (4/boğaz :poss (b1/ben))) :op2 (11/zorun-kal :ARG0 b1 :ARG1 (9/su-iç :ARG0 b1) :prep-after (7/ara-ver)))"
+  },
+  {
+    "id": "Change_posture/0070.train",
+    "sentence": "Spor yaptıktan sonra kalıp gibi serildim .",
+    "amr": "(4/kal-gibi-seril :ARG0 (b1/ben) :prep-after (2/yap :ARG1 (1/spor) :ARG0 b1))"
+  },
+  {
+    "id": "Process_Stop/0013.train",
+    "sentence": "Yakın felaketleri önlemeliyiz .",
+    "amr": "(ö1/öner :ARG1 (3/önle :ARG0 (b1/biz) :ARG1 (2/felaket :mod (1/yakın))))"
+  },
+  {
+    "id": "Activity_Finished/0000.test",
+    "sentence": "Güveniniz için teşekkür ederim ama ben bu projeyi kotaramam .",
+    "amr": "(k1/karşılaştır :ARG1 (3/teşekkür-et :ARG1 (1/güven :poss (s1/siz)) :ARG0 (6/ben)) :ARG2 (m1/mümkün :op1 (9/kotar :polarity - :ARG0 6 :ARG1 (8/proje :mod (7/bu)))))"
+  },
+  {
+    "id": "Cause_to_perceive/0003.train",
+    "sentence": "Bu renk onu çok açtı .",
+    "amr": "(5/aç :ARG0 (2/renk :poss (1/bu)) :ARG1 (3/o) :degree (4/çok))"
+  },
+  {
+    "id": "Preventing_or_letting/0003.train",
+    "sentence": "Sanatçılar arasındaki tatsız olayı kapattı .",
+    "amr": "(5/kapat :ARG1 (4/olay :location (2/ara :poss (1/sanatçı)) :mod (3/tatsız)) :ARG0 1)"
+  },
+  {
+    "id": "Cogitation/0004.train",
+    "sentence": "Burada yazan şey aklının köşesinden geçmemek deyimidir !",
+    "amr": "(2/yaz :location (1/bura) :domain (7/deyim :mod (4/aklı-köşe-geç :polarity -)))"
+  },
+  {
+    "id": "Win_prize/0005.train",
+    "sentence": "Partiyi vurduk , artık yaşamımız daha rahat .",
+    "amr": "(a1/and :op1 (1/parti-vur :ARG0 (b1/biz)) :op2 (7/rahat :domain (5/yaşam :poss b1) :manner (4/artık) :degree (6/daha)))"
+  },
+  {
+    "id": "Worry/0018.train",
+    "sentence": "Yaşlı insanlar çok çabuk kuruntuya kapılıyor .",
+    "amr": "(5/kuruntu-kapıl :ARG0 (2/insan :mod (1/yaşlı)) :manner (4/çabuk :degree (3/çok)))"
+  },
+  {
+    "id": "Commerce_pay/0004.train",
+    "sentence": "Yediğiniz şeylerin parasını onun sırtından çıkarmayın .",
+    "amr": "(y1/yap :ARG1 (5/sırt-çık :polarity - :ARG0 (s1/siz) :mode imperative :ARG1 (3/para :mod (2/şey :ARG1-of (1/ye :ARG0 s1)))))"
+  },
+  {
+    "id": "Judgement/0030.train",
+    "sentence": "Olaylara pozitif yönden bakıyoruz .",
+    "amr": "(4/bak :ARG0 (b1/biz) :ARG1 (1/olay) :ARG2 (3/yön :mod (2/pozitif)))"
+  },
+  {
+    "id": "Change_of_consistency/0036.train",
+    "sentence": "Kumaşlar pürçüklenmiş .",
+    "amr": "(2/pürçük :ARG1 (1/kumaş))"
+  },
+  {
+    "id": "Judgement_direct_address/0028.train",
+    "sentence": "Bizim Abdullah ve kardeşi bir kediyi et çaldı diye cezalandırmışlar .",
+    "amr": "(10/cezalandır :ARG0 (a1/and :op1 (4/kardeş :poss (p1/person :name (n1/name :op1 (2/abdullah)) :wiki -)) :op2 p1) :ARG1 (6/kedi) :cause (8/çal :ARG1 (7/et) :ARG0 6))"
+  },
+  {
+    "id": "Abandonment/0001.train",
+    "sentence": "Yeni bir hayata başlamak için her şeyi arkada bıraktı .",
+    "amr": "(8/arka-bırak :ARG0 (o1/o) :ARG1 (7/şey :mod (6/her)) :purpose (4/başla :ARG0 o1 :ARG1 (3/hayat :mod (1/yeni))))"
+  },
+  {
+    "id": "Claim_ownership/0008.train",
+    "sentence": "Bütün iş alanını tekeline almıştı .",
+    "amr": "(4/tekel-al :ARG0 (o1/o) :ARG1 (2/iş-alan :mod (1/bütün)))"
+  },
+  {
+    "id": "Perception_active/0006.dev",
+    "sentence": "İçeri girdiği gibi , etrafta toz bulayım diye tüm sehpaları parmakladı .",
+    "amr": "(11/parmakla :ARG0 (o1/o) :ARG1 (10/sehpa :mod (9/tüm)) :time (1/içeri-gir :ARG0 o1) :purpose (7/bul :ARG0 o1 :ARG1 (6/toz) :location (5/etraf)))"
+  },
+  {
+    "id": "Change_of_quantity_of_possession/0008.train",
+    "sentence": "Onu dikkate alma , söyledikleri geçersizleşti .",
+    "amr": "(a1/and :op1 (2/dikkat-al :polarity - :imperative (m1/mode) :ARG0 (s1/sen) :ARG1 (1/o)) :op2 (6/geçersizleş :ARG1 (t1/thing :ARG1-of (5/söyle :poss (o1/o)))))"
+  },
+  {
+    "id": "Perception_active/0031.train",
+    "sentence": "Bizi resmen gözle yiyordu .",
+    "amr": "(3/göz-ye :ARG0 (o1/o) :ARG1 (1/biz) :manner (2/resmen))"
+  },
+  {
+    "id": "Cause_proliferation_in_number/0000.train",
+    "sentence": "On bin lirayı ancak denkleştirebildik .",
+    "amr": "(m1/mümkün :ARG1 (5/denkleştir :ARG0 (b1/biz) :manner (4/ancak) :ARG1 (m2/monetary-quantity :quant (1/on-bin) :unit (3/lira :mod (c1/country :wiki - :name (n1/name :op1 (T1/Türkiye)))))))"
+  },
+  {
+    "id": "Commerce_pay/0020.train",
+    "sentence": "Yunanistan temerrüte düştü .",
+    "amr": "(2/temerrüte-düş :ARG0 (1/yunanistan))"
+  },
+  {
+    "id": "Sports_Jargon/0028.train",
+    "sentence": "Rüştü etkileyici bir plase etti topa .",
+    "amr": "(4/plase-et :ARG1 (6/top) :AERG0 (p1/person :name (n1/name :op1 (1/rüştü)) :polarity -))"
+  },
+  {
+    "id": "Shooting_scenario/0004.train",
+    "sentence": "Sakın o silahı ateşleyeyim deme !",
+    "amr": "(5/de :ARG1 (4/ateşle :ARG0 (b1/ben) :ARG1 (3/silah :mod (2/o))) :manner (1/sakın) :polarity -)"
+  },
+  {
+    "id": "Worry/0000.train",
+    "sentence": "Bir haftadır emekli olunca ne yapacağını arpacı kumrusu gibi düşünüyor .",
+    "amr": "(7/arpacı-kumru-gibi-düşün :ARG0 (o1/o) :duration (t1/temporal-quantity :unit (2/hafta) :quant 1) :ARG1 (6/yap :ARG0 o1 :time (3/emekli-ol) :ARG1 (a1/amr-unknown)))"
+  },
+  {
+    "id": "Sports_Jargon/0054.train",
+    "sentence": "Bizimkilerin performansı çok iyiydi , resmen tek kale oynadılar .",
+    "amr": "(a1/and :op1 (4/iyi :domain (2/performans :poss (1/bizimki)) :degree (3/çok)) :op2 (7/tek-kale-oyna :manner (6/resmen) :ARG0 1))"
+  },
+  {
+    "id": "Forward_Motion/0059.train",
+    "sentence": "Bu arabayla saatte 200 kilometre yol alabilirsiniz .",
+    "amr": "(m1/mümkün :ARG1 (6/yol-al :ARG0 (s1/siz) :instrument (2/araba :mod (1/bu)) :ARG1 (r1/rate-entity :ARG1 (d1/distance-quantity :unit (5/kilometre) :quantity 200) :ARG2 (t1/temporal-quantity :unit (3/saat) :quant 1))))"
+  },
+  {
+    "id": "Change_of_consistency/0050.train",
+    "sentence": "Tarhana topaklanmış .",
+    "amr": "(2/topaklan :ARG1 (1/tarhana))"
+  },
+  {
+    "id": "Preventing_or_letting/0013.train",
+    "sentence": "Çocuklar sürekli ayak bağı oluyordu .",
+    "amr": "(3/ayak-bağı-ol :ARG0 (1/çocuk) :frequency (2/sürekli))"
+  },
+  {
+    "id": "Perception_body/0042.train",
+    "sentence": "İçi kıyıldı , biraz peynir ekmek atıştırdı .",
+    "amr": "(7/atıştır :ARG0 (o1/o) :cause (1/iç-kıyıl :ARG0 o1) :ARG1 (a1/and :op1 (6/ekmek) :op2 (5/peynir) :degree (4/biraz)))"
+  },
+  {
+    "id": "Abandoned_State/0002.train",
+    "sentence": "Bu işin arkasını bırak yoksa pişman olursun .",
+    "amr": "(a1/and :op1 (3/arka-bırak :ARG0 (s1/sen) :mode imperative :ARG1 (2/iş :mod (1/bu))) :op2 (6/pişman-ol :ARG0 s1))"
+  },
+  {
+    "id": "Renting_out/0000.train",
+    "sentence": "Evi ona kiraladım .",
+    "amr": "(3/kirala :ARG0 (b1/ben) :ARG1 (1/ev) :ARG2 (2/o))"
+  },
+  {
+    "id": "Earnings_and_losses/0003.train",
+    "sentence": "Bu dükkan yaz mevsiminde para basıyor .",
+    "amr": "(5/para-bas :ARG0 (2/dükkan :mod (1/bu)) :time (d1/date-entity :season (3/yaz-mevsim)))"
+  },
+  {
+    "id": "Motion_in_place/0048.train",
+    "sentence": "Sağa doğru direksiyon kırdı .",
+    "amr": "(3/direksiyon-kır :ARG0 (o1/o) :ARG1 (1/sağ))"
+  },
+  {
+    "id": "Activity_Pause/0000.dev",
+    "sentence": "Bugünlük dükkanı tatil ettik .",
+    "amr": "(3/tatil-et :ARG0 (b1/biz) :ARG2 (1/bugünlük) :ARG1 (2/dükkan))"
+  },
+  {
+    "id": "Cause_to_move_in_place/0002.train",
+    "sentence": "Kediyi odaya aldı .",
+    "amr": "(3/al :ARG0 (o1/o) :ARG1 (1/kedi) :ARG2 (2/oda))"
+  },
+  {
+    "id": "Forward_Motion/0016.train",
+    "sentence": "Evde saatlerce yüpürdüm .",
+    "amr": "(3/yüpür :ARG0 (b1/ben) :location (1/ev) :duration (t1/temporal-quantity :quant (2/saatlerce)))"
+  },
+  {
+    "id": "Commerce_pay/0057.train",
+    "sentence": "Mirası sen yedin , zahmeti ben çekiyorum diye latife ediyordu .",
+    "amr": "(9/latife-et :ARG0 (o1/o) :ARG2 (a1/and :op1 (3/ye :ARG1 (1/miras) :ARG0 (2/sen)) :op2 (7/çek :ARG1 (5/zahmet) :ARG0 (6/ben))))"
+  },
+  {
+    "id": "Change_posture/0021.train",
+    "sentence": "Küçük çocuk sınıfın köşesine kalktı .",
+    "amr": "(5/kalk :ARG0 (2/çocuk :mod (1/küçük)) :ARG1 (4/köşe :poss (3/sınıf)))"
+  },
+  {
+    "id": "Attempt/0002.train",
+    "sentence": "Yeni bir şirket kurmaya teşebbüs edecek .",
+    "amr": "(5/teşebbüs-et :ARG0 (o1/o) :ARG1 (4/kur :ARG0 o1 :ARG1 (3/şirket :mod (1/yeni))))"
+  },
+  {
+    "id": "Change_posture/0027.train",
+    "sentence": "Çocuğu kucaklayıp yatağına götürdü .",
+    "amr": "(4/götür :ARG0 (o1/o) :ARG1 (3/yatak :poss (1/çocuk)) :prep-after (2/kucakla :ARG0 o1 :ARG1 1))"
+  },
+  {
+    "id": "Telling/0001.dev",
+    "sentence": "Annesi ona nerede hata yaptığını gösterdi .",
+    "amr": "(6/göster :ARG0 (1/anne :poss (2/o)) :ARG2 2 :ARG1 (4/hata-yap :ARG1 (3/nere) :ARG0 2))"
+  },
+  {
+    "id": "Transfer/0000.train",
+    "sentence": "Temiz suyu borular ile şehrin öbür ucuna taşıyoruz .",
+    "amr": "(8/taşı :ARG0 (b1/biz) :ARG1 (2/su :mod (1/temiz)) :instrument (3/boru))"
+  },
+  {
+    "id": "Cause_benefit_or_detriment/0013.train",
+    "sentence": "Arkadaşları onu kötü yola saptırdı .",
+    "amr": "(y1/yap :ARG1 (3/kötü-yol-sap :ARG0 (1/arkadaş) :ARG1 (2/o)))"
+  },
+  {
+    "id": "Motion_in_place/0037.train",
+    "sentence": "Sallanmaz o kalkışta ne mendil ne de bir kol .",
+    "amr": "(1/sallan :polarity - :prep-while (3/kalk :mod (2/o)) :ARG0 (a1/and :op1 (9/kol) :op2 (5/mendil)))"
+  },
+  {
+    "id": "Being_in_category/0000.train",
+    "sentence": "Bir Amerikan Doları 1 . 600 . 000 Türk Lirasına eşdeğer olur .",
+    "amr": "(11/eşdeğer-ol :ARG0 (m1/monetary-quantity :quant 1 :unit (3/dolar :mod (c1/country :name (n1/name :op1 (A1/Amerika)) :wiki -))) :ARG1 (m2/monetary-quantity :quant 1600000 :unit (10/lira :mod (c2/country :name (n2/name :name (T1/Türkiye)) :wiki -))))"
+  },
+  {
+    "id": "Perception_experience/0004.train",
+    "sentence": "Sermet Bey , köşkten gözünü alamıyordu .",
+    "amr": "(m1/mümkün :ARG1 (5/göz-al :ARG0 (p1/person :name (n1/name :op1 (1/Sermet) :op2 (2/Bey)) :wiki -) :ARG1 (3/köşk)))"
+  },
+  {
+    "id": "Change_direction/0021.train",
+    "sentence": "Temizlemek için gemiyi yatırdı .",
+    "amr": "(3/gemi-yatır :ARG0 (o1/o) :purpose (1/temizle :ARG0 o1))"
+  },
+  {
+    "id": "Change_direction/0031.train",
+    "sentence": "İstediğini alamayınca hemen ters yüz döndü",
+    "amr": "(4/ters-yüz-dön :ARG0 (o1/o) :time (m1/mümkün :ARG1 (2/al :ARG1 (t1/thing :ARG1-of (1/iste)) :polarity -)) :manner (3/hemen))"
+  },
+  {
+    "id": "Motion_in_place/0002.test",
+    "sentence": "Çarpışan arabalar durmaksızın yanlıyordu .",
+    "amr": "(4/yanla :prep-without (3/dur) :ARG0 (2/araba :ARG0-of (1/çarpış)))"
+  },
+  {
+    "id": "Process_Stop/0000.train",
+    "sentence": "Bugün okulu erken paydos etmişler .",
+    "amr": "(4/paydos-et :ARG0 (o1/onlar) :time (1/bugün) :ARG1 (2/okul) :manner (3/erken))"
+  },
+  {
+    "id": "Change_of_leadership/0008.train",
+    "sentence": "Anahtarı beline takma işi kadınındır .",
+    "amr": "(4/iş :mod (1/anahtar-bel-tak) :poss (5/kadın))"
+  },
+  {
+    "id": "Cogitation/0000.test",
+    "sentence": "Dün söylediklerine zihni takıldı .",
+    "amr": "(3/zihin-takıl :ARG0 (o1/o) :ARG1 (2/söyle :ARG0 (o2/onlar) :time (1/dün)))"
+  },
+  {
+    "id": "Perception_body/0031.train",
+    "sentence": "Ayaklarım iğneleniyor sanki .",
+    "amr": "(2/iğnelen :ARG1 (1/ayak :poss (b1/ben)) :manner (3/sanki))"
+  },
+  {
+    "id": "Scrutiny/0012.train",
+    "sentence": "Konuyla ilgili bütün kaynakları didikledi .",
+    "amr": "(5/didikle :ARG0 (o1/o) :ARG1 (4/kaynak :topic (1/konu) :mod (b1/bütün)))"
+  },
+  {
+    "id": "Hindering/0013.train",
+    "sentence": "Bu çekingenliği her işte ayağına bağ vurdu .",
+    "amr": "(5/ayak-bağ-vur :ARG0 (2/çekingenlik :mod (1/bu) :poss (o1/o)) :topic (4/iş :mod (3/her)))"
+  },
+  {
+    "id": "Preventing_or_letting/0012.train",
+    "sentence": "Şansı yaver gittiği için attığı her zarla kapı aldı .",
+    "amr": "(8/kapı-al :ARG0 (o1/o) :cause (1/şans-yaver-git :ARG0 o1))"
+  },
+  {
+    "id": "Change_of_quantity_of_possession/0094.train",
+    "sentence": "Sen artık kül bağlamışsın , pek bir şey yapamazsın .",
+    "amr": "(a1/and :op1 (3/kül-bağla :ARG0 (1/sen) :manner (2/artık)) :op2 (m1/mümkün :ARG1 (9/yap :ARG1 (8/şey :quant (6/pek)) :ARG0 1) :polarity -))"
+  },
+  {
+    "id": "Commerce_sell/0011.train",
+    "sentence": "Yoksa musahhih maaşımdan haftada üç papel taksite bağlayıp seni bir şamaroğlanı gibi kullanırım .",
+    "amr": "(13/kullan :ARG0 (b1/ben) :prep-after (7/taksite-bağla :ARG0 b1 :instrument (6/papel :part-of (3/maaş :poss b1 :mod (2/musahhih)) :mod (4/hafta) :quant 3) :ARG1 (9/sen)) :ARG1 9 :manner (b2/benze :ARG1 (11/şamaroğlanı) :ARG0 (s1/sen)))"
+  },
+  {
+    "id": "Frugality/0006.train",
+    "sentence": "Harçlığını faydasız şeyler alarak çarçur ediyor .",
+    "amr": "(5/çarçur-et :ARG0 (o1/o) :ARG1 (1/harçlık :poss o1) :prep-by (4/al :ARG0 o1 :ARG1 (3/şey :mod (2/faydasız))))"
+  },
+  {
+    "id": "Forward_Motion/0057.train",
+    "sentence": "Küçük kızım ilk defa sıralıyordu .",
+    "amr": "(5/sırala :ARG0 (2/kız :poss (b1/ben) :mod (1/küçük)) :frequency (4/defa :ord (o1/ordinal-entity :value 1)))"
+  },
+  {
+    "id": "Judgement_communication/0000.dev",
+    "sentence": "Tüm gün arkadaşlarını çekiştirdi .",
+    "amr": "(4/çekiştir :ARG0 (o1/o) :ARG1 (3/arkadaş :poss o1) :duration (2/gün :mod (1/tüm)))"
+  },
+  {
+    "id": "Perception_active/0071.train",
+    "sentence": "Kafa sallıyordu ama her söyleneni yarım kulakla dinliyordu .",
+    "amr": "(k1/karşılaştır :op1 (1/kafa-salla :ARG0 (o1/o)) :op2 (6/yarım-kulak-dinle :ARG0 o1 :ARG1 (t1/thing :ARG1-of (5/söyle :mod (4/her)))))"
+  },
+  {
+    "id": "Judgement_direct_address/0019.train",
+    "sentence": "İşi istediği gibi yapmıyor diye bir güzel fırçaladı .",
+    "amr": "(8/fırçala :ARG1 (o1/o) :cause (4/yap :polarity - :ARG0 o1 :ARG1 (1/iş)) :manner (g1/güzel))"
+  },
+  {
+    "id": "Change_direction/0003.dev",
+    "sentence": "Son sürat giden araba , önüne geyik çıkınca bir anda çark etti .",
+    "amr": "(11/çark-et :ARG0 (4/araba :ARG0-of (3/git :manner (2/sürat :degree (1/son)))) :time (8/çık :location (6/ön :poss 4) :ARG0 (7/geyik)))"
+  },
+  {
+    "id": "Change_posture/0056.train",
+    "sentence": "Ayağını altına alarak sedire oturdu .",
+    "amr": "(5/otur :ARG0 (o1/o) :ARG1 (4/sedir) :prep-by (1/ayak-alt-al :ARG0 o1))"
+  },
+  {
+    "id": "Change_position_on_a_scale/0032.train",
+    "sentence": "Tırmanan yolda zorlanarak yükseliyordu .",
+    "amr": "(4/yüksel :ARG0 (o1/o) :location (2/yol :ARG0-of (1/tırman)) :prep-by (3/zorlan :ARG0 o1))"
+  },
+  {
+    "id": "Awareness/0009.train",
+    "sentence": "Boğaziçi'nde yaşayan bir insan , kendisini kapanmış , bütünleşmiş bir mekânda duyumsar .",
+    "amr": "(12/duyumsa :ARG0 (4/insan :ARG0-of (2/yaşa :location (l1/local-region :name (n1/name :location (1/boğaziçi)) :wiki -))) :ARG1 (6/kendi :poss 4) :location (11/mekân :ARG1-of (7/kapan) :ARG1-of (9/bütünleş)))"
+  },
+  {
+    "id": "Education_teaching/0011.train",
+    "sentence": "Leyla okumayı söktü .",
+    "amr": "(2/oku-sök :ARG0 (p1/person :name (n1/name :op1 (1/leyla)) :wiki -))"
+  },
+  {
+    "id": "Reading_activity/0001.train",
+    "sentence": "Aliye konuyla ilgili bütün makaleleri okudu .",
+    "amr": "(6/oku :ARG0 (p1/person :name (n1/name :op1 (1/aliye)) :wiki -) :ARG1 (5/makale :mod (4/bütün) :topic (2/konu)))"
+  },
+  {
+    "id": "Change_posture/0000.test",
+    "sentence": "Sırtüstü yatmak omurga sağlığı açısından oldukça önemlidir .",
+    "amr": "(7/önemli :domain (1/sırtüstü-yat) :topic (4/sağlık :mod (3/omurga)) :manner (6/oldukça))"
+  },
+  {
+    "id": "Reading_activity/0002.train",
+    "sentence": "Aslı elindeki kitabı içinden okuyordu .",
+    "amr": "(4/iç-oku :ARG0 (p1/person :name (n1/name :op1 (1/aslı)) :wiki -) :ARG1 (3/kitap :location (2/el)))"
+  },
+  {
+    "id": "Win_prize/0012.train",
+    "sentence": "Çocuğumu , okuldaki başarısından dolayı ödüllendirdim .",
+    "amr": "(6/ödüllendir :ARG0 (b1/ben) :ARG1 (1/çocuk :poss b1) :cause (4/başarı :mod (3/okul) :poss 1))"
+  },
+  {
+    "id": "Abandonment/0017.train",
+    "sentence": "Orada işine yaramayacağını söylese de giderken arabamı ona bıraktım .",
+    "amr": "(9/bırak :ARG0 (b1/ben) :ARG1 (7/araba :poss b1) :ARG2 (8/o) :concession (4/söyle :ARG1 (2/iş-yara :polarity - :ARG1 (o1/o) :location (1/orada)) :ARG0 o1) :prep-while (6/git :ARG0 b1))"
+  },
+  {
+    "id": "Carry_goods/0002.train",
+    "sentence": "Her türlü ihtiyacınız elinde bulunur .",
+    "amr": "(4/el-bul :ARG0 (o1/o) :ARG1 (3/ihtiyaç :mod (2/tür :mod (1/her)) :poss (s1/siz)))"
+  },
+  {
+    "id": "Attempt/0006.train",
+    "sentence": "Erkek arkadaşları ile sosyal nizam üzerinde sonu gelmeyen tartışmalara girişirdi .",
+    "amr": "(10/giriş :ARG0 (o1/o) :ARG2 (2/arkadaş :mod (1/erkek)) :ARG1 (9/tartışma :topic (5/nizam :mod (4/sosyal)) :mod (7/son-gel :polarity -)))"
+  },
+  {
+    "id": "Change_position_on_a_scale/0049.train",
+    "sentence": "Minik kirazlar baştan aşmış .",
+    "amr": "(3/baştan-aş :ARG1 (2/kiraz :mod (1/minik)))"
+  },
+  {
+    "id": "Activity_Start/0000.train",
+    "sentence": "Fiilimsilerin durumu gerçekten ilginç , bir öğrencim tezinde bu konuyu ele aldı .",
+    "amr": "(a1/and :op1 (4/ilginç :domain (2/durum :poss (1/fiilimsi)) :mod (3/gerçekten)) :op2 (11/el-al :ARG0 (7/öğrenci :poss (b1/ben)) :ARG2 (8/tez :poss 7) :ARG1 (10/konu :mod (9/bu))))"
+  },
+  {
+    "id": "Earnings_and_losses/0027.train",
+    "sentence": "Hamdi'nin lotodan eli genişledi",
+    "amr": "(3/el-genişle :ARG0 (p1/person :name (n1/name :op1 (1/hamdi)) :wiki -) :ARG1 (2/loto))"
+  },
+  {
+    "id": "Scrutiny/0014.train",
+    "sentence": "Bihter kaybettiği küpesini bulmak için el feneriyle odayı iyice araştırdı .",
+    "amr": "(10/araştır :ARG0 (p1/person :name (n1/name :op1 (1/bihter)) :wiki -) :instrument (6/el-fener) :ARG1 (8/oda) :manner (9/iyi) :purpose (4/bul :ARG1 (3/küpe :ARG1-of (2/kaybet))))"
+  },
+  {
+    "id": "Perception_active/0057.train",
+    "sentence": "Her yaptığını markaja almıştı .",
+    "amr": "(3/markaj-al :ARG0 (o1/o) :ARG1 (2/yap :mod (1/her)))"
+  },
+  {
+    "id": "Change_posture/0015.train",
+    "sentence": "Deve öyle susamıştı ki bir anda ıhtı .",
+    "amr": "(7/ıh :cause (3/susa :ARG0 (1/deve) :degree (2/öyle)) :ARG0 1)"
+  },
+  {
+    "id": "Cognitive_comprehension/0017.train",
+    "sentence": "Firdevs Hanım anlatılanları hızla kavradı .",
+    "amr": "(5/kavra :ARG0 (p1/person :name (n1/name :op2 (2/Hanım) :op1 (F1/Firdevs)) :wiki -) :manner (4/hızla))"
+  },
+  {
+    "id": "Motion_in_place/0035.train",
+    "sentence": "Hamakta sallanıyordum , çok güzeldi .",
+    "amr": "(a1/and :op1 (2/salla :instrument (1/hamak) :ARG0 (b1/ben)) :op2 (5/güzel :degree (4/çok) :domain 2))"
+  },
+  {
+    "id": "Change_position_on_a_scale/0000.test",
+    "sentence": "Süt ürünlerine zam gelmiş .",
+    "amr": "(3/zam-gel :ARG0 (2/ürün :mod (1/süt)))"
+  },
+  {
+    "id": "Sports_Jargon/0001.test",
+    "sentence": "Karşı takım pasları engellemek için sürekli baskı yaptı .",
+    "amr": "(7/baskı-yap :ARG0 (2/takım :mod (1/karşı)) :purpose (4/engelle :ARG1 (3/pas)) :manner (6/sürekli))"
+  },
+  {
+    "id": "Change_event_duration/0005.train",
+    "sentence": "Yeter artık uzatma",
+    "amr": "(a1/and :op2 (3/uzat :polarity - :mode imperative :ARG0 (s1/sen) :manner (2/artık)) :op1 (1/yeter))"
+  },
+  {
+    "id": "Processing_Materials/0009.train",
+    "sentence": "Yıkılmaya yüz tutmuş tüm duvarları hatılladı .",
+    "amr": "(6/hatılla :ARG0 (o1/o) :ARG1 (5/duvar :ARG1-of (1/yıkıl-yüz-tut) :mod (4/tüm)))"
+  },
+  {
+    "id": "Processing_Materials/0031.train",
+    "sentence": "Burada otomobil parçaları nikelleniyor .",
+    "amr": "(4/nikelle :location (1/burada) :ARG1 (3/parça :mod (2/otomobil)))"
+  },
+  {
+    "id": "Motion_directional/0003.train",
+    "sentence": "Tekerlek takılarak dönüyor .",
+    "amr": "(3/dön :ARG0 (1/tekerlek) :manner (2/takıl))"
+  },
+  {
+    "id": "Change_posture/0036.train",
+    "sentence": "Araba yanlayarak yoluna devam etti .",
+    "amr": "(4/devam-et :ARG0 (1/araba) :ARG1 (3/yol :poss 1) :prep-by (2/yanla))"
+  },
+  {
+    "id": "Motion_directional/0004.train",
+    "sentence": "Dişliler hava kirliliğine katkıda bulunarak dönüyor .",
+    "amr": "(6/dön :ARG0 (1/dişli) :prep-by (4/katkı-bulun :ARG1 (k1/kirli :mod (h1/hava)) :ARG0 1))"
+  },
+  {
+    "id": "Frugality_Time/0005.train",
+    "sentence": "Vakit saat aramaz ; gecenin körü de olsa çıkar gelir .",
+    "amr": "(a1/and :op1 (1/vakit-saat-ara :polarity - :ARG0 (o1/o)) :op2 (9/çık-gelir :ARG0 o1 :concession (8/ol :ARG1 (6/kör :part-of (5/gece)))))"
+  },
+  {
+    "id": "Change_of_quantity_of_possession/0050.train",
+    "sentence": "Sakin ol , itidalini kaybetme .",
+    "amr": "(a1/and :op1 (1/sakin-ol :mode imperative :ARG0 (s1/sen)) :op2 (4/itidal-kaybet :polarity - :mode imperative :ARG0 s1))"
+  },
+  {
+    "id": "Cause_change/0015.train",
+    "sentence": "Adam bir aylığına görevden uzaklaştırıldı .",
+    "amr": "(5/uzaklaştırıl :ARG1 (1/adam) :ARG2 (4/görev) :duration (t1/temporal-quantity :quant 1 :unit (3/aylığına)))"
+  },
+  {
+    "id": "Cause_change_of_phase/0001.train",
+    "sentence": "Yemeği tencerede beş dakika kaynattı .",
+    "amr": "(5/kaynat :ARG0 (o1/o) :ARG1 (1/yemek) :location (2/tencere) :duration (t1/temporal-quantity :unit (4/dakika) :quant 5))"
+  },
+  {
+    "id": "Judgement/0015.train",
+    "sentence": "Leman'ın aklı gitti bu anda sinemaya .",
+    "amr": "(2/akıl-git :time (5/an :mod (4/bu)) :ARG1 (6/sinema) :ARG0 (p1/person :name (n1/name :op1 (1/Leman)) :wiki -))"
+  },
+  {
+    "id": "Forward_Motion/0005.dev",
+    "sentence": "İki genç , kılıçlama kaçıyorlardı .",
+    "amr": "(4/kılıçlama-kaç :ARG0 (2/genç :quant 2))"
+  },
+  {
+    "id": "Hindering/0014.train",
+    "sentence": "Kardeşi gitmek istediğinde önüne dikildi .",
+    "amr": "(4/ön-dikil :ARG0 (o1/o) :time (3/iste :ARG0 (1/kardeş :poss o1) :ARG1 (2/git)))"
+  },
+  {
+    "id": "Frugality_Waste/0012.train",
+    "sentence": "Başa geçince şirketin bütün parasını boş işler peşinde har vurup harman savurdu .",
+    "amr": "(9/har-vur-harman-savur :ARG0 (o1/o) :prep-after (2/geç :ARG1 (1/baş)) :ARG1 (5/para :mod (3/şirket) :mod (4/bütün)) :location (8/peş :mod (7/iş :mod (6/boş))))"
+  },
+  {
+    "id": "Memorization/0001.train",
+    "sentence": "Ayça anneannesinin anlattıklarını iyice belledi .",
+    "amr": "(5/belle :ARG0 (1/ayça) :ARG1 (3/anlat :ARG0-of (2/anneanne :poss 1)) :manner (4/iyi))"
+  },
+  {
+    "id": "Attaching/0006.train",
+    "sentence": "Kaynak yapmak yerine her birini cıvataladık .",
+    "amr": "(k1/karşılaştır :ARG1 (1/kaynak-yap :polarity - :ARG0 (b1/biz)) :ARG2 (6/cıvatala :ARG0 b1 :ARG1 (4/her-biri)))"
+  },
+  {
+    "id": "Cause_change_of_position_on_a_scale/0001.train",
+    "sentence": "Gitarist gitarları akort etti .",
+    "amr": "(3/akort-et :ARG0 (1/gitarist) :ARG1 (2/gitar))"
+  },
+  {
+    "id": "Authority/0000.train",
+    "sentence": "Başkan , inisiyatifi ele aldı .",
+    "amr": "(3/inisiyatif-el-al :ARG0 (1/başkan))"
+  },
+  {
+    "id": "Frugality_Money/0003.train",
+    "sentence": "Ortaya çıkan iş iyi olsun istiyordu , bu sebeple de çok masraf ediyordu .",
+    "amr": "(12/masraf-et :ARG0 (o1/o) :degree (11/çok) :cause (6/iste :ARG0 o1 :ARG1 (4/iyi-ol :ARG0 (3/iş :ARG0-of (1/ortaya-çık)))))"
+  },
+  {
+    "id": "Education_teaching/0016.train",
+    "sentence": "Birinci sınıfı atladı .",
+    "amr": "(3/atla :ARG0 (o1/o) :ARG1 (2/sınıf :ord (o2/ordinal-entity :value 1)))"
+  },
+  {
+    "id": "Cause_to_continue/0000.train",
+    "sentence": "Hoparlörle bilgisayarımı eşleştirdim .",
+    "amr": "(y1/yap :ARG1 (3/eşleş :ARG0 (b1/ben) :ARG1 (1/hoparlör) :ARG2 (2/bilgisayar :poss b1)))"
+  },
+  {
+    "id": "Change_posture/0059.train",
+    "sentence": "Bando takımının yeni üyesi diğerlerine ayak uydurmak için çabalıyordu .",
+    "amr": "(9/çabala :ARG0 (4/üye :subset-of (2/takım :consist-of (1/bando)) :mod (3/yeni)) :ARG1 (6/ayak-uydur))"
+  },
+  {
+    "id": "Change_of_quantity_of_possession/0055.train",
+    "sentence": "Küçük kız mutfakta oldukça maharet kazanmış .",
+    "amr": "(5/maharet-kazan :ARG0 (2/kız :mod (1/küçük)) :location (3/mutfak) :degree (4/oldukça))"
+  },
+  {
+    "id": "Scrutinizing_for/0001.train",
+    "sentence": "Polis uyuşturucuları bulmak için şüphelinin evinde arama yaptı .",
+    "amr": "(7/arama-yap :ARG0 (1/polis) :purpose (3/bul :ARG1 (2/uyuşturucu)) :ARG2 (6/ev :poss (5/şüpheli)))"
+  },
+  {
+    "id": "Waiting/0000.train",
+    "sentence": "Öğretmeninin karşısında sorutmuş , sorularını cevaplıyordu .",
+    "amr": "(a1/and :op1 (3/sorut :ARG0 (o1/o) :location (2/karşı :poss (1/öğretmen))) :op2 (6/cevapla :ARG0 o1 :ARG1 (5/soru :poss 1)))"
+  },
+  {
+    "id": "Judgement_direct_address/0007.train",
+    "sentence": "Kocası bir hata ederse karısı elbette ihtar eder .",
+    "amr": "(7/ihtar-et :cond (3/hata-et :ARG0 (k1/koca)) :ARG0 (5/karı) :manner (6/elbette) :ARG1 k1)"
+  },
+  {
+    "id": "Change_of_accessibility/0000.test",
+    "sentence": "Gazetecileri dahi başbakanın yanına yaklaştırmadılar .",
+    "amr": "(4/yan-yaklaş :polarity - :ARG0 (o1/onlar) :ARG1 (1/gazeteci :mod (2/dahi)))"
+  },
+  {
+    "id": "Worry/0008.train",
+    "sentence": "Evhamlı babaanneleri depremden sonra onları göremeyince çok kaygılanmıştı .",
+    "amr": "(8/kaygılan :ARG0 (2/babaanne :mod (1/evhamlı)) :time (m1/mümkün :ARG1 (6/gör :polarity - :prep-after (3/deprem) :ARG1 (5/onlar))) :degree (7/çok))"
+  },
+  {
+    "id": "Change_of_quantity_of_possession/0022.train",
+    "sentence": "Bütün birikimi kül oldu .",
+    "amr": "(3/kül-ol :ARG1 (2/birikim :poss (o1/o) :mod (1/bütün)))"
+  },
+  {
+    "id": "Scrutiny/0005.train",
+    "sentence": "O derginin araştırmacı gazetecileri on yıl önce gerçekleşmiş trajedinin arka planını açığa çıkarmak için bütün kayıtları gözlem altına aldı .",
+    "amr": "(17/gözlem-alt-al :ARG0 (4/gazeteci :mod (3/araştırmacı) :poss (2/dergi :mod (1/o))) :ARG1 (16/kayıt :mod (15/bütün)) :purpose (12/açık-çıkar :ARG1 (10/arka-plan :mod (9/trajedi :ARG0-of (8/gerçekleş :duration (t1/temporal-quantity :quant (5/on) :unit (6/yıl)))))))"
+  },
+  {
+    "id": "Lose_possession/0000.dev",
+    "sentence": "Yeni iş şansını fevt etti .",
+    "amr": "(4/fevt-et :ARG0 (o1/o) :ARG1 (3/şans :mod (2/iş :mod (1/yeni))))"
+  },
+  {
+    "id": "Change_posture/0064.train",
+    "sentence": "Beşlik simit gibi kurulması öğretmenini kızdırdı .",
+    "amr": "(6/kızdır :ARG0 (1/beşlik-simit-gibi-kur :ARG0 (o1/o)) :ARG1 (5/öğretmen :poss o1))"
+  },
+  {
+    "id": "Categorization/0003.train",
+    "sentence": "Aslına bakılırsa aktör olmayı rüyasında görse hayra yormazdı .",
+    "amr": "(7/hayra-yor :polarity - :ARG0 (o1/o) :cond (1/asıl-bak) :cond (5/rüya-gör :ARG0 o1 :ARG1 (3/aktör-ol)))"
+  },
+  {
+    "id": "Judgement_communication/0017.train",
+    "sentence": "Bir işi yaptırmak için onun önce arkasını sıvıyorum .",
+    "amr": "(7/arka-sıva :ARG0 (b1/ben) :ARG1 (5/o) :time (6/önce) :purpose (y1/yap :ARG1 (2/iş-yap :ARG0 5)))"
+  },
+  {
+    "id": "Process_Stop/0001.train",
+    "sentence": "Önümüzdeki araç aniden fren yaptı , suç bizde değil .",
+    "amr": "(a1/and :op1 (4/fren-yap :ARG0 (2/araç :mod (1/ön)) :manner (3/aniden)) :op2 (8/biz :domain (7/suç) :polarity -))"
+  },
+  {
+    "id": "Cause_change_of_phase/0005.train",
+    "sentence": "İçine kattığı biraz limonla şekeri kestirdi .",
+    "amr": "(5/şeker-kestir :ARG0 (o1/o) :instrument (4/limon :quant (b1/biraz) :ARG1-of (k1/kat :ARG0 o1 :ARG4 (i1/iç))))"
+  },
+  {
+    "id": "Appointing/0001.train",
+    "sentence": "Eski çalışanımı inha ettim .",
+    "amr": "(3/inha-et :ARG0 (b1/ben) :ARG1 (2/çalışan :poss b1 :mod (1/eski)))"
+  },
+  {
+    "id": "Preventing_or_letting/0018.train",
+    "sentence": "Ortamdaki kaos onun söylediklerini güme götürdü .",
+    "amr": "(5/güme-götür :ARG0 (2/kaos :location (1/ortam)) :ARG1 (t1/thing :ARG1-of (4/söyle :ARG0 (o1/o))))"
+  },
+  {
+    "id": "Activity_Ongoing/0000.train",
+    "sentence": "Sen ne kadar çabalarsan çabala , bu düzen böyle süregelmiş , böyle süregidecek .",
+    "amr": "(a1/and :concession (4/çabala-çabala :mode imperative :ARG0 (1/sen)) :op1 (10/süregel :ARG0 (8/düzen :mod (7/bu)) :manner (9/böyle)) :op2 (13/süregid :manner (12/böyle) :ARG0 8))"
+  },
+  {
+    "id": "Cause_change/0011.train",
+    "sentence": "Lambaları parıldattı .",
+    "amr": "(2/parıldat :ARG1 (1/lamba) :ARG0 (o1/o))"
+  },
+  {
+    "id": "Change_posture/0009.train",
+    "sentence": "Karşımda dikilmiş , beni sorguluyordu .",
+    "amr": "(a1/and :op1 (2/dikil :ARG0 (o1/o) :location (1/karşı :op1 (b1/ben))) :op2 (5/sorgula :ARG0 o1 :ARG1 (4/ben)))"
+  },
+  {
+    "id": "Change_of_leadership/0013.train",
+    "sentence": "Her şey hatalıydı , direksiyona geçmeliydim .",
+    "amr": "(a1/and :op1 (3/hatalı :domain (2/şey :mod (1/her))) :op2 (g1/gerek :ARG1 (5/direksiyon-geç :ARG0 (b1/ben))))"
+  },
+  {
+    "id": "Frugality_Time/0002.train",
+    "sentence": "Sıra bana gelene kadar burada otur , zaman geçir .",
+    "amr": "(a1/and :op1 (6/otur :ARG0 (s1/sen) :mode imperative :extent (3/gel :ARG0 (1/sıra) :ARG1 (2/ben)) :ARG1 (5/bura)) :op2 (8/zaman-geçir :mode imperative :ARG0 s1))"
+  },
+  {
+    "id": "Motion_in_place/0036.train",
+    "sentence": "Ömer , bacaklarının üstünde yaylanarak cevap vermiş .",
+    "amr": "(6/cevap-ver :ARG0 (p1/person :name (n1/name :op1 (1/ömer)) :wiki -) :prep-while (5/yaylan :location (4/üst :mod (3/bacak :poss p1)) :ARG0 p1))"
+  },
+  {
+    "id": "Motion_in_place/0018.train",
+    "sentence": "Yere çivilenmiş koca masayı sarsarken oda bir salıncak gibi sallanıyor .",
+    "amr": "(10/salla :ARG0 (o1/o) :prep-while (5/sars :ARG0 o1 :ARG1 (4/masa :ARG1-of (2/çivile :ARG2 (1/yer)) :mod (3/koca))) :ARG1 (6/oda :ARG0-of (b1/benze :ARG1 (s1/salıncak))))"
+  },
+  {
+    "id": "Change_operational_state/0021.train",
+    "sentence": "Şimdi vitesi değiştir , biraz hızlanalım .",
+    "amr": "(a1/and :op1 (2/vites-değiştir :ARG0 (s1/sen) :mode imperative :time (1/şimdi)) :op2 (6/hız :ARG0 (b1/biz) :degree (5/biraz)))"
+  },
+  {
+    "id": "Frugality/0014.train",
+    "sentence": "Geçen seneden beri elimizde olan salçayı nihayet erittik .",
+    "amr": "(8/erit :ARG0 (b1/biz) :manner (7/nihayet) :ARG1 (6/salça :mod (5/ol :duration (2/sene :mod (1/geçen)) :location (4/el))))"
+  },
+  {
+    "id": "Attempt/0005.train",
+    "sentence": "Stajdan sonra şirkette kalmanın yerini yapıyor .",
+    "amr": "(5/yer-yap :ARG0 (o1/o) :time (2/sonra :op1 (1/staj)))"
+  },
+  {
+    "id": "Change_of_leadership/0006.train",
+    "sentence": "İspanya'da halk hükûmeti devirdi .",
+    "amr": "(3/hükûmet-devir :location (p1/person :name (n1/name :op1 (1/ispanya)) :wiki -) :ARG0 (2/halk))"
+  },
+  {
+    "id": "Forward_Motion/0080.train",
+    "sentence": "Sinirliydi , odada volta atıyordu .",
+    "amr": "(a1/and :op1 (1/sinir :domain (o1/o)) :op2 (4/volta-at :ARG0 o1 :ARG1 (3/oda)))"
+  },
+  {
+    "id": "Abandonment/0000.dev",
+    "sentence": "Eyvah , dedi panikle , cüzdanımı evde unuttum !",
+    "amr": "(3/de :ARG0 (o1/o) :manner (4/panik) :ARG1 (a1/and :op2 (8/unut :ARG0 (b1/ben) :ARG1 (6/cüzdan :poss b1) :ARG2 (7/ev)) :op1 (1/eyvah)))"
+  },
+  {
+    "id": "Forward_Motion/0127.train",
+    "sentence": "Çocuklar , öğretmeni halkaladılar .",
+    "amr": "(4/halkala :ARG0 (1/çocuk) :ARG1 (3/öğretmen))"
+  },
+  {
+    "id": "Cogitation/0000.train",
+    "sentence": "Bu konu üzerinde gereğinden fazla düşündü .",
+    "amr": "(6/düşün :ARG0 (o1/o) :ARG1 (2/konu :mod (1/bu)) :degree (4/gerek-fazla))"
+  },
+  {
+    "id": "Judgement_direct_address/0033.train",
+    "sentence": "Prim yapmak için vatandaşa nutuk çekiyor .",
+    "amr": "(5/nutuk-çek :ARG0 (o1/o) :purpose (2/yap :ARG1 (1/prim)) :ARG1 (4/vatandaş))"
+  },
+  {
+    "id": "Coming_up_with/0009.train",
+    "sentence": "Onların sorununa bir yol buldu .",
+    "amr": "(4/yol-bul :ARG0 (o1/o) :ARG1 (2/sorun :poss (1/onlar)))"
+  },
+  {
+    "id": "Hindering/0012.train",
+    "sentence": "Her işime çomak sokuyorlar .",
+    "amr": "(3/çomak-sok :ARG0 (o1/onlar) :ARG1 (2/iş :poss (b1/ben) :mod (1/her)))"
+  },
+  {
+    "id": "Process_continue/0001.train",
+    "sentence": "Bu düzen böyle devam eder .",
+    "amr": "(4/devam-et :ARG0 (2/düzen :mod (1/bu)) :manner (3/böyle))"
+  },
+  {
+    "id": "Motion_in_place/0040.train",
+    "sentence": "Kılıç savurdum , ben kazanmalıydım .",
+    "amr": "(a1/and :op1 (2/savur :ARG1 (1/kılıç)) :op2 (5/kazan :ARG0 (4/ben)))"
+  },
+  {
+    "id": "Change_of_consistency/0023.train",
+    "sentence": "Sabaha doğru ateş közleşmiş .",
+    "amr": "(4/közleş :ARG1 (3/ateş) :time (d1/date-entity :dayperiod (1/sabah)))"
+  },
+  {
+    "id": "Change_of_quantity_of_possession/0048.train",
+    "sentence": "Bu ay fazla içeriye girmişim .",
+    "amr": "(4/içeri-gir :ARG0 (b1/ben) :time (2/ay :mod (1/bu)))"
+  },
+  {
+    "id": "Commerce_pay/0013.train",
+    "sentence": "Adam sonunda paramı geri ödedi .",
+    "amr": "(4/geri-öde :ARG0 (1/adam) :manner (2/sonunda) :ARG1 (3/para))"
+  },
+  {
+    "id": "Change_position_on_a_scale/0005.dev",
+    "sentence": "Vites büyütmezsek işler yetişmeyecek .",
+    "amr": "(4/yetiş :polarity - :ARG0 (3/iş) :condition (1/vites-büyüt :polarity - :ARG0 (b1/biz)))"
+  },
+  {
+    "id": "Attempt/0004.train",
+    "sentence": "Kendini affettirmek için hiçbir girişimde bulunmadı .",
+    "amr": "(5/girişim-bulun :mod (h1/hiçbir) :polarity - :ARG0 (o1/o) :purpose (y1/yap :ARG0 o1 :ARG1 (2/affet :ARG1 o1)))"
+  },
+  {
+    "id": "Procurance/0000.dev",
+    "sentence": "Çalışanlar , şirketi hortumlayıp kaçtı .",
+    "amr": "(5/kaç :ARG0 (1/çalışan) :prep-after (4/hortumla :ARG1 (3/şirket) :ARG0 1))"
+  },
+  {
+    "id": "Authority/0001.train",
+    "sentence": "Müdür yardımcısı , yeni çalışana yetki verdi .",
+    "amr": "(6/yetki-ver :ARG0 (1/müdür-yardımcı) :ARG1 (5/çalışan :mod (4/yeni)))"
+  },
+  {
+    "id": "Commerce_sell/0019.train",
+    "sentence": "Eskici , bizim sokakta tezgâh açtı .",
+    "amr": "(5/tezgâh-aç :ARG0 (1/eskici) :ARG1 (4/sokak :poss (3/biz)))"
+  },
+  {
+    "id": "Attaching/0019.train",
+    "sentence": "Sonra ipleri birbirine sıkı sıkı bağladık .",
+    "amr": "(6/bağla :ARG0 (b1/biz) :time (1/sonra) :ARG1 (2/ip) :ARG2 (3/birbiri) :manner (4/sıkı-sıkı))"
+  },
+  {
+    "id": "Apply_Heat/0041.train",
+    "sentence": "Tavuğun tüylerini haşlamadan önce üt .",
+    "amr": "(5/üt :mode imperative :ARG0 (s1/sen) :ARG1 (2/tüy :poss (1/tavuk)) :time (4/önce :op1 (3/haşla :ARG0 s1)))"
+  },
+  {
+    "id": "Procurance/0014.train",
+    "sentence": "İstihsal etmek istediğim çok şey var .",
+    "amr": "(6/var :ARG1 (5/şey :ARG1-of (3/iste :ARG0 (b1/ben) :ARG1 (1/istihsal-et)) :degree (4/çok)))"
+  },
+  {
+    "id": "Motion_in_place/0004.test",
+    "sentence": "Sapanı fırıldattı , taşı saldı .",
+    "amr": "(a1/and :op1 (2/fırıldat :ARG0 (o1/o) :ARG1 (1/sapan)) :op2 (5/sal :ARG0 o1 :ARG1 (4/taş)))"
+  },
+  {
+    "id": "Perception_active/0011.train",
+    "sentence": "Her haftasonu bir tiyatro oyunu izleriz .",
+    "amr": "(6/izle :ARG0 (b1/biz) :ARG1 (5/oyun :mod (4/tiyatro) :mod (3/bir)) :frequency (2/haftasonu :mod (1/her)))"
+  },
+  {
+    "id": "Perception_experience/0000.dev",
+    "sentence": "Onun kaçamak bakışlarını yakaladım .",
+    "amr": "(4/yakala :ARG0 (b1/ben) :ARG1 (3/bak :ARG0 (o1/o) :ARG1 b1 :manner (2/kaçamak)))"
+  },
+  {
+    "id": "Change_of_consistency/0033.train",
+    "sentence": "İneğin sütü peynirleşiyor .",
+    "amr": "(3/peynirleş :ARG1 (2/süt :poss (1/inek)))"
+  },
+  {
+    "id": "Attaching/0017.train",
+    "sentence": "Lego parçalarını kenetle .",
+    "amr": "(3/kenetle :ARG0 (s1/sen) :mode imperative :ARG1 (2/parça :mod (1/lego)))"
+  },
+  {
+    "id": "Perception_active/0032.train",
+    "sentence": "Hiç konuşmadan yola gözlerini dikti .",
+    "amr": "(4/göz-dik :ARG0 (o1/o) :prep-without (2/konuş :ARG0 o1 :degree (1/hiç)) :ARG1 (3/yol))"
+  },
+  {
+    "id": "Cause_To_Burn/0006.train",
+    "sentence": "Ateşe çok yakın oturmuşsun , alevler kazağını göymüş .",
+    "amr": "(a1/and :op1 (4/oturmuş :ARG0 (s1/sen) :ARG1 (y1/yer :location (3/yakın :op1 (1/ateş) :mod (2/çok)))) :op2 (8/göy :ARG0 (6/alev) :ARG1 (7/kazağı :poss s1)))"
+  },
+  {
+    "id": "Change_of_quantity_of_possession/0032.train",
+    "sentence": "Her şey mahvoldu , yandı .",
+    "amr": "(a1/and :op1 (3/mahvol :ARG1 (2/şey :mod (1/her))) :op2 (5/yan :ARG1 2))"
+  },
+  {
+    "id": "Being_Relevant/0001.train",
+    "sentence": "Bu tür davranışlar , bilinçaltındaki düşüncelerimizi imler .",
+    "amr": "(7/imle :ARG0 (3/davranış :mod (t1/tür :mod (b1/bu))) :ARG1 (6/düşünce :poss (b2/biz) :location (5/bilinçalt)))"
+  },
+  {
+    "id": "Becoming/0003.train",
+    "sentence": "Ellerim nasırlaştı .",
+    "amr": "(2/nasırlaş :ARG1 (1/el :poss (b1/ben)))"
+  },
+  {
+    "id": "Change_posture/0007.test",
+    "sentence": "Babasının karşısında yüz sürdü .",
+    "amr": "(3/yüz-sür :ARG0 (o1/o) :location (2/karşı :mod (1/baba)))"
+  },
+  {
+    "id": "Frugality_Money/0007.train",
+    "sentence": "Kumar masasına oturdu mu paraya para demiyor .",
+    "amr": "(5/para-para-de :polarity - :ARG0 (o1/o) :time (3/otur :ARG0 o1 :ARG1 (2/masa :mod (1/kumar))))"
+  },
+  {
+    "id": "Change_posture/0049.train",
+    "sentence": "Kuş , ağacın tepesinde kuluçkaya yatmış .",
+    "amr": "(5/kuluçka-yat :ARG0 (1/kuş) :location (4/tepe :poss (3/ağaç)))"
+  },
+  {
+    "id": "Processing_Materials/0042.train",
+    "sentence": "Bu parçalar özel olarak frezelendi .",
+    "amr": "(5/frezele :ARG1 (2/parça :mod (1/bu)) :manner (3/özel-ol))"
+  },
+  {
+    "id": "Apply_Heat/0002.dev",
+    "sentence": "Bebeğe mamasını verirken önce püflüyordu .",
+    "amr": "(5/püfle :ARG0 (o1/o) :prep-while (3/ver :ARG1 (2/mama) :ARG2 (1/bebek)) :time (4/önce))"
+  },
+  {
+    "id": "Cause_benefit_or_detriment/0001.test",
+    "sentence": "Yediği organik gıdalar çocuğa yaradı .",
+    "amr": "(5/yara :ARG0 (3/gıda :ARG1-of (1/ye :ARG0 (4/çocuk)) :mod (2/organik)) :ARG1 4)"
+  },
+  {
+    "id": "Game_Jargon/0026.train",
+    "sentence": "Bugün şansın yerinde , eve dönerken bir piyango çek !",
+    "amr": "(a1/and :op1 (3/yer :domain (2/şans :poss (s1/sen)) :time (1/bugün)) :op2 (8/piyango-çek :ARG0 s1 :mode imperative :prep-while (6/döner :ARG1 (5/ev))))"
+  },
+  {
+    "id": "Process_end/0026.train",
+    "sentence": "Buradan ayrılmadan o işin sonunu al !",
+    "amr": "(5/son-al :ARG0 (s1/sen) :mode imperative :prep-without (2/ayrıl :ARG0 (b1/biz) :ARG3 (1/bura)))"
+  },
+  {
+    "id": "Perception_body/0011.train",
+    "sentence": "Tüm gece sayıklayarak ateşler içinde yandı .",
+    "amr": "(4/ateşle-içinde-yan :ARG0 (o1/o) :prep-by (3/sayıkla) :duration (2/gece :mod (1/tüm)))"
+  },
+  {
+    "id": "Deciding/0008.train",
+    "sentence": "Yeni öğrencisini birkaç soru ile değerlendirdi .",
+    "amr": "(6/değerlendir :ARG0 (o1/o) :ARG1 (2/öğrenci :mod (1/yeni) :poss o1) :instrument (4/soru :quant (3/birkaç)))"
+  },
+  {
+    "id": "Claim_ownership/0000.dev",
+    "sentence": "Bizi işimizde gücümüzde serbest bırakmak şöyle dursun , çoluk çocuğumuzun nafakasına el koydular .",
+    "amr": "(a1/and :op2 (12/el-koy :ARG1 (11/nafaka :poss (9/çocuk-çocuk :poss (b1/biz)) :ARG0 (o1/onlar))) :op1 (4/serbest-bırak :polarity - :ARG0 o1 :ARG1 b1 :topic (a2/and :op1 (i1/iş :poss b1) :op2 (g1/güç :poss b1))))"
+  },
+  {
+    "id": "Change_of_temperature/0007.train",
+    "sentence": "Tarlaya baksana , ekilenler hep kızışmış .",
+    "amr": "(a1/and :op1 (2/bak :mode imperative :ARG0 (s1/sen) :ARG1 (1/tarla)) :op2 (6/kızış :ARG1 (t1/thing :ARG1-of (4/ekil)) :manner (5/hep)))"
+  },
+  {
+    "id": "Commerce_sell/0021.train",
+    "sentence": "Kadın bu hamamı mezada çıkardı .",
+    "amr": "(4/mezat-çık :ARG0 (1/kadın) :ARG1 (3/hamam :mod (2/bu)))"
+  },
+  {
+    "id": "Change_posture/0018.train",
+    "sentence": "İşe gitmesi gerekiyormuş , erken kalktı .",
+    "amr": "(a1/and :op1 (3/gerek :ARG1 (2/git :ARG0 (o1/o) :ARG1 (1/iş))) :op2 (6/kalk :ARG0 o1 :time (4/erken)))"
+  },
+  {
+    "id": "Cogitation/0001.dev",
+    "sentence": "Bu aralar bilim - kurgu filmlerine sardırdı .",
+    "amr": "(7/sardır :ARG0 (o1/o) :ARG1 (6/film :mod (3/bilim-kurgu)) :time (2/ara :mod (1/bu)))"
+  },
+  {
+    "id": "Forward_Motion/0149.train",
+    "sentence": "Takım kalenin önünde baraj kurdu .",
+    "amr": "(4/baraj-kur :ARG0 (1/takım) :ARG2 (3/ön :poss (2/kale)))"
+  },
+  {
+    "id": "Change_event_duration/0001.test",
+    "sentence": "Aceleye gerek yok biraz vites küçültelim .",
+    "amr": "(a1/and :op1 (2/gerek :polarity - :ARG0 (1/acele)) :op2 (5/vites-küçült :ARG0 (b1/biz) :degree (4/biraz)))"
+  },
+  {
+    "id": "Commerce_pay/0026.train",
+    "sentence": "Tekele girince paraya para demiyor .",
+    "amr": "(3/para-para-de :polarity - :ARG0 (o1/o) :time (2/gir :ARG1 (1/tekel)))"
+  },
+  {
+    "id": "Lending/0000.train",
+    "sentence": "On beş lira borç aldım .",
+    "amr": "(4/borç-al :ARG0 (b1/ben) :ARG1 (m1/monetary-quantity :quant (1/on-beş) :unit (3/lira)))"
+  },
+  {
+    "id": "Procurance/0004.train",
+    "sentence": "Bu iddiayı ben kazandım .",
+    "amr": "(4/kazan :ARG1 (2/iddia :mod (1/bu)) :ARG0 (3/ben))"
+  },
+  {
+    "id": "Carry_goods/0009.train",
+    "sentence": "Ne isterseniz bulurum , beyefendi .",
+    "amr": "(3/bul :ARG0 (b1/ben) :ARG1 (t1/thing :mod (b2/bütün) :ARG1-of (i1/iste :ARG0 (s1/siz))) :beneficiary (5/beyefendi))"
+  },
+  {
+    "id": "Lending/0003.train",
+    "sentence": "Kiracı , kirayı taktı ve kaçtı .",
+    "amr": "(a1/and :op1 (4/tak :ARG0 (1/kiracı) :ARG1 (3/kira)) :op2 (6/kaç :ARG0 1))"
+  },
+  {
+    "id": "Process_end/0017.train",
+    "sentence": "Sınavın zamanı doldu .",
+    "amr": "(2/zaman-dol :ARG1 (s1/sınav))"
+  },
+  {
+    "id": "Cause_emotion/0001.train",
+    "sentence": "Kadını kendisine aşık etti .",
+    "amr": "(3/aşık-et :ARG0 (o1/o) :ARG1 (1/kadın) :ARG2 (2/kendi :poss o1))"
+  },
+  {
+    "id": "Carry_goods/0012.train",
+    "sentence": "Yemleri elde tutmalıydı .",
+    "amr": "(g1/gerek :ARG1 (2/el-tut :ARG0 (o1/o) :ARG1 (1/yem)))"
+  },
+  {
+    "id": "Preventing_or_letting/0006.train",
+    "sentence": "Başarılı olmak için kardeşini çelmeledi .",
+    "amr": "(5/çelmele :ARG0 (o1/o) :purpose (2/ol :ARG0 o1 :ARG1 (1/başarılı)) :ARG1 (4/kardeş :poss o1))"
+  },
+  {
+    "id": "Change_operational_state/0019.train",
+    "sentence": "Binada sorun yok , sadece bu dairede kontak atmış .",
+    "amr": "(a1/and :op1 (3/yok :location (1/bina) :ARG1 (2/sorun)) :op2 (9/at :ARG0 (8/kontak) :location (7/daire :mod (6/bu) :mod (5/sadece))))"
+  },
+  {
+    "id": "Perception_active/0024.train",
+    "sentence": "Babaları , her hareketlerinde çocuklara dik dik bakıyordu .",
+    "amr": "(6/dik-dik-bak :ARG0 (1/baba) :ARG1 (5/çocuk :poss 1) :cause (4/hareket :mod (3/her) :poss 5))"
+  },
+  {
+    "id": "Remembering_information/0000.dev",
+    "sentence": "Oturup eski günleri yâd ettik",
+    "amr": "(4/yâd-et :ARG0 (b1/biz) :ARG1 (3/gün :mod (2/eski)) :prep-after (1/otur :ARG0 b1))"
+  },
+  {
+    "id": "Change_event_duration/0006.train",
+    "sentence": "Başım ağrıdığı için konuşmayı kısa kestim .",
+    "amr": "(5/kısa-kes :ARG0 (b1/ben) :cause (2/ağrı :ARG1 (1/baş :poss b1)) :ARG1 (4/konuşma))"
+  },
+  {
+    "id": "Expulse/0007.train",
+    "sentence": "Onu uğrattım , herkes şaşırdı .",
+    "amr": "(a1/and :op1 (2/uğrat :ARG0 (b1/ben) :ARG1 (1/o)) :op2 (5/şaşır :ARG0 (4/herkes)))"
+  },
+  {
+    "id": "Being_Relevant/0002.train",
+    "sentence": "Onun kitabı çok kısaltıldığı için çocuk kitabına döndü .",
+    "amr": "(8/dön :cause (4/kısalt :degree (3/çok) :ARG1 (2/kitap :poss (o1/o))) :ARG2 (7/kitap :mod (6/çocuk)) :ARG1 2)"
+  },
+  {
+    "id": "Change_posture/0041.train",
+    "sentence": "İçeri girdiğimde koltuğa yayılmış , televizyon izliyordu .",
+    "amr": "(a1/and :op1 (4/yayıl :ARG0 (o1/o) :ARG1 (3/koltuk) :time (2/gir :ARG0 (b1/ben) :ARG1 (1/içeri))) :op2 (7/izle :ARG0 o1 :ARG1 (6/televizyon) :time 2))"
+  },
+  {
+    "id": "Forward_Motion/0041.train",
+    "sentence": "Koluna girerek yedeğe aldı .",
+    "amr": "(3/yedek-al :ARG0 (o1/o) :prep-by (1/kol-gir :ARG0 o1))"
+  },
+  {
+    "id": "Coming_up_with/0008.train",
+    "sentence": "Hemen ondan kurtulmanın bir yolunu buldu .",
+    "amr": "(4/bir-yol-bul :ARG1 (k1/kurtul :ARG2 (2/o)) :manner (1/hemen) :ARG0 (o1/o))"
+  },
+  {
+    "id": "Change_of_consistency/0035.train",
+    "sentence": "Yeleğim pörsüdü .",
+    "amr": "(2/pörsü :ARG1 (1/yelek :poss (b1/ben)))"
+  },
+  {
+    "id": "Sounds/0000.train",
+    "sentence": "Trafik oldukça tıkanmıştı , herkes klakson çalıyordu .",
+    "amr": "(a1/and :op1 (3/tıkan :ARG1 (1/trafik) :degree (2/oldukça)) :op2 (6/klakson-çal :ARG0 (5/herkes)))"
+  },
+  {
+    "id": "Process_Start/0001.train",
+    "sentence": "Tomurcuklar patlamış , tabiat iyiden iyiye uyanmıştı .",
+    "amr": "(a1/and :op1 (2/patla :ARG0 (1/tomurcuk)) :op2 (7/uyan :ARG1 (4/tabiat) :manner (5/iyi-iyi)))"
+  },
+  {
+    "id": "Commerce_pay/0037.train",
+    "sentence": "Bu fabrika sermayesini beş yılda ödedi .",
+    "amr": "(6/öde :ARG0 (2/fabrika) :ARG1 (3/sermaye) :duration (5/yıl :quant (4/beş)))"
+  },
+  {
+    "id": "Perception_body/0036.train",
+    "sentence": "Boğazı düğümlendi , konuşamadı bile .",
+    "amr": "(a1/and :op1 (1/boğaz-düğümlen :ARG0 (o1/o)) :op2 (m1/mümkün :ARG1 (4/konuş :ARG0 o1 :manner (5/bile)) :polarity -))"
+  },
+  {
+    "id": "Abandonment/0020.train",
+    "sentence": "Yıllardır ısrarla devam ettiği alışkanlıklarını bile terk etti .",
+    "amr": "(7/terk-et :ARG0 (o1/o) :ARG1 (5/alışkanlık :ARG1-of (3/devam-et :ARG0 o1 :time (1/yıllardır) :manner (2/ısrarla)) :manner (6/bile)))"
+  },
+  {
+    "id": "Process_Stop/0018.train",
+    "sentence": "Rüzgâr kesilmiş , toprak üstüne yalın ayak basılmayacak kadar ısınmıştı .",
+    "amr": "(a1/and :op1 (2/kesil :ARG1 (1/rüzgâr)) :op2 (10/ısın :extent (8/bas :manner (6/yalın-ayak) :polarity - :ARG1 (5/üst :part-of (4/toprak))) :ARG1 4))"
+  },
+  {
+    "id": "Commerce_pay/0024.train",
+    "sentence": "Bu ay ailecek paradan çıktık .",
+    "amr": "(4/para-çık :ARG0 (b1/biz) :time (d1/date-entity :season (2/ay :mod (1/bu))) :manner (3/ailecek))"
+  },
+  {
+    "id": "Cause_motion/0000.dev",
+    "sentence": "Annem sobayı durmadan süngüledi .",
+    "amr": "(4/süngüle :ARG0 (1/anne :poss (b1/ben)) :ARG1 (2/soba) :manner (3/durmadan))"
+  },
+  {
+    "id": "Change_event_duration/0014.train",
+    "sentence": "Gelir gelmez kadıncağızı lakırtıya boğdu .",
+    "amr": "(4/lakırtı-boğ :ARG0 (o1/o) :ARG1 (3/kadıncağız) :prep-after (1/gel-gel :ARG0 o1))"
+  },
+  {
+    "id": "Waiting/0003.train",
+    "sentence": "Saatlerce ayakta durmaktan bacakları ağrımıştı .",
+    "amr": "(5/ağrı :cause (2/ayak-dur :ARG0 (o1/o)) :ARG1 (4/bacak :poss o1) :duration (1/saatlerce))"
+  },
+  {
+    "id": "Cause_to_perceive/0006.train",
+    "sentence": "Haberi bütün köye aksettirdi .",
+    "amr": "(y1/yap :ARG1 (4/akset :ARG0 (o1/o) :ARG1 (1/haber) :ARG2 (3/köy :mod (2/bütün))))"
+  },
+  {
+    "id": "Cause_to_amalgamate/0000.train",
+    "sentence": "Şekeri karıştırarak suyun içinde çözdü .",
+    "amr": "(5/çöz :ARG0 (o1/o) :prep-by (2/karıştır :ARG0 o1 :ARG1 (1/şeker)) :location (3/su) :ARG1 1)"
+  },
+  {
+    "id": "Sports_Jargon/0043.train",
+    "sentence": "Sinirlenen çocuk var gücüyle topu dikti birden .",
+    "amr": "(5/top-dik :ARG0 (2/çocuk :ARG0-of (1/sinirlen)) :manner (3/var-güç :poss 2) :manner (7/birden))"
+  },
+  {
+    "id": "Win_prize/0003.train",
+    "sentence": "Zenginim , bana piyango çıktı .",
+    "amr": "(a1/and :op1 (1/zengin :domain (b1/ben)) :op2 (4/piyango-çık :ARG1 b1))"
+  },
+  {
+    "id": "Cognitive_change/0003.train",
+    "sentence": "Tarih anlatırken konu ne zaman sakıncalı bir yere gitse lafı çeviriyordu .",
+    "amr": "(10/laf-çevir :ARG0 (o1/o) :prep-while (2/anlat :ARG0 o1 :ARG1 (1/tarih)) :time (9/git :ARG0 (3/konu) :ARG1 (8/yer :mod (6/sakıncalı))))"
+  },
+  {
+    "id": "Coming_to_believe/0007.train",
+    "sentence": "Olayları temize havale edecekti .",
+    "amr": "(2/temiz-havale-et :ARG0 (o1/o) :ARG1 (1/olay))"
+  },
+  {
+    "id": "Change_operational_state/0008.train",
+    "sentence": "Su vanasını kapamışlar , evde su yok .",
+    "amr": "(a1/and :op1 (3/kapa :ARG0 (o1/onlar) :ARG1 (2/vana :mod (1/su))) :op2 (7/yok :location (5/ev) :ARG0 (6/su)))"
+  },
+  {
+    "id": "Exchange/0001.train",
+    "sentence": "Annesi , ağlayan bebeğin altını değiştirdi .",
+    "amr": "(6/değiş :ARG0 (1/anne :poss (o1/o)) :ARG1 (5/alt :poss (4/bebek :ARG0-of (3/ağla))))"
+  },
+  {
+    "id": "Change_of_temperature/0004.train",
+    "sentence": "Yemekleri ısıtıyorum , birazdan hazır olur .",
+    "amr": "(a1/and :op1 (2/ısıt :ARG0 (b1/ben) :ARG1 (1/yemek)) :op2 (5/hazır-ol :ARG0 (o1/o) :time (4/birazdan)))"
+  },
+  {
+    "id": "Claim_ownership/0011.train",
+    "sentence": "Avukat kaleyi içinden fethetti .",
+    "amr": "(2/kale-iç-fethet :ARG0 (1/avukat))"
+  },
+  {
+    "id": "Perception_active/0022.train",
+    "sentence": "Şimdiye kadar pek alıcı gözüyle bakmamıştı .",
+    "amr": "(4/alıcı-göz-bak :polarity - :ARG0 (o1/o) :time (2/kadar :op1 (1/şimdi)) :manner (3/pek))"
+  },
+  {
+    "id": "Sports_Jargon/0014.train",
+    "sentence": "Bu maçı da kazanırsak tur atlayacağız .",
+    "amr": "(5/tur-atla :ARG0 (b1/biz) :cond (4/kazan :ARG0 b1 :ARG1 (2/maç :mod (1/bu))))"
+  },
+  {
+    "id": "Change_posture/0069.train",
+    "sentence": "Tavuk gurka yatmış , yeni civcivler çıkacak .",
+    "amr": "(a1/and :op1 (2/gurk-yat :ARG0 (1/tavuk)) :op2 (7/çık :ARG0 (6/civciv :mod (5/yeni))))"
+  },
+  {
+    "id": "Appointing/0002.train",
+    "sentence": "Genç öğretmen açıktan atanmıştı .",
+    "amr": "(3/açıktan-ata :ARG1 (2/öğretmen :mod (1/genç)))"
+  },
+  {
+    "id": "Cause_change/0007.train",
+    "sentence": "Elindeki fırsatları tembelliğiyle aldırdı .",
+    "amr": "(4/aldır :ARG0 (o1/o) :ARG1 (2/fırsat :mod (1/el :poss o1)) :cause (3/tembellik :poss o1))"
+  },
+  {
+    "id": "Research/0005.train",
+    "sentence": "Araştırmacılar yeni bir bakteri türünü gözlem altına aldı .",
+    "amr": "(6/gözlem-alt-al :ARG0 (1/araştırmacı) :ARG1 (5/tür :mod (4/bakteri :mod (2/yeni))))"
+  },
+  {
+    "id": "Cognitive_comprehension/0010.train",
+    "sentence": "Konuya henüz girmedi .",
+    "amr": "(3/gir :polarity - :ARG0 (o1/o) :ARG1 (1/konu) :time (2/henüz))"
+  },
+  {
+    "id": "Apply_Heat/0016.train",
+    "sentence": "Odun ocağında mısırları üttü .",
+    "amr": "(4/üt :ARG0 (o1/o) :ARG1 (3/mısır) :location (2/ocak :mod (1/odun)))"
+  },
+  {
+    "id": "Abandonment/0002.train",
+    "sentence": "Çok büyük heyecanla başladığı bu projeyi de askıda bıraktı .",
+    "amr": "(8/askı-bırak :ARG0 (o1/o) :ARG1 (6/proje :mod (5/bu) :ARG1-of (4/başla :ARG0 o1 :manner (3/heyecan :mod (2/büyük :degree (1/çok))))))"
+  },
+  {
+    "id": "Earnings_and_losses/0040.train",
+    "sentence": "Bu teklifi kabul et , cebi para görsün .",
+    "amr": "(a1/and :op1 (3/kabul-et :ARG0 (s1/sen) :mode imperative :ARG1 (2/teklif :mod (1/bu))) :op2 (6/cep-para-gör :ARG0 (o1/o) :mode imperative))"
+  },
+  {
+    "id": "Change_event_duration/0001.dev",
+    "sentence": "Kredinin vadesini uzattı .",
+    "amr": "(2/vade-uzat :ARG0 (o1/o) :ARG1 (1/kredi))"
+  },
+  {
+    "id": "Claim_ownership/0002.train",
+    "sentence": "Hainler tüm köyü yağma ettiler .",
+    "amr": "(4/yağma-et :ARG0 (1/hain) :ARG1 (3/köy :mod (2/tüm)))"
+  },
+  {
+    "id": "Sports_Jargon/0020.train",
+    "sentence": "Mehmet savunduğu oyuncuyu kaçırdı , böylece gol yedik .",
+    "amr": "(a1/and :op1 (4/kaç :ARG0 (p1/person :name (n1/name :op1 (1/mehmet)) :wiki -) :ARG1 (3/oyuncu :ARG1-of (2/savun :ARG0 p1))) :op2 (7/gol-ye :ARG0 (b1/biz) :manner (6/böylece)))"
+  },
+  {
+    "id": "Judgement_communication/0011.train",
+    "sentence": "Öyle bir resim yapmış ki , hayran kaldık .",
+    "amr": "(7/hayran-kal :ARG0 (b1/biz) :ARG1 (4/yap :ARG0 (o1/o) :ARG1 (3/resim)))"
+  },
+  {
+    "id": "Process_Stop/0006.train",
+    "sentence": "Şirket ödemeleri bu ay kesintiye uğradı .",
+    "amr": "(5/kesinti-uğra :ARG1 (2/öde :poss (1/şirket)) :time (4/ay :mod (3/bu)))"
+  },
+  {
+    "id": "Judgement/0003.train",
+    "sentence": "Durduk yere bize ahkâm çıkardı .",
+    "amr": "(4/ahkâm-çık :ARG0 (o1/o) :ARG1 (3/biz) :manner (1/durduk-yer))"
+  },
+  {
+    "id": "Process_end/0008.train",
+    "sentence": "Yavaş yavaş bu hırs geçer .",
+    "amr": "(5/geç :ARG0 (o1/o) :manner (1/yavaş-yavaş) :ARG1 (4/hırs :mod (3/bu)))"
+  },
+  {
+    "id": "Activity_Done/0003.train",
+    "sentence": "Yıllar boyu yaşadığı acı dolu günlerden sonra çevresi tarafından zorla yatırıldığı psikiyatri kliniğinde gününü doldurdu .",
+    "amr": "(14/gün-doldur :ARG0 (o1/o) :location (13/klinik :ARG1-of (11/yatır :manner (10/zor) :ARG0 (8/çevre :poss o1) :time (7/sonra :mod (6/gün :ARG1-of (3/yaşa :duration (1/yıl)) :mod (5/dolu :mod (4/acı))))) :mod (12/psikiyatri)))"
+  },
+  {
+    "id": "Sports_Jargon/0012.train",
+    "sentence": "Milli sporcumuz bu maçta da puan kazandı .",
+    "amr": "(6/puan-kazan :ARG0 (2/sporcu :poss (b1/biz) :mod (1/milli)) :location (4/maç :mod (3/bu)))"
+  },
+  {
+    "id": "Remembering_information/0016.train",
+    "sentence": "Onun varlığı ayrılık acısını külledi .",
+    "amr": "(5/külle :ARG0 (2/varlık :poss (1/o)) :ARG1 (4/acı :mod (3/ayrılık)))"
+  },
+  {
+    "id": "Change_of_consistency/0003.train",
+    "sentence": "Kıvamı güzeldi , incelmişti .",
+    "amr": "(a1/and :op1 (2/güzel :domain (1/kıvam :poss (o1/o))) :op2 (4/incel :ARG0 o1))"
+  },
+  {
+    "id": "Process_Start/0010.train",
+    "sentence": "Yanlış işlere tevessül etme .",
+    "amr": "(3/tevessül-et :polarity - :mode imperative :ARG0 (s1/sen) :ARG1 (2/iş :mod (1/yanlış)))"
+  },
+  {
+    "id": "Activity_Start/0017.train",
+    "sentence": "Milli takım salı günü Hırvatistan karşısında sahaya çıkacak .",
+    "amr": "(7/saha-çık :ARG0 (1/milli-takım) :time (d1/date-entity :weekday (3/salı)) :location (6/karşı :mod (c1/country :name (n1/name :op1 (5/hırvatistan)) :wiki -)))"
+  },
+  {
+    "id": "Forward_Motion/0040.train",
+    "sentence": "Annesinin peşinden tıpış tıpış yürüdü .",
+    "amr": "(3/tıpış-tıpış-yürü :ARG0 (o1/o) :ARG2 (2/peş :poss (1/anne)))"
+  },
+  {
+    "id": "Process_Stop/0010.train",
+    "sentence": "Sabahtan beri hiç durmadım .",
+    "amr": "(4/dur :polarity - :ARG0 (b1/ben) :time (2/beri :op1 (d1/date-entity :day-period (1/sabah))) :degree (3/hiç))"
+  },
+  {
+    "id": "Change_of_consistency/0002.test",
+    "sentence": "Eski kayaçlar tortullaşmış .",
+    "amr": "(3/tortullaş :ARG1 (2/kayaç :mod (1/eski)))"
+  },
+  {
+    "id": "Judgement/0010.train",
+    "sentence": "Daha önce kimse bu şiirden böyle bir anlam çıkarmamıştı .",
+    "amr": "(y1/yap :ARG1 (8/anlam-çık :ARG0 (3/kimse) :polarity - :time (2/önce :degree (1/daha)) :ARG1 (5/şiir :mod (4/bu))))"
+  },
+  {
+    "id": "Change_direction/0028.train",
+    "sentence": "Gülümseyerek bir köşeyi döndü .",
+    "amr": "(4/dön :ARG0 (o1/o) :manner (1/gülümse) :ARG1 (3/köşe))"
+  },
+  {
+    "id": "Apply_Heat/0007.train",
+    "sentence": "Ben makarnaları haşlıyordum , o da sos hazırlıyordu .",
+    "amr": "(a1/and :op1 (3/haşla :ARG0 (1/ben) :ARG1 (2/makarna)) :op2 (8/hazırla :ARG0 (5/o) :ARG1 (7/sos)))"
+  },
+  {
+    "id": "Commerce_sell/0000.test",
+    "sentence": "Bu yıl 7 - 8 bin tona yakın sebzemizi bu halde pazarladık .",
+    "amr": "(12/pazarla :ARG0 (b1/biz) :time (2/yıl :mod (1/bu)) :ARG1 (9/sebze :poss b1 :mod (8/yakın :op1 (m1/mass-quantity :quant (a1/and :op1 7000 :op2 8000) :unit (7/ton)))) :location (11/hal :mod (10/bu)))"
+  },
+  {
+    "id": "Forward_Motion/0021.train",
+    "sentence": "Sabah erkenden işe doğru yollandı .",
+    "amr": "(5/yollan :ARG0 (o1/o) :time (d1/date-entity :dayperiod (s1/sabah)) :manner (2/erkenden) :ARG1 (3/iş))"
+  },
+  {
+    "id": "Forward_Motion/0009.train",
+    "sentence": "Doru at bugün koşmayacak .",
+    "amr": "(4/koş :polarity - :ARG0 (2/at :name (1/doru)) :time (3/bugün))"
+  },
+  {
+    "id": "Change_operational_state/0006.train",
+    "sentence": "Usta , çırağa elindekini hızlıca elektrikletti .",
+    "amr": "(y1/yap :ARG0 (u1/usta) :ARG1 (6/elektrikle :ARG1 (t1/thing :location (4/el :poss u1)) :manner (5/hızlıca)))"
+  },
+  {
+    "id": "Change_posture/0063.train",
+    "sentence": "Başköşeye kurulmuş , herkese emir veriyor .",
+    "amr": "(a1/and :op1 (1/başköşe-kur :ARG0 (o1/o)) :op2 (5/emir-ver :ARG0 o1 :ARG1 (4/herkes)))"
+  },
+  {
+    "id": "Cause_impact/0000.train",
+    "sentence": "Beni yalanlarına inandırdı .",
+    "amr": "(3/inandır :ARG0 (o1/o) :ARG1 (1/ben) :ARG2 (2/yalan :poss o1))"
+  },
+  {
+    "id": "Forward_Motion/0004.dev",
+    "sentence": "Böyle uzaklaştı ağır ağır o bizden / Biz ayrı düşmedik , ant içmiştik denizden .",
+    "amr": "(a1/and :op1 (2/uzaklaş :manner (1/böyle) :manner (3/ağır-ağır) :ARG0 (5/o) :ARG1 (6/biz)) :op2 (9/ayrı-düş :polarity - :ARG1 6) :op3 (12/ant-iç :ARG2 (14/deniz) :ARG0 6))"
+  },
+  {
+    "id": "Process_end/0004.train",
+    "sentence": "Bu seneki tüm programlar da bugün itibariyle sonlandı .",
+    "amr": "(8/sonlan :ARG0 (4/program :poss (2/sene :mod (1/bu)) :mod (b1/bütün)) :time (6/bugün))"
+  },
+  {
+    "id": "Remembering_information/0006.train",
+    "sentence": "Eski günler hep gözünün önüne geldi .",
+    "amr": "(4/göz-ön-gel :ARG0 (2/gün :mod (1/eski)) :frequency (3/hep))"
+  },
+  {
+    "id": "Change_of_consistency/0022.train",
+    "sentence": "Buradaki fosiller zamanla kömürleşiyor .",
+    "amr": "(4/kömürleş :ARG1 (2/fosil :mod (1/bura)) :duration (3/zaman))"
+  },
+  {
+    "id": "Change_posture/0010.train",
+    "sentence": "Yamuk yumuk oturmaktan belim ağrımıştı , doğruldum .",
+    "amr": "(a1/and :op1 (5/ağrı :cause (3/otur :manner (1/yamuk-yumuk)) :ARG1 (4/bel :poss (b1/ben))) :op2 (7/doğrul :ARG0 b1))"
+  },
+  {
+    "id": "Change_of_leadership/0000.test",
+    "sentence": "Eski müdürün postuna oturdu .",
+    "amr": "(3/post-otur :ARG0 (o1/o) :ARG1 (2/müdür :mod (1/eski)))"
+  },
+  {
+    "id": "Change_of_quantity_of_possession/0006.train",
+    "sentence": "Gönlümü çelen bir söz söyle .",
+    "amr": "(5/söyle :mode imperative :ARG0 (s1/sen) :ARG1 (4/söz :ARG0-of (2/çel :ARG1 (1/gönül :poss (b1/ben)))))"
+  },
+  {
+    "id": "Game_Jargon/0001.dev",
+    "sentence": "Eline güvenen Mişa , rest çekti .",
+    "amr": "(5/rest-çek :ARG0 (p1/person :wiki - :name (n1/name :op1 (3/Mişa :ARG0-of (2/güven :ARG1 (1/el :poss p1))))))"
+  },
+  {
+    "id": "Activity_Paused_State/0003.train",
+    "sentence": "Taraflar bir türlü anlaşamadığı için boşanma davası felce uğradı .",
+    "amr": "(8/felç-uğra :ARG1 (6/boşanma-dava) :cause (m1/mümkün :ARG1 (4/anlaş :polarity - :ARG0 (1/taraf) :manner (2/bir-türlü))))"
+  },
+  {
+    "id": "Change_of_quantity_of_possession/0009.train",
+    "sentence": "Yaptığım işte ciddi bir meblağ iktisap ettim .",
+    "amr": "(6/iktisap-et :ARG0 (b1/ben) :location (2/iş :ARG1-of (1/yap) :ARG0 b1) :ARG1 (5/meblağ :mod (3/ciddi)))"
+  },
+  {
+    "id": "Earnings_and_losses/0034.train",
+    "sentence": "O kadar harcamadan sonra doğal olarak kesenin dibi göründü .",
+    "amr": "(7/kese-dip-görün :prep-after (3/harcama :degree (1/o-kadar)) :manner (5/doğal-ol))"
+  },
+  {
+    "id": "Game_Jargon/0000.test",
+    "sentence": "Derin bir nefes alıp H7'ye taş sürdü .",
+    "amr": "(6/taş-sür :ARG0 (o1/o) :prep-after (3/nefes-al :manner (1/derin) :ARG0 o1) :ARG1 (H1/H7))"
+  },
+  {
+    "id": "Change_posture/0057.train",
+    "sentence": "Hiç tanımadığı bu adamın karşısında ayak ayak üstüne atarak saygısızlık ediyordu .",
+    "amr": "(10/saygısızlık-et :ARG0 (o1/o) :prep-by (6/ayak-ayak-üst-at :ARG0 o1 :location (5/karşı :op1 (4/adam :ARG1-of (2/tanı :polarity - :ARG0 o1 :degree (1/hiç)) :mod (3/bu)))))"
+  },
+  {
+    "id": "Sports_Jargon/0039.train",
+    "sentence": "Var gücümle kalenin sağ üst köşesine şut çektim .",
+    "amr": "(7/şut-çek :ARG0 (b1/ben) :ARG1 (6/köşe :part-of (3/kale) :mod (5/üst :mod (4/sağ))) :manner (2/güç :mod (1/var) :poss b1))"
+  },
+  {
+    "id": "Change_of_consistency/0041.train",
+    "sentence": "Işıkta saydamlaştı .",
+    "amr": "(2/saydamlaş :ARG0 (o1/o) :location (1/ışık))"
+  },
+  {
+    "id": "Cause_to_be_included/0002.train",
+    "sentence": "Bu telefonu mağazadan edindim .",
+    "amr": "(4/edin :ARG0 (b1/ben) :ARG1 (2/telefon :mod (1/bu)) :location (3/mağaza))"
+  },
+  {
+    "id": "Forward_Motion/0094.train",
+    "sentence": "Bütün memleketi , elini kolunu sallaya sallaya gezmişti .",
+    "amr": "(5/kol-salla-salla-gez :ARG0 (o1/o) :ARG1 (2/memleket :mod (1/bütün)))"
+  },
+  {
+    "id": "Apply_Heat/0000.train",
+    "sentence": "Ailemizin emektar Arap halayıklarından biri de bize aşçılık etmekteydi .",
+    "amr": "(8/aşçılık-et :ARG0 (5/biri :mod (4/halayık :poss (1/aile :poss (7/biz)) :mod (2/emektar) :mod (3/arap))) :ARG1 7)"
+  },
+  {
+    "id": "Motion/0010.train",
+    "sentence": "Zıplayıp uçmuştum .",
+    "amr": "(2/uç :ARG0 (b1/ben) :prep-by (1/zıpla))"
+  },
+  {
+    "id": "Change_position_on_a_scale/0023.train",
+    "sentence": "Çeklerin değeri indi .",
+    "amr": "(3/in :ARG0 (2/değer :mod (1/çek)))"
+  },
+  {
+    "id": "Lending/0011.train",
+    "sentence": "Bu kolyeyi sana vereyim , alacağına say .",
+    "amr": "(a1/and :op1 (4/ver :ARG0 (b1/ben) :ARG1 (2/kolye :mod (1/bu)) :ARG2 (3/sen)) :op2 (6/alacak-say :mode imperative :ARG0 (s1/sen) :ARG1 2))"
+  },
+  {
+    "id": "Expulse/0010.train",
+    "sentence": "Fareyi evden kovdu .",
+    "amr": "(3/kov :ARG0 (o1/o) :ARG1 (1/fare) :ARG2 (2/ev))"
+  },
+  {
+    "id": "Commerce_pay/0048.train",
+    "sentence": "Oğluma okulu için para çıkardım .",
+    "amr": "(4/para-çık :ARG0 (b1/ben) :ARG1 (1/oğul :poss b1) :cause (2/okul :poss 1))"
+  },
+  {
+    "id": "Change_position_on_a_scale/0044.train",
+    "sentence": "Kütüphanedeki kitapların mevcudu aşağı düşmüş .",
+    "amr": "(4/aşağı-düş :ARG1 (3/mevcut :mod (2/kitap :location (1/kütüphane))))"
+  },
+  {
+    "id": "Change_position_on_a_scale/0025.train",
+    "sentence": "Masraflar kabardı .",
+    "amr": "(2/kabar :ARG0 (1/masraf))"
+  },
+  {
+    "id": "Activity_Pause/0015.train",
+    "sentence": "Bugünü tatil ediyorum !",
+    "amr": "(2/tatil-et :ARG0 (b1/ben) :ARG1 (1/bugün))"
+  },
+  {
+    "id": "Change_of_quantity_of_possession/0062.train",
+    "sentence": "O berberin adı çıkmış , aslında iyi tıraş edemiyor .",
+    "amr": "(a1/and :op1 (4/çık :ARG1 (3/ad :poss (2/berber :mod (1/o)))) :op2 (8/tıraş-et :polarity - :manner (6/aslında)))"
+  },
+  {
+    "id": "Frugality/0004.train",
+    "sentence": "Çikolatanın dibini bulmuşsun .",
+    "amr": "(3/bul :ARG0 (s1/sen) :ARG1 (2/dip :part-of (ç1/çikolata)))"
+  },
+  {
+    "id": "Earnings_and_losses/0018.train",
+    "sentence": "Köpekler için defter açtılar .",
+    "amr": "(3/defter-aç :ARG0 (o1/onlar) :ARG2 (1/köpek))"
+  },
+  {
+    "id": "Cognitive_comprehension/0018.train",
+    "sentence": "Matmazel Nihal'in mutsuzluğunu yüzünden okudu .",
+    "amr": "(4/yüzünden-oku :ARG1 (3/mutsuzluk :poss (p1/person :name (n1/name :op1 (2/Nihal)) :wiki - :name n1 :wiki -)) :ARG0 (p2/person :name (n2/name :op1 (1/matmazel)) :wiki -))"
+  },
+  {
+    "id": "Telling/0033.train",
+    "sentence": "Bütün arkadaşlar bir araya gelip yıllar boyu başlarına gelen talihsizlikleri anlatıp birbirlerine yandılar .",
+    "amr": "(13/yan :ARG0 (2/arkadaş :mod (1/bütün)) :prep-by (3/bir-ara-gel :ARG0 2) :ARG2 (12/birbirleri) :prep-by (11/anlat :ARG1 (10/talihsizlik :ARG1-of (8/baş-gel :ARG0 2 :duration (6/yıl))) :ARG0 2))"
+  },
+  {
+    "id": "Cognitive_comprehension/0020.train",
+    "sentence": "Evrenin nasıl oluştuğunu ihata edemiyoruz .",
+    "amr": "(m1/mümkün :ARG1 (4/ihata-et :polarity - :ARG0 (b1/biz) :ARG1 (3/oluş :ARG1 (1/evren) :manner (2/amr-unknown))))"
+  },
+  {
+    "id": "Forward_Motion/0000.train",
+    "sentence": "Sonra elinde boş tasla çeşmeye doğru bir koşu koparıyor .",
+    "amr": "(8/koşu-kopar :ARG0 (o1/o) :time (1/sonra) :instrument (4/tas :mod (3/boş) :location (2/el)) :ARG1 (5/çeşme))"
+  },
+  {
+    "id": "Perception_active/0038.train",
+    "sentence": "Komşusu , ağlayan çocuğa eğri gözle baktı .",
+    "amr": "(5/eğri-göz-bak :ARG0 (1/komşu) :ARG1 (4/çocuk :ARG0-of (3/ağla)))"
+  },
+  {
+    "id": "Frugality/0009.train",
+    "sentence": "Düşüncesizce harcadı , bütün malını mülkünü sokağa attı .",
+    "amr": "(a1/and :op1 (2/harca :ARG0 (o1/o) :manner (1/düşüncesizce)) :op2 (7/sokak-at :ARG0 o1 :ARG1 (5/mal-mülk :mod (b1/bütün))))"
+  },
+  {
+    "id": "Rent/0002.train",
+    "sentence": "Yeni bir ev isticar edelim .",
+    "amr": "(4/isticar-et :ARG0 (b1/biz) :ARG1 (e1/ev :mod (y1/yeni)))"
+  },
+  {
+    "id": "Earnings_and_losses/0030.train",
+    "sentence": "Denizden rızkını çıkarıyor .",
+    "amr": "(2/rızkını-çık :ARG0 (o1/o) :ARG2 (1/deniz))"
+  },
+  {
+    "id": "Activity_Prepare/0006.train",
+    "sentence": "Sen gelmeden çok acayip bir plan kurduk .",
+    "amr": "(6/plan-kur :ARG0 (b1/biz) :time (ö1/önce :op1 (2/gel :ARG0 (1/sen))))"
+  },
+  {
+    "id": "Processing_Materials/0015.train",
+    "sentence": "Vidaların hepsine tırtıl çekildi .",
+    "amr": "(3/tırtıl-çek :ARG1 (1/vida :mod (2/hepsi)))"
+  },
+  {
+    "id": "Claim_ownership/0000.test",
+    "sentence": "Arsaya konmuş .",
+    "amr": "(2/kon :ARG0 (o1/o) :ARG1 (1/arsa))"
+  },
+  {
+    "id": "Sports_Jargon/0029.train",
+    "sentence": "Herkesin maçtan ümidi kestiği bir anda karşı takımın kalesine inanılmaz bir gol attım .",
+    "amr": "(13/at :ARG0 (b1/ben) :ARG1 (12/gol :mod (10/inanılmaz)) :ARG2 (9/kale :poss (8/takım :mod (7/karşı))) :time (3/ümit-kes :ARG0 (1/herkes) :ARG1 (2/maç)))"
+  },
+  {
+    "id": "Procurance/0001.train",
+    "sentence": "Disiplinli insanlar şehitlik güzel başarılar ihraz eder .",
+    "amr": "(6/ihraz-et :ARG0 (2/insan :mod (1/disiplin)) :ARG1 (5/başarı :mod (3/şehitlik) :mod (4/güzel)))"
+  },
+  {
+    "id": "Apply_Heat/0000.dev",
+    "sentence": "Çok üşüdüm , soba bayağı sağırlaşmış .",
+    "amr": "(a1/and :op1 (2/üşü :ARG0 (b1/ben) :degree (1/çok)) :op2 (6/sağırlaş :ARG1 (4/soba) :degree (5/bayağı)))"
+  },
+  {
+    "id": "Cause_to_be_sharp/0001.train",
+    "sentence": "Keserleri zağladık bugün .",
+    "amr": "(2/zağla :ARG0 (b1/biz) :ARG1 (1/keser) :time (3/bugün))"
+  },
+  {
+    "id": "Judgement/0029.train",
+    "sentence": "Biz her zaman bu tavırlarını iyiye çektik .",
+    "amr": "(6/iyi-çek :ARG0 (1/biz) :frequency (2/her-zaman) :ARG1 (5/tavır :mod (4/bu)))"
+  },
+  {
+    "id": "Expectation/0004.train",
+    "sentence": "Bihter Behlül'le konuşurken her şeyin çok güzel olacağına dair ümit besliyordu .",
+    "amr": "(10/ümit-besle :ARG0 (p1/person :name (n1/name :op1 (1/bihter)) :wiki -) :prep-while (3/konuş :ARG1 (p2/person :name (n2/name :op1 (2/behlül)) :wiki -) :ARG0 p1) :ARG1 (7/güzel-ol :degree (6/çok) :ARG0 (4/her-şey)))"
+  },
+  {
+    "id": "Procurance/0029.train",
+    "sentence": "Muhasebeci , tüm kârı zimmetine geçirmiş .",
+    "amr": "(5/zimmet-geçir :ARG0 (1/muhasebeci) :ARG1 (4/kâr :mod (3/tüm)))"
+  },
+  {
+    "id": "Judgement/0037.train",
+    "sentence": "Bitiriş konuşmasına patronu ve ekibi şapka çıkardı .",
+    "amr": "(6/şapka-çık :ARG0 (a1/and :op1 (5/ekip :poss (o1/o)) :op2 (3/patron :poss o1)) :ARG1 (2/konuşma :poss o1 :mod (1/bitiriş)))"
+  },
+  {
+    "id": "Perception_active/0046.train",
+    "sentence": "Bir kenara çekilip köy meydanını seyreyledi .",
+    "amr": "(6/seyreyle :ARG0 (o1/o) :prep-after (2/kenar-çekil :ARG0 o1) :ARG1 (5/meydan :mod (4/köy)))"
+  },
+  {
+    "id": "Cause_to_perceive/0007.train",
+    "sentence": "Haberi bana mektupla aktardılar .",
+    "amr": "(4/aktar :ARG0 (o1/onlar) :ARG1 (1/haber) :ARG2 (2/ben) :instrument (3/mektup))"
+  },
+  {
+    "id": "Forward_Motion/0105.train",
+    "sentence": "Araba , sağdan geri döndü .",
+    "amr": "(3/sağ-geri-dön :ARG0 (1/araba))"
+  },
+  {
+    "id": "Change_of_quantity_of_possession/0049.train",
+    "sentence": "Kimse onu dinlemiyor , ikinci plana düştü .",
+    "amr": "(a1/and :op1 (3/dinle :polarity - :ARG0 (1/kimse) :ARG1 (2/o)) :op2 (5/ikinci-plan-düş :ARG1 2))"
+  },
+  {
+    "id": "Change_resistance/0010.train",
+    "sentence": "Kış gelmeden tüm çatıları aktardı .",
+    "amr": "(4/çatı-aktar :ARG0 (o1/o) :time (ö1/önce :op1 (2/gel :ARG1 (1/kış))))"
+  },
+  {
+    "id": "Apply_Heat/0017.train",
+    "sentence": "Tüyleri yolunmuş bütün tavuğu dikkatle ocakta üttü .",
+    "amr": "(7/üt :ARG1 (4/tavuk :mod (2/yolun :ARG1 (1/tüy :poss 4)) :mod (3/bütün)) :manner (5/dikkatle) :location (6/ocak) :ARG0 (o1/o))"
+  },
+  {
+    "id": "Judgement/0036.train",
+    "sentence": "Kızları görünce , ağzın dilin tutuldu .",
+    "amr": "(5/dil-tut :ARG0 (s1/sen) :time (2/gör :ARG0 s1 :ARG1 (1/kız)))"
+  },
+  {
+    "id": "Abandoned_State/0006.train",
+    "sentence": "Bu işi de sallantıda bıraktı .",
+    "amr": "(4/sallantı-bırak :ARG0 (o1/o) :ARG1 (2/iş :mod (1/bu)))"
+  },
+  {
+    "id": "Perception_body/0003.dev",
+    "sentence": "Kafam uğulduyor sanki , gözlerimi açamıyorum .",
+    "amr": "(a1/and :op1 (2/uğulda :ARG0 (1/kafa :poss (b1/ben)) :manner (3/sanki)) :op2 (m1/mümkün :ARG1 (6/aç :polarity - :ARG0 b1 :ARG1 (5/göz :poss b1))))"
+  },
+  {
+    "id": "Preventing_or_letting/0009.train",
+    "sentence": "Bu işin ilerlemesini darbelediler .",
+    "amr": "(4/darbele :ARG0 (o1/onlar) :ARG1 (3/ilerleme :poss (2/iş :mod (1/bu))))"
+  },
+  {
+    "id": "Change_of_quantity_of_possession/0078.train",
+    "sentence": "Artık gözden düştü , kimse onunla ilgilenmez .",
+    "amr": "(a1/and :op1 (2/göz-düş :ARG1 (o1/o) :time (1/artık)) :op2 (7/ilgilen :polarity - :ARG0 (5/kimse) :ARG1 (6/o)))"
+  },
+  {
+    "id": "Forward_Motion/0019.train",
+    "sentence": "Kalem Şakir düştü peşine , öylesine pergelleri açmıştı ki , koridorun ortasında yakaladı .",
+    "amr": "(a1/and :op1 (4/peş-düş :ARG0 (p1/person :name (n1/name :op2 (2/Şakir) :op1 (1/kalem)) :wiki -) :ARG1 (o1/o)) :op2 (13/yakala :manner (7/pergel-aç) :location (12/orta :part-of (11/koridor)) :ARG0 p1 :ARG1 o1))"
+  },
+  {
+    "id": "Judgement/0016.train",
+    "sentence": "Kimseleri beğenmedi bu yüzden çok geç evlendi .",
+    "amr": "(7/evlen :ARG0 (o1/o) :time (6/geç :degree (5/çok)) :cause (2/beğen :polarity - :ARG0 o1 :ARG1 (1/kimse)))"
+  },
+  {
+    "id": "Carry_goods/0000.dev",
+    "sentence": "Sizler için en yeni ürünleri getirdik .",
+    "amr": "(6/getir :ARG0 (b1/biz) :beneficiary (1/siz) :ARG1 (5/ürün :mod (y1/yeni :degree (e1/en))))"
+  },
+  {
+    "id": "Earnings_and_losses/0026.train",
+    "sentence": "Zaten müdür aç herifin biri , zil kalmış da gelmiş buralara .",
+    "amr": "(a1/and :op1 (4/herif :mod (3/aç) :domain (2/müdür)) :op2 (10/gel :prep-after (7/zil-kal) :ARG2 (11/bura) :ARG0 2))"
+  },
+  {
+    "id": "Commerce_sell/0020.train",
+    "sentence": "Bu ürünleri % 20 kâr koyarak satacağız .",
+    "amr": "(7/sat :ARG0 (b1/biz) :prep-by (5/kâr-koy :ARG2 (p1/percentage-entity :value 20)))"
+  },
+  {
+    "id": "Change_direction/0016.train",
+    "sentence": "Mermi sekti .",
+    "amr": "(2/sek :ARG0 (1/mermi))"
+  },
+  {
+    "id": "Commerce_pay/0028.train",
+    "sentence": "Her yaz köye gelip hacıağalık ediyorlar .",
+    "amr": "(5/hacıağalık-et :ARG0 (o1/onlar) :prep-after (4/gel :ARG1 (3/köy) :time (d1/date-entity :season (2/yaz :mod (1/her)))))"
+  },
+  {
+    "id": "Commerce_sell/0001.train",
+    "sentence": "Benimki paso , dedi , hanımefendiye bir bilet kes .",
+    "amr": "(4/de :ARG0 (o1/o) :ARG1 (a1/and :op2 (8/bilet-kes :ARG0 (s1/sen) :mode imperative :ARG1 (6/hanımefendi)) :op1 (2/paso :domain (t1/thing :poss (1/ben)))))"
+  },
+  {
+    "id": "Frugality_Waste/0001.train",
+    "sentence": "Senin yoluna gençliğimi heder ettim ve sonra , gene orada , o düşmüş şehirde , senin hasretinle yanan ben değil miydim ?",
+    "amr": "(a1/and :op1 (4/heder-et :ARG0 (b1/ben) :ARG1 (3/gençlik :poss b1) :beneficiary (2/yol :poss (1/sen))) :op2 (p1/person :ARG0-of (18/yan :cause (17/hasret :poss (16/sen)) :time (7/sonra) :location (10/orada) :location (14/şehir :ARG1-of (13/düş) :mod (12/o)) :frequency (9/gene)) :domain (19/ben) :polarity (a2/amr-unknown)))"
+  },
+  {
+    "id": "Earnings_and_losses/0010.train",
+    "sentence": "Bu beş lirayı bitirmeden ben para kazanmalıyım .",
+    "amr": "(g1/gerek :ARG1 (7/kazan :prep-without (4/bitir :ARG1 (m1/monetary-quantity :unit (3/lira) :quant (2/beş) :mod (1/bu)) :ARG0 (5/ben)) :ARG0 5 :ARG1 (6/para)))"
+  },
+  {
+    "id": "Frugality_Money/0002.train",
+    "sentence": "Kızının düğünü için çok para harcadı .",
+    "amr": "(6/harca :ARG0 (o1/o) :ARG1 (5/para :degree (4/çok)) :cause (2/düğün :poss (1/kız :poss o1)))"
+  },
+  {
+    "id": "Commerce_pay/0009.train",
+    "sentence": "Hala telefonun taksidini ödüyorum .",
+    "amr": "(3/taksit-öde :ARG0 (b1/ben) :manner (1/hala) :ARG1 (2/telefon))"
+  },
+  {
+    "id": "Change_direction/0027.train",
+    "sentence": "Birden geriye döndü ve dönemeci geçer geçmez Hasan'la yüz yüze geldi .",
+    "amr": "(a1/and :op2 (9/yüz-yüz-gel :ARG0 (o1/o) :prep-after (6/geç-geç :ARG1 (5/dönemeç) :ARG0 o1) :ARG1 (p1/person :name (n1/name :op1 (8/hasan)) :wiki -)) :op1 (2/geri-dön :ARG0 o1 :manner (1/birden)))"
+  },
+  {
+    "id": "Change_of_quantity_of_possession/0056.train",
+    "sentence": "Ünlü şarkıcının yıldızı söndü .",
+    "amr": "(3/yıldız-sön :ARG0 (2/şarkıcı :mod (1/ünlü)))"
+  },
+  {
+    "id": "Hindering/0002.train",
+    "sentence": "Yabani otlar yeni ekilen gül fidelerini ürküttü .",
+    "amr": "(7/ürküt :ARG0 (1/yabani-ot) :ARG1 (6/fide :ARG1-of (4/ek :manner (3/yeni)) :mod (5/gül)))"
+  },
+  {
+    "id": "Remembering_information/0001.dev",
+    "sentence": "Zarfın üstündeki yazıyı hemen tanıdı .",
+    "amr": "(5/tanı :ARG0 (o1/o) :ARG1 (3/yazı :location (2/üst :part-of (1/zarf))) :manner (4/hemen))"
+  },
+  {
+    "id": "Change_of_quantity_of_possession/0002.test",
+    "sentence": "Artık bu işin tadı kaçtı .",
+    "amr": "(4/tat-kaç :ARG1 (3/iş :mod (2/bu)) :time (1/artık))"
+  },
+  {
+    "id": "Commerce_pay/0030.train",
+    "sentence": "Balo ve kokteyl partisine bir davetiye alabilmek için kesenin ağzını açmak istediler .",
+    "amr": "(12/iste :ARG0 (o1/onlar) :ARG1 (9/kese-ağız-aç :ARG0 o1 :purpose (m1/mümkün :ARG1 (7/al :ARG0 o1 :ARG1 (6/davetiye :mod (a1/and :op1 (1/balo) :op2 (4/parti :mod (3/kokteyl))))))))"
+  },
+  {
+    "id": "Frugality_Time/0001.train",
+    "sentence": "İş yapacağına havyar kesiyor .",
+    "amr": "(k1/karşılaştır :ARG1 (3/havyar-kes :ARG0 (o1/o)) :ARG2 (2/yap :polartiy - :ARG0 o1 :ARG1 (1/iş)))"
+  },
+  {
+    "id": "Abandoned_State/0001.train",
+    "sentence": "20 sene gece gündüz çalıştıysa da kıymetini bilemediler , o da şimdi görevinden ayrılacak .",
+    "amr": "(a1/and :op1 (k1/karşılaştır :ARG1 (5/çalış :manner (2/sene-gece) :duration (t1/temporal-quantity :unit (s1/sene) :20 (q1/quant)) :ARG0 (10/o)) :ARG2 (m1/mümkün :ARG1 (8/bil :polarity - :ARG0 (o1/onlar) :ARG1 (7/kıymet :poss 10)))) :op2 (13/görev-ayrıl :ARG0 10 :time (12/şimdi)))"
+  },
+  {
+    "id": "Commerce_pay/0042.train",
+    "sentence": "Paramı devlet denen haramilere vermemek için vergi kaçırırım .",
+    "amr": "(7/vergi-kaçır :ARG0 (b1/ben) :cause (5/ver :ARG1 (1/para :poss b1) :ARG2 (4/harami :ARG1-of (3/de :ARG2 (2/devlet))) :polarity -))"
+  },
+  {
+    "id": "Coming_up_with/0016.train",
+    "sentence": "Can sıkıntısından evde yeni yeni işler icat ediyordu .",
+    "amr": "(7/icat-et :ARG0 (o1/o) :cause (1/can-sıkıntı) :location (3/ev))"
+  },
+  {
+    "id": "Process_end/0012.train",
+    "sentence": "Akşamki öfkesinin zerresi kalmamış , çok neşeliydi .",
+    "amr": "(a1/and :op1 (3/zerre-kal :polarity - :ARG1 (2/öfke :time (d1/date-entity :dayperiod (1/akşam)) :poss (o1/o))) :op2 (7/neşeli :domain o1 :degree (6/çok)))"
+  },
+  {
+    "id": "Process_end/0019.train",
+    "sentence": "Bu şirketle olan projelerimizi noktaladık .",
+    "amr": "(5/noktala :ARG0 (b1/biz) :ARG1 (4/proje :poss b1 :poss (2/şirket :mod (1/bu))))"
+  },
+  {
+    "id": "Earnings_and_losses/0001.dev",
+    "sentence": "Paranı değerlendir , faizlendir .",
+    "amr": "(a1/and :op1 (2/değerlendir :ARG0 (s1/sen) :mode imperative :ARG1 (1/para :poss s1)) :op2 (4/faizlendir :ARG0 s1 :mode imperative :ARG1 1))"
+  },
+  {
+    "id": "Lose_possession/0008.train",
+    "sentence": "Boşandıktan sonra dımdızlak ortada kaldı .",
+    "amr": "(3/dımdızlak-orta-kal :ARG0 (o1/o) :time (2/sonra :op1 (1/boşan :ARG0 o1)))"
+  },
+  {
+    "id": "Processing_Materials/0000.train",
+    "sentence": "Duvarlara tadilat sırasında astar çekildi .",
+    "amr": "(4/astar-çek :ARG1 (1/duvar) :time (2/tadilat))"
+  },
+  {
+    "id": "Judgement_communication/0013.train",
+    "sentence": "Sözlerinden dolayı ailesi onu çok eleştirdi .",
+    "amr": "(6/eleştir :cause (1/sözle) :ARG0 (3/aile) :degree (5/çok) :ARG1 (4/o))"
+  },
+  {
+    "id": "Perception_active/0045.train",
+    "sentence": "Dün akşam şehri seyre çıktım .",
+    "amr": "(4/seyir-çık :ARG0 (b1/ben) :time (1/dün-akşam) :ARG1 (3/şehir))"
+  },
+  {
+    "id": "Motion_directional/0005.train",
+    "sentence": "Veznedar lirayı evirdi döndürdü .",
+    "amr": "(3/evir-döndür :ARG0 (1/veznedar) :ARG1 (2/lira))"
+  },
+  {
+    "id": "Change_of_phase/0007.train",
+    "sentence": "Karlar erimişti .",
+    "amr": "(2/eri :ARG1 (1/kar))"
+  },
+  {
+    "id": "Cause_benefit_or_detriment/0010.train",
+    "sentence": "Annesi sürekli çocuğunu akladı .",
+    "amr": "(4/akla :ARG0 (1/anne) :frequency (2/sürekli) :ARG1 (3/çocuk :poss 1))"
+  },
+  {
+    "id": "Coming_up_with/0003.train",
+    "sentence": "Onun yaptığı yemekleri görünce eski sağlıklı günlerindeki gibi evde yemek yapmaya başlamak aklına geldi .",
+    "amr": "(13/akıl-gel :ARG0 (o1/o) :time (4/gör :ARG1 (3/yemek :ARG1-of (2/yap :ARG0 (1/o))) :ARG0 o1) :ARG1 (12/başla :ARG1 (11/yap :ARG1 (10/yemek)) :manner (ş1/şekil :ARG0-of (b1/benze :ARG1 (7/gün :mod (5/eski) :mod (6/sağlıklı))))))"
+  },
+  {
+    "id": "Perception_active/0063.train",
+    "sentence": "Önce bir anlayıp dinle olanları !",
+    "amr": "(3/anla-dinle :mode imperative :ARG0 (s1/sen) :time (1/önce) :ARG1 (5/ol))"
+  },
+  {
+    "id": "Education_teaching/0001.dev",
+    "sentence": "O üniversitede tahsil ediyor .",
+    "amr": "(3/tahsil-et :ARG0 (o1/o) :location (2/üniversite :mod (1/o)))"
+  },
+  {
+    "id": "Remembering_information/0009.train",
+    "sentence": "Onu unuttum artık hatırlamıyorum bile .",
+    "amr": "(a1/and :op1 (2/unut :ARG0 (b1/ben) :ARG1 (1/o)) :op2 (4/hatırla :polarity - :ARG0 b1 :manner (3/artık) :manner (5/bile)))"
+  },
+  {
+    "id": "Shooting_scenario/0006.train",
+    "sentence": "Adam , poligondaki deneme tahtasına kubur sıktı .",
+    "amr": "(6/kubur-sık :ARG0 (1/adam) :ARG1 (4/deneme-tahtası :location (3/poligon)))"
+  },
+  {
+    "id": "Change_of_quantity_of_possession/0086.train",
+    "sentence": "Artık iki paralık oldun benim için .",
+    "amr": "(2/iki-paralık-ol :ARG0 (s1/sen) :manner (1/artık) :ARG2 (5/ben))"
+  },
+  {
+    "id": "Change_of_consistency/0001.test",
+    "sentence": "Beklemekten tortulanmış .",
+    "amr": "(2/tortulan :ARG1 (o1/o) :cause (1/bekle :ARG0 o1))"
+  },
+  {
+    "id": "Telling/0011.train",
+    "sentence": "Yetkililer konu hakkında açıklama yapmadı .",
+    "amr": "(4/açıkla-yap :polarity - :ARG0 (1/yetkili) :topic (2/konu))"
+  }
+]

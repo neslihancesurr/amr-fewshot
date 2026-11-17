@@ -1,0 +1,212 @@
+# ::id Activity_Pause/0005.train
+# ::snt Sadece 15 dakika çalıştıktan sonra fasıla verdi , yorulmuş !
+(a1/and
+	:op1 (6/fasıla-ver
+		:ARG0 (o1/o)
+		:time (4/çalış
+			:duration (t1/temporal-quantity
+				:quant 15
+				:unit (3/dakika)
+				:mod (1/sadece))
+			:ARG0 o1))
+	:op2 (9/yorul
+		:ARG0 o1))
+
+# ::id Process_Stop/0015.train
+# ::snt Koşan yolcuyu görünce sert bir şekilde frenledi .
+(7/frenle
+	:ARG0 (o1/o)
+	:time (3/gör
+		:ARG1 (2/yolcu
+			:ARG0-of (1/koş)))
+	:manner (4/sert))
+
+
+# ::id Sports_Jargon/0004.dev
+# ::snt Orta sahayı boş bırakmayın , baskı yapın !
+(a1/and
+	:op1 (3/boş-bırak
+		:polarity -
+		:mode imperative
+		:ARG0 (s1/siz)
+		:ARG1 (1/orta-saha))
+	:op2 (5/baskı-yap
+		:ARG0 s1))
+
+# ::id Apply_Heat/0025.train
+# ::snt Askerin yaralı kolunu mikrop kapmasın diye ocakta ısıttığı demir parçasıyla dağladı .
+(11/dağla
+	:ARG0 (o1/o)
+	:ARG1 (3/kol
+		:poss (1/asker)
+		:mod (2/yaralı))
+	:instrument (10/parça
+		:ARG1-of (8/ısıt
+			:ARG0 o1
+			:location (7/ocak))
+		:mod (9/demir))
+	:purpose (5/kap
+		:polarity -
+		:ARG1 (4/mikrop)
+		:ARG0 3))
+
+# ::id Activity_Paused_State/0002.train
+# ::snt Müzenin küratörü , küçücük bir odanın içinde zamanı dondurmuştu .
+(9/dondur
+	:ARG0 (2/küratör
+		:poss (1/müze))
+	:location (7/iç
+		:mod (6/oda
+			:mod (4/küçücük)))
+	:ARG1 (8/zaman))
+
+# ::id Commerce_sell/0006.train
+# ::snt Eskilerden bir kısmını yok pahasına elden çıkarmak gerekecek .
+(8/gerek
+	:ARG1 (6/el-çık
+		:manner (4/yok-pahası)
+		:ARG1 (3/kısım
+			:part-of (t1/thing
+				:mod (e1/eski)))))
+
+# ::id Remembering_information/0003.train
+# ::snt Bugün öğrendiklerini aklının bir köşesine yaz
+(3/akıl-bir-köşe-yaz
+	:ARG0 (s1/sen)
+	:mode imperative
+	:ARG1 (2/öğren
+		:time (1/bugün)
+		:ARG0 s1))
+
+# ::id Change_posture/0007.dev
+# ::snt Kendi evine gidip serilip yatmak istiyordu .
+(6/iste
+	:ARG0 (o1/o)
+	:ARG1 (4/seril-yat
+		:ARG0 o1)
+	:prep-after (3/git
+		:ARG0 o1
+		:ARG1 (2/ev
+			:mod (1/kendi)
+			:poss o1)))
+
+# ::id Activity_Done/0002.train
+# ::snt Her sabah oflaya puflaya işe gide gide günü doldu .
+(8/gün-dol
+	:ARG0 (o1/o)
+	:manner (7/git
+		:ARG0 o1
+		:ARG1 (5/iş)
+		:time (d1/date-entity
+			:dayperiod (2/sabah
+				:mod (1/her)))
+		:manner (3/of-puf)))
+
+# ::id Processing_Materials/0004.train
+# ::snt Usta büyük bir titizlikle her yere badana vurdu .
+(7/badana-vur
+	:ARG0 (1/usta)
+	:ARG1 (6/yer
+		:mod (5/her))
+	:manner (4/titizlik
+		:degree (2/büyük)))
+
+# ::id Process_Start/0000.dev
+# ::snt Bu alandaki çalışmaları ile yeni bir çığır açtı .
+(8/aç
+	:ARG0 (o1/o)
+	:ARG1 (7/çığır
+		:mod (5/yeni))
+	:instrument (3/çalış
+		:topic (2/alan
+			:mod (1/bu))
+		:poss o1))
+
+# ::id Change_direction/0001.train
+# ::snt İstediğini bulamayınca memleketin yolunu tuttu .
+(4/yol-tut
+	:ARG0 (o1/o)
+	:time (m1/mümkün
+		:ARG1 (2/bul
+			:polarity -
+			:ARG1 (t1/thing
+				:ARG1-of (1/iste
+					:ARG0 o1))))
+	:ARG1 (3/memleket))
+
+# ::id Change_of_quantity_of_possession/0088.train
+# ::snt Bu çalışmada çok kan kaybettik .
+(4/kan-kaybet
+	:ARG0 (b1/biz)
+	:location (2/çalışma
+		:mod (1/bu))
+	:degree (3/çok))
+
+# ::id Perception_active/0029.train
+# ::snt Bazen serserilik yapabilir ama kimseye kötü gözle bakmaz .
+(k1/karşılaştır
+	:op2 (2/serserilik-yap
+		:ARG0 (o1/o)
+		:frequency (1/bazen))
+	:op1 (6/kötü-göz-bak
+		:polarity -
+		:ARG0 o1
+		:ARG1 (5/kimse)))
+
+# ::id Forward_Motion/0044.train
+# ::snt Gemi , dün sabah kuzeye doğru harmanladı .
+(7/harmanla
+	:ARG0 (1/gemi)
+	:prep-toward (5/kuzey)
+	:time (d1/date-entity
+		:dayperiod (4/sabah)
+		:day (3/dün)))
+
+# ::id Cogitation/0008.train
+# ::snt Bu konu üzerinde iyice mütalaa ettik .
+(5/mütalaa-et
+	:ARG0 (b1/biz)
+	:ARG1 (2/konu
+		:mod (1/bu))
+	:manner (4/iyice))
+
+# ::id Apply_Heat/0002.test
+# ::snt Çayın suyu kaynamış , demlesene .
+(a1/and
+	:op1 (3/kayna
+		:ARG0 (2/su
+			:mod (1/çay)))
+	:op2 (5/demle
+		:mode imperative
+		:ARG0 (s1/sen)))
+
+# ::id Becoming/0001.train
+# ::snt Tam atlattı derken hastalığı ihtilat etti .
+(5/ihtilat-et
+	:ARG0 (4/hastalık
+		:poss (o1/o))
+	:prep-while (3/de
+		:ARG1 (2/atlat
+			:ARG0 o1
+			:degree (1/tam))))
+
+# ::id Processing_Materials/0001.test
+# ::snt Balık ağı ördük burada .
+(3/ör
+	:ARG0 (b1/biz)
+	:ARG1 (1/balık-ağ)
+	:location (4/burada))
+
+# ::id Change_operational_state/0013.train
+# ::snt Balonu söndür , böyle taşıyamayız .
+(a1/and
+	:op1 (2/söndür
+		:ARG0 (s1/sen)
+		:mode imperative
+		:ARG1 (1/balon))
+	:ARG1 (m1/mümkün
+		:ARG1 (5/taşı
+			:polarity -
+			:ARG0 (b1/biz)
+			:manner (4/böyle)
+			:ARG1 1)))

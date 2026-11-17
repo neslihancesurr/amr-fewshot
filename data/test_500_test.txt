@@ -654,15 +654,6 @@
 	:ARG0 (o1/onlar)
 	:ARG1 (1/müdür))
 
-# ::id Forward_Motion/0044.train
-# ::snt Gemi , dün sabah kuzeye doğru harmanladı .
-(7/harmanla
-	:ARG0 (1/gemi)
-	:mod (4/sabah
-		:mod (3/dün))
-	:UNKNOWN_REL (5/kuzey
-		:UNKNOWN_REL (6/doğru)))
-
 # ::id Forward_Motion/0006.test
 # ::snt Takla attım hemen belim ağrıdı .
 (a1/and
@@ -864,15 +855,6 @@
 	:UNKNOWN_REL (4/yap
 		:ARG1 (3/karalama)))
 
-# ::id Cogitation/0008.train
-# ::snt Bu konu üzerinde iyice mütalaa ettik .
-(5/mütalaa-et
-	:ARG0 (b1/biz)
-	:manner (3/üzerinde
-		:mod (2/konu
-			:mod (1/bu)))
-	:manner (4/iyice))
-
 # ::id Bargaining/0002.train
 # ::snt Pazarlığı pişirdiler .
 (1/pazarlık-pişir
@@ -888,14 +870,6 @@
 	:mod (5/geri)
 	:ARG1 (7/iş
 		:mod (6/başka)))
-
-# ::id Processing_Materials/0001.test
-# ::snt Balık ağı ördük burada .
-(3/ör
-	:ARG0 (b1/biz)
-	:ARG1 (1/balık-ağ
-		:poss (o1/o))
-	:manner (4/burada))
 
 # ::id Deciding/0001.train
 # ::snt Onları dinledikten sonra karşı tarafı da dinleyip öylelikle kavlükarar edecekler .
@@ -1702,19 +1676,6 @@
 	:location (4/iş
 		:mod (3/her)))
 
-# ::id Change_operational_state/0013.train
-# ::snt Balonu söndür , böyle taşıyamayız .
-(a1/and
-	:op1 (2/söndür
-		:ARG0 (s1/sen)
-		:mode imperative
-		:ARG1 (1/balon
-			:poss (o1/o)))
-	:op2 (5/taşı
-		:polarity -
-		:ARG0 (b1/biz)
-		:manner (4/böyle)))
-
 # ::id Preventing_or_letting/0012.train
 # ::snt Şansı yaver gittiği için attığı her zarla kapı aldı .
 (8/kapı-al
@@ -1935,16 +1896,6 @@
 	:ARG0 (o1/o)
 	:ARG1 (2/kiraz
 		:mod (1/minik)))
-
-# ::id Becoming/0001.train
-# ::snt Tam atlattı derken hastalığı ihtilat etti .
-(5/ihtilat-et
-	:UNKNOWN_REL (3/derken
-		:degree (1/tam)
-		:UNKNOWN_REL (2/atlat
-			:ARG0 (o1/o)))
-	:ARG0 (4/hastalık
-		:poss o1))
 
 # ::id Activity_Start/0000.train
 # ::snt Fiilimsilerin durumu gerçekten ilginç , bir öğrencim tezinde bu konuyu ele aldı .
@@ -2616,16 +2567,6 @@
 	:UNKNOWN_REL (4/hortumla
 		:quant (3/şirket)))
 
-# ::id Process_Start/0000.dev
-# ::snt Bu alandaki çalışmaları ile yeni bir çığır açtı .
-(7/çığır-aç
-	:ARG0 (o1/o)
-	:UNKNOWN_REL (3/çalış
-		:ARG0 (o2/onlar)
-		:mod (2/alan
-			:mod (1/bu))
-		:UNKNOWN_REL (4/ile)))
-
 # ::id Authority/0001.train
 # ::snt Müdür yardımcısı , yeni çalışana yetki verdi .
 (6/yetki-ver
@@ -2777,16 +2718,6 @@
 		:ARG1 (2/masa
 			:mod (1/kumar))
 		:UNKNOWN_REL (4/mi)))
-
-# ::id Change_direction/0001.train
-# ::snt İstediğini bulamayınca memleketin yolunu tuttu .
-(4/yol-tut
-	:UNKNOWN_REL (m1/mümkün
-		:UNKNOWN_REL (2/bul
-			:polarity -
-			:UNKNOWN_REL (1/iste
-				:ARG0 (o1/o)
-				:poss o1))))
 
 # ::id Change_posture/0049.train
 # ::snt Kuş , ağacın tepesinde kuluçkaya yatmış .
@@ -3577,16 +3508,6 @@
 	:ARG1 (3/iş
 		:UNKNOWN_REL (4/doğru)))
 
-# ::id Apply_Heat/0002.test
-# ::snt Çayın suyu kaynamış , demlesene .
-(a1/and
-	:op1 (3/kayna
-		:ARG0 (o1/o)
-		:ARG1 (2/su
-			:mod (1/çay)))
-	:op2 (5/demle
-		:ARG0 (s1/sen)))
-
 # ::id Forward_Motion/0009.train
 # ::snt Doru at bugün koşmayacak .
 (4/koş
@@ -3806,14 +3727,6 @@
 	:ARG0 (o1/o)
 	:ARG1 (2/değer
 		:mod (1/çek)))
-
-# ::id Change_of_quantity_of_possession/0088.train
-# ::snt Bu çalışmada çok kan kaybettik .
-(4/kan-kaybet
-	:ARG0 (b1/biz)
-	:location (2/çalışma
-		:mod (1/bu))
-	:degree (3/çok))
 
 # ::id Lending/0011.train
 # ::snt Bu kolyeyi sana vereyim , alacağına say .
@@ -4223,18 +4136,6 @@
 		:mod (1/her))
 	:UNKNOWN_REL (4/gel
 		:ARG1 (3/köy)))
-
-# ::id Perception_active/0029.train
-# ::snt Bazen serserilik yapabilir ama kimseye kötü gözle bakmaz .
-(a1/and
-	:op1 (6/kötü-göz-bak
-		:polarity -
-		:ARG0 (o1/o)
-		:ARG1 (5/kimse
-			:poss o1))
-	:op2 (2/serserilik-yap
-		:ARG0 o1
-		:manner (1/bazen)))
 
 # ::id Commerce_sell/0001.train
 # ::snt Benimki paso , dedi , hanımefendiye bir bilet kes .
